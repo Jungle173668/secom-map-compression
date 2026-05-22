@@ -1,0 +1,12 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+*.pth
+locomo/
+data/samples.json
+
+# Ignore raw results but keep initial_results archive
+results/*.json
+results/*.log
+!results/initial_results/
