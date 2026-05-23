@@ -1,0 +1,274 @@
+{
+  "sliding_window": [
+    {
+      "param": 50,
+      "token_reduction": 0.9116,
+      "accuracy": 0.1778,
+      "by_category": {
+        "multi_hop": 0.1333,
+        "open_domain": 1.0,
+        "single_hop": 0.1,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 100,
+      "token_reduction": 0.8239,
+      "accuracy": 0.1333,
+      "by_category": {
+        "multi_hop": 0.2,
+        "open_domain": 0.4,
+        "single_hop": 0.1,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 150,
+      "token_reduction": 0.7352,
+      "accuracy": 0.2,
+      "by_category": {
+        "multi_hop": 0.2667,
+        "open_domain": 0.8,
+        "single_hop": 0.1,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 200,
+      "token_reduction": 0.6443,
+      "accuracy": 0.2667,
+      "by_category": {
+        "multi_hop": 0.4,
+        "open_domain": 0.8,
+        "single_hop": 0.2,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 250,
+      "token_reduction": 0.5495,
+      "accuracy": 0.2667,
+      "by_category": {
+        "multi_hop": 0.3333,
+        "open_domain": 1.0,
+        "single_hop": 0.2,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 300,
+      "token_reduction": 0.4578,
+      "accuracy": 0.3556,
+      "by_category": {
+        "multi_hop": 0.4667,
+        "open_domain": 1.0,
+        "single_hop": 0.3,
+        "temporal": 0.0667
+      }
+    }
+  ],
+  "summarization": [
+    {
+      "param": 1500,
+      "token_reduction": 0.9168,
+      "accuracy": 0.2667,
+      "by_category": {
+        "multi_hop": 0.3333,
+        "open_domain": 0.8,
+        "single_hop": 0.1,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 3000,
+      "token_reduction": 0.8295,
+      "accuracy": 0.3111,
+      "by_category": {
+        "multi_hop": 0.4,
+        "open_domain": 1.0,
+        "single_hop": 0.2,
+        "temporal": 0.0667
+      }
+    },
+    {
+      "param": 5000,
+      "token_reduction": 0.7139,
+      "accuracy": 0.2889,
+      "by_category": {
+        "multi_hop": 0.4,
+        "open_domain": 1.0,
+        "single_hop": 0.0,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 7000,
+      "token_reduction": 0.6038,
+      "accuracy": 0.3556,
+      "by_category": {
+        "multi_hop": 0.6,
+        "open_domain": 0.8,
+        "single_hop": 0.0,
+        "temporal": 0.2
+      }
+    },
+    {
+      "param": 9000,
+      "token_reduction": 0.5078,
+      "accuracy": 0.4222,
+      "by_category": {
+        "multi_hop": 0.6,
+        "open_domain": 1.0,
+        "single_hop": 0.3,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 11000,
+      "token_reduction": 0.4417,
+      "accuracy": 0.4667,
+      "by_category": {
+        "multi_hop": 0.6667,
+        "open_domain": 1.0,
+        "single_hop": 0.2,
+        "temporal": 0.2667
+      }
+    }
+  ],
+  "secom_map": [
+    {
+      "param": 2000,
+      "token_reduction": 0.8931,
+      "accuracy": 0.2889,
+      "by_category": {
+        "multi_hop": 0.6,
+        "open_domain": 0.0,
+        "single_hop": 0.2,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 3500,
+      "token_reduction": 0.8062,
+      "accuracy": 0.4,
+      "by_category": {
+        "multi_hop": 0.8667,
+        "open_domain": 0.0,
+        "single_hop": 0.3,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 5000,
+      "token_reduction": 0.7172,
+      "accuracy": 0.3556,
+      "by_category": {
+        "multi_hop": 0.7333,
+        "open_domain": 0.2,
+        "single_hop": 0.2,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 7000,
+      "token_reduction": 0.604,
+      "accuracy": 0.2889,
+      "by_category": {
+        "multi_hop": 0.6,
+        "open_domain": 0.0,
+        "single_hop": 0.3,
+        "temporal": 0.0667
+      }
+    },
+    {
+      "param": 9000,
+      "token_reduction": 0.4877,
+      "accuracy": 0.3111,
+      "by_category": {
+        "multi_hop": 0.7333,
+        "open_domain": 0.0,
+        "single_hop": 0.2,
+        "temporal": 0.0667
+      }
+    },
+    {
+      "param": 11000,
+      "token_reduction": 0.3798,
+      "accuracy": 0.3111,
+      "by_category": {
+        "multi_hop": 0.6,
+        "open_domain": 0.0,
+        "single_hop": 0.4,
+        "temporal": 0.0667
+      }
+    }
+  ],
+  "secom_only": [
+    {
+      "param": 2000,
+      "token_reduction": 0.8916,
+      "accuracy": 0.2889,
+      "by_category": {
+        "multi_hop": 0.6667,
+        "open_domain": 0.0,
+        "single_hop": 0.2,
+        "temporal": 0.0667
+      }
+    },
+    {
+      "param": 3500,
+      "token_reduction": 0.8042,
+      "accuracy": 0.3333,
+      "by_category": {
+        "multi_hop": 0.7333,
+        "open_domain": 0.0,
+        "single_hop": 0.3,
+        "temporal": 0.0667
+      }
+    },
+    {
+      "param": 5000,
+      "token_reduction": 0.7172,
+      "accuracy": 0.3556,
+      "by_category": {
+        "multi_hop": 0.6667,
+        "open_domain": 0.2,
+        "single_hop": 0.2,
+        "temporal": 0.2
+      }
+    },
+    {
+      "param": 7000,
+      "token_reduction": 0.6021,
+      "accuracy": 0.2667,
+      "by_category": {
+        "multi_hop": 0.4667,
+        "open_domain": 0.2,
+        "single_hop": 0.2,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 9000,
+      "token_reduction": 0.4958,
+      "accuracy": 0.3111,
+      "by_category": {
+        "multi_hop": 0.5333,
+        "open_domain": 0.2,
+        "single_hop": 0.3,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 11000,
+      "token_reduction": 0.4154,
+      "accuracy": 0.2,
+      "by_category": {
+        "multi_hop": 0.4667,
+        "open_domain": 0.0,
+        "single_hop": 0.2,
+        "temporal": 0.0
+      }
+    }
+  ]
+}

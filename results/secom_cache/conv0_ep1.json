@@ -1,0 +1,316 @@
+{
+  "version": 1,
+  "use_ep": true,
+  "compress_rate": 0.65,
+  "context_map": {
+    "entities": {
+      "Caroline": {
+        "type": "person",
+        "count": 17,
+        "last_session": 17
+      },
+      "Melanie": {
+        "type": "person",
+        "count": 17,
+        "last_session": 17
+      },
+      "Friday": {
+        "type": "date",
+        "count": 3,
+        "last_session": 17
+      },
+      "Oliver": {
+        "type": "person",
+        "count": 2,
+        "last_session": 11
+      },
+      "pride parade": {
+        "type": "other",
+        "count": 2,
+        "last_session": 8
+      },
+      "LGBT pride event": {
+        "type": "event",
+        "count": 1,
+        "last_session": 7
+      },
+      "LGBTQ art show": {
+        "type": "event",
+        "count": 2,
+        "last_session": 12
+      },
+      "two weekends ago": {
+        "type": "date",
+        "count": 1,
+        "last_session": 7
+      },
+      "last weekend": {
+        "type": "date",
+        "count": 1,
+        "last_session": 7
+      },
+      "next month": {
+        "type": "date",
+        "count": 2,
+        "last_session": 12
+      },
+      "transgender teen": {
+        "type": "person",
+        "count": 1,
+        "last_session": 7
+      },
+      "LGBTQ center": {
+        "type": "place",
+        "count": 1,
+        "last_session": 7
+      },
+      "Connected LGBTQ Activists": {
+        "type": "org",
+        "count": 1,
+        "last_session": 8
+      },
+      "LGBTQ": {
+        "type": "other",
+        "count": 1,
+        "last_session": 8
+      },
+      "last Tues": {
+        "type": "date",
+        "count": 1,
+        "last_session": 8
+      },
+      "the beach": {
+        "type": "place",
+        "count": 1,
+        "last_session": 8
+      },
+      "Perseid meteor shower": {
+        "type": "event",
+        "count": 1,
+        "last_session": 8
+      },
+      "Matt Patterson": {
+        "type": "person",
+        "count": 1,
+        "last_session": 9
+      },
+      "LGBTQ rights": {
+        "type": "other",
+        "count": 1,
+        "last_session": 10
+      },
+      "Pride fest": {
+        "type": "event",
+        "count": 1,
+        "last_session": 10
+      },
+      "Oscar": {
+        "type": "other",
+        "count": 1,
+        "last_session": 11
+      },
+      "Bailey": {
+        "type": "other",
+        "count": 1,
+        "last_session": 11
+      },
+      "Caroline's dad": {
+        "type": "person",
+        "count": 1,
+        "last_session": 11
+      },
+      "beach": {
+        "type": "place",
+        "count": 1,
+        "last_session": 12
+      },
+      "Pottery class": {
+        "type": "other",
+        "count": 1,
+        "last_session": 12
+      },
+      "homeless shelter": {
+        "type": "place",
+        "count": 1,
+        "last_session": 12
+      },
+      "transgender community": {
+        "type": "other",
+        "count": 1,
+        "last_session": 12
+      },
+      "rainbow flag mural": {
+        "type": "other",
+        "count": 1,
+        "last_session": 12
+      },
+      "local church": {
+        "type": "place",
+        "count": 1,
+        "last_session": 12
+      },
+      "rainbow sidewalk": {
+        "type": "other",
+        "count": 1,
+        "last_session": 12
+      },
+      "Pride Month": {
+        "type": "other",
+        "count": 1,
+        "last_session": 12
+      },
+      "yesterday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 13
+      },
+      "LGBTQ+ youth center": {
+        "type": "org",
+        "count": 1,
+        "last_session": 13
+      },
+      "Summer Sounds": {
+        "type": "other",
+        "count": 1,
+        "last_session": 13
+      },
+      "Sara Bareilles": {
+        "type": "person",
+        "count": 1,
+        "last_session": 13
+      },
+      "Ed Sheeran": {
+        "type": "person",
+        "count": 1,
+        "last_session": 13
+      },
+      "Bach": {
+        "type": "person",
+        "count": 1,
+        "last_session": 13
+      },
+      "Mozart": {
+        "type": "person",
+        "count": 1,
+        "last_session": 13
+      },
+      "LGBTQ+": {
+        "type": "other",
+        "count": 1,
+        "last_session": 14
+      },
+      "the gang": {
+        "type": "other",
+        "count": 1,
+        "last_session": 14
+      },
+      "the kids": {
+        "type": "other",
+        "count": 1,
+        "last_session": 14
+      },
+      "last year": {
+        "type": "date",
+        "count": 1,
+        "last_session": 15
+      },
+      "last month": {
+        "type": "date",
+        "count": 1,
+        "last_session": 15
+      },
+      "Fri": {
+        "type": "date",
+        "count": 1,
+        "last_session": 15
+      },
+      "transgender poetry reading": {
+        "type": "event",
+        "count": 1,
+        "last_session": 15
+      },
+      "Grand Canyon": {
+        "type": "place",
+        "count": 1,
+        "last_session": 16
+      }
+    },
+    "decisions": [
+      "Caroline has a guinea pig named Oscar",
+      "Melanie loves to paint animals",
+      "Caroline loves creating art and uses it for self-expression",
+      "Caroline promotes LGBTQ rights and being true to herself",
+      "Caroline wants to live authentically and help others do the same",
+      "Caroline apologized to people she ran into trouble with during hiking",
+      "Melanie made a plate in pottery class",
+      "Melanie volunteered at a homeless shelter with her family",
+      "Caroline joined the transgender community",
+      "Caroline made a stained glass window for a local church",
+      "Caroline is putting together an LGBTQ art show next month",
+      "Caroline decided to continue volunteering at the youth center",
+      "Caroline is involved in putting together a talent show for the kids",
+      "Melanie plays clarinet",
+      "Caroline went biking last weekend with the gang.",
+      "Melanie went camping with her kids a few weeks ago.",
+      "Caroline volunteers for the LGBTQ+ community.",
+      "Caroline has been creating art since she was 17.",
+      "Melanie has been into art for seven years, focusing on painting and pottery.",
+      "Caroline plans to try pottery sometime.",
+      "Caroline is ready to adopt and contacted her mentor for adoption advice",
+      "Melanie considered adoption after hearing about a friend’s positive experience",
+      "Melanie had a setback with pottery due to an injury",
+      "Melanie kept busy by reading and painting during her pottery break",
+      "Caroline attended a transgender poetry reading",
+      "Melanie and family went on a roadtrip",
+      "Melanie's son got into an accident and is okay",
+      "Melanie cherishes her family more after the accident",
+      "The family visited the Grand Canyon",
+      "Melanie and family went camping, which they enjoyed",
+      "Caroline passed the adoption agency interviews",
+      "Caroline wants to adopt children",
+      "Caroline aims to create a safe and loving home for adopted children",
+      "Caroline wants to offer love and support to those in need"
+    ],
+    "timeline": [
+      {
+        "time": "Fri",
+        "event": "Caroline attended a transgender poetry reading"
+      },
+      {
+        "time": "this past weekend",
+        "event": "Melanie's son got into an accident"
+      },
+      {
+        "time": "yesterday",
+        "event": "Melanie and family did an activity they enjoyed"
+      },
+      {
+        "time": "last Friday",
+        "event": "Caroline passed the adoption agency interviews"
+      }
+    ],
+    "session_counter": 17,
+    "token_budget": 300
+  },
+  "segments": [
+    "Caroline : Hey Mel! Good to see you! been? Melanie : Hey Caroline! Good swamped with kids work. What ' s up with you? Anything new? Caroline : went to LGBTQ support group yesterday powerful. Melanie : cool, Caroline! What happened awesome? inspiring stories? Caroline transgender stories inspiring! happy thankful for support. Melanie : love painting! cool found helpful group. What done for you? Caroline : support group made me feel accepted courage to embrace myself. Melanie : cool guts. now? Caroline : continue edu check out career options exciting! Melanie : Caroline! What kinda jobs '? stands out? Caroline : keen on counseling working in mental health support similar issues. Melanie : great counselor! empathy understanding help people work with look at this Caroline : Thanks, Melanie! sweet. your own painting? Melanie painted lake sunrise last year! special to me. Caroline Melanie colors blend nicely Painting great outlet for expressing yourself. Melanie : Thanks Caroline! Painting fun way to express feelings get creative to relax after long day. Caroline agree, Mel. Relaxing expressing ourselves key off to go do research. Melanie : Caroline Taking care of ourselves vital off to go swimming with kids. Talk to you soon",
+    "Melanie : Hey Caroline last chatted had lot things happening to me. ran charity race for mental health last Saturday rewarding made me think about taking care of our minds. Caroline : charity race sounds great, Mel! Making difference raising awareness for mental health rewarding - proud of you for taking part! Melanie : Thanks, Caroline! event thought - provoking realize self - care important journey for me look after myself better look after my family. Caroline : agree, Melanie. Taking care of ourselves important not always easy prioritizing self - care. Melanie : tough carving out me - time each day - running reading playing violin refreshes helps stay present for fam! Caroline : great, Mel! Taking time for yourself important. doing awesome job looking after yourself family! Melanie : Thanks, Caroline. still work in progress doing my best. kids excited about summer break! thinking about going camping next month. fun plans for summer? Caroline : Researching adoption agencies dream to have family give loving home to kids who need it. Melanie :, Caroline! awesome Taking in kids in need kind future family lucky to have you! Caroline : Thanks, Mel! goal to give kids loving home. grateful for support from friends mentors. hard work starts to turn dream into reality. one of adoption agencies looking into. a lot to take in feeling hopeful and optimistic.Melanie : agency looks great! What pick it? Caroline : chose them ' cause help LGBTQ + folks with adoption inclusivity support spoke to me. Melanie : great, Caroline! Loving inclusivity support excited for adoption process? Caroline thrilled to make family for kids need one tough as single parent up for challenge! Melanie doing something amazing! Creating family for kids lovely. awesome mom! Good luck! Caroline : Thanks, Melanie! kind words mean a lot. best make kids have safe loving home. Melanie No doubts, Caroline caring heart get love stability need! Excited for new chapter",
+    "Caroline : Hey Melanie! How ' s it going? wanted to tell you about my school event last week. awesome! talked about my transgender journey encouraged students to get involved in LGBTQ community. great to see their reactions. made me reflect on how far I ve come since started transitioning three years ago. Melanie : Hey Caroline! Great to hear from you. Sounds like your event was amazing! proud of you for spreading awareness getting others involved in LGBTQ community. You ve come a long way since your transition - keep on inspiring people with strength and courage! Caroline : Thanks, Mel! Your backing means a lot. felt super powerful giving my talk. shared my own journey, struggles I had how much developed since coming out. wonderful to see how audience related to what I said inspired them to be better allies. Conversations about gender identity inclusion necessary thankful for to give voice to trans community. Melanie : Wow, Caroline, you re doing awesome job of inspiring others with your journey. great to be part of it see how re positively affecting many. Talking about inclusivity and acceptance crucial brave to speak up for the trans community. Keep up great work! Caroline : Thanks Mel! Your kind words mean a lot. Sharing our experiences isn ' t always easy, but feel important to help promote understanding acceptance. been blessed with loads of love support throughout this journey, want to pass it on to others. By sharing our stories, we can build strong, supportive community of hope. Melanie : Yeah, Caroline! takes courage to talk about our own stories. in these vulnerable moments we bond understand each other. We all have our different paths, but if we share them, show people they ' re not alone. Our stories can be inspiring encouraging to others who facing same challenges. Thank you for using your voice to create love, acceptance, hope. You ' re doing amazing! Caroline : Your words mean a lot to megrateful for chance to share my story give others hope. We all have unique paths by working together can build more inclusive understanding world. to keep using my voice to make change lift others up. you ' re part of that! Melanie : Thanks, Caroline, for letting me join your journey. proud to be part of difference you re making. Let s keep motivating helping each other out as we journey through life. can make real impact together! Caroline : Yeah Mel, ' s spread love and understanding! Thanks for support encouragement. tackle life ' s challenges together! We got this! Melanie : Yes, Caroline! We can do it. Your courage is inspiring. want to be couragous for my family - they motivate me give me love. What motivates you? Caroline : Thanks, Mel! friends, family mentors are my rocks they motivate me give me strength to push on. Here ' s pic from when met up last week! Melanie : Wow photo is great! How long had great support system? Caroline : lucky to have them. They ' ve been there through everything known these friends for 4 years, since moved from home country. Their love and help important especially after tough breakup. super thankful. Who supports you, Mel? Melanie : lucky to have my husband and kids ; they keep me motivated. Caroline : amazing family pic! How long you been married? Melanie : 5 years already! Time flies - feels like yesterday put this dress on! Thanks, Caroline! Caroline : Congrats, Melanie! You both looked so great on your wedding day! Wishing you many happy years together! Melanie : Thanks, Caroline! Appreciate your kind words. Looking forward to more happy years. Our family and moments make it all worth it. Caroline : Looks like had great day! How was it? You look so happy! Melanie : fun! played games ate good food hung out together. Family moments make life awesome.Caroline : Sounds great, Mel! Glad you had great time. Cherish moments - they ' re best! Melanie : Absolutely, Caroline! cherish time with family. when really feel alive happy. Caroline : 100 % agree, Mel. Hanging with loved ones amazing brings much happiness. moments make me thankful. Family is everything",
+    "Caroline : Hey Melanie! Long time no talk! A lot ' s been going on in my life! Take a look at this. Melanie : Hey, Caroline! Nice to hear from you! Love the necklace, any special meaning to it? Caroline : Thanks, Melanie! This necklace is super special to me - a gift from my grandma in my home country, Sweden. She gave it to me when I was young, stands for love, faith strength. like reminder of my roots love and support from my family. Melanie : That ' s gorgeous, Caroline! s awesome what items can mean so much to us, right? Got any other objects you treasure, like that necklace? Caroline : Yep, Melanie! other stuff with sentimental value, like my hand - painted bowl. friend made it for my 18th birthday ten years ago. pattern and colors awesome - reminds me of art and self - expression. Melanie : sounds great, Caroline! awesome having stuff around make us think of good connections times. took my fam camping in the mountains last week - nice time together! Caroline : Sounds great, Mel. Glad you made new family mems. How it? Anything fun? Melanie : awesome time, Caroline! explored nature roasted marshmallows around campfire went on a hike. view from the top amazing! 2 younger kids love nature. special having these moments together as a family - forget it! Caroline : awesome, Melanie! Family moments like special. Glad had great time. Melanie : Thanks, Caroline! Family time matters to me. What ' s up with you lately? Caroline : Lately, been looking into counseling and mental health as career. want to help people who have gone through same things as me.Melanie : Sounds great! What kind of counseling mental health services want to persue? Caroline : I ' m still figuring out details, but thinking of working with trans people, helping them accept themselves supporting mental health. Last Friday, went to an LGBTQ+ counseling workshop was really enlightening. talked about different therapeutic methods how to best work with trans people. passionate pros about making safe space for people like me amazing. Melanie : Woah, Caroline, sounds like you re doing impressive work. inspiring to see your dedication to helping others. What motivated you to pursue counseling? Caroline : Thanks, Melanie. mattered. My own journey support got made huge difference. Now want to help people go through it too. saw how counseling support groups improved my life started caring more about mental health understanding myself. Now passionate about creating safe, inviting place for people to grow. Melanie : Wow, Caroline! gained so much from your own experience. Your passion hard work to help others awesome. Keep it up making big impact! Caroline : Thanks, Melanie! Your kind words mean a lot. Melanie : Congrats Caroline! Good on you for going after what you care about.",
+    "Caroline : Since we last spoke some big things happened. Last week I went to an LGBTQ+ pride parade. Everyone was happy it made me feel like I belonged. showed me how much our community has grown, amazing! Melanie : Wow, Caroline, sounds like parade was an awesome experience! s great to see love and support for LGBTQ + community. Congrats! Has this experience influenced your goals? Caroline : Thanks, Mel! motivated me for sure. Talking to community made me want to use my story to help others too - still thinking counseling and mental health is way to go. super excited to give back. Melanie : Wow, Caroline! ' s great! signed up for pottery class yesterday. ' s like therapy for me, letting me express myself get creative. found any activities that make you feel same way? Caroline : Wow, Melanie! getting creative too just learning the piano. What made you try pottery? Melanie : big fan of pottery - creativity and skill is awesome. Plus making it calming. Look at this! Caroline : That bowl is gorgeous! black and white design looks so fancy. Did you make it? Melanie : Thanks, Caroline! Yeah made this bowl in my class. took some work, proud of it. Caroline : Nice job! You put in work shows. Your creativity looks great! Melanie : Thanks, Caroline! Your kind words mean a lot. Pottery is huge part of my life, not just a hobby - helps me express my emotions. Clay is incredible brings me so much joy! Caroline : Wow, Mel, stoked for you art is helping you express yourself bring you joy! Keep it up! Melanie : Thanks, Caroline! excited to see where pottery takes me. Anything coming up you looking forward to? Caroline : Thanks Mel! going to a transgender conference this month. excited to meet other people in community learn more about advocacy.' s gonna be great! Melanie : Sounds awesome, Caroline! Have great time learn a lot Have fun! Caroline : Cool thanks Mel! Can ' t wait. keep ya posted. Bye! Melanie : Bye, Caroline! Can ' t wait to hear Have fun stay safe",
+    "Caroline : Hey Mel! Long time no talk. Lots been going on since then! Melanie : Hey Caroline! Missed you. Anything new? Spill the beans! Caroline : Since our last chat, been looking into counseling or mental health work more. passionate about helping people making positive impact. ' s tough, but rewarding too. Anything new happening with you? Melanie : That ' s awesome, Caroline! Congrats on following your dreams. Yesterday took the kids to museum - cool spending time with them seeing their eyes light up! Caroline : Melanie, ' s a great pic! must have been awesome. What were they stoked about? Melanie : They were stoked for the dinosaur exhibit! They love learning about animals bones cool. reminds me why I love being a mom. Caroline : Being a mom is awesome. creating a library for when have kids. looking forward to reading to them opening up their minds. Melanie : Sounds great! What kind of books you got in your library? Caroline : got lots of kids ' books - classics, stories from different cultures, educational books. s favorite book remember from childhood? Melanie : loved reading \" Charlotte's Web \" as a kid. cool seeing how friendship and compassion can make difference. Caroline : Wow, great! shows how important friendship and compassion are. made me appreciate how lucky to have friends and family helping with my transition. They make all difference. had a picnic last week! Melanie : s gorgeous photo, Caroline! love around you is awesome. How have friends and fam been helping you out with your transition? Caroline : Thanks, Melanie! support network amazing. They ' ve been there for me every step of way giving me love, guidance, acceptance. couldn ' t have done it without them.Melanie : Wow, Caroline! It ' s great you have people to support you, really awesome! Caroline : lucky to have great support system around me. Their love and encouragement helped me accept grow into my true self. They ' instrumental in my transition. Melanie : Glad you have support, Caroline! Unconditional love important. Here ' s a pic of my family camping at beach. We love it, brings us closer",
+    "Caroline : Hey Mel, great to chat with you again! much happened since we last spoke - I went to an LGBTQ conference two days ago really special. got chance to meet and connect with people gone through similar journeys. welcoming environment felt totally accepted. thankful for this amazing community - s shown me important to fight for trans rights spread awareness. Melanie : Wow, Caroline, sounds awesome! glad you felt accepted and supported. Events like these great for reminding us of how strong community can be! Caroline : Yeah, it ' s true! Having people who back you makes huge difference. great to see how far LGBTQ rights have come, still plenty of progress to be made. wanna help make a difference. Melanie : Wow, Caroline. We ' ve come so far, but s more to do. Your drive to help is awesome! What s your plan to pitch in? Caroline : Thanks, Mell! still looking into counseling and mental health jobs. important to me people have someone to talk to, I want to help make that happen. Melanie : Wow, Caroline! inspiring for wanting to help others with mental health. s pushing you to keep going forward with it? Caroline : struggled with mental health, support I got was helpful. made me realize important for others to have support system. started looking into counseling and mental health career options, could help other people on their own journeys like I helped. Melanie : Caroline, glad you got support! Your experience brought you to where you need to be. You ' re gonna make a huge difference! This book I read last year reminds me to always pursue my dreams, like you are doing! Caroline : Thanks so much, Mel! Seeing this pic made me appreciate love of reading more. Books guide me, motivate me help me discover who I am.They ' re a huge part of my journey this one reminding me to keep going never give up! Melanie : Wow, Caroline! Books have awesome power! your favorite guide? Caroline : loved \" Becoming Nicole \" by Amy Ellis Nutt. s real inspiring true story about a trans girl and her family made me feel connected gave me hope for my own path. recommend it for sure! Melanie : That sounds awesome! What did you take away from it to use in your life? Caroline : taught me self - acceptance how to find support. showed me tough times don ' t last - hope and love exist. Pets bring much joy too. Melanie : Caroline, lessons are great - self - acceptance finding support are key. Plus pets awesome for joy and comfort can ' t agree more! Caroline : ' s so nice! What pet do you have? Melanie : We ' ve got a pup and a kitty. That ' s the dog, here ' s our cat! They brighten up our day always make us smile. Caroline : they ' re adorable! What are their names? Pets bring much joy to us! Melanie : Luna and Oliver! sweet and playful - liven up the house! new shoes,! Caroline : Love that purple color! For walking or running? Melanie : Thanks, Caroline! These for running. Been running longer since last chat - great way to destress clear my mind. Caroline : Wow! What got you into running? Melanie : been running farther to de - stress great for headspace. Caroline : Cool, Melanie! Running can boost your mood. Keep it up! Melanie : Thanks, Caroline! great for my mental health. keep it up. Caroline : Awesome, Melanie! Mental health ' s priority take care of yourself. Melanie : Caroline, thanks! Mental health is important to me ' s made such improvement! Caroline : Glad it helped ya, Melanie",
+    "Caroline : Hey Mel, what ' s up? Been busy week since we talked. Melanie : Hey Caroline, s been super busy here. So much since we talked! Last Fri took kids to pottery workshop. We made our own pots, fun and therapeutic! Caroline : Wow, Mel! Sounds like you and kids had a blast. How ' d they like it? Melanie : kids loved it! excited to get hands dirty make something with clay. special to watch their creativity and imagination come to life, they made this! Caroline : Aww, so sweet! cup is cute. awesome to see how kids show personalities through art. What other creative projects do with them, besides pottery? Melanie : love painting together lately, especially nature - inspired ones. latest work from last weekend. Caroline : Wow Mel, painting ' s amazing! colors bold highlights beauty of nature. all work on it together? Melanie : Thanks, Caroline! both helped with painting - great bonding over chatting about nature. found lovely flowers. Appreciating small things in life. Caroline : photo is stunning! glad you bonded over our love of nature. Last Fri day went to council meeting for adoption. inspiring and emotional - many people wanted to create loving homes for children in need made me more determined to adopt. Melanie : Wow, Caroline, way to go! Your future fam will get kick out of having you. What think of these? Caroline : Thanks Melanie - love the blue vase in the pic! Blue ' s my fave, makes me feel relaxed. Sunflowers mean warmth and happiness? roses stand for love and beauty? neat. What do flowers mean to you? Melanie : Flowers bring joy. represent growth, beauty reminding us to appreciate small moments. important part of my wedding decor remind me of that day. Caroline : must have been special at your wedding.I wish I had known you back then! Melanie : amazing, Caroline. day full of love and joy. Everyone we love was there to celebrate us - special. Caroline : Wow, what a great day! Glad everyone could make it. your favorite part? Melanie : Marrying my partner promising to be together forever was best part. Caroline : Wow, nice pic! You both looked amazing. special memory for me was this pride parade I went to a few weeks ago. Melanie : Wow, looks awesome! Did join in? Caroline : Yes, I did. amazing! felt accepted and happy, being around people who accepted celebrated me. top memory. Melanie : Wow, what experience! How did it make you feel? Caroline : felt proud and grateful - vibes amazing comforting to know I not alone have great community around me. Melanie : Wow, Caroline! That ' s huge! How did it feel to be around so much love and acceptance? Caroline : awesome, Melanie! Being around people who embrace and back me up beyond words. inspired me. Melanie : Wow, sounds awesome! Your friends and community have your back. ' been best part of it? Caroline : Realizing I can be me without fear courage to transition best part. freeing to express myself authentically have people back me up. Melanie : awesome, Caro! found courage to be yourself - important for mental health finding peace. Caroline : Thanks, Melanie! Been long road, proud of how far I ' ve come. How ' you doing finding peace? Melanie : ' m getting there, Caroline. Creativity and family keep me at peace. Caroline : awesome, Melanie! How have your family been supportive during your move? Melanie : My fam ' s been awesome - they helped out showed lots of love and support.Caroline : Wow, Mel, family love support best! Melanie : Yeah, Caroline, my family ' s been great - their love support helped me through tough times. ' awesome! We went on another camping trip in forest. Caroline : Awesome, Mel! Family support ' s huge. What else you like doing together? Melanie : enjoy hiking in mountains exploring forests. cool way to connect with nature each other. Caroline : Wow, Mel, sounds awesome! Exploring nature family time special. Melanie : Yeah, Caroline, my fave memories. brings us together brings happiness. Glad you ' here to share in it. Caroline : Thanks, Melanie! glad to have you as friend share my journey. You ' awesome! Melanie : Thanks, Caroline! Appreciate your friendship. great to have a supporter! Caroline : No worries, Mel! Your friendship means so much to me. Enjoy your day",
+    "Melanie : Hey Caroline, hope all ' s good! had quiet weekend after went camping with my fam two weekends ago. great to unplug and hang with kids. What ' ve you been up to? Anything fun over weekend? Caroline : Hey Melanie! sounds great! Last weekend joined mentorship program for LGBTQ youth - rewarding to help community. Melanie : Wow, Caroline! s great you ' re helping out. How ' s it going? Got any cool experiences share? Caroline : mentoring is going great! met amazing young folks supported them inspiring to see how resilient and strong they. Melanie : Wow, Caroline, sounds super rewarding! Young people ' s resilience is amazing. Care to share some stories? Caroline : I mentor a transgender teen like me. been working on building up confidence finding positive strategies, paying off! had great time at LGBT pride event last month. Melanie : Caroline, awesome news you two are getting along! What was it like for you both? Care to fill me in? Caroline : pride event was awesome! encouraging to be surrounded by much love and acceptance. Melanie : Wow! best part you remember from it? Caroline : Seeing my mentee ' s face light up when saw support was best! special moment. Melanie : Wow, Caroline! must have felt appreciated. awesome to see difference we can make in each other ' s lives. Any other exciting LGBTQ advocacy stuff coming up? Caroline : Yay! Next month having an LGBTQ art show with my paintings - can ' t wait! Melanie : Wow, Caroline, sounds awesome! Can ' t wait to see your art - any previews? Caroline : Check out my painting for art show! Hope you like it. Melanie :, Caroline, painting is awesome! colors vivid whole thing looks unified. What inspired you? Caroline : Thanks, Melanie! painted this after visited a LGBTQ center wanted to capture everyone ' s unity and strength.Melanie : Wow, Caroline! conveys unity strength - such gorgeous piece! My kids and I finished another painting like our last one",
+    "Caroline : Hey Melanie! Just wanted to say hi! Melanie : Hey Caroline! Good to talk to you again. What ' s up? Anything new since last time? Caroline : Hey Mel! lot ' s happened since we last chatted - joined new LGBTQ activist group last Tues. m meeting many cool people passionate about rights and community support. giving my voice making real difference, plus s fulfilling in many ways. s great, know? Melanie : That ' s awesome, Caroline! Glad to hear you found a great group where you can have an impact. feels great to to speak your truth stand up for what ' s right. Want to tell me more about it? Caroline : Thanks, Melanie! s awesome to have our own platform to be ourselves support others ' rights. Our group, ' Connected LGBTQ Activists ', made of all kinds of people investing in positive changes. have regular meetings, plan events campaigns, to get together support each other. Melanie : Wow, Caroline, your group sounds awesome! Supporting each other making good things happen - inspiring! been part of any events or campaigns lately? Caroline : Last weekend our city held a pride parade! many people marched through streets waving flags holding signs celebrating love and diversity. missed it but powerful reminder we not alone in fight for equality and inclusivity. Change is possible! Melanie : Wow, fantastic, Caroline! atmosphere was incredible. went to the beach recently. awesome! kids had such a blast. Caroline : Sounds fun! best part? do it often with kids? Melanie : Seeing kids ' faces happy at the beach was best! don ' t go often, usually only once or twice a year. times always special to spend time together and chill. Caroline : Sounds special, beach trips! any other summer traditions you all do together? Create those memories! Melanie : always look forward to our family camping tripWe roast marshmallows tell stories around campfire enjoy each other ' s company. s highlight of our summer! Caroline : Wow, Mel, that ' s awesome! ' s your best camping memory? Melanie : always remember our camping trip last year when saw the Perseid meteor shower. amazing lying there watching sky light up with streaks of light. all made wishes felt so at one with universe. That ' s a memory I ' ll never forget. Caroline : Cool! What did it look like? Melanie : sky was clear filled with stars meteor shower amazing - felt like we part of something huge awe - inspiring. Caroline : Wow, Mel. must ' ve been breathtaking! Melanie : one of moments I felt tiny and in awe of universe. Reminds me how awesome life is - many little moments like that. Caroline : That ' s great, Mel! What other good memories make you feel thankful for life? Melanie : never forget day my youngest took her first steps. Seeing her wobble as took initial steps put into perspective how fleeting life is how lucky to to share these moments. Caroline : Aw, ' s sweet, Mel! milestones are great reminders of special our bonds are. Melanie : Yeah, they sure are. s special moments like these make me appreciate life how lucky I to be with my family have our love. Caroline : Wow, Melanie, what beautiful moment! Lucky you to have such awesome family! Melanie : Thanks, Caroline! lucky to have my family ; they bring so much joy and love.",
+    "Melanie : Hey Caroline! Last night amazing! celebrated my daughter ' s birthday with concert surrounded by music, joy warm summer breeze. Seeing my kids ' smiles awesome, thankful for our special moments together. Caroline : Wow, sounds wonderful! Your love for your kids is awesome. What concert was it? advocacy event was cool experience - much love and support, amazing! Melanie : Thanks, Caroline! Matt Patterson, he so talented! His voice and songs amazing. What ' s up with you? Anything interesting going on? Caroline : Wow, Mel, glad you had a blast at concert. lot ' s happened since we talked. went to a pride parade last Friday awesome - much energy and love everywhere. made me proud reminded me important to keep standing up for equality. Melanie : Wow, s awesome! How did it feel being part of community? Caroline : inspiring, Mel! Check out crowd. People of all celebrating love and acceptance - pushed me to keep fighting for LGBTQ rights. Melanie : Wow, Caroline! sounds awesome. pic ' s from last night - looks like everyone was having a blast! Reminds me important to cultivate loving accepting environment for kids. stay inclusive in your work as artist? Caroline : pic cool! Representing inclusivity diversity in my art important to me. use it to speak up for LGBTQ + community push for acceptance. s recent painting! Melanie : Wow, rocks! main idea of your art? Caroline : My art is about expressing trans experience. way of showing my story helping people understand trans community. Melanie : Your art ' s amazing, Caroline. love how you use it to tell your stories teach people about trans folks. d love to see another painting of yours! Caroline : Thanks, Melanie. Here ' s one - ' Embracing Identity ' about finding comfort and love in being yourself.woman in painting stands for journey of acceptance. aim was to show warmth love self - acceptance. Melanie : Wow, Caroline, ' s gorgeous! I love self - acceptance love theme. How does art help you with self - discovery acceptance journey? Caroline : Art ' s allowed me to explore my transition changing body. s great way to work through stuff going through. love it teaches me to accept beauty of imperfections. Melanie :, Caroline, ' s so cool! Art can be healing way to connect with who you are. awesome beauty can be found in imperfections. We ' re all individual wonderfully imperfect. Thanks for sharing it with me! Caroline : Thanks, Melanie. means a lot to share this with you. Melanie : Great chatting with you! Feel free to reach out any time",
+    "Caroline : Hey Mel! How ' re ya doin '? Recently, had not - - great experience on a hike. ran into group of religious conservatives said something upset me. made me think how much work we still have to do for LGBTQ rights. ' s helpful to have people around me accept support me, I know I ' ll be ok! Melanie : Hey Caroline, sorry about hike. sucks when people closed - minded. Strong support helps. FYI, finished another pottery project - want to see a pic? Caroline : Sure thing, Melanie! Can ' t wait to see your pottery project. happy you found something that makes you happy. Show me when can! Melanie : Here it is. Pretty proud of it! great experience. Thoughts? Caroline : That bowl is awesome, Mel! What gave you idea for all colors and patterns? Melanie : Thanks, Caroline! ' m obsessed with those, made something to catch the eye make people smile. painting helps me express my feelings be creative. Each stroke carries a part of me. Caroline : That ' amazing! put much effort and passion into it. Your creativity shines. Seeing art can be source of self - expression growth inspiring. You ' re killing it! Melanie : Thanks, Caroline! Your words mean a lot. always felt strong connection to art, huge learning experience. both sanctuary and source of comfort. glad to have something brings me much happiness and fulfillment. Caroline : Glad you found something that makes you happy! Surrounding ourselves with things bring us joy is important. Life ' s too short to do anything else! Melanie : Agreed, Caroline. Life ' s tough but s worth it when we have things that make us happy. Caroline :, Mel! Finding happy moments clinging to them is key. keeps us going, even when life ' s hard. lucky to have people like you to remind me.Melanie : Yeah, same here Caroline. make life ' s struggles more bearable. Caroline : Thanks, Melanie! means a lot having you in my corner. Appreciate our friendship! Melanie : appreciate our friendship too, Caroline. ve always been there for me. Caroline : m always here for you, Mel! had a blast last year at Pride fest. supportive friends make everything worth it! Melanie : That was a blast! much fun with whole gang! Wanna do family outing this summer? Caroline : Right much fun! could do family outting, or plan something special for this summer, just us two? great chance to catch up explore nature! What think? Melanie : Sounds great, Caroline! plan something special! Caroline : Sounds great, Mel! make awesome memories! Melanie : Yeah, Caroline! start thinking about what we can do. Caroline : Yeah, Mel! Life ' s all about creating memories. Can ' t wait for the trip",
+    "Caroline : Hi Melanie! Hope you ' re doing good. Guess what I did this week? took first step towards becoming a mom - applied to adoption agencies! ' big decision, ready to give all my love to a child. got lots of help from this adoption advice / assistance group I attended. It was great! Melanie : Caroline, congrats! proud of you for taking this step. How does it feel? Also have any pets? Caroline : Thanks, Mel! Exciting but kinda nerve - wracking. Parenting ' s big responsibility. yup, I do - Oscar, my guinea pig. He ' s been great. How are your pets? Melanie : s normal to be both excited and nervous with big decision. thanks for asking, they ' re good - got another cat named Bailey too. ' s pic of Oliver. show me one of Oscar? Caroline : He ' s so cute! s funniest thing Oliver ' s done? check out this pic of him eating parsley! Veggies are his fave! Melanie : Oliver ' s hilarious! He hid his bone in my slipper once! Cute, right? Almost as silly as when got to feed a horse a carrot. Caroline : ' s funny! used to go horseback riding with my dad when was a kid, ' go through fields, feeling the wind. special. always had love for horses! Melanie : Wow sounds great - agree they ' re awesome. s photo of my horse painting did recently. Caroline :, Melanie, amazing! Love all details and got horse ' s grace and strength. like painting animals? Melanie : Thanks, Caroline! Glad you like it. love to. s peaceful and special. Horses have such grace! like to paint too? Caroline : Painting ' s great for expressing myself. love creating art! recent self - portrait made last weekMelanie : Caroline, ' s great! blue ' s powerful, huh? How ' you feel while painting it? Caroline : Thanks, Mel! felt liberated empowered doing it. Painting helps me explore my identity be true to myself. therapeutic. Melanie : Wow, Caroline, great! Art ' s awesome for showing us who we really are getting in touch with ourselves. What else helps you out? Caroline : Thanks, Melanie. Art gives me sense of freedom supportive people around promoting LGBTQ rights being true to myself. want to live authentically help others do same. Melanie : Wow, Caroline! amazing. care about being real helping others. Wishing you best on adoption journey! Caroline : Thanks, Melanie! appreciate it. Excited for future! Bye! Melanie : Bye Caroline. I m here for you. Take care of yourself",
+    "Caroline : Hey, Mel! How ' s it going? There ' s something I want to tell you. went hiking last week got into a bad spot with some people. bugged me, tried to apologize to them. Melanie : Wow, Caroline! Sorry happened to you. It ' s tough when those things happen, but s great you apologized. Takes lot of courage and maturity! What do you think of this? Caroline : Thanks, Melanie! That plate is awesome! Did you make it? Melanie : Yeah made it in pottery class yesterday. love it! Pottery ' s relaxing creative. you tried it yet? Caroline : Nah, I haven ' t. ' ve been busy painting - here ' s something finished. Melanie : Wow Caroline, looks amazing! colors vivid looks like real sunset. What gave you idea to paint it? Caroline : Thanks, Melanie! painted it after I visited beach last week. seeing sun dip below horizon amazing colors - amazing calming. had to try to capture that feeling in my painting. Melanie : Wow beach inspired you. art took me to that moment can feel serenity. captured sunset perfectly, peaceful! Caroline : Thanks Mel, appreciate your kind words. means a lot to me can feel sense of peace and serenity. Makes me feel connected. Melanie : feel the same way! Art is cool - connects us helps us understand each other. remembering yesterday, spending day with my fam volunteering at a homeless shelter. hard to see how neglected some people are but great to feel like we could make a difference. Caroline : Wow, Mel, you ' re amazing! Volunteering making a difference - ' heartwarming. You ' re inspiration to us all! Melanie : Thanks, Caroline! appreciate your help and motivationWhat made you decide to transition join the transgender community? Caroline : Finding a community where I ' m accepted, loved supported meant a lot to me. ' s made huge difference to have people who get what I ' m going through. Stuff like this mural special to me! Melanie : Caroline, glad you found supportive community! Can tell me more about why it ' s special to you? Caroline : The rainbow flag mural important to me reflects courage strength of trans community. The eagle symbolizes freedom pride, representing my own resilience of others. Melanie : ' m in awe of your courage as a trans person. made any more art lately? Caroline : Thanks, Mel! made this stained glass window to remind myself others within us all is key to discovering our true potential living best life. Melanie : Wow, Caroline, looks amazing! What inspired it? Caroline : Thanks! made for a local church shows time changing our lives. made it to show my own journey as a transgender woman how should accept growth change. Melanie : Wow, Caroline! All colors incredible story it tells inspiring. Caroline : Thanks, Mel! Glad you like it. ' s symbol of togetherness, to celebrate differences be closer. love to make something like this next! Melanie : Wow, ' s gorgeous! Where did you find it? Caroline : was out walking in my neighborhood came across cool rainbow sidewalk for Pride Month. vibrant welcoming, had to take a picture! reminds us love and acceptance are everywhere even where we least expect it. Melanie : nice, Caroline! Art can be in most unlikely places. Love and acceptance can be found everywhere. Caroline : Agreed, Mel! Art can be a real mood - booster - saw someone drawing on the ground other day made me happy. Creativity can lighten someone ' s day. Melanie : Wow, Caroline, nice! colors bright flowers pretty. Art is source of joy.Caroline : Thanks, Mel! Art gives me much joy. helps me show feelings freeze gorgeous moments, like bouquet of flowers. Melanie : Wow, you make that? looks so real! Caroline : Yeah, definitely! Drawing flowers is one of my faves. Appreciating nature sharing it great. What about you, Mel? What type of art you love? Melanie : Painting landscapes still life my favorite! Nature ' s amazing, here s painting I did recently. Caroline : Wow, Mel! Any more paintings coming up? Melanie : feeling inspired by autumn planning a few. any cool art projects coming? Caroline : putting together LGBTQ art show next month show my paintings. Super stoked! Melanie : Wow, Caroline, that ' s awesome! Can ' t wait to see your show - LGBTQ community needs more platforms! Caroline : Yeah Mel, stoked! great night featuring LGBTQ artists awesome talents. want it to spread understanding acceptance - let ' s make it happen",
+    "Caroline : Hey Melanie, great to hear from you. What ' s been up since we talked? Melanie : Hey Caroline! Since we last spoke took my kids to a park yesterday. They had fun exploring playing. nice seeing them have good time outdoors. Time flies, huh? What ' s new with you? Caroline : Wow, your kids had so much fun at the park! Being outdoors can be enjoyable. A lot happened since our last chat. ve been chasing my ambitions had chance to volunteer at an LGBTQ+ youth center. gratifying to talk to similar young people. made me remember how essential to be kind and show support. Melanie : sounds great, Caroline. Volunteering is great way to meet people. Creating community supporting each other, especially for kids important. How did you feel about your time there? Anything sticks out to you? Caroline : loved it. awesome to see how strong young people were, with all challenges they face. felt fulfilled guiding supporting them. to let them know they ' re not alone by sharing my story. powerful, emotional experience. Melanie : Was connecting with young folks meaningful for you? Caroline : special to me. reminded me of my own struggles in past how I felt alone. glad could share my story offer them support - felt like could make a difference. Melanie : That ' s great. Sharing your story and support might make a difference for a long time. What hope to do next time? Caroline : carrying on volunteering at youth center. important part of my life made strong connections with people there. believe in community supporting each other. wanna keep making a difference. Melanie : s great news, Caroline! Love seeing your dedication to helping others. Any specific projects or activities re looking forward to there? Caroline : putting together talent show for kids next monthlooking forward to seeing much fun everyone has proud they ' ll feel of their talents! Melanie : That ' s so cool, Caroline! great way to show off be proud of everyone ' s skills. love live music. Can ' t wait to hear about it! Caroline : Wow! see that band? Melanie : Yeah, pic was from a show I went to. much fun reminded me of how music brings us together. Caroline : Wow, what a fun moment! What ' s the band? Melanie : \" Summer Sounds \" - playing an awesome pop song got everyone dancing and singing. fun and lively! Caroline : sounds great! Music brings us together brings joy. Playing and singing let me express myself connect with others - love it! cathartic uplifting. Melanie : Cool! What type of music you play? Caroline : Guitar ' s mostly my thing. Playing it helps me get emotions out. Melanie : That ' s awesome! What type of guitar? Been playing long? Caroline : started playing acoustic guitar about five years ago great way to express myself escape into emotions. Melanie : Music ' s amazing, t? Any songs have deep meaning for you? Caroline : Yeah totally! \" Brave \" by Sara Bareilles has of significance for me. s about being courageous fighting for what ' s right. Whenever hear this jam, think about paths I ' ve taken progress I made. Melanie : gorgeous song, Caroline. fits with your journey determination to make a difference. Music can be inspiring uplifting. Caroline : Thanks, Melanie! Appreciate it. play any instruments? Melanie : Yeah, play clarinet! Started when was young s been great. Expression of myself way to relax. Caroline : Cool! Got any fav tunes? Melanie : fan of both classical like Bach and Mozart, modern music like Ed Sheeran ' s \" Perfect \".",
+    "Caroline : Hey Mel, long time no chat! had wicked day out with the gang last weekend - we went biking saw cool stuff. was so refreshing, pic I ' m sending is stunning, eh? Melanie : Hey Caroline! ' s good to hear from you! pic beautiful, colors pop. Biking sounds like great way to get out in nature. went camping with the kids few weeks ago, had a blast exploring forest and hiking. Nature can be refreshing for your soul. Any plans coming up? Caroline : Melanie, that photo ' s amazing! love all yellow leaves, looks so cozy. sounds like fun! Seeing excited they get for little things awesome ' s contagious. Melanie : Thanks, Caroline! s awesome seeing the kids get excited learning something new about nature. moments make being a parent worth it. roasted marshmallows shared stories around campfire. simple moments make best memories. What inspires you with your volunteering? Caroline : inspired seeing my work make difference for LGBTQ+ community. Knowing helping create more loving world amazing. thankful for friends, family and mentors ' support. inspires me to keep making art,. Melanie : Wow, Caroline, looks awesome! love how it shows togetherness and power you talking about. How long been creating art? Caroline : Since I was 17 or so. find it soempowering and cathartic. s amazing how art can show things hard to put into words. How long been into art? Melanie : Seven years now, finally found my real muses : painting and pottery. s calming and satisfying. Check out my pottery creation in pic! Caroline : Melanie, those bowls are amazing! each have such cool designs. love you chose pottery for your art. Painting and drawing helped me express my feelings explore gender identity. Creating art was important to me during my transition - helped me understand and accept myself.' grateful. Melanie : Thanks, Caroline! helped me out. love how it ' s both a creative outlet and form of therapy. ever thought about trying it or another art form? Caroline : haven ' t done pottery yet, but ' m game for trying new art. might try it sometime! Check out this piece I made! Melanie : Wow, Caroline! This painting is awesome. Love red and blue. What gave you idea? Caroline : Thanks, Melanie! made painting to show my path as a trans woman. red and blue are for binary gender system, mix of colors means smashing rigid thinking. s reminder to love my authentic self - s taken a while to get here finally proud of who I am. Melanie : Wow, Caro, painting is amazing! made so much progress. super proud of you for being your true self. What effect has journey on your relationships? Caroline : Thanks, Melanie. changed them. Some close friends kept supporting me, but a few weren ' t able to handle it. wasn ' t easy, but much happier being around those who accept and love me. Now relationships feel more genuine. Melanie : Caroline, to be tough dealing with those changes. Glad found people who uplift and accept you! ' s to good time at café last weekend - had thoughtful signs like this! brings me much happiness. Caroline : Whoa, Mel, sign looks serious. Did anything happen? Melanie : sign was just a precaution, had great time. thank you for your concern you ' re so thoughtful! Caroline : Phew! Glad it all worked out and had good time at the park! Melanie : Yeah was so much fun! joyful moments show us life ' s beauty.",
+    "Caroline : Hey Mel, what ' s up? Long time no see! contacted my mentor for adoption advice. ready to be a mom share my love and family. great feeling. Anything new with you? Anything exciting going on? Melanie : Hey Caroline! Great to hear from you! amazing journey. Congrats! Caroline : Thanks, Melanie! stoked to start this new chapter. dream to adopt provide safe, loving home for kids who need it. any experience with adoption, or know anyone who ' s gone through process? Melanie : Yeah, a buddy of mine adopted last year. long process, now they super happy with their new kid. Makes me feel like maybe I should do it too! Caroline : great news about your friend! can be tough, but worth it. great way to add to your family show your love. If you ever do it, let me know love to help in any way. Melanie : Thanks, Caroline! Appreciate your help. any tips for getting started on it? Caroline :! Do your research and find adoption agency or lawyer. They ' ll help with process provide all info. Gather documents like references, financial info medical checks. Don ' t forget to prepare emotionally, wait can be hard. all worth it in the end though. Melanie : Thanks for tip, Caroline. Doing research readying myself emotionally makes sense. I ' ll do that. BTW, recently had a setback. Last month got hurt had to take break from pottery use for self - expression and peace. Caroline : sorry to hear that, Melanie. hope you ' re okay. Pottery ' s great way to relax must have been tough taking a break. Need any help? Melanie : Thanks, Caroline. It was tough, but I ' m doing ok. Been reading that book recommended a while ago and painting to keep busy. Caroline : Cool have creative outlets. Got any paintings to show? love to check them out.Melanie : Yeah, Here ' s one I did last week. inspired by sunsets. colors make me feel calm. What have you been up to lately, artistically? Caroline : Wow Mel, s stunning! Love colors and chilled - out sunset vibe. What made you paint it? been trying out abstract stuff recently. s kinda freeing, putting my feelings on canvas without too much of plan. like cool form of self - expression. Melanie : Thanks, Caroline! I painted it because it was calming. ve done abstract painting too, take a look! love how art lets us get emotions out. Caroline : Wow looks great! blue adds so much to it. What feelings you hoping to portray? Melanie : wanted peaceful blue streaks to show tranquility. Blue calms me, wanted painting to have serene vibe while still having of vibrant colors. Caroline : Yeah s very calming. awesome how art can show emotions. went to poetry reading last Fri - really powerful! Ever been to one? Melanie : Nope, never been to something like that. What was it about? What made it so special? Caroline : was transgender poetry reading where transgender people shared stories through poetry. extra special ' cause safe place for self - expression empowering to hear others share celebrate identities. Melanie : Wow, sounds amazing! was event like? posters are great! Caroline : room was electric with energy and support! posters were amazing, much pride and strength! inspired me to make some art. Melanie : ' s awesome, Caroline! You drew it? What does it mean to you? Caroline : Thanks, Melanie! I drew it. stands for freedom being real. s like a nudge to always stay true to myself embrace my womanhood. Melanie : I love it. Showing off our true selves is best thing ever. Caroline :, Melanie! Being ourselves is great feeling' ongoing adventure of learning growing. Melanie : Yep, Caroline. Life ' s about learning exploring Glad we can be on this trip together",
+    "Melanie : Hey Caroline, roadtrip this past weekend was insane! all freaked when my son got into accident. lucky he was okay. real scary experience. Thankfully it ' s over now. What ' s been up since we last talked? Caroline : Oops, sorry ' bout the accident! Must have been traumatizing for you. Thank goodness your son ' s okay. Life can be a roller coaster. Melanie : our trip got off to bad start. was scared when into accident. my son ' s ok reminder life is precious to cherish our family. Caroline : Glad your son is okay, Melanie. Life ' s unpredictable, but moments like remind us how important our loved ones are. Family ' s everything. Melanie : ' right, Caroline. Family ' s super important to me. Especially after accident thought a lot about how much I need them. They mean world to me thankful to have them. they enjoyed the Grand Canyon a lot! Caroline : kids look so cute, Mel! they bring lots of joy. How they handle accident? Melanie : Thanks! They were scared but reassured them explained their brother would be OK. They ' re tough kids. Caroline : Kids amazingly resilient in tough situations. amazing ability to bounce back. Melanie : They amazing. Wish I was resilient. they give me strength to keep going. Caroline : loved ones give us strength to tackle any challenge - amazing! Melanie : Yeah, Caroline. agree. They ' re my biggest motivation and support. Caroline : s sweet to see your love for your family, Melanie. They are your rock. Melanie : Thanks, Caroline. They ' re real support. Appreciate them a lot. Caroline : Glad people to lean on, Melanie. helps during tougher times. Melanie : for. Having my fam around helps a lot. makes hard times easier.Caroline : Wow, great pic! Is recent? Looks like you all had fun! Melanie : Thanks, Caroline! Yup we just did it yesterday! kids loved it nice way to relax after road trip. Caroline : Glad you got some R & R after drive. Nature seems to refresh us, huh? Melanie : Absolutely! helps me reset and recharge. love camping trips with my fam, ' cause nature brings peace serenity. Caroline : Wow, that ' s awesome! What love most about camping with your fam? Melanie : s chance to be present together. bond over stories, campfires nature. peaceful waking up to sound of birds smell of fresh air - always refreshes my soul. Caroline : peaceful calming, Melanie! can picture waking up to nature. great get to spend quality, tranquil time with your family. Melanie : Thanks, Caroline! great time. Nature and quality time, can ' t beat it! Caroline : Yeah totally! They ' re priceless. Lucky you",
+    "Caroline : Woohoo Melanie! passed adoption agency interviews last Fri day! excited thankful. big move towards my goal of having a family. Melanie : Congrats, Caroline! Adoption sounds awesome. happy for you. figurines I bought yesterday remind me of family love. Tell what ' s your vision for future? Caroline : Thanks so much, Melanie! It ' s beautiful! brings home how much love ' s in families - both blood and ones we choose. hope to build my own family put roof over kids who haven ' t had that before. For adoption is way of giving back showing love and acceptance. Melanie : Wow, Caroline, ' s awesome. Giving home to needy kids is loving way to build family. kids will be supported happy in new home. Caroline : Thanks, Melanie. dream is to create safe loving home for these kids. Love and acceptance should be everyone ' s right, want them to experience it. Melanie : agree, Caroline. Everyone deserves that. awesome to see passionate you about helping these kids. Caroline : Thanks, Mel. Finding self - acceptance was long process, but now ready to offer love and support to those who need it. empowering to make positive difference in someone ' s life. Melanie : must have been tough for you, Caroline. Respect for finding acceptance helping others with what through. You strong and inspiring. Caroline : Thanks, Melanie. Transitioning wasn ' t easy and acceptance wasn ' t either, but help got from friends, family people I looked up to invaluable. They boosted me through tough times helped me find out who I really am. That ' s why want to pass same support to anyone who needs it. Bringing others comfort helping them grow brings me such joy. Melanie : happy for you, Caroline. found your true self now ' helping others. You ' so inspiring! Caroline : Thanks, Melanie. Your support means a lot.This journey amazing grateful I to share it help others with theirs. ' s a real gift. Melanie : Absolutely! glad we can always be there for each other. Caroline : Glad you agree, Caroline. Appreciate support of those close to me. Their encouragement made me who I am. Melanie : Glad you had support. Being yourself is great! Caroline : Yeah, that ' s true! so freeing to just be yourself live honestly. can accept who we are be content"
+  ]
+}

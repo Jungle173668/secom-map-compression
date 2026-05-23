@@ -1,0 +1,677 @@
+[
+  {
+    "id": "conv8_q10",
+    "category": "open_domain",
+    "question": "Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",
+    "reference_answer": "camping trip in the outdoors",
+    "candidate_answer": "Evan would prefer a camping trip in the outdoors with his family. He has mentioned enjoying outdoor activities like hiking, kayaking, and nature drives, and he recalled fond memories of a past camping trip with magnificent sunsets.",
+    "correctness": 1,
+    "tokens_used": 8609,
+    "full_tokens": 15849,
+    "token_reduction": 0.4568,
+    "extra": {
+      "rewritten_query": "Which type of vacation would Evan prefer with Evan's family, walking tours in metropolitan cities or a camping trip in the outdoors?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv7_q164",
+    "category": "multi_hop",
+    "question": "How old is Max?",
+    "reference_answer": "8 years old",
+    "candidate_answer": "Max is 8 years old.",
+    "correctness": 1,
+    "tokens_used": 8781,
+    "full_tokens": 19057,
+    "token_reduction": 0.5392,
+    "extra": {
+      "rewritten_query": "How old is Max?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv8_q3",
+    "category": "single_hop",
+    "question": "How many Prius has Evan owned?",
+    "reference_answer": "two",
+    "candidate_answer": "Evan has owned two Priuses. The first one broke down and was repaired and sold, and then Evan bought a new Prius.",
+    "correctness": 1,
+    "tokens_used": 8261,
+    "full_tokens": 15849,
+    "token_reduction": 0.4788,
+    "extra": {
+      "rewritten_query": "How many Prius has Evan owned?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv5_q2",
+    "category": "single_hop",
+    "question": "What kind of indoor activities has Andrew pursued with his girlfriend?",
+    "reference_answer": "boardgames, volunteering at pet shelter, wine tasting, growing flowers",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 10088,
+    "full_tokens": 20474,
+    "token_reduction": 0.5073,
+    "extra": {
+      "rewritten_query": "What kind of indoor activities has Andrew pursued with Andrew's girlfriend?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q33",
+    "category": "temporal",
+    "question": "When did someone write Joanna a touching letter?",
+    "reference_answer": "The week before 14August, 2022.",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8414,
+    "full_tokens": 18463,
+    "token_reduction": 0.5443,
+    "extra": {
+      "rewritten_query": "When did someone write Joanna a touching letter?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv8_q66",
+    "category": "temporal",
+    "question": "When did Evan lose his job?",
+    "reference_answer": "end of October 2023",
+    "candidate_answer": "Evan lost his job last month.",
+    "correctness": 1,
+    "tokens_used": 8560,
+    "full_tokens": 15849,
+    "token_reduction": 0.4599,
+    "extra": {
+      "rewritten_query": "When did Evan lose Evan's job?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv9_q48",
+    "category": "temporal",
+    "question": "What was Dave doing in the first weekend of October 2023?",
+    "reference_answer": "attending a car show",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 9298,
+    "full_tokens": 19944,
+    "token_reduction": 0.5338,
+    "extra": {
+      "rewritten_query": "What was Dave doing in the first weekend of October 2023?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q20",
+    "category": "temporal",
+    "question": "When did Nate adopt Max?",
+    "reference_answer": "May 2022",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8651,
+    "full_tokens": 18463,
+    "token_reduction": 0.5314,
+    "extra": {
+      "rewritten_query": "When did Nate adopt the third turtle named Max?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv7_q3",
+    "category": "temporal",
+    "question": "When did Jolene`s mother pass away?",
+    "reference_answer": "in 2022",
+    "candidate_answer": "Jolene's mother passed away last year.",
+    "correctness": 1,
+    "tokens_used": 9093,
+    "full_tokens": 19057,
+    "token_reduction": 0.5229,
+    "extra": {
+      "rewritten_query": "When did Jolene's mom pass away?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q35",
+    "category": "temporal",
+    "question": "When did Nate take time off to chill with his pets?",
+    "reference_answer": "The weekend of 22August, 2022.",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8663,
+    "full_tokens": 18463,
+    "token_reduction": 0.5308,
+    "extra": {
+      "rewritten_query": "When did Nate take time off to chill with his turtles?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv4_q70",
+    "category": "open_domain",
+    "question": "Which Star Wars-related locations would Tim enjoy during his visit to Ireland?",
+    "reference_answer": "Skellig Michael, Malin Head, Loop Head, Ceann Sibéal, and Brow Head because they are Star Wars filming locations.",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 10319,
+    "full_tokens": 20772,
+    "token_reduction": 0.5032,
+    "extra": {
+      "rewritten_query": "Which Star Wars-related locations would Tim enjoy during Tim's visit to Ireland?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv2_q65",
+    "category": "multi_hop",
+    "question": "What is John's main focus in local politics?",
+    "reference_answer": "Improving education and infrastructure",
+    "candidate_answer": "John's main focus in local politics is improving education and infrastructure in his community.",
+    "correctness": 1,
+    "tokens_used": 8958,
+    "full_tokens": 21371,
+    "token_reduction": 0.5808,
+    "extra": {
+      "rewritten_query": "What is John’s main focus in local politics, considering his involvement with the fire-fighting brigade and the shelter for a new pup?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv1_q56",
+    "category": "multi_hop",
+    "question": "What did Jon and Gina compare their entrepreneurial journeys to?",
+    "reference_answer": "dancing together and supporting each other",
+    "candidate_answer": "Jon and Gina compared their entrepreneurial journeys to a rollercoaster.",
+    "correctness": 0,
+    "tokens_used": 8104,
+    "full_tokens": 11075,
+    "token_reduction": 0.2683,
+    "extra": {
+      "rewritten_query": "What did Jon and Gina compare Jon's and Gina's entrepreneurial journeys to?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv8_q94",
+    "category": "multi_hop",
+    "question": "What kind of water does Evan suggest Sam try as an alternative to soda?",
+    "reference_answer": "Flavored seltzer water",
+    "candidate_answer": "Evan suggests Sam try flavored seltzer water as an alternative to soda.",
+    "correctness": 1,
+    "tokens_used": 8480,
+    "full_tokens": 15849,
+    "token_reduction": 0.465,
+    "extra": {
+      "rewritten_query": "What kind of water does Evan suggest Sam try as an alternative to soda?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv0_q29",
+    "category": "temporal",
+    "question": "When did Melanie go to the pottery workshop?",
+    "reference_answer": "The Friday before 15 July 2023",
+    "candidate_answer": "Melanie took the kids to a pottery workshop last Friday.",
+    "correctness": 0,
+    "tokens_used": 10064,
+    "full_tokens": 14290,
+    "token_reduction": 0.2957,
+    "extra": {
+      "rewritten_query": "When did Melanie go to the pottery class?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv6_q2",
+    "category": "single_hop",
+    "question": "Which places or events have John and James planned to meet at?",
+    "reference_answer": "VR Club, McGee's, baseball game",
+    "candidate_answer": "John and James have planned to meet at a baseball game next Sunday.",
+    "correctness": 0,
+    "tokens_used": 8705,
+    "full_tokens": 19800,
+    "token_reduction": 0.5604,
+    "extra": {
+      "rewritten_query": "Which places or events have John and James planned to meet at?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q116",
+    "category": "multi_hop",
+    "question": "Which activity helps Nate escape and stimulates his imagination?",
+    "reference_answer": "watching fantasy and sci-fi movies",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8931,
+    "full_tokens": 18463,
+    "token_reduction": 0.5163,
+    "extra": {
+      "rewritten_query": "Which activity helps Nate escape and stimulates Nate's imagination?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q83",
+    "category": "single_hop",
+    "question": "What are the skills that Nate has helped others learn?",
+    "reference_answer": "coconut milk ice cream recipe, reset high scores, tips to improve gaming skills",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 9072,
+    "full_tokens": 18463,
+    "token_reduction": 0.5086,
+    "extra": {
+      "rewritten_query": "What are the skills that Nate has helped other people learn?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv8_q12",
+    "category": "temporal",
+    "question": "When did Sam first go to the doctor and find out he had a weight problem?",
+    "reference_answer": "A few days before May 24, 2023.",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8679,
+    "full_tokens": 15849,
+    "token_reduction": 0.4524,
+    "extra": {
+      "rewritten_query": "When did Sam first go to the doctor and find out Sam had a weight problem?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv2_q19",
+    "category": "single_hop",
+    "question": "What damages have happened to John's car?",
+    "reference_answer": "Broken windshield, Car broke down",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 9365,
+    "full_tokens": 21371,
+    "token_reduction": 0.5618,
+    "extra": {
+      "rewritten_query": "What damages have happened to John's car?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv9_q75",
+    "category": "multi_hop",
+    "question": "What is Dave's new business venture as of 1 May, 2023?",
+    "reference_answer": "Car maintenance shop",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 9396,
+    "full_tokens": 19944,
+    "token_reduction": 0.5289,
+    "extra": {
+      "rewritten_query": "What is Dave's new business venture as of 1 May, 2023?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q43",
+    "category": "temporal",
+    "question": "How long did it take for Joanna to finish writing her book?",
+    "reference_answer": "four months",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8549,
+    "full_tokens": 18463,
+    "token_reduction": 0.537,
+    "extra": {
+      "rewritten_query": "How long did it take for Joanna to finish writing Joanna's book?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv0_q11",
+    "category": "single_hop",
+    "question": "Where did Caroline move from 4 years ago?",
+    "reference_answer": "Sweden",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 10102,
+    "full_tokens": 14290,
+    "token_reduction": 0.2931,
+    "extra": {
+      "rewritten_query": "Where did Caroline move from 4 years ago?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv9_q71",
+    "category": "multi_hop",
+    "question": "How long did Calvin plan to stay in Japan?",
+    "reference_answer": "A few months",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8931,
+    "full_tokens": 19944,
+    "token_reduction": 0.5522,
+    "extra": {
+      "rewritten_query": "How long did Calvin plan to stay in Japan?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv0_q81",
+    "category": "open_domain",
+    "question": "Would Caroline want to move back to her home country soon?",
+    "reference_answer": "No; she's in the process of adopting children.",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 9769,
+    "full_tokens": 14290,
+    "token_reduction": 0.3164,
+    "extra": {
+      "rewritten_query": "Would Caroline want to move back to Caroline's home country soon?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv9_q76",
+    "category": "multi_hop",
+    "question": "What type of cars does Dave work on at his shop?",
+    "reference_answer": "all kinds of cars, from regular maintenance to full restorations of classic cars",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 9426,
+    "full_tokens": 19944,
+    "token_reduction": 0.5274,
+    "extra": {
+      "rewritten_query": "What type of cars does Dave work on at Dave's shop?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv5_q33",
+    "category": "open_domain",
+    "question": "What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?",
+    "reference_answer": "Change to a hybrid or remote job so he can move away from the city to the suburbs to have a larger living space and be closer to nature.",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 10689,
+    "full_tokens": 20474,
+    "token_reduction": 0.4779,
+    "extra": {
+      "rewritten_query": "What can Andrew potentially do to improve Andrew's stress and accommodate Andrew's living situation with Andrew's dogs, Toby, Buddy, and Scout?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv7_q0",
+    "category": "temporal",
+    "question": "What kind of project was Jolene working on in the beginning of January 2023?",
+    "reference_answer": "electricity engineering project",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8941,
+    "full_tokens": 19057,
+    "token_reduction": 0.5308,
+    "extra": {
+      "rewritten_query": "What kind of project was Jolene working on in the beginning of January 2023?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q30",
+    "category": "single_hop",
+    "question": "What kind of writings does Joanna do?",
+    "reference_answer": "Screenplays,books, online blog posts, journal",
+    "candidate_answer": "Joanna writes movie scripts, including suspenseful thrillers and a mix of drama and romance. She is also working on a book and writes screenplays.",
+    "correctness": 0,
+    "tokens_used": 9054,
+    "full_tokens": 18463,
+    "token_reduction": 0.5096,
+    "extra": {
+      "rewritten_query": "What kind of writings does Joanna create, including her new suspenseful thriller project and her road-trip script that she is filming as a movie?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv1_q71",
+    "category": "multi_hop",
+    "question": "How does Gina describe the studio that Jon has opened?",
+    "reference_answer": "amazing",
+    "candidate_answer": "Gina describes Jon's studio as amazing and mentions that he put a lot of work into it. She expresses excitement for the launch and encourages Jon not to miss a beat.",
+    "correctness": 1,
+    "tokens_used": 8063,
+    "full_tokens": 11075,
+    "token_reduction": 0.272,
+    "extra": {
+      "rewritten_query": "How does Gina describe the dance studio that Jon has opened?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv2_q9",
+    "category": "single_hop",
+    "question": "Who gave Maria's family money when she was younger and her family was going through tough times?",
+    "reference_answer": "Her aunt",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 9511,
+    "full_tokens": 21371,
+    "token_reduction": 0.555,
+    "extra": {
+      "rewritten_query": "Who gave Maria's family money when Maria was younger and Maria's family was going through tough times?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv7_q114",
+    "category": "multi_hop",
+    "question": "How did Jolene and her partner initially meet?",
+    "reference_answer": "In an engineering class in college",
+    "candidate_answer": "Jolene and her partner initially met in an engineering class in college and quickly became friends, which eventually blossomed into something more.",
+    "correctness": 1,
+    "tokens_used": 9480,
+    "full_tokens": 19057,
+    "token_reduction": 0.5025,
+    "extra": {
+      "rewritten_query": "How did Jolene and Jolene's partner initially meet?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv4_q67",
+    "category": "open_domain",
+    "question": "What would be a good hobby related to his travel dreams for Tim to pick up?",
+    "reference_answer": "Writing a travel blog.",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 10003,
+    "full_tokens": 20772,
+    "token_reduction": 0.5184,
+    "extra": {
+      "rewritten_query": "What would be a good hobby related to Tim's travel dreams for Tim to pick up?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q169",
+    "category": "multi_hop",
+    "question": "What does Joanna do while she writes?",
+    "reference_answer": "have a stuffed animal dog named Tilly with her",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8546,
+    "full_tokens": 18463,
+    "token_reduction": 0.5371,
+    "extra": {
+      "rewritten_query": "What does Joanna do while Joanna writes her own movie from the road-trip script?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv6_q145",
+    "category": "multi_hop",
+    "question": "Why did James and Samantha choose an apartment near McGee's bar?",
+    "reference_answer": "They love spending time together at the bar",
+    "candidate_answer": "James and Samantha chose an apartment near McGee's bar because they love spending time there, and it was one of the criteria for their choice of apartment.",
+    "correctness": 1,
+    "tokens_used": 8900,
+    "full_tokens": 19800,
+    "token_reduction": 0.5505,
+    "extra": {
+      "rewritten_query": "Why did James and Samantha choose an apartment near McGee's Pub?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv0_q26",
+    "category": "temporal",
+    "question": "When did Melanie read the book \"nothing is impossible\"?",
+    "reference_answer": "2022",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 10235,
+    "full_tokens": 14290,
+    "token_reduction": 0.2838,
+    "extra": {
+      "rewritten_query": "When did Melanie read the book \"Nothing Is Impossible\"?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv1_q15",
+    "category": "temporal",
+    "question": "When did Jon host a dance competition?",
+    "reference_answer": "May, 2023",
+    "candidate_answer": "Jon is hosting a dance competition next month.",
+    "correctness": 0,
+    "tokens_used": 8170,
+    "full_tokens": 11075,
+    "token_reduction": 0.2623,
+    "extra": {
+      "rewritten_query": "When did Jon host a dance comp?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q23",
+    "category": "single_hop",
+    "question": "Which of Joanna's screenplay were rejected from production companies?",
+    "reference_answer": "first screenplay on drama and romance, third screenplay on loss identity and connection",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8884,
+    "full_tokens": 18463,
+    "token_reduction": 0.5188,
+    "extra": {
+      "rewritten_query": "Which of Joanna's movie pitches was rejected from production companies?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv3_q138",
+    "category": "multi_hop",
+    "question": "What did Joanna discover at the library in Woodhaven?",
+    "reference_answer": "cool old book collection",
+    "candidate_answer": "Joanna stumbled upon a super cool book from the 1900s with stories and sketches about the town and the people living there.",
+    "correctness": 1,
+    "tokens_used": 9132,
+    "full_tokens": 18463,
+    "token_reduction": 0.5054,
+    "extra": {
+      "rewritten_query": "What did Joanna discover at the library in Woodhaven?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv8_q79",
+    "category": "temporal",
+    "question": "When will Evan and his partner have their honeymoon in Canada?",
+    "reference_answer": "February 2024",
+    "candidate_answer": "Next month.",
+    "correctness": 0,
+    "tokens_used": 9049,
+    "full_tokens": 15849,
+    "token_reduction": 0.429,
+    "extra": {
+      "rewritten_query": "When will Evan and Evan's partner have their honeymoon in Canada?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv2_q94",
+    "category": "multi_hop",
+    "question": "What kind of food did Maria have on her dinner spread iwth her mother?",
+    "reference_answer": "Salads, sandwiches, homemade desserts",
+    "candidate_answer": "Maria had lots of great things like salads, sandwiches, and homemade desserts on her dinner spread with her mother. Her favorite was an amazing banana split sundae.",
+    "correctness": 1,
+    "tokens_used": 9473,
+    "full_tokens": 21371,
+    "token_reduction": 0.5567,
+    "extra": {
+      "rewritten_query": "What kind of food did Maria have on her dinner spread with Maria's mother?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv6_q5",
+    "category": "single_hop",
+    "question": "What are John and James' favorite games?",
+    "reference_answer": "John's favorite game is CS:GO, and James's is Apex Legends.",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 8825,
+    "full_tokens": 19800,
+    "token_reduction": 0.5543,
+    "extra": {
+      "rewritten_query": "What are John and James' favorite games?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv7_q31",
+    "category": "temporal",
+    "question": "When was the last photo of Deborah and Karlie taken?",
+    "reference_answer": "in summer 2022",
+    "candidate_answer": "The last photo of Deborah and Karlie was taken last summer when they hiked.",
+    "correctness": 1,
+    "tokens_used": 9281,
+    "full_tokens": 19057,
+    "token_reduction": 0.513,
+    "extra": {
+      "rewritten_query": "When was the last photo of Deborah and Karlie taken?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv0_q107",
+    "category": "multi_hop",
+    "question": "What is Melanie's reason for getting into running?",
+    "reference_answer": "To de-stress and clear her mind",
+    "candidate_answer": "Melanie got into running because it's a great way to de-stress and clear her mind, which is beneficial for her mental health.",
+    "correctness": 1,
+    "tokens_used": 9968,
+    "full_tokens": 14290,
+    "token_reduction": 0.3024,
+    "extra": {
+      "rewritten_query": "What is Melanie's reason for getting into running?",
+      "compress_rate": 0.65
+    }
+  },
+  {
+    "id": "conv0_q31",
+    "category": "temporal",
+    "question": "When did Melanie go camping in June?",
+    "reference_answer": "The week before 27 June 2023",
+    "candidate_answer": "Cannot answer based on conversation history.",
+    "correctness": 0,
+    "tokens_used": 9977,
+    "full_tokens": 14290,
+    "token_reduction": 0.3018,
+    "extra": {
+      "rewritten_query": "When did Melanie and Melanie's family go camping in June?",
+      "compress_rate": 0.65
+    }
+  }
+]

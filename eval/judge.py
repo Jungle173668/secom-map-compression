@@ -19,7 +19,8 @@ Criteria:
 Reply with only 0 (incorrect) or 1 (correct), no explanation:"""
 
 
-def llm_judge(question: str, reference_answer: str, candidate_answer: str) -> int:
+def llm_judge(question: str, reference_answer: str, candidate_answer: str,
+              model: str = None) -> int:
     """Return 0 (wrong) or 1 (correct)."""
     prompt = JUDGE_PROMPT.format(
         question=question,
@@ -30,6 +31,7 @@ def llm_judge(question: str, reference_answer: str, candidate_answer: str) -> in
         result = llm_call(
             prompt,
             system="You are an answer evaluation assistant. Output only 0 or 1.",
+            model=model,
         ).strip()
         # Extract first digit
         for ch in result:

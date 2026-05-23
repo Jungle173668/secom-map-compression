@@ -1,0 +1,71 @@
+{
+  "method": "sliding_window",
+  "points": [
+    {
+      "param": 50,
+      "token_reduction": 0.9116,
+      "accuracy": 0.1778,
+      "by_category": {
+        "multi_hop": 0.1333,
+        "open_domain": 1.0,
+        "single_hop": 0.1,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 100,
+      "token_reduction": 0.8239,
+      "accuracy": 0.1333,
+      "by_category": {
+        "multi_hop": 0.2,
+        "open_domain": 0.4,
+        "single_hop": 0.1,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 150,
+      "token_reduction": 0.7352,
+      "accuracy": 0.2,
+      "by_category": {
+        "multi_hop": 0.2667,
+        "open_domain": 0.8,
+        "single_hop": 0.1,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 200,
+      "token_reduction": 0.6443,
+      "accuracy": 0.2667,
+      "by_category": {
+        "multi_hop": 0.4,
+        "open_domain": 0.8,
+        "single_hop": 0.2,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 250,
+      "token_reduction": 0.5495,
+      "accuracy": 0.2667,
+      "by_category": {
+        "multi_hop": 0.3333,
+        "open_domain": 1.0,
+        "single_hop": 0.2,
+        "temporal": 0.0
+      }
+    },
+    {
+      "param": 300,
+      "token_reduction": 0.4578,
+      "accuracy": 0.3556,
+      "by_category": {
+        "multi_hop": 0.4667,
+        "open_domain": 1.0,
+        "single_hop": 0.3,
+        "temporal": 0.0667
+      }
+    }
+  ]
+}

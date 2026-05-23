@@ -1,0 +1,548 @@
+{
+  "version": 1,
+  "use_ep": false,
+  "compress_rate": 0.65,
+  "context_map": {
+    "entities": {
+      "Calvin": {
+        "type": "person",
+        "count": 30,
+        "last_session": 30
+      },
+      "Dave": {
+        "type": "person",
+        "count": 30,
+        "last_session": 30
+      },
+      "Japan": {
+        "type": "place",
+        "count": 6,
+        "last_session": 20
+      },
+      "Boston": {
+        "type": "place",
+        "count": 15,
+        "last_session": 30
+      },
+      "next month": {
+        "type": "date",
+        "count": 3,
+        "last_session": 14
+      },
+      "Tokyo": {
+        "type": "place",
+        "count": 6,
+        "last_session": 24
+      },
+      "last week": {
+        "type": "date",
+        "count": 3,
+        "last_session": 28
+      },
+      "Frank Ocean": {
+        "type": "person",
+        "count": 6,
+        "last_session": 25
+      },
+      "Friday": {
+        "type": "date",
+        "count": 3,
+        "last_session": 15
+      },
+      "rock band": {
+        "type": "org",
+        "count": 2,
+        "last_session": 28
+      },
+      "Ferrari": {
+        "type": "other",
+        "count": 2,
+        "last_session": 23
+      },
+      "San Francisco": {
+        "type": "place",
+        "count": 2,
+        "last_session": 17
+      },
+      "yesterday": {
+        "type": "date",
+        "count": 2,
+        "last_session": 30
+      },
+      "11th": {
+        "type": "date",
+        "count": 1,
+        "last_session": 18
+      },
+      "Disney": {
+        "type": "org",
+        "count": 1,
+        "last_session": 19
+      },
+      "Ratatouille": {
+        "type": "other",
+        "count": 1,
+        "last_session": 19
+      },
+      "Mustang": {
+        "type": "other",
+        "count": 1,
+        "last_session": 20
+      },
+      "Tupac": {
+        "type": "person",
+        "count": 1,
+        "last_session": 20
+      },
+      "Dr. Dre": {
+        "type": "person",
+        "count": 1,
+        "last_session": 20
+      },
+      "California Love": {
+        "type": "other",
+        "count": 1,
+        "last_session": 20
+      },
+      "Ford Mustang": {
+        "type": "other",
+        "count": 1,
+        "last_session": 21
+      },
+      "Last Friday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 22
+      },
+      "The Fireworks": {
+        "type": "org",
+        "count": 1,
+        "last_session": 23
+      },
+      "Shibuya Crossing": {
+        "type": "place",
+        "count": 1,
+        "last_session": 24
+      },
+      "Shinjuku": {
+        "type": "place",
+        "count": 1,
+        "last_session": 24
+      },
+      "August last year": {
+        "type": "date",
+        "count": 1,
+        "last_session": 24
+      },
+      "Detroit": {
+        "type": "place",
+        "count": 1,
+        "last_session": 26
+      },
+      "high school friend": {
+        "type": "person",
+        "count": 1,
+        "last_session": 26
+      },
+      "conference": {
+        "type": "event",
+        "count": 1,
+        "last_session": 26
+      },
+      "architecture": {
+        "type": "other",
+        "count": 1,
+        "last_session": 26
+      },
+      "automotive engineer": {
+        "type": "other",
+        "count": 1,
+        "last_session": 26
+      },
+      "car show": {
+        "type": "event",
+        "count": 1,
+        "last_session": 26
+      },
+      "clock tower": {
+        "type": "place",
+        "count": 1,
+        "last_session": 27
+      },
+      "last month": {
+        "type": "date",
+        "count": 1,
+        "last_session": 27
+      },
+      "Calvin's Japanese house": {
+        "type": "place",
+        "count": 1,
+        "last_session": 28
+      },
+      "mansion": {
+        "type": "place",
+        "count": 1,
+        "last_session": 28
+      },
+      "Calvin's studio": {
+        "type": "place",
+        "count": 1,
+        "last_session": 28
+      },
+      "Calvin's album": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Dave's blog": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "classic rock": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Japanese garden": {
+        "type": "place",
+        "count": 1,
+        "last_session": 30
+      }
+    },
+    "decisions": [
+      "Calvin is experiencing a creative block in his music",
+      "Calvin decided to stay positive after his place got flooded",
+      "Dave opened his own car shop",
+      "Calvin is preparing for a performance in Tokyo",
+      "Calvin is touring with Frank Ocean",
+      "Calvin performed in Tokyo",
+      "Dave fixed his neighbor's car engine",
+      "Calvin and Dave both find working on cars therapeutic",
+      "Calvin is going to tour in Boston",
+      "Dave supports Calvin's music career",
+      "Calvin is working on an album with a creative team in the studio",
+      "Calvin plans to visit Boston next month",
+      "Dave booked a trip to a mountainous region for next month",
+      "Calvin sorted out his car insurance and repairs",
+      "Calvin is getting his car fixed",
+      "Calvin plans to visit a small town in Japan after Frank Ocean's tour",
+      "Dave joined a rock band and is practicing guitar",
+      "Calvin's car is fixed and going strong",
+      "Dave arranged regular walks in the park with friends",
+      "Calvin is working on music collaborations with Japanese artists",
+      "Dave went on a road trip with friends to see the countryside",
+      "Calvin is working on a project to transform a Japanese mansion into a recording studio",
+      "Calvin is experimenting with different genres in his music, adding electronic elements",
+      "Calvin took his Ferrari for a service",
+      "Dave finds fixing cars therapeutic",
+      "Calvin plans to expand his brand worldwide and grow his fanbase",
+      "Calvin wants to work with artists globally and create music",
+      "Dave got picked for a car mod workshop",
+      "Dave is working on a custom car",
+      "Dave is learning about body modifications",
+      "Dave is doing engine swaps and suspension modifications",
+      "Dave customized a classic muscle car with a modern twist",
+      "Dave has a music studio setup with a high-quality sound system",
+      "Dave attended a car workshop in San Francisco",
+      "Calvin toured with a well-known artist",
+      "Calvin performed a show in Japan",
+      "Calvin's show ended in Tokyo where he had a special moment with the audience",
+      "Calvin scored a deal to continue collaboration with Frank Ocean",
+      "Calvin and Frank Ocean recorded a song in Calvin's mansion studio",
+      "Calvin performed at a music festival in Tokyo",
+      "Calvin is working on a new collaboration after being noticed at the festival",
+      "Calvin's tour will end soon and he will head to Boston",
+      "Calvin and his friends recorded a podcast about the rap industry",
+      "Calvin finished the tour and described it as amazing",
+      "Calvin started shooting a video for his new album in Miami",
+      "The video location is a beach in Miami",
+      "Calvin has a custom-made guitar with an octopus design",
+      "Calvin's guitar has a shiny purple hue with a unique look",
+      "Dave went to San Francisco and gained insights on car modification",
+      "Calvin booked a flight ticket to Boston",
+      "Calvin's album was released on the 11th",
+      "Calvin is going on tour",
+      "Calvin plans to explore and grow his brand",
+      "Calvin plans to visit Dave's garage in Boston",
+      "Dave's band rehearsed and had fun jamming",
+      "Dave attended a rock concert in Boston last weekend",
+      "Dave restored a vintage car",
+      "Calvin appreciates Dave's work in fixing cars",
+      "Dave and Calvin decided to have a jam session",
+      "Calvin decided to collaborate with artists in Boston on new music",
+      "Dave decided to restore a Ford Mustang from a junkyard",
+      "Dave attended a car show last Friday.",
+      "Dave restored and modified a car himself.",
+      "Dave added a custom exhaust and performance upgrades to the car.",
+      "Dave pursued his passion for working on cars as a job.",
+      "Dave decided to keep going and not forget his value.",
+      "Calvin decided to share a picture of his new Ferrari.",
+      "Calvin started touring with Frank Ocean",
+      "Calvin plans to visit Tokyo next month after the tour ends",
+      "Calvin plans to explore Shibuya Crossing and Shinjuku in Tokyo",
+      "Calvin decided to try ramen in Tokyo",
+      "Calvin is on a tour with Frank Ocean",
+      "Calvin balances fame and personal life by taking it one day at a time",
+      "Having a strong support system helps Calvin manage everything",
+      "Calvin uses current events to inspire his music",
+      "Calvin expresses himself through his music as a form of therapy",
+      "Dave is passionate about car restoration",
+      "Dave restored a car last year and sold it to a collector",
+      "Attention to detail is important in both Calvin's music and Dave's car restoration",
+      "Calvin values creating extraordinary art",
+      "Calvin visited Boston following Dave's advice",
+      "Dave became an automotive engineer",
+      "Calvin is pursuing music as his passion",
+      "Calvin attended a networking event to meet more artists",
+      "Dave got into photography recently",
+      "Dave took a stunning picture of a sunset in Boston",
+      "Dave restored his car",
+      "Calvin's album is almost finished",
+      "Calvin threw a small party at his Japanese house for his new album",
+      "Dave started a blog on car mods",
+      "Dave joined a rock band",
+      "Calvin usually watches music videos, concerts, and documentaries for inspiration",
+      "Calvin invited his old high school buddy to see him perform in Boston",
+      "Calvin supports young musicians from a music program",
+      "Calvin plans to continue supporting young musicians for a long time",
+      "Calvin is experimenting with new sounds and pushing boundaries",
+      "Dave took up photography",
+      "Calvin met interesting people at a gala in Boston",
+      "Calvin chatted with a cool artist at the gala",
+      "Calvin accepted an invitation to perform at an upcoming show in Boston"
+    ],
+    "timeline": [
+      {
+        "time": "Current",
+        "event": "Dave organized regular park walks with friends"
+      },
+      {
+        "time": "Current",
+        "event": "Calvin working on music collaborations with Japanese artists"
+      },
+      {
+        "time": "Recent past",
+        "event": "Dave went on a road trip with friends"
+      },
+      {
+        "time": "Current",
+        "event": "Calvin is working on transforming a Japanese mansion into a recording studio"
+      },
+      {
+        "time": "Current",
+        "event": "Calvin is experimenting with different music genres"
+      },
+      {
+        "time": "since last we talked",
+        "event": "Dave went to a car workshop in San Francisco"
+      },
+      {
+        "time": "after the show in Japan",
+        "event": "Calvin explored his new place"
+      },
+      {
+        "time": "the show in Tokyo",
+        "event": "Calvin had the audience sing along to his song"
+      },
+      {
+        "time": "by the end of next month",
+        "event": "Dave hopes to have finished restoring the car"
+      },
+      {
+        "time": "Last Friday",
+        "event": "Dave had a card-night with friends"
+      },
+      {
+        "time": "Yesterday",
+        "event": "Calvin recorded a podcast with friends"
+      },
+      {
+        "time": "Last weekend",
+        "event": "Calvin started shooting a video for his new album"
+      },
+      {
+        "time": "yesterday",
+        "event": "Dave returned from San Francisco with insights on car modification"
+      },
+      {
+        "time": "last week",
+        "event": "Calvin booked a flight ticket to Boston"
+      },
+      {
+        "time": "11th",
+        "event": "Calvin's album was released"
+      },
+      {
+        "time": "Future",
+        "event": "Calvin is going on tour"
+      },
+      {
+        "time": "Future",
+        "event": "Calvin plans to explore and grow his brand"
+      },
+      {
+        "time": "Future",
+        "event": "Calvin plans to visit Dave's garage in Boston"
+      },
+      {
+        "time": "last night",
+        "event": "Dave's band jammed and enjoyed the session"
+      },
+      {
+        "time": "last weekend",
+        "event": "Dave attended a rock concert in Boston"
+      },
+      {
+        "time": "current",
+        "event": "Dave completed the restoration of a vintage car"
+      },
+      {
+        "time": "Yesterday",
+        "event": "Calvin met with artists in Boston to discuss collaboration"
+      },
+      {
+        "time": "Current",
+        "event": "Dave is working on restoring a Ford Mustang"
+      },
+      {
+        "time": "Last Friday",
+        "event": "Dave went to the car show and saw some awesome cars."
+      },
+      {
+        "time": "last week",
+        "event": "Calvin got a new Ferrari."
+      },
+      {
+        "time": "recently",
+        "event": "The Fireworks performed with Frank Ocean."
+      },
+      {
+        "time": "August last year",
+        "event": "Calvin met Frank Ocean at a festival and decided to collaborate"
+      },
+      {
+        "time": "Next month",
+        "event": "Calvin is going to Tokyo after the tour ends"
+      },
+      {
+        "time": "recently",
+        "event": "Dave had a conversation with neighbors about current events and politics"
+      },
+      {
+        "time": "age 10",
+        "event": "Dave became fascinated with how machines work"
+      },
+      {
+        "time": "last year",
+        "event": "Dave restored a car and sold it"
+      },
+      {
+        "time": "yesterday",
+        "event": "Calvin visited some sights in Boston"
+      },
+      {
+        "time": "recently",
+        "event": "Dave attended a conference in Detroit"
+      },
+      {
+        "time": "when Dave was 10",
+        "event": "Dave was first introduced to cars at a car show"
+      },
+      {
+        "time": "recently",
+        "event": "Dave got into photography"
+      },
+      {
+        "time": "last month",
+        "event": "Dave took a picture of a sunset in Boston"
+      },
+      {
+        "time": "recently",
+        "event": "Calvin attended a networking event to meet artists"
+      },
+      {
+        "time": "last week",
+        "event": "Calvin threw a small party for his album release"
+      },
+      {
+        "time": "recently",
+        "event": "Dave posted about modifying a car in his blog"
+      },
+      {
+        "time": "recently",
+        "event": "Dave restored a car"
+      },
+      {
+        "time": "Unknown",
+        "event": "Calvin performed in Boston"
+      },
+      {
+        "time": "Unknown",
+        "event": "Calvin discussed with Dave about the importance of supportive people in his music career"
+      },
+      {
+        "time": "Unknown",
+        "event": "Calvin shared memories of freestyling with Dave"
+      },
+      {
+        "time": "Unknown",
+        "event": "Calvin showed Dave a photo of young musicians he is supporting"
+      },
+      {
+        "time": "Unknown",
+        "event": "Calvin showed Dave a photo of him making a beat for a young artist"
+      },
+      {
+        "time": "Unknown",
+        "event": "Calvin talked about trying new ideas and staying ahead in music"
+      },
+      {
+        "time": "this month",
+        "event": "Dave bought a new vintage camera"
+      },
+      {
+        "time": "yesterday",
+        "event": "Calvin went to a fancy gala in Boston"
+      },
+      {
+        "time": "last week",
+        "event": "Dave snapped a picture of a scene with rocks and a waterfall"
+      }
+    ],
+    "session_counter": 30,
+    "token_budget": 300
+  },
+  "segments": [
+    "Calvin : Hey Dave! Nice to meet you! How ' going since we talked? Dave : Hey Calvin meet you too! Things going well since last talked attended this awesome event recently like car lover ' s paradise! many classic cars on show in awe opportunity to speak with owners hear fascinating stories. super inspiring. What about you? Anything exciting happening in your life lately? Calvin : event sounds great! exciting happened to me - had big life change! my new mansion - cool? Dave Congrats on big change! inspired you to start journey? Calvin excited to learn about Japanese culture expand. Dave learning about new cultures awesome! been to Japan? Never been there before. Fascinated by traditions can ' t wait to taste of culture. Japan sounds amazing. wait to hear all about it! When leaving? Calvin heading there next month staying in nice place while there. Dave looks cozy! find place to stay there? agent found me awesome place thankful! place to stay key. plans for trip? planning to explore city try out local cuisines collaborate with musicians. Collaborating with local musicians amazing experience. How long planning to stay in Japan? Calvin be in Japan for few months then off to Boston! can ' t wait! Dave for to return from trip. been spending lots of time at beautiful park lately - calming. been there before? Calvin No never been in that park. Looks like chill spot.check it out when back. Appreciate tip! Dave : Cool! Enjoy trip! need more recommendations Have fun! Calvin : Thanks, Dave! If need help sure to let you know. Stay safe",
+    "Calvin : Hey Dave been few days wanted let you in cool news got new car amazing! owning luxury car was dream come true stoked. Dave : Woohoo, Calvin! Congrats on new car! How driving? Calvin : Nice car! amazing ride - super smooth real powerful rockstar behind wheel! Thanks, man! Dave : Wow, Calvin! Owning must feel amazing your first one? Show me pic! called? Calvin : Woohoo! got myself beauty. pic from yesterday took for ride Can ' t believe driving it. deserve after hard work. adrenaline rush! Dave : Calvin car looks awesome! feel amazing every time inside! deserved it congrats buddy! Calvin : on cloud nine! Hard work pays off What up with you, Dave? Dave : Thanks, Calvin! Doing good. Last weekend went music festival in Boston awesome many cool bands playing atmosphere electric love music reminded why love it. pic, take a look. Calvin : Wow sounds like blast! favorite? Dave : many great bands! pick favorite Aerosmith performance incredible show you a pic took when playing. Calvin : Cool! Lovin ' Aerosmith. Dave : saw them live amazing experience! jamming out to one their hits.Check out epic picture! Calvin : Cool, Dave! favorite singers live wild! chance hang out with them after show? Dave : didn ' t hang with after show seeing them live cool enough. always dream to see favorites performing! Calvin : dream to see favorites doing! glad experience. Dave : Thanks, Calvin! incredible experience. anything new happening life? Calvin new ride wrote new tunes studio sessions last excited to collaborate. t wait share everyone! Dave : Cool, Calvin! Looking forward to hearing new tunes updated collaborations! Calvin : no worries! let know how it goes. Cheers! Dave : Enjoy collaborations, Calvin! Stay safe! Calvin Thanks, Dave! have fun stay safe. Bye",
+    "Calvin : Hey Dave! Long time no see. went to awesome music thingy in Tokyo - cool! Dave : Hey Calvin! Great to hear from you. How was music thingy in Tokyo? See any cool bands? Calvin : Hey Dave! festival in Tokyo awesome! see any bands met talented artists industry people. enriching! Dave : Wow Calvin, sounds great! What learn from it? Calvin learned lot got great advice from professionals in music industry inspiring! Dave inspiring surrounded by professionals. advice from? Calvin producer gave advice to stay true to myself sound unique thinking about where want music to go. motivating! Dave see you staying true to yourself. where see music taking you? Calvin : Thanks, Dave dreaming of touring world performing for different people connecting with them hope music can reach global audience make impact. looking forward to upcoming trip to Boston after finish Frank Ocean tour. music scene there awesome can ' t wait to check it out! Dave : amazing plan, Cal! wait for trip to Boston show you around town cool spots music scene awesome places like Paradise Rock House of Blues Fenway Park great performances there. Count me in for front row up onstage! check out this pic. Calvin : Boston looks great! Thanks for tips awesome pic! Dave : Last weekend went to car show. Classic cars charming dedication into restoring them amazing into auto engineering.Can ' t wait to show you when to Boston! almost forgot to send photo look at beautiful car! Calvin : Dave car looks great! look at my car put lot work into. Can ' t wait to see more when in Boston! Dave : Thanks! took lot work. check out Boston apart from gigs? Calvin : Not yet busy with rehearsals traveling looking forward to exploring city trying delicious food visiting popular attractions. Maybe grab bite together when there? Dave :, Cal! grab food show favorite spots city Can ' t wait to show! Calvin : Sounds great, Dave! ' t wait to try out food. be fun! Dave : be great, Cal! Can ' t wait to show amazing music food. See you soon",
+    "Dave : Hey Calvin long time no see! lot been happening since last talked finally opened my own car maintenance shop! satisfying to spot to work on cars - like a dream come true! look at photo. Calvin : Dave! Congrats on opening your car maintenance shop! hard work dedication paid off. Dave : Thanks, Cal! great to see hard work paying off Opening shop was my dream, happy to see it getting started lot of hard work worth it. Calvin : Woo, Dave! Congrats on achieving dream guts and ambition awesome! Keep it up! Dave : Thanks! Appreciate support. dream was to open shop step towards other dream of working on classic cars. love their design and engineering. Calvin : Dave Going for with classic cars cool! Fulfilling dreams important. Dave obsessed with classic cars unique charm thrilled to restore one last year nothing like bringing it back to life! look at engine of restored car. Calvin Dave awesome Dave Thanks Calvin labor of love. Challenging worth it. Calvin awesome see something worked on come to life. Dave feels great to see hard work pay off bringing something back to life. amazing feeling create something resonates with people satisfying when finish something made from scratch! Dave amazing feeling to see something create become reality. skills hard work made it happen incredible. Calvin Feels good when hard work pays off perfect blend of dedication and passion! Dave mix keeps me motivated makes it worthwhile.Calvin : Keep going for it! Dave : I will! photo of my shop. Come by sometime! Calvin : your shop looks great! love to check it out. What cars work on at your shop? Dave : Thanks, Calvin! work on all cars shop - from regular maintenance to full restorations of classic cars keeps me busy happy! Calvin Dave working on cars must be rewarding. Dave working on cars passionate about. Doing every day rewarding! transformation awesome helping people keep cars in good condition satisfying. Calvin Dave Doing love helping others rewarding. Keep up great work! Dave : Thanks, Cal! appreciate boost my work valued brings joy to others. Calvin : Glad to help, Dave! awesome to see you doing your thing making difference hard work talent deserve recognition. Keep on keepin ' on, bud! look at beautiful necklace with diamond pendant stunning! Dave : great necklace! Where it? Calvin Thanks Dave got from another artist as gift great reminder of why keep hustling as musician! Dave Calvin Keep pushing making music remind us why keep hustling. Calvin Dave road can be hard remember why we doing it it keeps us going. keep each other motivated",
+    "Dave : Hey Calvin! Long time no talk. How ' going? Crazy news - teaming up with local garage. look at what we working on together! Calvin : Hey Dave great to hear from you! awesome news about teaming with local garage. inspiring seeing follow passion. Congratulations on new venture impressive how far come since last chatted. How ' s everything going? Dave : Thanks, Calvin! loving this job. work with awesome mechanics share knowledge about cars. currently working on! cool project challenging. Calvin : car looks awesome! putting in lot of effort great to see end result. Keep up good work. plans for what next? Dave : Thanks Calvin! Appreciate support keep learning more about auto engineering build custom car from scratch dream! For keep working on project assisting customers. Calvin :, Dave! inspiring - good for you for pushing yourself to achieve dream. Making custom car sounds awesome Don ' t forget to relax enjoy process! Dave : Thanks, Calvin! take time to chill. hobbies help relax? Calvin : Dave long drives in car ] help me relax feeling of wind open road freeing helps clear head. chill out? Dave : hear you! Driving with wind in hair calming Taking walk around great way to destress Exploring taking sights sounds peaceful experience. Calvin : hear ya Embracing nature calming for. loving know Japanese culture.stuck with music like creativity frozen. tips? Dave : If trouble with ideas immerse myself in something love like concerts favorite albums helps jumpstart inspiration. Maybe try break from music explore other things fun while at it! Calvin : Thanks, Dave! Taking break great for getting mojo back take advice explore. Appreciate help! awesome! Dave : No worries, Calvin! Glad could help Keep pursuing music never give up awesome! Calvin : Thanks appreciate it Won ' t give up. stay in touch! Bye! Dave : Sure, Calvin! Keep in touch. If need help let me know. Bye",
+    "Calvin : Hey Dave! Long time no chat! Lots gone down since last caught up. Dave : Hey Calvin Long time no chat! How everything going since caught up? Calvin : Hey Dave not everything going smoothly had incident last week place flooded managed to save music gear favorite microphone. tough staying positive looking forward to getting everything fixed up. Dave : rough, Calvin. Sorry to hear glad save music gear mic - important things. Stay positive, pal Anything can to help? Calvin : Thanks, Dave. Appreciate support Waiting on insurance to kick in start repairs - fingers crossed won t take too long. look at creative haven pour heart into music. Dave : studio looks awesome, Cal! hope get it fixed soon continue creating music Calvin : Thanks, Dave! Can ' t wait to get back to making music Anything exciting working on days? Dave excited opened car shop last week! Invited friends to celebrate amazing stoked share passion help with folks ' rides incredible. Calvin : Way to go, Dave! Congrats on opening car shop! excitement contagious. Keep up great work! Dave Thanks Calvin support appreciated journey far excited to see future.? Anything exciting in world of music? Calvin : Thanks Dave! excited for upcoming performance in Tokyo this month great to show music to new crowd expand following! Dave : Cool, Cal! Doing show in Tokyo audience love it. Wishing you all luck! Let know how it goesCalvin : Sure thing, Dave! keep posted on how Thanks for good luck! wonderful night! Dave : looks great! Where snap pic? Calvin took pic in Tokyo last night skyline stunning! Dave : great shot! night skyline pops with city lights take trip soon! Calvin : Thanks Dave! city lights amazing visit, awesome! Dave adding to my list. Thanks",
+    "Calvin : Hey Dave! Been ages since chatted. much gone down. Touring with Frank Ocean last week wild. Tokyo unreal - crowd insane felt alive when performing can ' t find words to express. Dave : awesome, Cal! incredible experience. Congrats! been up to recently my neighbor ' s car trouble with engine now done by myself! Calvin : Thanks, Dave! amazing experience - energy and love from fans crazy. car in the pic? fixing up engine for friend? Working on cars helps me chill clear head. Dave : Yes, Cal! not difficult for to help neighbors with cars. Working on cars therapeutic relax you as much? Calvin : Fixing cars calms me down gives real sense of achievement meditating any hobbies give same satisfaction? Dave : passionate about fixing up things more than just hobby gives sense of achievement and purpose buzz transforming something not working into runs smoothly giving second chance. Calvin : inspiring, Dave find purpose in transforming things create new or collaborate with others. making something great out of nothing amazing? Dave : Cal cool how take something make it look amazing Giving new life makes me feel powerful happy achieved something. Calvin :, Dave! feeling of power and happiness amazing! great to see what we created with hard work ideas. Dave :, Calvin! Accomplishment keeps me motivated. Tokyo lit you upalways enjoy performing live? Calvin : fuels my soul! love rush connection with crowd feeling indescribable absolute high! Dave : feels awesome connection between artist and audience powerful. atmosphere in photo off charts! Calvin :, Dave! feeling amazing. Everyone part of it like one big harmony. Dave Music brings people together creates great atmosphere like therapy for us. next for music? Calvin : Cool can ' t wait for tour with Frank! buzzing to perform in Boston see what it s like great playing for folks from home. think music scene? Dave : Boston ' s music scene awesome! of talented musicians cool places to play blast performing there cheer you on! Calvin : Thanks, Dave! support means a lot me Can ' t wait to experience music scene. Dave : Great, Calvin! great time in Boston t wait to hear all when get back! Calvin : Thanks! fill you in on details when get back. See you soon",
+    "Calvin : Hey Dave! Met creative team for my album yesterday long session awesome to see everything coming together. Dave : Hey Cal! Sounds great your album ' s coming along feeling good it? pic took. Calvin : Dave thanks for checking in feeling stoked about this album! making magic with team in studio working on music. Look wonderful studio! How? Anything new since talked? Dave : nice photo of studio! Working team yields incredible results well done! Keep pushing it! doing good - thanks for asking exploring parks weekends to relax peaceful surrounded by nature. any chill spots in Boston? Calvin : Thanks! studio great for creativity never been to Boston before hear parks amazing Can ' t wait to visit next month. cool remember about Boston parks? Dave : sounds great Boston parks awesome especially in spring serene walking around went for stroll last Friday amazing magical love it love taking walks on weekends recharge me for entire upcoming week! Calvin excited to experience serenity can ' t wait to walk in parks recharge. been on any hikes lately? Dave haven ' t gone hiking recently awesome - being in nature pushing to new heights Clears mind brings sense of calm. been to mountains before? Heard super chill. Calvin : haven t been to mountains keen to go for way to escape it all de - stress want to go on hike to place similar this.new exciting happening, Dave? Dave booked trip to mountainous region next month! see majestic peaks! amazing experience! Calvin : Cool, Dave! great time amazing experience Take lots of pics show me when get back. Dave :, Calvin! pics Can t wait to show back! Calvin fun exploring mountains, Dave! Safe travels see you soon. Take care! Dave : Thanks, Calvin! Take care see you soon",
+    "Calvin : Hi Dave! Nice to hear from you Since last chat things happened had lil car accident last Friday upsetting no one hurt. dealing with insurance repairs - taking up time energy. Look at photo! Dave : Sorry hear about car accident, Calvin. glad hear nobody hurt. Dealing with insurance repairs time - consuming draining. encountered issues in insurance process? Calvin : Hey Dave thanks for checking in! insurance process hassle took forever ton of paperwork sorted now getting fixed up Can ' t wait to drive again! Dave : How long to get everything sorted out? taken care of now! Calvin took a week to sort everything out worried about cost wasn t too bad Look photo from auto repair shop Dave : Cool t too expensive. Who? Calvin : mechanic knows stuff doing best to get car running again. Dave great to hear! Skilled knowledgeable people working on car feeling confident? Calvin more confident excited to show off car! Trusting expertise. Dave : Great, Cal! trust people fixing it doing great job. back to normal soon! Calvin : Thanks, Dave! Excited to drive again Appreciate help! wonderful view from living room! Dave : amazing view! Where is it? haven t seen anything that before! Calvin Thanks Dave from small town in Japanview of mountains stunning! Dave : Wow get to place yet? Calvin : Nope not yet! haven ' t been there before on to - do list after tour with Frank Ocean ends Can t wait see them in person! Look at snowy peak Dave : Looks awesome! tried skiing before? like loads fun! Calvin : Haven t tried before lot fun! might give try once. what anything new daily routine? Dave : Yes, Cal! recently joined rock band practicing guitar. Look at photo us! Calvin : Playing guitar in rock band awesome Dave bring emotions. Dave : Sounds good, Calvin! Good company great music lift mood positive emotions! to go now. see you soon! Calvin : Thanks, Dave! keep in touch, take care",
+    "Dave : Hey Calvin how car doing after crash? stoked to get back on road? Calvin : Hey Dave! Thanks for checking in good now, car ' s fixed going strong. Nothing better than cruising around - best! Look at how my car looks now. How been? Anything new? Dave : Glad hear car ' s fixed going strong! been good hanging out with friends at parks lately arranged with friends for regular walks together in park. Calvin great plan! Regular walks with friends wonderful way to spend time together stay active Fresh air buddies do wonders. favorite spot for hanging out? Dave : today going to that spot lovely photo. Calvin view! sunset over river gorgeous tranquil Reminds me of living in Japanese mansion with epic cityscape like dream come true! photo from backyard of mansion beautiful! Dave peace by river nice living in Japanese mansion surrounded by city skyline must stunning views amazing! Calvin beautiful look out windows city lights awe - inspiring. Luxury beauty new level Look at front part of mansion. Dave mansion looks great! view from inside stunning amazing living there. Anything else looking forward to doing in Japan? Calvin : Thanks Dave! Japan amazing Can ' t wait to try food check out culture. been there? Dave never been to Japan keen to go one day. full of vibes, good eats awesome tech.experience culture amazing hooked on music! Calvin : Japan has all - vibes food tech amazing culture like stepping into another world. working on cool music collaborations with Japanese artists excited to hear how out! Dave : Cool, Cal! Working great chance can ' t wait for tunes! Thanks share clips ready. Collaborating with artists exciting create unique. Dave : Way to go, Cal! Collaborating with different artists create special sounds amazing Can ' t wait to see / hear end product! Calvin Thanks, Dave! Appreciate help awesome can ' t wait to show you. Great catching up get back to work now. Take care! Dave : Hey Cal care don ' t overwork yourself! Talk to you soon Stay safe",
+    "Dave : Hey Cal, been ages since we spoke! got back from road trip with friends saw stunning countryside lovely break from corporate mayhem. Driving on winding roads taking views chatting with friends recharged me reminds me why love cars. What you end up doing? Calvin : Hey Dave! Great hearing from you! road trip sounds awesome felt great to get away from work relax on twisty roads. Recharging with passion awesome! Dave : great to get away reconnect with passion Reminded why passionate about what I do Makes long hours worth it pic wonderful place we found recent moments made remember what you love? Calvin : happy for you found amazing place! working on project to transform Japanese mansion into recording studio dream to space for creating music with other artists my sanctuary reminds why love music pic of progress I made. Dave : Calvin looks amazing made much progress fulfilling have your own space. What music creating? Calvin : Thanks, Dave feels great having my own space to work in experimenting with different genres pushing myself out of comfort zone Adding electronic elements to songs gives fresh vibe. exciting process of self - discovery and growth! Dave : Calvin great exciting process self - discovery growth to experiment with different genres. moving between styles present challenges? Calvin switching it up can be tough finding right balance between sticking to sound and trying new stuff.intimidating makes exciting keeps me motivated to keep going! Dave : get it. Finding balance tricky keep things interesting. dealing with pressure staying motivated? Calvin : started making music follow dreams stoked about far come Collaborating with others learning keeps me motivated Surrounding with positive energy passion helps. Dave : great plan, Calvin! Surrounding good vibes collaborating others give boost. achieved much far ; keep going, buddy! Calvin : Thanks, Dave! support means a lot keep pushing myself striving for goals chat again soon. Dave : got this! Keep pushing yourself never lose sight of goals. biggest fan. chat soon! Calvin : Thanks, Dave! Appreciate support. catch up soon chat. Take care",
+    "Calvin : Hey Dave long time no see! took Ferrari for service stressful attached to it. you relate? hobbies give feeling of being restored? Dave : Calvin understand stress of getting car serviced. Fixing cars like therapy for Growing up working on cars with dad refurbishing them gives sense of fulfillment. Calvin : Wow, Dave awesome! feel great to have hobby makes you proud. Remember good memories from working on cars with dad? Dave : fond memories of working on cars with dad kid spent one summer restoring old car hard work end result did together satisfying. Calvin : awesome, Dave! Working together on projects brings people closer any pictures from time? Dave : Yes one take a look wonderful experience. Calvin : cool, Dave Reminiscing always fun! pic shared takes back to trip to Ferrari dealership saw amazing cars for my car is best proud of this. material reminds of hard work dedication inspires me. look at beauty! Dave : car looks great, Calvin! why proud. motivating reminder of what you can achieve. Calvin : Thanks, Dave! everyday keeps me motivated reminds me to keep pushing. Dave : Sounds motivated, Calvin. biggest goal working towards, music - wise? Calvin : plan for to expand brand worldwide grow fanbase. want music to reach more people make impact. Working with artists from globe challenging myself to create special music goals of mine.Look at photo performed with boys last night great at music! Dave :, Calvin! Working with artists crafting great sounds help reach goals. Keep making difference! Calvin : Thanks Dave! support encouragement mean a lot me determined to make dreams come true. Dave : Glad to help, Calvin! Eager to see what you do Keep never forget dreams! Thanks Dave appreciate support means a lot me keep going for dreams. Dave No problem Calvin! remember to stay focused keep going got this! Calvin Thanks Dave stay focused keep going Appreciate belief",
+    "Dave : Hey Calvin, been ages!? picked for car mod workshop. get better learn something new! Look at cars working with now. Calvin : Wow Dave awesome! Congrats on being picked for car mod workshop great opportunity to take skills up notch. any mods or projects excited to work on? Dave : Thanks, Calvin! dream come true for me always wanted to learn auto engineering work on building custom car. Calvin : awesome Dave! Pursuing passion for auto engineering making custom car great experience excited to see what you create. Keep it up have fun every step. most thrilling part? Dave : Thanks, Calvin found picture with thrilling part of workshop take a look potential come to life satisfying. Calvin : fulfilling hobby! transformations done far? with current project? Dave working on this car doing engine swaps suspension modifications learning about body modifications. Giving classic muscle car modern twist challenge fun! Calvin Dave looks cool silver finish gives modern twist. Great job! Dave Thanks Calvin wanted modern vibe classic muscle car style. happy with it! Calvin put in work! attention to detail great. Dave Thanks, Calvin about small details make unique and personalized. Calvin customizing masterpiece with small details makes unique personalized. Dave showing my style like customizing work of art on wheels. Calvin No problem Dave enthusiasm hard work show in everything. Keep coming up with new cool stuff, bud excited to see what you ' ll do next.Dave : Cheers, Calvin! appreciate help keep working hard new cool stuff need hand with music let me know! Check out music studio setup high - quality sound system. believe amazing songs sound! Calvin : Thanks for offer Dave busy with music keep it in mind. Great work, dude! Dave : No worries, Calvin Got it Good luck with music! Calvin Thanks for encouragement Dave keep working hard making music. Take care! Dave : See ya, Calvin! Stay awesome Catch ya later",
+    "Dave : Hey Cal, how ' s it going? cool happened since last talked - got to go to car workshop in San Francisco! cool to dive into world car restoration see different techniques. People passionate dedicated - inspiring! Calvin : Hey Dave! awesome! Car workshops sound cool inspiring. Glad found something gets you going. Dave : always great to learn grow. what been up to lately? Calvin had amazing experience touring with well - known artist feeling of performing connecting with audience unreal ended with show in Japan opportunity to explore new place like dream come true! Dave Calvin playing for eager audience incredible experience. Exploring Japan must amazing! Tokyo react to your music? special moments? Calvin : Thanks, Dave! show in Tokyo awesome! Everyone into it when played songs sang along magical moment. Dave Calvin sounds amazing! pictures from show? love to see atmosphere. Calvin pic I took awesome loved crowd into it moments love my job. Dave energy in pic awesome! Seeing everyone with hands up must cool. great when passion brings joy to others! Calvin buzzing! moments make me proud motivated about spreading joy with art. how ' s your project going? Dave : project going great! pic of car restoring cool seeing it go from beat - up mess to real beauty. Calvin Dave car look amazing when you ' re done.long think to restore it? Dave : Thanks, Calvin! Fingers crossed fixed end of next month Lots elbow grease worth transformation. Calvin :, Dave excited to see end result hard work! serious talent! Dave : Thanks, Cal! support means a lot me. Calvin : got this, Dave! always here for you. enthusiasm amazing. Keep growing, buddy. worth it! Good luck See ya",
+    "Dave : Hey Calvin! Haven ' t talked while! Last Friday had card - night with friends much fun. laughed great time! look at photo! Calvin : Hey Dave! Great to hear card night sounds like a blast! Always love having fun with friends scored deal to continue collaboration with Frank Ocean! dream come true for me been working hard finally paying off. No words describe happy. Dave : Calvin, congrats! excited for. How chance come up? Calvin : Thanks, Dave! opportunity to meet Frank Ocean at music festival in Tokyo clicked speaking sharing ideas arranged meeting recorded song in studio at my mansion great! Dave : Tokyo incredible experience! Calvin experience Dave city buzzing with energy festival crowd lively fuel for my soul. Look at photo amazing! Dave : incredible like playing at festival? amazing experience Calvin dream come true, Dave festival had buzzing energy upbeat crowd felt connected amazing! Dave : Sounds like had a blast! any other collaborations performance? upcoming concerts about? Calvin : Dave noticed my performance now working together wild. tour ends soon heading to Boston. Maybe meet up then! Dave : Sounds great! Fill me in on details meet up when here. Can ' t wait to hear all about everything! Calvin : Dave ' t wait to catch up! friends I recorded podcast discuss rapidly evolving rap industry! Dave : sounds fantastic! looking forward to listening to podcast learning more about rap industry.Keep up great work! Calvin : know podcast uploaded Take care! Dave : Sure Calvin! Looking forward to hearing See ya then",
+    "Dave : Hey Calvin! Long time no chat! end of your tour? amazing! Calvin : Dave tour amazing! pumped from energy from audience. This pic captures how I felt. amazing time! Dave : looks amazing! performing on big stage? Calvin : Performing big stage was dream come true! energy incredible felt on top of world seriously surreal. Dave : incredible experience! Congrats on achieving awesome moment! Calvin : Cool! Last weekend started shooting video for new album can ' t wait for to check out! great! Dave Calvin! t wait to see it shot on location? Calvin doing shoot in Miami picked awesome beach epic visuals! Dave : Sounds great, Calvin! beaches in Miami awesome can ' t wait to see them! Calvin amazing! love Miami vibe perfect for vid. t wait to show you! Dave : Looking forward to it! excited to see vibe and location. need help with props for video here to support you! Calvin : Thanks, Dave! need assistance with props. Your support appreciated. Dave : when here to lend a hand. great to fuel your ideas. Remember photo sent me once? Love guitar shows different artistic styles. Calvin : Yes Dave remember! custom made by Japanese artist friend octopus on represents love for art and sea. one of favorites! Dave : great guitar, Calvin! Love design unique and special. Calvin : Cheers, mate! appreciate it.guitar means much to me reminder of my passion for music amazing friendships made. Dave : Calvin instrument means a lot to you like representation of your journey passion for music friendships. Amazing! Calvin : Yeah, Dave! like every mark and strum holds story. look Dave : guitar has gorgeous purple hue Why make shiny? Calvin : customized with shiny finish gives unique look goes with my style. Dave : Good pick! customized purple glow gives unique look stands out. Calvin : Thanks, unique. totally my style! Dave : Looks great! unique style stands out in music playing. Calvin : Thanks, Dave! Trying to stay true to myself be unique in music I value great to hear appreciate it. Dave : staying true your style is vital makes you unique music stand out. Keep it real, bud. something great to give the world.",
+    "Dave : Hey Calvin! Been a while what ' s up? tied up with car stuff lately yesterday came back from San Francsico with great insights knowledge on car modification share! Changing things giving old car new life satisfying! Calvin : Hey Dave! Nice to hear from you cool! understand satisfaction from fixing cars like giving new life. Dave : great fixing stuff up seeing it turn out better rewarding gives sense of purpose. feels like making difference when fix someone ' s car. Calvin : feel great making real difference in someone ' s life like being their superhero! Dave : great! feels good to make difference see relief when car fixed. Makes me proud! Calvin : Dave awesome! proud of for bringing joy to others booked flight ticket to Boston last week excited about upcoming trip to Boston. Look See you soon buddy! Dave : Cool! know when free catch up in Boston. Calvin : let know when in Boston. See soon! Dave : Looking forward to seeing you! safe trip Calvin : Thanks, Dave! stay safe on trip ' t wait to see you will contact you when arrive. Goodbye",
+    "Calvin : Hey Dave! took me long to get back to you. Crazy times since talked! My album dropped 11th wild feeling. Everyone loving it motivated me to keep going. Dave : Hey Calvin! Congrats on your album release awesome! overwhelming or inspiring? Calvin : Thanks, Dave! been a lot. Seeing everyone get behind awesome overwhelming to think many appreciate it. cool connecting with people motivates me to make better music. Dave : awesome Calvin great feeling when work noticed makes positive difference must motivating for to keep chasing dreams. Calvin : moments remind me why got into music - making difference sharing my own story exciting to get positive feedback gives strength to keep going reach more people. journey getting started! Dave :, Calvin! come long way since started talking music. next for you? exciting coming up? Calvin : Thanks Dave! cool stuff happening. Next tour excited! After off to explore grow my brand Can ' t wait to see future in store! Dave : Calvin Congrats on upcoming tour! Can ' t wait to see perform. any cities or venues in mind? Calvin : Dave hitting awesome spots epic! Dave : sounds awesome Calvin! Live music best blast on tour make awesome memories check out garage see cool cars love to show you around. Keep rockin '! Calvin : Thanks, Dave! take you up on that offer. fun to check out garage get ideas for future projects.let know in Boston pursuing passions keep cars rolling rock! Dave : Thanks, Calvin! Appreciate kind words support Can ' t wait for visit! creating amazing music! Check out pic garage stunning! Calvin : Thanks! can ' t wait for visit enjoying hobbies! Dave : Sure! Thanks for help. Bye! great day Calvin No problem! good chatting. awesome day! Dave Thanks Calvin Catch you later great day",
+    "Dave : Hey Calvin! Long time no talk! cool news to share - last night was a blast! My band and I jamming music kept flowing fun rehearsing! last weekend opportunity to attend rock concert in Boston. look at amazing atmosphere! Calvin : Hey Dave! awesome! everything clicks during jam session great feeling. any recordings sessions? sounds fantastic! Rock concerts electrifying atmosphere! Dave : Hey Calvin! wish recorded jam way too into it forgot. Calvin : bummer! loved to hear music. best memories can ' t be captured on video or audio like special moments stay in hearts and minds. look at cool Disney poster! Dave : gorgeous poster! reminds me of favorite Disney movies love lesson teaches about following dreams. seen it yet? Calvin : Thanks! Ratatouille of my favorites! about going after what you love,. Last time talked mentioned car hobby going? Dave : Thanks Calvin awesome restoring vintage beauty final result pic look! Calvin : Nice work, Dave! amazing satisfying to see hard work pay off? Dave : Thanks, Calvin satisfying see this brought back to life, especially people ' s reactions finished product makes hard work worth it. Calvin Dave awesome seeing people happy thanks to you! Fixing cars is art inspiring - keep up good work! Dave : Thanks, Calvin! means a lot appreciate what I do.glad can make people happy gonna keep doing. Got go now lot of work to do! Take care! Calvin : talented, Dave Keep making people happy doing what you love That s what it ' s all about See you soon have nice one",
+    "Dave : Hey Calvin good to catch up again! Had tough time with my car project. Worked on engine of vintage Mustang thought fixed it, started up heard weird noise. disappointing after much work in. Take look at engine! Calvin : Hey Dave sorry to hear about car trouble. must be disappointing after work into fixing cars can be tricky. check out this pic! sign of my hard work and dedication. reminds me how far I ' ve come. Dave : thanks Calvin! love sunlight hits this great symbol of hard work. feel proud when look at. special memories? Calvin :, Dave amazing drive one summer day. wind blowing through hair rush of freedom unforgettable pondered intricacies of life appreciate path chosen decisions shaped my journey. trip to Japan incredible - culture, people everything cool. longing to go back experience made hard work worth it. Dave : Calvin awesome! feeling of freedom in summer best. moment of reflection makes journey interesting productive! any songs from childhood bring back memories? Calvin : this one song makes me smile played during road trip with dad fun singing. Dave : Sounds awesome, Calvin! Road trips with family always a treat. name of song? Calvin : used to rock song by Tupac and Dr. Dre \" California Love \". days! Dave : Sounds great, Cal! \" California Love \" classic! jam some music together! Calvin : let ' s do it! awesomeDave : stoked, Calvin! crank music awesome jam session Can ' t wait! Calvin : Yeah Dave! be great! Can ' t wait to see what we can do Dave let ' s do it! awesome rock it! Calvin this can ' t wait! Dave Nice one, Calvin! make awesome memories great time See soon! Calvin Count me in Can ' t wait create special. See you soon! Dave Calvin! Can ' t wait see soon Take easy till",
+    "Calvin : Hey Dave! Yesterday met with incredible artists in Boston talked about working together inspiring exciting experience - individual styles stoked to collaborate on new music. Dave : Awesome, Calvin! Connecting with talented artists must inspiring experience Can ' t wait to hear what your collaboration. know how it goes! how arrange meeting? Calvin : Hey Dave awesome talking to artists! mutual friend knew great fit Can ' t wait to show final result. check out project love working on it to chill out. How about you? hobbies to help relax? Dave : Calvin car looks great! Working on cars helps me relax therapeutic to see them come back to life been working on Ford Mustang found in junkyard bad shape knew had potential. Calvin :, Dave! awesome bring things back to life any pictures of looking amazing? love to see how it turned out! Dave : Calvin check out photo! put work restoring result awesome satisfying to bring old car back to life. Calvin privileged to granted opportunity satisfying to bring back to life! Dave hands after day in garage - permanently stained with grease worth it when see end result. Calvin :, Dave! hands show worked hard put in lots of effort be proud! Dave : Thanks, Calvin love transform something old beat - up into beautiful. small successes make me feel proud fulfilled. Calvin little wins matter. give sense of accomplishment bring us joy.inspiring to see grow. Dave : Sure, Calvin! awesome seeing progress development in our projects ourselves. Hard work pay off! Calvin hard work dedication key to reaching goals potential awesome to see growth progress. Dave great to see progress motivating keeps me pushing for more. Calvin Agreed, Dave! Progress keeps us motivated pushing for more never give up keep striving for success. hard work determination matter sets us apart. Onwards to goals! Dave keep going! won ' t lose focus on goals Hard work determination will get us there. Let ' s do this! Calvin stay focused work hard to make dreams happen make it happen together! Wishing you best until meet again! Dave :, Calvin! Together can do amazing things if work together stay motivated. got this! Take care stay well",
+    "Dave : Hey Calvin! What s up? Last Friday went to car show saw awesome cars mess with car mods! many cool machines around much fun! look at this beautiful car! Calvin : Hey Dave sounds awesome! into rush of awesome cars Can ' t wait to check out garage. Dave : Thanks! this one looks great! restored modified myself added custom exhaust performance upgrades sweet sound proud of how it turned out. Calvin : Dave turned into masterpiece. Impressive! Dave : Thanks Calvin spent time effort on it not just a hobby passion like therapy to get away from everyday stress. little spend hours in dad ' s garage tinkering with engines my own sanctuary. lucky enough to do this as job take something broken make it into awesome. Calvin : Dave amazing Bringing broken things back to life satisfying. Working on cars can real escape from reality understand feeling. Doing you love for a living ultimate goal inspiring. Dave : Thanks Calvin my goal since kid awesome to do something I love. Restoring can be tough but feeling of accomplishment gives great. loving it. Calvin : Go for it, Dave! Chasing dreams is life ' s about awesome to see how far you come Keep working hard living best life. Dave : Thanks, Calvin Means a lot keep chasing dreams working hard. Conversations remind me why I love what I do. Calvin : Glad remind you, DaveKeep up good work stay focused You got this! Dave : Thanks, Calvin! support means a lot stay focused keep going Appreciate encouragement! Calvin : Dave! support you give boost. doing great! Dave : Thanks Calvin support means everything keep pushing reaching them. Calvin : No worries, Dave Keep going for it You got this",
+    "Dave : Hey Cal, miss ya! Crazy rollercoaster week. competing car maintenance shop snagged deal trying to secure for months made me feel bummed out. put in much effort at work, feels like nothing. wasting my time? Calvin : Hey Dave sorry to hear that. discouraging hard work goes unnoticed. don ' t give up, keep pushing believe in yourself. payoff worth it. Dave : Calvin thanks for encouragement be tough efforts going unseen. have faith and patience. only a matter of time till things work out. stay motivated when faced with setbacks? Calvin setbacks come my way remind passionate about goals rely on helpful people take break to recharge with favorite activities helps me get back to feeling motivated. Dave : great approach, Cal! Reminding of passion for goals getting help from others important Taking break having fun sounds refreshing back from music festival amazing energy music crowd - sooo good felt alive! Calvin Dave awesome Music festivals bring joy energy of crowd amazing photos from festival? to check out join in on fun. Dave : awesome pic from event main stage unreal headliner good vibe unreal! Calvin crowd looks excited stage incredible. Who headliner? Dave : Fireworks headlined festival. Calvin heard great things about Fireworks! Performing with Frank Ocean recently cool. Seeing them perform live must ve been awesome energy was electric! love my job - connecting with crowd.Dave :, Calvin! crowd had buzz. Music brings people together amazing like fixing up things. love feeling of taking something broken making it whole again keep doing what I do. Calvin : Dave! Music repairing things fulfilling satisfying Seeing something from broken to whole incredible making difference amazing. Keep it up, friend. Dave : Thanks, buddy. support helps great to have friend believes in me. keep pushing. Calvin : believe in you, Dave Keep pushing never forget how awesome Dave Thanks, Calvin! support means a lot keep going not forget my value! Calvin : C ' remember how great you! Keep going for dreams. got this Dave? Last week new Ferrari! masterpiece on wheels Excited for thrilling rides unforgettable journeys photo of unique beauty lift mood. Dave : Thanks ton for kind words encouragement! positivity contagious. Congratulations on new Ferrari incredible! one amazing ride all for thrilling journeys! share pic of new beauty ready. keep good vibes rolling! Take care see you later! Calvin Ferrari showstopper share a pic soon more thrilling rides positive vibes Take care, looking forward to catching up soon",
+    "Calvin : Hey Dave! Been few days since we talked lots happened. Started touring with Frank Ocean amazing - much energy from crowd connection when on stage - unreal! look at how I performed on stage awesome! Dave : Congrats, Calvin! awesome. play music to crowd feel connection must be unreal. tour going? Calvin : Thanks, Dave! tour great energy from crowd awesome jamming with Frank Ocean is dream come true. amazing! Dave :, Calvin! performing with him like a dream come true! How happen? Calvin : started August last year met at festival wanted to collaborate. clicked right away chemistry on stage incredible. lucky! Check photo look together on stage! Dave : Calvin you and Frank in tune! clear both rock on stage. Can ' t wait to catch show! Calvin : Thanks, Dave! excited be at one shows great experience enjoy it! Look at crowd insane! Dave : sounds exciting! Can t wait to experience everyone in crowd pumped up! Calvin : crowd energy amazing! always gets me pumped awesome Look photo awesome! Dave Calvin awesome pic! Everyone looks pumped Where taken? Calvin : Thanks, Dave! pic taken in Tokyo during concert energy was nuts - felt like whole city came out! Dave : Calvin, Tokyo looks incredible! pic found online making me dream about visiting someday.energy seems unbeatable! visited streets? Calvin : Yes, Dave! incredible experience visit similar streets like shared in your photo. anything else interests in Tokyo? Dave : Calvin! Tokyo amazing! want to know everything - people culture food walk at vibrant city life! photo below city alive colorful impressive! unforgettable experience! Calvin : photo great pic! lights, people lively! Can t wait to hear emotions see in person! Dave : amazing. Hope see it in person soon! Calvin : Cool, Dave! going to Tokyo next month after tour ends wish go back to places like in photo below. great view! Dave : Calvin! great to hear! specific spots in Tokyo excited to check out? Calvin Shibuya Crossing like Tokyo ' s Times Square excited to explore Shinjuku. amazing food can t wait to try again! photo of Shibuya Crossing at night amazing! Dave Shibuya and Shinjuku cool spots! food in Tokyo great fun exploring different places. tried ramen yet? photo of ramen bowl in Boston delicious in Tokyo better! Calvin : Thanks, Dave! Never tried it supposed awesome give shot while in Tokyo! Dave : Do it, Calvin! Once try it never go back. Bon voyage have fun! Calvin : Thanks, Dave! give it a shot. Appreciate encouragement! See you soon, bye",
+    "Dave : Hey Calvin, tour with Frank Ocean? pondering our chat about fame impact on relationships must be awesome have own struggles. juggling your job plus personal life? Calvin : tour ' incredible! Performing connecting with crowd energizing. fame has own challenges tough to balance everything. Dave : managing everything? feel overwhelmed? Calvin : take it one day at a time can get overwhelming with many demands. enjoy what I do push on. Dave : finding joy in do! strategies help manage everything? Calvin strong support system helpful. friends and team keep me on track. Dave : Cool! Having people understand and support you important recently good conversation with neighbors about current events politics nice to hear different perspectives share our own Interacting like cheers me up helps me stay informed? Calvin Staying connected up - to - date on world events important helps music stand out incorporating unique perspectives connects me better with fans keeps me motivated and inspired. Dave : Cool, Calvin! Art amazing reflects world anything caught your eye made impact on music? Calvin for! Recently inspired by struggles people through. made me dig deeper into music to capture feelings. Dave cool. Using music to share experiences feelings cathartic for you? Calvin way for to express myself work through emotions like my own form of therapy. Dave get it Cars give me outlet to express myself like oasis of calm. working on one connecting back with myself.yeah music helps! Look at my garage, dirty, everything in its place. Calvin : Looking cool - what start working on cars? Dave : since ten fascinated with machines work found old car in neighbor ' s garage asked if fix it. love for car engineering began! enjoyed transforming it from broken - down to high - running sense of accomplishment made me hooked been working on cars ever since. Calvin : Impressive! must have taken skill determination to bring car back to life. classic car? have or working on another project? Dave : Thanks Calvin! fun project restored car last year sold to collector Now working on something new a challenge! look at this wonderful car! Calvin : Cool! try toughest part of car restoration? Dave takes patience payoff worth it Paying extra attention to detail isn ' t easy pays off. Calvin details can make difference makes something great like well - crafted rap song or sleek and stylish car. Dave Calvin attention to details makes big difference in music or with vehicles Little things make big impact! Calvin Dave attention to small details makes difference Without them average. As artist want to create something extraordinary! Dave great, Calvin! Loving attention to detail work makes extra special. Keep on creating! Calvin Thanks Dave! Appreciate support! Dave Glad like it, Cal reminds of good times at concerts last month. Music connecting us making memories. picture atmosphere amazing! Calvin : Music way bringing us together creating unforgettable memories.unbeatable energy brings. Dave : sure Calvin! Concerts awesome bring people together create cool vibe feel energy in air look at unforgettable moment captured at concert. Calvin : Concerts I live for - indescribable connection between artist and crowd amazing! Dave : amazing connection between artist and crowd indescribable. glad experience! Calvin : Dave! rush connecting with everyone. feeling unbeatable! Wishing harmonious day ahead, friend! Dave : imagine rush being up on stage with fans cheering unique experience. Wishing many more electrifying moments in spotlight! See you soon",
+    "Calvin : Hey Dave! Long time no talk! had great time yesterday visited sights in Boston with high school friend fun eye - opening. Dave : Hey Calvin! Good to hear from you! Sounds like had a blast in Boston - much to do there! favorites great for chilling admiring nature. BTW, something cool wanted tell about recently attended conference in Detroit cool learned a lot. Calvin : had wonderful experience during time in Boston awesome architecture cool history followed your advice peaceful. Good hear learned new things at conference in Detroit! Dave : enjoyed Boston! great architecture history. Working on this takes me head calms me down pic of latest car project. Calvin : Dave car looks awesome! into engineering cars? cars love making new powerful models. Dave : Thanks, Calvin! always been my thing dad took me first car show when 10, wow - ed! hooked wanted to learn more. Now automotive engineer crazy to think something powerful cool from small parts. Calvin : awesome Dave! happy followed dreams became engineer. work on cars inspiring makes want keep pushing music. Check out pic performing with someone I admire! amazing! Dave :, Calvin! looked super comfortable on stage incredible experience to perform with someone you admire. How feel being up there? Calvin : unreal, Dave Being up there with someone admire dream come true. energy crowd made me realize much music means like my passion purpose. Dave : great, Calvindiscovered brings fulfillment fortunate. Calvin :, Dave awesome to find makes us happy fulfilling motivating. glad on journey together curious to see what happens next! Dave : Me, Calvin! see where it takes us keep inspiring each other! Calvin keep inspiring be best selves Keep going for passion, buddy. Dave : Thanks, Calvin! Same you! pursuing passion keep dreaming. got this! see you soon! Calvin : Thanks, Dave! appreciate support keep pushing for goals. Catch you later, see ya",
+    "Calvin : Hey Dave! Since last talked went to networking event to meet more artists cool! people met will help me build up fan base. excited about what it could lead to You? Anything new since last spoke? Dave : Hey Calvin! cool been networking with other artists. Nice! been getting into photography recently seen amazing places taken great shots. to see them? Calvin : show me what you got! Dave : Look at magnificent sunset captured on camera breathtaking to witness beautiful sunsets! sky looks like on fire! Calvin : view looks awesome! What city it? taken good pictures lately? Dave : Boston, Cal! Check out took picture last month got great shot - stunning! Calvin : pic amazing! last photo clock tower? there few years back beautiful city. talented, Dave! Dave : Thanks, Calvin! kind words mean a lot. clock tower last photo. snapped it at sunset colors stunning Photography helps me capture appreciate beauty of nature awesome creative outlet loving it. Calvin : Dave! having blast with photography bringing lots of joy. how car project going? Dave : Calvin photography great for! car project doing well finished restoring it looks amazing check it out? everything with music? updates? Calvin : awesome Dave! car project sounds amazing. had great collaborations recently album almost finished. send previews soon. free for catch - up. Dave : Cool, Calvin! Can ' t wait to hear it.Let me know when you free take easy! Calvin : Cheers! let you know when free Bye",
+    "Calvin : Hey Dave! been a while! Crazy stuff happening. Last week threw small party at Japanese house for new album amazing much love from fam and friends! look at photo of party in mansion energizing! Dave : Congrats on album release party, Calvin! great feeling having loved ones show support. Calvin : Thanks, Dave awesome feeling seeing everyone celebrate - rewarding! Look photo showcasing how wonderfully we spent time! Dave : great job, Calvin! Congrats! everyone cheering you on? Calvin incredible, Dave room buzzing with energy love powerful reminder of why doing this. Dave : Calvin Creating something brings people together inspires them awesome! Calvin Thanks Dave awesome feeling. Creating something people connect with brings joy about Moments motivate me to keep growing! Dave : Calvin imagining music affects others incredible! Keep up great work! recently started blog on car mods share passion with others. tips on blogging? look at beautiful car! Calvin : Cool, Dave fun to share passion through blogging. success stories with inspiring others? Dave Thanks Calvin awesome people checking out blog asking me for advice recently posted about made car look like a beast great to hear inspired others to start DIY projects. Calvin blog awesome Helping others get creative awesome. Keep great work! Dave : Thanks Calvin appreciate support. fulfilling to share knowledge help others unleash creativity.Calvin : Yeah Dave, keep doing what you do! Your blog car mods inspiring great way to help people find creativity. Dave : Thanks, Calvin! means lot enjoy my blog. car mod was lot of work worth it in end. Calvin : Dave headlights look great! What to get them looking good? Dave Thanks, Calvin! spent time cleaning polishing protecting them - they look great! look at photo headlights enchanting! Calvin : they look great! put in lot of effort. Well done! Dave : Thanks, Calvin! appreciate noticing effort. Calvin : Thanks! Where get this car? Dave : found it last week in bad shape saw potential spent ages restoring it. Calvin : Dave awesome job on restoring it! serious skills! Dave : Thanks Calvin! took work, happy with result. look at logo created for rock band! Calvin : Cool logo, Dave! story behind it? Dave Cool logo for rock band been fan for ages opportunity to join them. Calvin Dave Music touching our souls. Dave Calvin amazing music can move us almost like language for souls. Calvin : connection aiming for with my music. Take loot at studio setup look awesome? Dave : studio looks stunning! How like hanging out here? watch much TV? Calvin : only work in studio. another room for relaxation with TV room cozy relaxing. great way to unwind get inspired.Dave : Wow nice setup! usually watch on it? Calvin : Thanks, Dave! usually watch music videos concerts documentaries about artists creative process cool to learn more about industry see others do source of inspiration for me. Dave : Wow, Calvin awesome! Keep up great work! look at photo! Calvin : Thanks, Dave! Appreciate support! notebook help stay connected to creative process? Dave : Yes Calvin writing lyrics notes awesome! boost motivation! lyrics boosts motivation to grow! Calvin : Cool, Dave! help stay focused when making music. Music helps focus be productive doing car stuff listen to vinyl to relax stay on track Calvin Rockin ' it, Dave! Music affect mood help stay on track Dave Calvin Music helps with car work Keeps focused makes feel great player old still gets job done. Check out photo! Calvin : Cool, Dave! What tunes listening to these days? Dave Lately been getting into classic rock music era timeless. Calvin Classic rock huge effect on music Classic rock huge impact on music fun to dig in find new tunes. go back to work, see you soon! Take care! Calvin Dave Exploring different styles times open new perspectives Broadening musical knowledge awesome. Good luck with work, see ya",
+    "Calvin : Hey Dave invited old high school buddy to see me perform in Boston! insane. got me thinking about far come reminded me important relationships in this biz. Felt good! Dave : great Calvin! old friend must have brought back many memories awesome to have someone been there since start to support us. Calvin : Remembering days made me nostalgic! Freestyling getting famous crazy how life changed. being around certain people sparks same feelings. look at how we freestyled when teenagers! Dave : great pic! person make big difference during trip? Calvin : great friend support encourage me. positivity made big difference in journey. Dave : great someone s support encouragement can shape lives! give motivation to keep going trust ourselves. supportive people important for artist development? Calvin : supportive people key for to grow as artist motivate me to get better stay true to myself. support vital especially in tough music industry. look at photo! Dave : Calvin pic of some musicians collaborating with? Calvin supporting young musicians from music program Supporting passion amazing enthusiasm inspiring. Dave Calvin making difference by supporting next generation of musicians great to nurture passion help them thrive. Calvin : Thanks, Dave! like torch passed to keep music alive! young musicians ambitious will support them for long time. Dave : Calvin support for them keeps music going passes on legacy. awesome! Calvin : stoked made a differencePaying forward Working with new talent brings new ideas Look at photo making beat for young artist great potential in music! Dave : cool! music studio looks great. tried out new ideas lately? Calvin Thanks! having fun trying new sounds pushing boundaries great to go for new ideas see where takes me stay ahead. Dave Awesome Calvin! Experimenting pushing boundaries key to making art grow. Can ' t wait see where new ideas take! exciting to see where new ideas lead. about growing evolving! good one need to go now. Take care, Dave! Calvin Growing evolving key for artist Don ' t stop pushing keep exploring. Can ' t wait to see what you come up next! See ya Cal! Take care",
+    "Dave : Hey Calvin long time no talk! A lot happened. taken up photography great - been taking pics of scenery here cool. Calvin : Hey Dave great to hear from you! Can ' t wait to see your pics went to fancy gala in Boston yesterday met interesting people. Check out pic of me and crew! Dave : Calvin event looks amazing! look awesome. Who most interesting chat with? Calvin : Thanks, Dave! Had awesome time interesting chat with cool artist clicked over music art talked about favorite artists art power of music connects us. inspiring conversation on creative high. photo together, take a look! Dave : amazing Calvin! Music bring people together foster creativity hear inspiring conversation! look at new vintage camera bought this month takes awesome photos! Calvin : Dave music brings people together? use camera for photos? turn out good! Dave Calvin camera good helps capture special moments. Calvin good camera key for capturing special moments. take photos of? Dave : take good pics key love capturing beauty of nature - sunsets beaches waves. one recently check this out! Calvin : Nice job, Dave! shot looks great! Nature ' amazing! Dave Thanks, Calvin incredible emotion and beauty nature can convey through photo. Calvin nature does trick beauty helps appreciate life when tough breath fresh air! Dave agree nature can boost spirits in tough times. picture snapped last week! peaceful scene with rocks waterfall.cool? Calvin : Dave picture stunning! Where taken? looks serene! Dave : Thanks, Calvin! found serene spot in nearby park took pic. Calvin : peaceful serene spot Can ' t wait to check out Check out beautiful picture shot in Japanese garden wild! Dave : Cool, Calvin! Found better spot bench under tree pink flowers peaceful perfect spot to relax take beauty. Calvin : sounds great, Dave! Can ' t wait to see it. Dave : Check it out, Calvin calming like it. go there! anything else to share? Calvin : Thank you for asking, Dave! Yes few more great news! accepted invitation perform at upcoming show Boston! unforgettable musical experience Can ' t wait to fill in details. Catch up with soon! Dave :, Calvin! amazing news! Congratulations gala attendance upcoming performance can ' t wait to hear all maybe catch one shows in Boston free to catch up. Cheers to musical journey! Calvin : Thanks, Dave! catch you when in Boston Cheers! Dave Looking forward to seeing you Stay safe talk to you soon! Calvin : Thanks! You Talk to you later"
+  ]
+}

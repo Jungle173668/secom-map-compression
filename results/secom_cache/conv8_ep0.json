@@ -1,0 +1,505 @@
+{
+  "version": 1,
+  "use_ep": false,
+  "compress_rate": 0.65,
+  "context_map": {
+    "entities": {
+      "Sam": {
+        "type": "person",
+        "count": 25,
+        "last_session": 25
+      },
+      "Evan": {
+        "type": "person",
+        "count": 25,
+        "last_session": 25
+      },
+      "Prius": {
+        "type": "other",
+        "count": 3,
+        "last_session": 22
+      },
+      "last week": {
+        "type": "date",
+        "count": 4,
+        "last_session": 21
+      },
+      "last Friday": {
+        "type": "date",
+        "count": 3,
+        "last_session": 22
+      },
+      "gym": {
+        "type": "place",
+        "count": 2,
+        "last_session": 17
+      },
+      "Canada": {
+        "type": "place",
+        "count": 4,
+        "last_session": 23
+      },
+      "Saturday": {
+        "type": "date",
+        "count": 2,
+        "last_session": 10
+      },
+      "Banff": {
+        "type": "place",
+        "count": 2,
+        "last_session": 19
+      },
+      "Monday": {
+        "type": "date",
+        "count": 2,
+        "last_session": 12
+      },
+      "last month": {
+        "type": "date",
+        "count": 2,
+        "last_session": 11
+      },
+      "ER": {
+        "type": "place",
+        "count": 1,
+        "last_session": 14
+      },
+      "two years ago": {
+        "type": "date",
+        "count": 1,
+        "last_session": 15
+      },
+      "Weight Watchers": {
+        "type": "org",
+        "count": 2,
+        "last_session": 18
+      },
+      "1968 Kustom K-200A": {
+        "type": "other",
+        "count": 1,
+        "last_session": 16
+      },
+      "Friday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 16
+      },
+      "beach": {
+        "type": "place",
+        "count": 1,
+        "last_session": 16
+      },
+      "hospital": {
+        "type": "place",
+        "count": 1,
+        "last_session": 17
+      },
+      "doctors": {
+        "type": "person",
+        "count": 1,
+        "last_session": 17
+      },
+      "island": {
+        "type": "place",
+        "count": 1,
+        "last_session": 17
+      },
+      "Tuesday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 20
+      },
+      "Evan's work friends": {
+        "type": "person",
+        "count": 1,
+        "last_session": 22
+      },
+      "last weekend": {
+        "type": "date",
+        "count": 1,
+        "last_session": 22
+      },
+      "next month": {
+        "type": "date",
+        "count": 1,
+        "last_session": 23
+      },
+      "ginger snaps": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "poutine": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "lasagna": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "cousin's wedding": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "The Godfather": {
+        "type": "other",
+        "count": 1,
+        "last_session": 24
+      },
+      "snowshoeing": {
+        "type": "other",
+        "count": 1,
+        "last_session": 24
+      },
+      "doctor": {
+        "type": "person",
+        "count": 1,
+        "last_session": 24
+      },
+      "salad": {
+        "type": "other",
+        "count": 1,
+        "last_session": 24
+      },
+      "yoga": {
+        "type": "other",
+        "count": 1,
+        "last_session": 24
+      },
+      "swimming": {
+        "type": "other",
+        "count": 1,
+        "last_session": 24
+      },
+      "walking": {
+        "type": "other",
+        "count": 1,
+        "last_session": 24
+      },
+      "restaurant": {
+        "type": "place",
+        "count": 1,
+        "last_session": 24
+      },
+      "partner": {
+        "type": "person",
+        "count": 1,
+        "last_session": 25
+      },
+      "the countryside": {
+        "type": "place",
+        "count": 1,
+        "last_session": 25
+      },
+      "the city": {
+        "type": "place",
+        "count": 1,
+        "last_session": 25
+      },
+      "the lake": {
+        "type": "place",
+        "count": 1,
+        "last_session": 25
+      },
+      "last summer": {
+        "type": "date",
+        "count": 1,
+        "last_session": 25
+      },
+      "last spring": {
+        "type": "date",
+        "count": 1,
+        "last_session": 25
+      }
+    },
+    "decisions": [
+      "Sam will try flavored seltzer as an alternative to soda",
+      "Sam will go to the gym and exercise regularly starting tomorrow",
+      "Evan met an awesome Canadian woman in Canada",
+      "Evan has been working on his health for two years",
+      "Evan went on vacation in Canada with his new significant other",
+      "Evan engaged in hiking and biking activities in Canada",
+      "Sam is focusing on taking small steps towards a healthier life",
+      "Evan is searching for his keys",
+      "Evan decided to take care of his son after a soccer accident",
+      "Sam decided to take better care of himself",
+      "Sam decided to take a cooking class to learn healthier meals",
+      "Evan decided to add more vegetables to his meals",
+      "Sam decided to share a roasted vegetable recipe with Evan",
+      "Sam is on a diet and living healthier",
+      "Evan started taking painting classes",
+      "Evan enjoys painting landscapes",
+      "Evan went skiing in Banff last month",
+      "Sam started a new diet and exercise routine last Monday",
+      "Evan twisted his knee last Friday",
+      "Evan decided to pursue physical therapy for his knee",
+      "Evan is swimming to stay active",
+      "Evan took a road trip last month to the Rocky Mountains",
+      "Sam is interested in going on a road trip and hiking",
+      "Sam and Evan plan to go hiking together",
+      "Sam decided to try painting as a calming hobby",
+      "Evan and Sam planned a painting session for next Saturday",
+      "Sam started eating healthier",
+      "Evan had a setback with his knee injury",
+      "Evan helped a lost tourist two weeks ago",
+      "Evan enjoys watercolor painting",
+      "Sam likes expressing themselves through writing",
+      "Sam's navigation app on the new phone is malfunctioning",
+      "Sam decided to start lifting weights",
+      "Sam decided to find a trainer to help with his workout",
+      "Sam bought some unhealthy snacks",
+      "Evan finished painting a sunset",
+      "Sam is considering trying kayaking",
+      "Sam and a mate are going to try kayaking on the lake",
+      "Sam decided to kayak at Lake Tahoe",
+      "Sam decided to adopt a more nutritious diet and get regular exercise",
+      "Sam and Evan plan to go on a hike",
+      "Evan has been focusing on fitness",
+      "Sam decided to take it slow and be patient with progress",
+      "Evan decided to change his diet and start walking regularly",
+      "Evan focuses on well-being rather than quick results",
+      "Sam became a Weight Watchers coach.",
+      "Evan received a 1968 Kustom K-200A vintage guitar as a gift.",
+      "Evan lost his job due to company downsizing.",
+      "Evan and Sam decided to plan a trip to Evan's favorite sunset spot next month.",
+      "Evan decided to enjoy the moment after the health scare",
+      "Sam plans to make it a habit to appreciate something each day",
+      "Evan stays in shape by going to the gym and taking his car for a spin",
+      "Evan decided to try yoga for stress relief and flexibility",
+      "Evan and his partner are expecting a child",
+      "Evan's family's motto is 'Bring it on Home'",
+      "Evan is planning a big family reunion next summer",
+      "Evan's son's accident happened last Tuesday",
+      "Sam is struggling with weight and confidence",
+      "Evan plans to go hiking with Sam soon",
+      "Sam is considering trying new things for self-improvement",
+      "Evan completed a contemporary figurative painting and it was published in an exhibition",
+      "Evan got married last week",
+      "Evan believes in love at first sight",
+      "Sam started to enjoy running in the mornings",
+      "Evan painted a piece of art",
+      "Evan lost his keys again",
+      "Evan decided to consider putting a GPS sensor on his keys",
+      "Sam took friends on a hiking trip last Friday",
+      "Evan and friends took the Prius for a drive to the mountains over the weekend",
+      "Evan and friends got into a minor accident on the way back",
+      "Evan informed work friends about getting married",
+      "Evan shared healthy snack recipes with Sam",
+      "Evan recommended Sam to try energy balls",
+      "Sam frequently has issues with the self-checkout at the store",
+      "Evan and partner got married and shared the news with extended family",
+      "Evan started a new diet limiting to just two ginger snaps a day",
+      "Evan and partner are going to Canada for their honeymoon next month",
+      "Evan and partner are planning to ski, try local cuisine, and enjoy views in Canada",
+      "Evan apologized for the accident with the roses.",
+      "Evan and his partner tried snowshoeing.",
+      "Sam decided to start a meal plan and workout schedule.",
+      "Sam is planning to make an appointment with a doctor.",
+      "Sam wants to get advice from the doctor about a balanced diet and low-impact exercises.",
+      "Sam watched The Godfather.",
+      "Evan advised Sam on low-impact exercises like swimming, yoga, and walking.",
+      "Sam is considering beach walks for exercise.",
+      "Evan promised to be more careful with the rose bushes in the future",
+      "Sam is planning to spend more time in nature",
+      "Evan is always available for Sam to chat with"
+    ],
+    "timeline": [
+      {
+        "time": "last Saturday",
+        "event": "Evan's son had a soccer accident and hurt his ankle"
+      },
+      {
+        "time": "recent",
+        "event": "Sam started living healthier by being on a diet"
+      },
+      {
+        "time": "recent",
+        "event": "Sam found a healthy grilled chicken and veggie stir-fry recipe"
+      },
+      {
+        "time": "a few days ago",
+        "event": "Evan started taking painting classes"
+      },
+      {
+        "time": "last month",
+        "event": "Evan drove somewhere for fun and went skiing in Banff"
+      },
+      {
+        "time": "last Monday",
+        "event": "Sam started a new diet and exercise routine"
+      },
+      {
+        "time": "last Friday",
+        "event": "Evan twisted his knee"
+      },
+      {
+        "time": "soon",
+        "event": "Evan plans to get a physical therapy appointment"
+      },
+      {
+        "time": "last month",
+        "event": "Evan took a road trip to the Rocky Mountains"
+      },
+      {
+        "time": "Conversation",
+        "event": "Evan and Sam discussed painting as a hobby"
+      },
+      {
+        "time": "Next Saturday",
+        "event": "Evan and Sam will have a painting session together"
+      },
+      {
+        "time": "last week",
+        "event": "Evan messed up his knee playing basketball with kids"
+      },
+      {
+        "time": "last week",
+        "event": "Evan showed Sam his watercolor paintings"
+      },
+      {
+        "time": "two weeks ago",
+        "event": "Evan helped a lost tourist find their way and went on an unexpected tour around the city"
+      },
+      {
+        "time": "Monday",
+        "event": "Sam went for a check-up and was told his weight is a serious health risk"
+      },
+      {
+        "time": "last weekend",
+        "event": "Sam had a severe stomachache and went to the ER"
+      },
+      {
+        "time": "recently",
+        "event": "Evan encountered another lost tourist"
+      },
+      {
+        "time": "",
+        "event": "Sam and Evan discuss hiking as a fun challenge and a way to appreciate nature"
+      },
+      {
+        "time": "yesterday",
+        "event": "Evan was at the gym gaining strength"
+      },
+      {
+        "time": "two years ago",
+        "event": "Evan went through a phase of changing diet and lifestyle"
+      },
+      {
+        "time": "recent past",
+        "event": "Sam became a Weight Watchers coach."
+      },
+      {
+        "time": "since we last spoke",
+        "event": "Evan lost his job."
+      },
+      {
+        "time": "last month",
+        "event": "Evan was part of company downsizing."
+      },
+      {
+        "time": "last Friday",
+        "event": "Evan took a picture at his favorite spot by the beach."
+      },
+      {
+        "time": "last week",
+        "event": "Evan had a health scare and went to the hospital"
+      },
+      {
+        "time": "yesterday",
+        "event": "Sam got a new movie"
+      },
+      {
+        "time": "yesterday",
+        "event": "Sam attended a Weight Watchers meeting"
+      },
+      {
+        "time": "last Tuesday",
+        "event": "Evan's son had an accident"
+      },
+      {
+        "time": "few days ago",
+        "event": "Evan finished a contemporary figurative painting"
+      },
+      {
+        "time": "last week",
+        "event": "Evan got married"
+      },
+      {
+        "time": "last Friday",
+        "event": "Sam went on a hiking trip with friends"
+      },
+      {
+        "time": "last weekend",
+        "event": "Evan and friends drove to the mountains"
+      },
+      {
+        "time": "last weekend",
+        "event": "Evan and friends had a minor accident on the way back"
+      },
+      {
+        "time": "yesterday",
+        "event": "Evan told extended family about marriage"
+      },
+      {
+        "time": "tonight",
+        "event": "Evan is having a family get-together for homemade lasagna"
+      },
+      {
+        "time": "next month",
+        "event": "Evan and partner are going to Canada for their honeymoon"
+      },
+      {
+        "time": "last night",
+        "event": "Evan had an incident involving roses after drinking with friends."
+      },
+      {
+        "time": "this weekend",
+        "event": "Evan and his partner tried snowshoeing."
+      },
+      {
+        "time": "starting today",
+        "event": "Sam is initiating a meal plan and workout schedule."
+      },
+      {
+        "time": "last summer",
+        "event": "Evan went on a camping trip and kayaked while watching the sunset"
+      },
+      {
+        "time": "last spring",
+        "event": "Evan felt down but was cheered up by vibrant colors in nature"
+      }
+    ],
+    "session_counter": 25,
+    "token_budget": 300
+  },
+  "segments": [
+    "Sam : Hey Evan good to see you! new since last met? cool happening? Evan : Hey Sam! Good to see you! got back from trip with family in new Prius. Sam not bad what happened to old one? Where ' you go? Evan : old prius broke down decided to get repaired sell it asked went to Rockies, check it out. Sam : Wow! Looks amazing. When get to go there? Evan : hiked trails last week - views amazing! Sam cool. love hiking ages since done it did hike with dad way back when ten Going hiking together great fun special for us. Evan : cute. How far did two hike? Sam hiked good distance - feat for great memory. Evan : other hobbies found for? Sam Nothing far thinking about trying painting. any hobbies love? Evan : Cool idea, Sam! love it. tried it before? Sam Not yet keen to give it a go nice way to chill get creative. Evan great stress - buster started doing this few years back. Sam impressive! How get into watercolor painting? Evan friend got me into it gave advice hooked right away! Sam hope find something passionate about with watercolor painting. Evan find it keep trying new things until something sparks excitement.Sam Thanks Evan! excited to try new things fun! Evan No worries Sam! Super pumped! catch up soon enjoying new hobbies! Sam keep posted See you soon! Evan Take it easy Evan! Can ' t wait to see you. Have good one",
+    "Evan : Hey Sam good to hear from you! last talked lots happening! Last weekend took family on road trip to Jasper amazing! drove through Icefields Parkway glaciers lakes gorgeous got shot of glacier check it out! Sam : Hey Evan looks amazing! never been to Jasper breathtaking Tell me more about your road trip. relaxing? Evan : Hey Sam thanks for asking! great - fresh air peacefulness cozy cabin surrounded by mountains forests like real retreat. Sam : sounds great, Evan! important to take time for find peace especially after hard week. Mine tough. Evan : Sorry to hear that, Sam. anything can do to help? Sam : Thanks, Evan. Appreciate offer check - up with doctor days ago weight wasn ' t great eye - opening. Evan challenging experience, Sam tough confront health challenges never too late to make positive changes for healthier lifestyle. anything to support you in journey? Sam Thanks Evan Breaking old habits easy tips for starting process? Evan worked for finding fitness routine enjoy go - to love feeling of being healthy strong Making fun ways to make smarter choices in diet added up. Don ' t forget got this! Sam : Thanks, Evan been looking for hobby to stay motivated thinking about trying painting help me de - stress? Evan : Sam! Painting great way to relieve stress be creative. freedom to explore colors textures express feelings. been doing it for few years helps find peace.unfortunately won ' t help weight problem besides painting recommend exercising! Sam : Thanks Evan! Appreciate encouragement give go know how turns out. Evan Awesome, Sam! Have fun don ' t pressure Can ' t wait hear how going! Sam : Cheers, Evan! won ' t stress enjoy. Evan : Alright Sam fun! Keep updated! Sam Thanks Evan! Will do Bye now Evan Take care, Sam! catch up later",
+    "Evan : Hey Sam! Long time no talk! How you doing? Life rollercoaster lately had health scare last week sudden heart palpitation incident shook me up serious wake - up call about my lifestyle. Sam : Hey Evan great hearing from you! Sorry glad feeling better now eat healthier these days. Evan : salad looks yummy! extra careful with health lately trying eat less processed food sugary snacks love ginger snaps. made changes to diet recently? Sam : no changes enjoying soda and candy not best habit. Evan : breaking habits tough Making small changes big impact later considered swapping soda for flavored seltzer water? bubbly and tasty without sugar instead of candy try dark chocolate with high cocoa content healthier option.? Sam : good idea! give try. Evan : Awesome, Sam! Making small changes help live healthier life Don t forget every step matters! Sam : Evan thanks! Appreciate keep you posted. Evan : here for you, Sam continue supporting each other on health journeys. remember progress takes time. Sam : right takes time up for keep trying making tiny changes. Evan : keep it up! Every little bit counts get there! Sam : Thanks, Evan! appreciate your support means a lot to me to have you in my corner. Evan : Yes, Sam! here for yourock workouts reach goals! Exercise clears mind - amazing! Sam : Wow awesome! give me hand with getting started? Evan : Sure Sam glad to help. get together show basic exercises. reach goals! Sam : Cool, can ' t wait! Thank you. coming from shop frustrating issue at supermarket. self - checkout machines broken mood terrible now! Evan : Sorry were in that situation hopefully won ' t happen again! Sam : Yeah hope so take care of yourself",
+    "Sam : Hey Evan need to talk to you friends mocking weight last Friday hurt made me realize need to make changes. Evan : Hey Sam sorry Don ' t worry progress takes time. work on it together. Sam : Thanks for support, Evan working on health getting active! Evan : great, Sam! struggled with health years ago stuck with it reminder of commitment - gym membership card. not just about exercise diet lifestyle changes big role. Sam : awesome, Evan! made biggest impact on health journey? Evan made dietary changes like cutting down on sugary snacks eating more veggies fruit big impact on health. considered any changes? Sam reducing soda candy intake tough determined to make change. Evan : Go for it, Sam tough got Try flavored seltzer water instead great alternative to soda can ' t stop thinking about new mystery novel started. gripping! Sam : Sounds good, Evan tried it before nice ideas for low - calorie snacks to pair with? novel? Evan flavored seltzer with air - popped popcorn or fruit? yum healthy! novel reading \" The Great Gatsby \". Sam : sounds good! Thanks! read novel sometime. Evan : No worries, Sam! Focus on healthy swaps taking small steps Stay upbeat! Sam reminder inspiring Thanks for reminding focus on progress not perfection. Evan : thought about exercising? as important as eating right.Sam Starting tomorrow go to gym exercise regularly sooner start see rewards of activity. Evan : awesome, Sam! rewarding tough activity keep going have fun! Sam Thanks, Evan! support means a lot appreciate it. Evan : No worries got this! Sam : Thanks, Evan appreciate it Evan No worries, Sam here if need me. Keep going",
+    "Evan : Hey Sam, how ' s it going? Last week trip to Canada something unreal happened - met this Canadian woman like something out of a movie She ' s incredible being with her makes me feel alive. Sam : Congrats Evan! She must be special! Being with someone makes you feel alive amazing. sorry to hear dealing with health issues lately can be tough. hard to fully enjoy things sometimes. Evan : nice view! Thanks, Sam! She s great. Every moment her fun energizing nice change especially after dealing health issues never know what life ' s throw at you look life thrown for me Sam : Looks good to eat! Dealing with health problems challenging take away from enjoyable experiences Evan : Ginger snaps weakness! Dealing with health issues tough made me appreciate good moments more bring joy through hard times. Sam : kids having great time! how long prioritizing health? Evan : bring me joy. healthy road long one working on it for two years now ups and downs doing my best. Sam : wish your motivation never goes anywhere! ordering myself similar ones worth it? Evan : Thanks Sam! family motivates me to stay healthy helps with health goals tracks progress well constant reminder to keep going. Sam : Cool! good tool to stay on track. How working out for you? Evan : awesome, Sam! visual reminder motivatingSam : Thanks for recommendation what motivates you? Evan : motivated by thirst for adventure on interesting hikes cool! Sam amazing view! key to find something keeps motivated. Evan : Find something motivates you makes happy large or tiny help conquer struggles. Sam : Nice! decide get? Evan symbolizes strength resilience motivates me to keep going through tough times. Sam amazing! powerful simple. Evan Thanks, Sam reminder even little things can be tough. Sam Little stuff matters builds resilience over time. Evan every little thing helps us long run. Sam small steps add up Stay consistent don ' t give up! Evan Sam! Consistency perseverance get us far Great chat! Sam Great chatting with you, Sam! Take care, talk soon! Evan : Catch ya later",
+    "Evan : Hey Sam long time no talk! Hope you doing great got back from rad vacay with new SO in Canada Tried awesome activities - think hiking biking cool stuff loved exploring outdoors together awesome! Sam : Hey Evan! Good to hear from you Canada sounds amazing! photo looks stunning Wish could do something like that challenging for lately hard on health. Evan : Sorry hear things haven ' t going well. Dealing with health issues tough. anything can do to help? Sam : Thanks, Evan support means a lot tough staying positive knowing people like you in corner makes easier. Evan : support you, Sam Surrounding with people who care key note? reminder or quote to stay motivated? Sam : quote helping me stay motivated progress more important than perfection small steps towards healthier life still progress. Evan : Cool mindset, Sam! agree progress over perfection sharing quote? love to get something out of it Sam Don ' t fear it first step helping me move forward to healthier habits! Evan : Love quote, Sam mindset helps me. Thanks! Sam welcome! helps times challenging. Evan tough celebrate small wins - every step forward counts! Sam right! Celebrating small wins crucial easy to get caught up in challenges and setbacks little victories keep me motivated. Thanks for reminder appreciated. Evan : Absolutely, SamRemember every small victory is step forward keep up good work! cheering for you! could use some cheering too - searching for keys last half hour with no luck! losing it every week. Sam : be your cheerleader once get sleep, Evan! had amazing dream last night soaring over skyscrapers felt incredible! wonder what it signifies Evan : like amazing dream! check out dream interpretation book offer insights. Sweet dreams, Sam! Sam : Thanks for suggestion, Evan. look into it. journey feels endless convinced rewarding end. good luck with keys, Evan! Evan : keep going, step by step find those keys! Sam : That ' s for sure! Evan : Go to bed already, bud! take care",
+    "Evan : Hey Sam, what ' s up? few days since we talked. How you been? Life tough lately - my son had soccer accident last Saturday hurt his ankle tough seeing him hurt! looking after him taking him to doctor. As dad hard to watch your kid go through. Sam : Hey Evan sorry to hear about what happened imagine how hard must have been for you. Things haven ' t easy for me tough week doc ' s appointment wake - up call to take better care myself. bright side taking cooking class to learn make healthier meals. Evan : Sam sorry to hear had rough week forcing us both to take better care of ourselves? class packed with healthy recipes How? picked up any yummy new meals? Sam : cooking class great learned awesome recipes Last night made yummy grilled dish good! Evan : looks delicious! What put in it? want to eat healthy what recipes suggest? Sam : Thanks, Evan! marinated with different ingredients grilled with veggies turned out flavorful! share more recipes from cooking class. know what looking for! Evan : great, Sam! to add more vegetables to meals. any recipes for? Sam :, Evan. tasty easy roasted veg recipe share. how been doing after soccer incident? Must been tough. Evan : Thanks, Sam. His ankle getting better still sore. rough at first thank goodness nothing serious.Sam : Glad hear his ankle better hard seeing someone care about hurt Look after yourself look after our health. Evan : taking care of ourselves must. feeling lately? Sam feeling mix of emotions concerned about health motivated make positive changes Taking things one step at a time Evan okay feel overwhelmed, Sam keep moving forward slowly taking small steps doing awesome. Sam Thanks Evan encouragement means a lot keep going take one step at a time! Evan No worries keep going taking one step at a time! You get there. Sam : Thanks, Evan appreciate that means a lot",
+    "Sam : Hey Evan big news : m on diet living healthier! Been tough determined. Evan : Wow, Sam great news! Making changes to live healthier challenging how going? Sam : tough sticking with it. Evan : Nice work, Sam! Proud sticking to it. noticed positive changes? Sam : Yes many more energy less sluggishness after eating encouraging! Evan : Wow, Sam great to hear! Feeling more energized after meals positive change. Keep up good work! speaking of healthy meals favorite recipes to share? Sam : loving this recipe found flavorful healthy grilled chicken veggie stir - fry Wanna give it a go? Evan : looks sauce a family secret? to try new recipes! Sam : homemade sauce. Want recipe? Evan : love to! Thanks for sharing recipe. Sam : Sure! Here ' s recipe. Let know how it went! Evan : Thanks Sam! give it a shot know how it went. Trying out new recipes great way to stay busy creative. started taking painting classes few days ago enjoying it. about trying new things? Sam : good at drawing why decide to join class? why start painting years ago? Evan : Thanks, Sam! started when friend mine gave me painting one day inspired me a lot started painting. joined classes to find like - minded people show them what can do improve skills. Sam : awesome! talented.take any other classes? Evan : Thanks, Sam! painting with these for now might look into other classes awesome for finding peace expressing myself! Sam : Cool, Evan! learning in classes? Evan painting classes learning about watercolors instructor stresses observing nature painting what we see relaxing way to break from everyday stress. Sam :, Evan! What type of nature enjoy painting most? Evan love painting landscapes Nature ' s beauty captivates me brings peace recent works. Sam Evan colors bright. capture tranquil beauty of nature in paintings? Evan Thanks Sam aim to capture vibe of nature in paintings conveying peacefulness of being outdoors. Sam pic great! often spend time in places like this? Evan Thanks love being in places brings back memories of road tripping in trusty car. Sam cool! been fun places in ride? Evan last month drove fun. views amazing! Sam take advantage of skiing opportunities in Banff? lot of fun! Evan great for skiing! snow amazing had fun. t wait to go back next year! try winter sports, Sam? Sam skiing looks like a blast! love to try it not sure body can take it.? winter activities enjoy? Evan Skiing snowboarding ice skating fun winter activities enjoy. Sam Wish join in on fun! sounds awesome Evan join me. Winter activities are a blast - someday! Sam : maybe hard with thatwho knows? Thanks for understanding Evan means a lot",
+    "Sam : Hey Evan! Exciting news : started new diet exercise routine last Monday made huge difference. feel great! What about you, changes made recently? Evan : Wow, Sam, great! Glad new diet / exercise going well. hit sore spot lately Twisted knee last Friday painful tough to stay consistent with usual fitness routine. frustrating staying active like mega - important. Sam : sorry to hear, Evan. frustrating when bodies don ' t cooperate? anything I can do to help? Evan : Thanks, Sam. appreciate concern. Life throws us curveballs life remember book about? gets better with every page can ' t let it out of hands! Sam : Life be unpredictable tough. Being adaptable finding other ways to stay active key when facing obstacle Maybe look into low - impact exercises or physical therapy help? interested in this book! Evan : PT for knee on cards appointment soon. keeping low - key swimming to stay active. Sam : Swimming good choice, Evan low - impact easy on joints plus refreshing. Keep up with active lifestyle! Evan : thanks for push, Sam came across this pic tidying up took road trip last month scenery stunning nature chilled me out. Sam : looks great! Where did go? nice to get away. Evan : Thanks! went up to Rocky Mountains refreshing! views stunning felt relaxed.enjoy road trips exploring nature? Sam : haven ' t gone on road trip in ages love being surrounded by nature. tranquil refreshing love to go hiking more challenging sometimes. working on becoming healthier maybe road trip hike possible soon. Evan : cool, Sam. Nature can peaceful suggest going for more hikes always calming fun do one together sometime. Sam : Sounds like fun! lake recommend? love explore local trails. Evan : Check out this one! gorgeous lots of trails nearby love it! Sam : looks great! nearby? view! Evan : two - hour drive trust me worth every minute for incredible views peaceful atmosphere. Sam : Cool day trip ' doable. Nature ' s calling me check it out! Thanks! Evan : No worries enjoy your time in nature. Take care! Bye! Sam : Thanks Evan. Have good one. See ya",
+    "Evan : Hey Sam! Long time no talk! Hope all good. What been doing past few weeks? Sam : Hey Evan! Nice to hear from you. Life up and down ride. seen pic posted of my before and after body result of diet? motivate others make better choices. Evan : Hey Sam! Loving it. Making healthier choices made difference for me amazing small changes big impact. How about you? making difference for you too? Sam : Hey Evan thanks for support! Handling wild. trying to make healthier choices occasional cravings for sugary drinks snacks real struggle. Evan : breaking bad habits hard. Cravings tough little victories count. What sets off cravings for? Sam : usually stress, boredom or wanting comfort. sugary treats tempting? Evan : get it stressed turn to something comforting. found painting or for drive helps! Sam : Evan awesome painting! Good on for finding way to de - stress. use something give painting go or find calming hobby. Evan : Sam painting super chill for calming down. give a try? help started recommend supplies if interested. Sam : Sounds great, Evan! want give go see if relaxes me. suggest basic supplies for started? Evan : painting awesome! acrylic paints, brushes canvas / paper palette to mix colors. recommendations.let me know when ready plan painting session! Sam : Sounds great, Evan! help me pick out stuff? plan painting session soon excited! Evan : Yeah, Sam do it! get everything ready paint next Saturday Can ' t wait! Sam : Sounds good, Evan! t wait paint with you next Saturday fun creative activity",
+    "Sam : Hey Evan long time no see! started eating healthier - new with you? Picked up new hobbies? Evan : Hey Sam! awesome about healthier eating! had setback last week - messed up knee playing b - ball with kids tough to stay active since miss going adventures like last year - good times with family! Sam : Hey Evan sorry to hear about your knee. must be tough. any ways to stay active while heal up? Evan : Thanks, Sam PT helped some can ' t do intense workouts doing easy exercises to keep strong Not as good as being active outdoors still something. Sam : Glad PT helping, Evan! Taking care of yourself key explored fun indoor activities or hobbies? Evan : favorite watercolor painting keep busy chill way to relax get into colors something happened two weeks ago! not believe had bit adventure recently Helped lost tourist find way ended unexpected tour around city. blast! Sam Evan fun unexpected event! interesting how helping someone turn into adventure. watercolor painting going? Evan : great painting great stress reliever did last week. Sam : awesome! cool inspiration for them? Evan Thanks Sam sunset painting inspired by vacation years back colors stunning cactus painting from road trip last month. cool places! Sam : Evan paintings awesome! decide what to paint? Evan : Thanks Sam usually paint what ' s on my mind feeling good memories or places more like expressing myself through art.Sam : amazing, Evan. Expressing yourself through art powerful self - expression. Evan : Thanks, Sam. great way to express myself emotions cool way to communicate without using words. any other ways express yourself? Sam : Drawing cool. still learning how to draw love expressing myself through writing therapeutic helps me sort out feelings. frustrated with new phone navigation app keeps malfunctioning making challenge. Evan : Cool, Sam! Writing great way to express yourself What writing enjoy? about phone recommend update usually works for me! Sam : Thanks for tip, Evan! Writing in my journal creative writing good way for to express innermost thoughts feelings. Evan : super therapeutic gives place to express yourself. Keep it up! Sam : Thanks, Evan! helps me make sense of things express feelings like having conversation with myself. Evan : place to figure stuff out make sense all. need outlet to express our thoughts feelings.",
+    "Sam : Hey Evan hope you ' re doing okay. wanted to chat about something bothering me lately went for check - up Monday doc said my weight ' s serious health risk if don t make changes soon can get worse. made jokes hitting me. hard time. Evan : Hey Sam tough news. health can put damper on things. started lifting weights one year ago a journey. struggle first seeing gains. interested in trying it out? Sam : Evan interested in getting into it. advice on how to get started? Thanks! Evan : Sam awesome! important to start with good form technique Find trainer help avoid injuries build strength Start with small get stronger intensity can increase Stay consistent with workout routine let know how it goes! Good luck! Sam : Thanks, Evan find someone who can help me out keep you posted! Evan : No problem, Sam Can ' t wait to hear about progress. Keep up hard work! Sam : Thanks Evan appreciate your support means a lot to me keep you posted on progress. Evan : welcome, Sam takes time be patient with yourself health matters believe in you Keep going stay upbeat Sam Thanks, Evan stay positive keep going support means a lot. Evan : Sam glad be here for! Progress key keep pushing on stay positive Sam Evan inspiring keep believing in it! Evan : Go get ' em! Believe in abilities reach goals. Stay motivated! Sam : Thanks Evan words gave boost staying motivated believing in myselfEvan Awesome! motivated believing yourself You ' got this! Sam : Thanks, Evan! support means lot. Evan No prob, Sam! here for you taking one step get there eventually! Sam : Sure, Evan take it slow. See ya",
+    "Evan : Hey Sam, how ' s it going? Been a while since talked. Hope all good. Sam : Hey Evan! rough week - gave bought unhealthy snacks feel guilty. How ' s it going for you? painting awesome! paint it? Evan : Sam sorry to hear about rough week Don ' t worry about snacks doing okay finished painting of sunset helps me relax. how ' s everything going with you? Anything new and exciting? Sam : Thanks, Evan! couldn ' t resist them. do better. dealing with work stress stay motivated. Evan Sam work stress can get to you tried anything new to de - stress? Maybe picking up hobby help. Sam trying different outdoors suggestions? Evan : Sounds good! tried kayaking? fun active way to paddle on river or lake thoughts? Sam : Kayaking sounds awesome! t tried yet fun way to exercise enjoy nature considering giving a try. Thanks! Evan : No worries, Sam fun way to exercise enjoy nature ready to give try hook up with good spot. Sam : Thanks for idea mate and I around corner from kayaking on lake try now! Evan : plan kayaking trip together pick cool spot! Sam : Evan! Can ' t wait. Thanks for help! Evan Ready for adventure? Where go? Sam traveling through Lake Tahoe! great for kayaking. Evan : Sam awesome pick! love it there - clear water gorgeous views.blast take lots pics! Sam : Thanks, Evan! looking forward it",
+    "Sam : Hey Evan! missing chats. had health scare last weekend - ended in ER with severe stomachache gastritis, alarming wake - up call for to prioritizing health, like adopting more nutritious diet getting regular exercise. my phone ' s giving me hard time adding to stress. Evan : Hey Sam sorry to hear. Gastritis can tough. Taking care of ourselves important. BTW focusing on fitness beneficial for overall well - being. another encounter with lost tourist recently. helping tourists becoming recurring theme in life! Sam : Thanks, Evan! found it good for you! need to get into it too getting started hard - tips for staying motivated? mentioned another lost tourist? becoming go - to guy for tourists in need! Evan :, Sam! Set goals like certain distance to run push - ups strive for stay motivated try to find exercise enjoy get buddy for extra fun accountability. Sound good? Sam : good idea. Having goals someone to exercise with might help try! Evan : Awesome, Sam! Getting started get easier with time about feeling good reaching goals. plan hike soon! Sam : Sounds awesome, Evan! Can ' t wait to go on hike with you fun challenge great opportunity to appreciate beauty of nature. Evan :, Sam! Hiking awesome way to bond with nature push ourselves. cool memory for us both. great to see progress, at gym yesterday.Gaining strength! Sam : excited to get fit ya hit trails soon! Evan : Thanks, Sam! nice you great time on hike! Sam :! pumped for hike Connecting with nature need Thanks for support always being there Means a lot. Evan :! hike awesome always here to support you. Sam : Thanks, Evan appreciate support. Evan : No problem, Sam need support here for you. Stay safe! Sam : Thanks get in touch if need anything Stay safe. Bye! Evan : Later! Stay safe don ' t hesitate to holler if need anything Can ' t wait to hit trail",
+    "Sam : Morning, Evan. trying to keep up with new health routine tough. family pushing for it feel pressured. Evan : hear you, Sam. important to have people encourage you not stress you out got back from morning walk helps to start day actively. Sam : easier great support system Thanks for being there for me. Evan : No worries, Sam ' ll be there for you. Take it slow treat yourself. Sam : Thanks for reminder to take it easy sometimes get impatient want results fast be patient. Evan : progress takes time take one step at a time Sam : Yes right, Evan Taking slow better than doing too much appreciate support. Evan : get it, Sam went through similar phase twoyears ago Changed diet started walking regularly Sam : Evan look great manage change? Evan started focusing more on well - being fixating on quick results pressure made huge difference. Sam impressive, Evan inspiring to see transformed by changing mindset. Evan Thanks, Sam unrealistic expectations liberating, physically and mentally. Sam doing great, Evan want feel same sense of freedom. Evan Thanks, Sam take one day at a time Celebrate small victories Sam Thanks, Evan Focusing on small wins sounds like plan one day at a time Evan Congrats on every little victory Keep here for you. Sam support means everything to moving forward! Evan : Anytime, Sam! keep pushing ahead here to help you. Take care",
+    "Sam : Hey Evan! Hope you ' re doing good. good news share - I ' m a Weight Watchers coach in my group now! big accomplishment for me, feel proud. Evan : Congrats Sam! awesome! super proud of you. Becoming a Weight Watchers coach is big deal. Keep going! Sam : Thanks, Evan! Appreciate your support. a journey, chosen as coach great step in quest for better health. Evan : Wow, Sam! come long way exciting to see what comes next for in quest for better health. Sam : Thanks, Evan! feels great to see progress. Being a coach will keep me motivated help others stay committed big challenge ready for it! Evan : awesome, Sam! Helping others stay committed motivated rewarding. inspire us. Keep up great work! Sam : Thanks, Evan! kind words mean a lot difficult road determined to continue positive impact. Evan : missing events personal challenges since last spoke. here need any support or to share anything?! Sam : looks vintage and cool! What model? lately? here chat. Evan : 1968 Kustom K - 200A vintage guitar gift from close friend. tough time for since last lost job last month rough appreciate your support. Sam : Sorry to hear about your job, Evan. What happened? Evan : rough patch lately company downsized part of that. currently on hunt for new job easy keeping spirits up staying hopeful.Sam : Sorry about your job, Evan. tough when out of nowhere proud of you handling it. know if need someone to talk to or help. You ll get through this. Evan : Thanks, Sam. Your support means a lot quite a ride appreciate having someone like you to talk to reach out if need anything. Sam : For sure, Evan! here for ya. Life can be tough sometimes we got this. Stay positive work out here if need someone to talk to. Evan : Thanks, Sam. kind words support mean a lot great to have you here stay positive keep going. Cheers! Sam : sunset stunning! soothing to see it special spot watch sunsets? Evan : peaceful place close to my home relax unwind. Sam : sounds wonderful, Evan! love to check it out Evan : wish bring you along picture taken last Friday at favorite spot by beach. Watching waves sunset colors helps find peace especially during tough times. beautiful reminder of nature ' s resilience. plan to go together someday. Sam : No worries, Evan. should make a plan to go. photo mesmerizing! Evan : glad you like it! calming place point to visit it together soon. Sam :, Evan! trip there perfect way to de - stress. Evan : do it! plan it for next month excited about exploring it together",
+    "Sam : Hey Ev! Long time no chat. How ' s it going? Hope all well. Evan : Hey Sam good to hear from you! Life wild ride lately Last week had health scare go to hospital found something suspicious during check - up freaked me out. misunderstanding important to keep eye on health. How ' you been? Sam :, Evan must ' ve been scary! misunderstanding. health scare can re - evaluate what ' important. dealing with discomfort limiting movement. trying to make changes diet - wise can be hard. Evan : sucks, Sam. tough when health holds us back believe in you small steps help. tried new hobbies recently? Sam : Thanks, Evan. haven t tried much new lately yesterday go - to ' feel good ' flick. had health scare - how now? Evan : movie sounds interesting! doing well now Doctors said everything fine taught value of life enjoy moment. Sam : awesome, Evan! habit to appreciate something each day helps enjoy life more. think? Evan : Sounds good, Sam! time appreciate little things in life. Sam : Thanks for always being there, Evan. means a lot. Evan : Sure, Sam. here for you stick together, especially now. Sam :, Evan. Life tough sometimes supportive people like makes easier. Evan :, Sam. Tough times easier with friends rely on.got each other! Sam : Looks like you re having a blast! wondering what to stay fit healthy? Evan : wild! stay in shape by hitting gym taking car out for spin. keep it up! How doing on fitness goals, Sam? Sam Fitness goals hard to reach ' s life! Evan : Yeah Sam true. Progress takes time keep pushing. Sam : Where? looks gorgeous! Evan : little island grew up happy place. Sam spot looks gorgeous Growing up must peaceful stunning. Evan : place shaped me hold special place in heart. Sam soul - calming. Evan serene calming. Sam : heavenly! Evan slice of paradise feel peaceful serene there. Sam peaceful retreat. Thanks for showing me! Evan : No prob good to chat about tranquil times. Take it easy! Sam : Take care, buddy. Hang in there! Evan : Thanks, Sam. need to talk m here for you too.",
+    "Evan : Hey Sam good to hear from you ' ve hit snag - new Prius, bought, broke down stressor rely on for active lifestyle road trips frustrating when new things go awry soon. Sam : Hey Evan rough. Dealing with new car breaking down a hassle, especially your main mode of transport. Evan : telling me counting on new Prius to be reliable. always challenge deal with unexpected issues. new cars can have problems. Sam : tough when plans get derailed sometimes setbacks lead to new opportunities. Evan : trying to see it as chance to explore other ways of staying active traveling Maybe opportunity to try something different. Sam : about finding silver lining new things attended Weight Watchers meeting yesterday Learned great tips. Evan : smoothie bowl looks fantastic! meeting? thinking about trying yoga gentle effective for stress relief flexibility. your take on it, Sam? Sam : meeting insightful smoothie bowl was a hit! Yoga great choice done wonders for flexibility stress levels should try it. Evan : will. Thanks for suggestion, Sam. Sam : Evan. need any yoga tips let me know. Evan : Your support ' invaluable. Thanks, Sam! Sam : No worries, Evan. need help when trying new things great to have support. Evan : makes big difference knowing not alone in situations. Sam : Take care, let me know how yoga goes. Bye! Evan : Will doThanks for everything Sam Talk soon Bye",
+    "Evan : Hey Sam hope you ' re doing good. Wanted share amazing news - partner pregnant! excited! been a while since had kiddo around. Sam : Congrats, Ev! great news! Parenthood amazing. How feeling about it? Evan : excited nervous! while since had toddler around looking forward to it. Parenthood rewarding. remember when first child born joy amazing. Looking forward to witness miracle of life build more memories with family! Sam : amazing parent! Treasure memories truly special. Evan : Thanks Sam! Talking of memories show this collage of top family memories. Each photo has amazing moment - birthdays holidays vacations - good to look back recall great times. Sam : lovely, Evan. family looks happy. story behind sign in center? Evan : from trip to Banff sign in frame says ' Bring it on Home ' our family ' s motto reminding importance of togetherness. Sam : touching, Evan. important to have keeps family bond strong. Evan :, Sam. My family means world to me my rock. looking forward to expanding family creating more beautiful memories. Sam : wonderful to hear, Evan! clear how value your family. thinking of specific plans or events to add to collage? Evan : Thanks, Sam! planning big family reunion next summer blast perfect opportunity to add to collage. Sam : Sounds fantastic! need tips on organizing big event let me know.always here to support celebrate family milestones. Evan : Thanks, Sam! support means a lot keep updated Take care,! Sam : Evan! Can ' t wait to hear Bye! Evan : Bye Sam keep updated. Thanks for kind words support Take care",
+    "Evan : Hey Sam, what ' s up? Long time no see? Lots happened. Sam : Hey Evan! Long time no see. doing okay been through few bumps. How about you? Evan : not easy now son had accident last Tuesday fell off bike rough. doing better now. How dealing with all this? Sam : sorry to hear that. Hope feeling better. tough lately. After talked started thinking about ways to cope with it challenging. Evan : Life can be hard sometimes any hobbies or activities make happy? Sam love hiking a while since chance to. Evan! Hiking great way to center oneself be one with nature plan hike soon! Sam struggling with weight affecting confidence can ' t overcome challenges with weight lacking motivation. Evan : understand can be challenging. important to believe in yourself take it one day at a time Sam worth not defined by weight. Sam : Cheers, Evan. Appreciate help tough breaking out of comfort zone. Evan Stepping out comfort zone intimidating totally worth it. challenge yourself to try something new even if a little thing. got this! Sam : Thanks, Evan take your advice. Trying new things difficult. Evan trying something new succeeding gives great feeling of accomplishment Give it a go even if just a little thing.amazed! Sam : She looks confident! painting in background? Evan : contemporary figurative painting finished few days ago emphasizing emotional state through expressive brushwork vibrant color choices. captures moment introspection subject deeply immersed in thought. proud of! Sam : amazing work girl standing next to painting? Evan close friend helped me get painting published in exhibition",
+    "Sam : Hey Evan! Long time no see how ' s it going? Evan : Hey Sam! Long time no see! Been lately married last week you? Sam : Congratulations, Evan! woman from Canada? Evan : Yes s her don ' t know why didn ' t get married before in love with her at first sight! Sam :, Evan! Love at first sight? straight out of fairy tale. your thoughts? believe in love at first sight? Evan : believe in it time stopped felt spark lit inside me right. Sam : awesome, Evan! Finding connection must feel liberating. Love powerful? Evan : Sam love amazing brings happiness fulfillment beautiful sunset lights lives brings peace. Incredible! Sam : Wish feel same about love started enjoy running in mornings great way to clear my head. What can you do? Evan : get it Life about finding what works for you. morning runs step towards something good trying new things Sam find your own version of love in unexpected places. Embrace journey full of surprises! Sam minimalistic stunning work inspired artist to create. Evan : painting is mine mix of emotions - sad, mad, hopeful Art amazing portray feelings without words. Sam Evan! Art amazing expressing emotions fascinating. Evan : amazing art express emotions well helps me recognize handle my own feelings.painting giving me massive rush of joy! Sam : stunning! emotions create painting with? Evan : painted with sense of joy freedom. spontaneous strokes bold colors reflect playful liberated mood embracing creative process without restraint. Sam : Evan amazing! serious talent creativity. Making this must satisfying! painting inspired me exhibit few days ago. Evan : Thanks, Sam! appreciate compliment. painting has inspiring vibe knack for understanding art! How about you? long been painting? Sam : sketch occasionally haven t created anything remarkable yet feeling something to show off before long! passion for inspiring. Evan : Thanks, Sam! motivate you If want to give it a go happy to help get you started. lost keys again become weekly ritual for! Sam : Evan put GPS sensor on keys! Evan : Great idea do that as soon as find it",
+    "Sam : Hey Evan! m getting into healthier lifestyle took friends on epic hiking trip last Friday! Evan : Hey Sam! s fantastic like good hike to feel alive. took Prius for long drive to mountains last weekend perfect until got into little scrape on way back. Sam : no you okay after accident? Evan : fine, thanks. minor accident put damper on telling work friends about getting married. They great support. Sam : thrilled to hear about your marriage, despite mishap! Evan : whirlwind of emotions. Good accident was minor. reminder to take it easy on road. Sam : important to stay safe. enjoy peaceful moments after. Evan : nature brings peace clarity great experience. Sam : Nature can make everything else seem small help find peace inside reminds us of bigger picture? Evan : nature great healer. share new healthy snacks trying. Sam : look healthy and delicious! for after hike or post - accident recovery? Evan : packed with nutrients easy to make. need to try cookies awesome! send recipes. Sam : Thanks appreciate that good to find new ways to stay healthy. any healthier snack ideas? Evan : trying to eat healthier. Check out cool recipe discovered for energy balls. Sam : like them? acquired taste. Evan : enjoy taste these energizing healthy way to satisfy sweet tooth.Sam : Awesome! Always on lookout for healthy snacks thanks for tip! Evan : Glad to help - hope enjoy it! Sam : Thanks, Evan! give these try. They look yum. help means a lot me went to store again had issues with self - checkout becoming regular annoyance. Evan : strange never had problem once! Sam : attract me if want to be in situation call me at store with you",
+    "Evan : Hey Sam? partner and I told extended fam about marriage yesterday special! overwhelmed by their love support. Sam : Congrats on news, Evan! two look happy in pic. moments make life wonderful ; super stoked for you! Evan : Thanks, Sam! awesome moment feel lucky to have found someone who gets me. families happy for us - best part! Sam : Wow, Evan. awesome found someone who gets you! family ' s support must feel great. Evan family support important. happy about marriage awesome comforting. Sam : awesome have support brings more happiness joy. Evan : Sam means a lot to me bond keeps getting stronger brings good feeling to lives. Family is everything. Sam : Agree, Evan! Family is everything they bring much love happiness always there for us grateful for their support love. Evan : Sam makes family special bring love happiness great having their support knowing always there for us fortunate to have never - ending love support. Sam : Evan amazing families always there for us Always blessing. Evan : Sam families give us much joy support love real blessing! don ' t know what I ' d do without them. Sam : Evan family been my rock through everything Don ' t know what do without them. Evan : they are our rock. blessed to have them.Sam : Wow you guys awesome! cooking tonight? Evan : Thanks, Sam! having family get - together tonight enjoying homemade lasagna excited! started new diet limiting to two ginger snaps a day. on your menu tonight? Sam : great discipline, Evan! keeping it light tonight homemade lasagna Can ' t compete with ginger snap limit! Evan : must be hearty delicious stick to diet plan family gathering! Sam : lasagna was awesome check out what for dessert drooling! Evan : Looks make that? Sam : No didn ' t make it pic from cousin ' s wedding super special. Evan : Sam! Weddings special. looks great, Sam : nice cake! Reminds me of special occasions. any upcoming plans? Evan : Thanks Sam! off to Canada next month for honeymoon excited to create awesome memories exploring beautiful snowy landscapes. Sam plans for trip? Evan : planning to ski try local cuisine enjoy beautiful views. excited! Sam : Sounds amazing Skiing trying local dishes enjoying breathtaking views - perfect honeymoon incredible time creating unforgettable memories! Evan :, Sam! try poutine there can ' t wait! Sam : Never tried it? t Canadian thing. Let know how you like it! Evan : Sure, Sam! see if lives up to the hype. know what happens! Sam :, Evan! know all about it.Don t forget details! Evan : Cool, Sam keep posted Talk soon! Sam Awesome Evan! Catch soon great trip! Evan Thanks, Sam! Catch later great one",
+    "Evan : Hey Sam hope you ' re doing good. Something funny happened last night. Sam : Hey Evan what ' s up? What happened? know. Evan : Yesterday went out with friends had too much to drink ended up doing something regret involved someone ' s roses. Sam : What ' s up with incident? All good now? Evan :, Sam embarrassing! had pee accident near roses believe it? sorry about. Sam :, Evan! awkward. anyone get mad at you? okay? Evan : embarrassed saw what happened next morning apologized they understanding. out of control be more careful next time. Sam : They understanding? Phew! We mess up sometimes we human after all. Evan : understanding great. good reminder to be more careful make mistakes important to learn from partner and I tried snowshoeing this weekend part of new adventure fun. Sam :, Evan you right. Mistakes happen good to learn. Snowshoeing great way to stay active during winter. thinking made meal plan workout schedule motivated by something saw starting today best to stay on track. Evan : Good work, Sam! got plan dedicated to staying healthy asked doctor for advice? more diet and exercise tips. Sam : Thanks, Evan! Haven ' t seen doctor good idea to get advice. make appointment soon.Evan : advice planning to from doctor? Sam : ask doc about balanced diet plan advice on low - impact exercises current situation. Evan : Sounds good, Sam. step in right direction focus on balanced diet low - impact exercises know how it goes. Sam : looks great! Where idea for salad? suggestions for low - impact exercises? Evan got from nearby restaurant for low - impact exercises swimming yoga walking good options. Sam salad idea from restaurant smart move, Evan thanks for exercise tips. watched Godfather last night motivated me to keep up with routine. make him offer he can ' t refuse \" now motivation! Evan : Yoga ' great start, Sam helped me with stress staying flexible perfect alongside diet. Godfather legendary thing to watch re - watched many times! Sam Between healthier diet and yoga hoping for positive changes. Evan plenty of other low - impact exercises can be fun. Going on beach sunsets favorites good for exercise calming. Sam looks zen. for beach walks thanks for tip, Evan! brag recurring dream flying over skyscrapers! Evan : think more learn to control dreams get hang of it let me know haha! Enjoy fresh air views Have fun! Sam : Thanks Evan! Gonna make most of it. have good one",
+    "Sam : Hey Evan been few days since we last chatted. Hope you ' re doing OK. lot ' s happened since then issues with my health rough weight ' keeping me from fully living to stay positive not easy. Evan : Hey Sam sorry to hear about your health. tough when gets in way of life being positive, remember to take care of yourself. apologize to partner for drunken night embarrassing. Sam : Hey Evan tough situation doing best with health. How partner take news about rose bushes? Evan wasn t thrilled understood accident. promised to be more careful in future. Changing subject found low - impact exercises enjoy? Sam : Evan haven t found any exercises like lately been on few car rides Helps me chill enjoy view Check out cool pic snapped last week in country Evan : Nice pic! being out in countryside help relax get fresh air away from city? Sam being in nature helps me relax fresh air city Evan Glad to hear it Nature has way of calming reviving soul. Last summer took pic on camping trip amazing sunset Moments remind of beauty of life during tough times. Sam pic amazing! great experience out on lake Evan great time kayaking watching sunset last summer unforgettable Being out on water peaceful. Sam sounds amazing Being in nature calming? Evan Nature can be super calming like pushing reset button for mind and body. Sam couldn ' t agree more.something about outdoors rejuvenates you planning to spend more time in nature! Evan : Got it health stuff cramps style sucks small moments outdoors make big impact. photo reminds me of last spring feeling down vibrant colors brought smile to face Remember find joy in little things Sam : pic is gorgeous! brightens my day. Sometimes little things matter? Evan :, Sam. often little moments make biggest difference finding bright spots. Sam : Thanks, Evan good reminded appreciate small things add up. Evan :, Sam about small joys especially when times tough. got this! Sam : appreciate it, Evan Your words help a lot. Take care! Evan : You, Sam. remember always here if need to chat. Look after yourself"
+  ]
+}

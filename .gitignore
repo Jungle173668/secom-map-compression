@@ -6,7 +6,6 @@ __pycache__/
 locomo/
 data/samples.json
 
-# Ignore raw results but keep initial_results archive
-results/*.json
 results/*.log
-!results/initial_results/
+
+plan.md

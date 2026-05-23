@@ -1,4 +1,4 @@
-"""Baseline 2: True RecurSum — one running summary updated incrementally."""
+"""Baseline 2: Summarisation with budget-controlled verbatim recent turns."""
 
 import os
 from dotenv import load_dotenv
@@ -9,73 +9,73 @@ load_dotenv()
 _SUMMARIZE_MODEL = os.getenv("SUMMARIZE_MODEL", None)
 
 SUMMARIZE_PROMPT = """\
-Summarise the following conversation. Your target length is approximately {max_tokens} tokens.
-
-When the target is large (e.g. 5000+ tokens), you MUST write a thorough, exhaustive summary:
-read the entire conversation carefully and include as much detail as possible — every person \
-mentioned, their age, occupation, preferences, relationships, and specific events, facts, \
-numbers, dates, locations, and decisions. A larger token budget means more detail, not repetition.
-
-When the target is small (e.g. under 2000 tokens), be concise but still preserve the most \
-important named facts.
-
-Rules:
-- Preserve all names, ages, numbers, dates, locations, and specific decisions.
-- Do not add information not present in the original text.
-- Write in flowing prose or structured bullet points — whichever fits the length better.
+Write an exhaustive, comprehensive record of the following conversation.
+Include EVERY detail: all people mentioned with their ages, occupations, relationships, \
+and preferences; all events, facts, numbers, dates, and locations; all decisions made. \
+Be as thorough and detailed as possible. Do not omit anything.
 
 Conversation:
 {turns}
 
-Summary (approximately {max_tokens} tokens):"""
+Comprehensive record:"""
 
 
-def _summarise(turns_text: str, max_tokens: int) -> str:
-    prompt = SUMMARIZE_PROMPT.format(turns=turns_text, max_tokens=max_tokens)
+def _summarise(turns_text: str, max_tokens: int = 4096) -> str:
     return llm_call(
-        prompt,
-        system="You are a faithful dialogue summarisation assistant.",
+        SUMMARIZE_PROMPT.format(turns=turns_text),
+        system="You are a faithful dialogue summarisation assistant. Be exhaustive and detailed.",
         model=_SUMMARIZE_MODEL,
+        max_tokens=max_tokens,
     )
 
 
 def recursive_summarize(
     history: list,
-    max_summary_tokens: int = 2000,
+    max_summary_tokens: int = 5000,
     summarize_every: int = 10,
 ) -> tuple[str, int]:
     """
-    Summarisation baseline: one LLM call to summarise all old turns, keep recent verbatim.
+    Summarisation baseline.
 
-    Design:
-      old turns  = history[:-summarize_every]  → one LLM call → summary
-      recent     = history[-summarize_every:]   → kept verbatim
+    Step 1 — Summarise the first half of the conversation with one LLM call
+              (LLM writes freely, typically ~800–1500 tokens).
+    Step 2 — Fill remaining budget (max_summary_tokens - summary_tokens) with
+              verbatim recent turns, greedy from most-recent backward.
 
-    Control:
-      max_summary_tokens → target summary length → compression ratio.
-      Larger value → more detail → lower compression → higher accuracy.
-
-    This is the simplest offline instantiation of 'LLM rewrites old turns':
-    one call, all old content compressed equally, recent turns preserved.
+    max_summary_tokens is the total context budget (summary + verbatim combined).
+    Larger budget → more verbatim turns → higher accuracy, lower compression.
     """
     if not history:
         return "", 0
 
-    if len(history) <= summarize_every:
-        context = turns_to_text(history)
-        return context, count_tokens(context)
+    # Summarise first half; treat second half as verbatim candidates
+    split = max(1, len(history) // 2)
+    old_turns = history[:split]
+    candidate_recent = history[split:]
 
-    old_turns = history[:-summarize_every]
-    recent_turns = history[-summarize_every:]
+    summary = _summarise(turns_to_text(old_turns))
+    summary_tokens = count_tokens(summary)
 
-    summary = _summarise(turns_to_text(old_turns), max_summary_tokens)
-    recent_text = turns_to_text(recent_turns)
+    # Greedy fill: add turns from most-recent until budget exhausted
+    remaining = max(0, max_summary_tokens - summary_tokens - 50)
+    verbatim = []
+    for turn in reversed(candidate_recent):
+        t = turns_to_text([turn])
+        t_tokens = count_tokens(t)
+        if t_tokens <= remaining:
+            verbatim.insert(0, t)
+            remaining -= t_tokens
+        else:
+            break
 
-    context = "[Conversation Summary]\n" + summary + "\n\n[Recent Turns]\n" + recent_text
+    context_parts = [f"[Conversation Summary]\n{summary}"]
+    if verbatim:
+        context_parts.append("[Recent Turns]\n" + "\n".join(verbatim))
+    context = "\n\n".join(context_parts)
     return context, count_tokens(context)
 
 
-def run(sample: dict, max_summary_tokens: int = 2000, summarize_every: int = 10) -> tuple[str, int, int]:
+def run(sample: dict, max_summary_tokens: int = 5000, summarize_every: int = 10) -> tuple[str, int, int]:
     """Return (compressed_context, tokens_used, full_tokens)."""
     full_tokens = count_turns_tokens(sample["full_history"])
     context, tokens_used = recursive_summarize(

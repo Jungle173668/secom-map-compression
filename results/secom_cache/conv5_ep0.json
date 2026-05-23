@@ -1,0 +1,394 @@
+{
+  "version": 1,
+  "use_ep": false,
+  "compress_rate": 0.65,
+  "context_map": {
+    "entities": {
+      "Audrey": {
+        "type": "person",
+        "count": 28,
+        "last_session": 28
+      },
+      "Andrew": {
+        "type": "person",
+        "count": 28,
+        "last_session": 28
+      },
+      "Pepper": {
+        "type": "other",
+        "count": 4,
+        "last_session": 26
+      },
+      "dog park": {
+        "type": "place",
+        "count": 4,
+        "last_session": 23
+      },
+      "national park": {
+        "type": "place",
+        "count": 3,
+        "last_session": 26
+      },
+      "next month": {
+        "type": "date",
+        "count": 5,
+        "last_session": 24
+      },
+      "dogs": {
+        "type": "other",
+        "count": 2,
+        "last_session": 17
+      },
+      "Jack Russell": {
+        "type": "other",
+        "count": 2,
+        "last_session": 19
+      },
+      "Chihuahua": {
+        "type": "other",
+        "count": 3,
+        "last_session": 26
+      },
+      "Last Friday": {
+        "type": "date",
+        "count": 2,
+        "last_session": 11
+      },
+      "Toby": {
+        "type": "other",
+        "count": 12,
+        "last_session": 28
+      },
+      "city": {
+        "type": "place",
+        "count": 2,
+        "last_session": 20
+      },
+      "Monday": {
+        "type": "date",
+        "count": 2,
+        "last_session": 24
+      },
+      "Pixie": {
+        "type": "other",
+        "count": 2,
+        "last_session": 26
+      },
+      "Precious": {
+        "type": "other",
+        "count": 3,
+        "last_session": 26
+      },
+      "Panda": {
+        "type": "other",
+        "count": 2,
+        "last_session": 26
+      },
+      "last weekend": {
+        "type": "date",
+        "count": 1,
+        "last_session": 18
+      },
+      "last week": {
+        "type": "date",
+        "count": 1,
+        "last_session": 18
+      },
+      "Peruvian Lilies": {
+        "type": "other",
+        "count": 1,
+        "last_session": 19
+      },
+      "Friday": {
+        "type": "date",
+        "count": 3,
+        "last_session": 28
+      },
+      "Saturday": {
+        "type": "date",
+        "count": 2,
+        "last_session": 26
+      },
+      "river": {
+        "type": "place",
+        "count": 1,
+        "last_session": 20
+      },
+      "the beach": {
+        "type": "place",
+        "count": 1,
+        "last_session": 21
+      },
+      "the weekend": {
+        "type": "date",
+        "count": 1,
+        "last_session": 21
+      },
+      "animal shelter": {
+        "type": "org",
+        "count": 1,
+        "last_session": 22
+      },
+      "Tuesday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 23
+      },
+      "Wednesday": {
+        "type": "date",
+        "count": 2,
+        "last_session": 26
+      },
+      "German Shephard": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "Buddy": {
+        "type": "other",
+        "count": 3,
+        "last_session": 28
+      },
+      "pet store": {
+        "type": "place",
+        "count": 1,
+        "last_session": 24
+      },
+      "shelter": {
+        "type": "place",
+        "count": 1,
+        "last_session": 24
+      },
+      "wine tasting": {
+        "type": "other",
+        "count": 1,
+        "last_session": 25
+      },
+      "sushi": {
+        "type": "other",
+        "count": 1,
+        "last_session": 25
+      },
+      "California roll": {
+        "type": "other",
+        "count": 1,
+        "last_session": 25
+      },
+      "salmon roll": {
+        "type": "other",
+        "count": 1,
+        "last_session": 25
+      },
+      "Lab": {
+        "type": "other",
+        "count": 1,
+        "last_session": 26
+      },
+      "Sunday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 26
+      },
+      "lake": {
+        "type": "place",
+        "count": 1,
+        "last_session": 26
+      },
+      "trail": {
+        "type": "place",
+        "count": 1,
+        "last_session": 26
+      },
+      "animal behaviorist": {
+        "type": "person",
+        "count": 1,
+        "last_session": 26
+      },
+      "Audrey's four pups": {
+        "type": "other",
+        "count": 1,
+        "last_session": 27
+      },
+      "dog owners group": {
+        "type": "org",
+        "count": 1,
+        "last_session": 27
+      },
+      "Scout": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      }
+    },
+    "decisions": [
+      "Garlic is Audrey's go-to ingredient in the kitchen",
+      "Audrey shares her Chicken Pot Pie and Roasted Chicken recipes with Andrew",
+      "Cooking is calming and rewarding for both Audrey and Andrew",
+      "Andrew and Audrey decided to go for a hike next month",
+      "Safety is a top priority for dogs running around",
+      "Andrew and Audrey will check if the trail is safe for dogs",
+      "Andrew adopted a puppy named Toby",
+      "Andrew invited Audrey and her dogs for a hike next month",
+      "Audrey agreed to go on a hike with Andrew and their dogs next month",
+      "Audrey made personalized tags for her dogs",
+      "Andrew and his girlfriend volunteered at a pet shelter on Monday",
+      "Andrew and his girlfriend had a rewarding experience at the pet shelter",
+      "Audrey has four pets",
+      "Audrey's pets have distinct personalities",
+      "Audrey's childhood dog was named Max",
+      "Andrew and Toby are going camping",
+      "Audrey takes her dogs to agility classes twice a week",
+      "Andrew considers hiking as the best outdoor activity",
+      "Audrey advises that city-dwellers with a dog make sure they have enough time and energy for the pet",
+      "Audrey got a tattoo of her four dogs on her arm",
+      "Audrey decided four dogs are enough for now",
+      "Audrey took all her dogs to the vet for a check-up",
+      "Andrew decided to take a break from work",
+      "Audrey learned a new skill in dog grooming",
+      "Andrew plans to visit a nature reserve this weekend",
+      "Andrew and his girlfriend went fishing in a nearby lake last weekend",
+      "Audrey has never gone fishing",
+      "Audrey takes care of her dogs with regular grooming, daily brushing, regular baths, and nail trims",
+      "Audrey has a strong bond with her dogs",
+      "Andrew is trying to build a strong bond with Toby",
+      "Andrew has added simple things to his day like grabbing a coffee in the morning or going for a walk at lunch",
+      "Audrey organized a doggy playdate with neighbors' dogs",
+      "Audrey bought new beds for her dogs",
+      "Audrey calmed her dog by petting, hugging, and speaking calmly.",
+      "Audrey advises building trust with dogs through patience and regular training.",
+      "Audrey often takes her dogs for multiple walks per day.",
+      "Audrey has a small garden with flowers and a veggie patch.",
+      "Peruvian Lilies are easy to take care of with proper watering and sunlight.",
+      "Andrew and his girlfriend are going to the beach next month with Toby",
+      "Andrew and Audrey are going on a hike with their dogs next month",
+      "Audrey considers getting into birdwatching",
+      "Andrew and Audrey are planning to go birdwatching together",
+      "Audrey recycles as a way to help the environment",
+      "Andrew uses public transport and suggests biking to reduce carbon footprint",
+      "Audrey is interested in trying biking to reduce carbon footprint",
+      "Audrey took her dogs to the beach over the weekend",
+      "Andrew decided to get more plants for his house",
+      "Audrey started making jewelry as a hobby and then started selling it",
+      "Audrey donates a portion of her profits to an animal shelter",
+      "Audrey uses recycled objects to make jewelry",
+      "Andrew acknowledged Audrey's efforts to make a difference despite not being able to volunteer at the shelter",
+      "Andrew and Toby had a board game night on Tuesday",
+      "Audrey made goodies for her neighbors",
+      "Andrew plans to visit a cozy cafe on the weekend",
+      "Audrey's dogs enjoy playing Fetch and Frisbee",
+      "Audrey added more drawings to her tattoo of her dogs",
+      "Audrey is not planning to get more tattoos soon",
+      "Andrew misses nature while living in the city",
+      "Andrew adopted another pup from a shelter",
+      "Andrew named his new dog Buddy",
+      "Audrey will do research to find a good hiking spot",
+      "They plan to go on a hike with their dogs next month",
+      "Andrew decided to try sushi",
+      "Audrey decided to order sushi for dinner",
+      "Audrey noticed her dogs weren't acting normally",
+      "Audrey made an appointment with an animal behaviorist last Wednesday",
+      "Audrey received tips on using positive reinforcement techniques",
+      "Audrey and Andrew planned a hike on Saturday",
+      "Andrew is going on a picnic date with his girlfriend on Sunday",
+      "Audrey plans to bring snacks on the hike",
+      "They decided to check out a trail near a lake",
+      "Andrew decided to take good care of his dogs Toby and Buddy first before considering getting more",
+      "Audrey meets up with the dog owners group once a week",
+      "Audrey took her dogs to the pet salon",
+      "Andrew adopted another dog named Scout",
+      "Andrew plans to take Scout, Toby, and Buddy to a nearby park",
+      "Andrew and Audrey discussed the importance of providing a safe space for dogs",
+      "Andrew and his girlfriend are creating a safe space with essentials for Scout"
+    ],
+    "timeline": [
+      {
+        "time": "Friday night",
+        "event": "Andrew had a board game session"
+      },
+      {
+        "time": "last Monday",
+        "event": "Audrey went to a pet store and bought toys for her dogs"
+      },
+      {
+        "time": "",
+        "event": "Andrew adopted Buddy from a shelter"
+      },
+      {
+        "time": "",
+        "event": "Andrew and Buddy enjoy walks and exploring hiking trails"
+      },
+      {
+        "time": "next month",
+        "event": "Audrey and Andrew plan to go on a hike with their dogs"
+      },
+      {
+        "time": "last weekend",
+        "event": "Andrew attended a wine tasting with his girlfriend"
+      },
+      {
+        "time": "last week",
+        "event": "Audrey had an accident at the park while playing with her pups"
+      },
+      {
+        "time": "recently",
+        "event": "Andrew tried a new sushi spot"
+      },
+      {
+        "time": "last Wednesday",
+        "event": "Audrey made an appointment with an animal behaviorist"
+      },
+      {
+        "time": "Saturday",
+        "event": "Audrey and Andrew planned to go hiking"
+      },
+      {
+        "time": "Sunday",
+        "event": "Andrew is going on a picnic date with his girlfriend"
+      },
+      {
+        "time": "Last weekend",
+        "event": "Audrey's dogs ran around and got some fresh air at a park"
+      },
+      {
+        "time": "Last weekend",
+        "event": "Andrew went on a bike ride with his girlfriend and found a park outside of town"
+      },
+      {
+        "time": "Last Friday",
+        "event": "Audrey took her dogs to the pet salon"
+      }
+    ],
+    "session_counter": 28,
+    "token_budget": 300
+  },
+  "segments": [
+    "Audrey : Hey Andrew! Good to see ya! What been up since last talked? Andrew : Hey Audrey! started new job as Financial Analyst last week change from previous job. How you? interesting happening? Audrey : Congrats on new job! got new collars tags for dogs cute! Andrew : Thanks! sounds cute see picture? Audrey : Sure! See them with new collars? Andrew : Cute little guys! their names how long had them? Audrey for 3 years! names are Pepper, Precious and Panda. can ' t live without little ones! Andrew : awesome! always wanted a dog, living in city? still go on adventures? Audrey : city dogs explore love trying new parks trails go on adventures together often. Andrew : make life awesome! jealous of fun outings. Audrey : They do great happiness bring. any pets? Andrew No no pets love animals. Audrey : great to hear! Animals amazing favorite animal? Andrew awed by birds power to soar explore new spots amazing. Audrey birds amazing! feels incredible to soar see world from up high. favorite type of bird? Andrew : Eagles mesmerized me strong graceful! Audrey : beautiful. go bird - watching? see them up close. Andrew t gone for bird - watching spot them when hike. Audrey Nice spotting pretty birds while hiking must great.favorite hiking spots? Andrew Fox Hollow great trail to hike weekends views awesome! Audrey : Cool give try Thanks for suggestion! Andrew No problem! know how like it fun hiking! Audrey : Thanks! know. Have good one! Andrew Take care good one! See ya",
+    "Audrey : Hey Andrew surprise! adopted another puppy called Pixie. She ' s SO cute! cutest? Andrew : awesome! Pixie cute! check out hiking spot last time? Audrey : Thanks! She cute! Pixie keeping us busy haven ' t chance check out hiking spot yet. Andrew : get it. puppy takes work. settled in okay? getting along with other pups? Audrey : Pixie ' s fitting in great! took her few days to get used to other dogs now awesome friends love playing exploring house - cute! Andrew : awesome! Pepper adjusting well? Audrey Pepper took bit to get used now always together! Andrew : great to hear! considering getting a dog challenging finding dog - friendly place in city. tips on finding place? Audrey used websites helped find place allowed dogs had filters made easy Found perfect spot thanks them! Andrew : cool! give websites try thanks for info! Audrey : got it! hope find great spot soon! Andrew : Thanks! Fingers crossed for apartment furry friend Audrey keeping fingers crossed for find great furry friend apartment. Andrew Hope find one soon Can ' t wait! Audrey love them! great for cuddles companionship. Andrew great to have furry buddy to cuddle hang with photo of family ' s dog on a couch. Audrey furry friends make great cuddle buddiess one enjoying lazy couch time! Andrew : pic cute! fun to hang out with dog cuddling away thinking old hiking pics miss exploring nature trails with family ' s dog. peaceful moments in nature! Audrey : Taking on hikes awesome! want to hike with dogs. Andrew Hiking with dog fun great way to bond create memories together. Audrey Exploring nature making memories awesome! Andrew miss moments. need find dog - friendly spot soon exploring again! Audrey hope find perfect dog - friendly spot soon make new memories. Andrew : Thanks! keep looking until find it. excited for next! Audrey excited! can ' t wait to see where you furry friend decide hang out. best! Andrew : keep you posted. Ttyl, Bye",
+    "Andrew : Hey Audrey! What ' s up? Missed chatting with ya! Check it out, my girl I tried out new cafe scene in city last weekend! Super fun sad not being out in nature - feel I thriving. miss peacefulness of out on hike. Audrey : Hey Andrew! cafe sounds awesome glad you enjoyed it know feeling of being out in nature surrounded by beauty peace unbeatable compared to concrete jungles. Andrew : being out in nature has way taking breath away like home for my soul! feel connected when there. Audrey : get it. Nature has way bringing us back down to earth reminding we re part of something bigger amazing Andrew like hitting reset button when life too chaotic Nature soothing. Audrey : taking dogs for walk in park helps find center recharges me. Andrew : hear ya. city living makes it hard. miss connection companionship. Audrey be tough living in city without opportunity to go outside different experience. Andrew does Sometimes feels like missing out. tough City life can get overwhelming great to find ways to connect to nature. What things to do in city? Andrew : girlfriend love to discover new places to eat around town great way to try something new wind down after long week. Audrey great way to explore city! Trying new places food is always fun.discovered new favorite spots recently? Andrew : found awesome cafe with amazing pastries - smell irresistible! Audrey : Sounds amazing! take a photo? love to see! Andrew : got them! Check out photo of delicious pastries at cafe. Audrey : look great! What? craving pastries! Andrew taste great too! delicious croissants, muffins tarts! amazing! Audrey : sounds amazing! enjoy them. metioned pastries made favorite treats last week. pastry party sometime! Andrew looks delicious! pastry party sounds awesome! Audrey dogs will tag along furry friends love it! Andrew : great time at party! Can ' t wait for party! Audrey : Same! Looking forward to it good chance for to hang out with them. Andrew : awesome to see all them together chowing down. excited! Audrey : awesome! Seeing them all together having fun enjoying treats best can t imagine life without them bring much joy. Andrew happy faces means a lot to you Audrey mean world to me got tattoos of on arm. Andrew tattoo looks great! Audrey Thanks! got it ago represents love for pups and nature ' s beauty. Andrew cute What made getting tattoo? Audrey always had strong bond with them they make me happy want to see their happy faceseven when thry ' re not with me.Andrew : ' s awesome glad they bring joy into your life",
+    "Audrey : Hey Andrew! Long time no talk! Last week went on hike had amazing experience with hummingbird cool watching with wings! Nature beautiful. Andrew : Hey Audrey! Glad to hear from you hummingbird was awesome! Nature ' s best. Remember feeling down couldn ' t get out more? good news found new open space to hike nearby feels refreshing! Audrey : looks great! How often go hiking now? Andrew : escape city once a weekend - needed break! Audrey : Nice! great to get away. Andrew Nature therapeutic hard to put into words great feels to surrounded by greenery or standing on top of mountain breathing fresh air peaceful invigorating. Audrey : view looks great! captures calming peaceful feeling satisfying capture tranquility. Andrew capture special moments share feeling with others Audrey cool! Spreading peaceful feeling to others great way to bring happiness motivation. Andrew agree brings joy to spread feeling motivate people to find own peace ripple effect, spreading positivity. Audrey Not receiving end feels great person spreading will feel great! Andrew crazy bring great joy calm to people. Audrey sharing something can make big difference to others. Andrew don t realize littlest gestures can have big effect. Spreading good vibes joy goal what ' s up? Anything new or fun? Audrey : Not much changed since last talked. busy taking care of pets spending time with them. fulfilling.Andrew : bet it ' s awesome hanging out with them - dogs enjoy going on hikes? Audrey : dogs go nuts hikes! love exploring new scents being in nature their happy place. tell wagging tails expressions much love it. great to see them much fun! Andrew : great! wondering if tips or tricks for keeping dogs safe when out? Audrey : Safety important got them something special. look funny works! Andrew : Awesome see take good care of dogs! What else do walk them? Audrey take out usually play fetch with ball or frisbee love chasing it! meet other dog owners park have doggie playdate. great way to chat with people make new friends. Andrew : looks fun! excited about playing fetch! Audrey : adore it! have tons of energy love meeting new pals at playdates always get excited when bring those out. Andrew cute! enjoy wearing party hats? where find playdates? Audrey hats don ' t bother them put them on for fun treats. dog park great place to start! run mingle with other pooches fun spot for playdates! Andrew sounds great! Where is located? Audrey right by park usually walk great spot with trees benches for to watch dogs play. Andrew awesome not too far away! check it out. Thanks for suggestion! Audrey : Not at all Let me know how it goes. Andrew : Sure let you know Always great chatting with you! Ttyl",
+    "Andrew : Hey! Since last spoke looking for doggo to adopt - browsing websites visiting shelters asking friends. fun annoying! Audrey : Sounds fun demanding task! meet new pups must bring happiness. make process smoother? Andrew : Meeting adorable pups awesome! For considering getting pup size of living space exercise needs of breed important. person living in apartment smaller dog best, if one active consider getting one loves to play and run. Audrey : good advice! important to consider space energy needs of dog. Andrew Finding pet - friendly place to live tough contacting landlords checking out neighborhoods to find perfect spot. Audrey : tough to find housing. Any part of town want to live in? Andrew looking for place near park or woods stay close to nature give dog large open space to run around Audrey : good plan! lucky to have park near me great for pup ' s walks. Last Friday took road trip to beautiful national park dogs had a blast! awesome trip! Andrew : Nice! Glad pups had great road trip. take them on road trips often? Audrey road trips once every couple months great way for to explore stay active. Andrew : awesome wish could go on road trip with furry companion. Audrey : cool experience. furry friends on road trip amazing experience make it fun exciting.look forward to! Andrew : Adding to bucket list! Can ' t wait for day go on trip with dog! Audrey Good luck with search! Fingers crossed find perfect one. Andrew Thanks! help appreciated still on lookout for perfect furry friend. Audrey Not problem glad to help! Good luck with search! Andrew Thanks! let know how it goes. Audrey keep me posted know need suggestions or help. Andrew Will do! apprecieate it. Audrey got it expecting pic of dog soon! Andrew can ' t wait. ttyl check out another shelter soon. Audrey : Have fun! Ttyl",
+    "Andrew : Hi Audrey! had great hike last weekend with friends girlfriend at spot found recently Nature peaceful nice to relax take it in. How ' s your week been? exciting lately? Audrey : Hey Andrew! hike sounds great. Nature good for soul? My week ' s been good - taking care of four doggies happy healthy took up free time. exciting news! signed up for workshop about bonding with pet next month Can ' t wait to learn new stuff strengthen bond with pets. What ' s up with you? Andrew : awesome! Glad opportunity to bond with pets workshop sounds cool. Where hear about it? one in picture adorable! Audrey : saw workshop flyer at local pet store positive reinforcement training class wanted to give shot volunteer store nice to let meet their dog friendly playful! Andrew : Cool! Positive reinforcement can help bond with dogs. they catch on quickly? Audrey : quick! quick learners love rewards! Can ' t wait to learn to train better. Andrew Keep updated on progress. Audrey : keep updated on how it all goes how pups doing Fingers crossed extra behaved. tips on training future dog! Andrew : Thanks! excited to hear about it. great time at workshop! Audrey : good time make most of it must learn for any dog owner. Andrew :? be good salesperson almost sold on this class haha. Audrey : important to have pets learn how to behave on positive reinforcement way.Punishment never proper way for pets? Andrew : would ' t want be punished puppies dogs Audrey : Right!? don ' t want hurt dogs thinking gives pain. Andrew : feel you look into their classes. talk to you soon have fun! Audrey : Yup, ttyl",
+    "Audrey : Hey how ' s it going? Yesterday took pups to park awesome! Seeing them running around playing without leash awesome filled my heart with joy - happiness brought me peace. Andrew : sounds amazing! happy watching them running around. moments like show us amazing animals Glad had great time. mentioned taken them on hiking trip? Audrey : took them for hike before went to national park last week made it to beautiful peak stunning during sunset never forget it. furry pals running around awesome felt like slice of paradise breeze nice hear birds chirping. Andrew : sounds amazing! memorable experience manage to capture it? love to see a photo! Audrey : took photos. favorites. Andrew : Wow incredible sunset scenery! magical. Thanks for sharing! Audrey : special. Nature cheers me up makes me feel grateful. Glad experience it too. how things going with search for furry friend? Andrew : still on hunt tough finding pet - friendly spot in city checking out some places no luck discouraged determined to find right place and dog. Audrey : Hang find perfect place for you new furry friend. Andrew : Thanks! won ' t give up. Audrey : here to support! Email me your criterias help find great spot for furry friend. Andrew : Thanks! Your assistance appreciated. thankful for help. Audrey : Not a problem! keep searching. Stay positive",
+    "Andrew : Hey! Long time no chat. Last Sunday awesome friends I took rock climbing class made it to top! fantastic experience now hooked. try do more outdoor activities this every week! Audrey : awesome! rad experience rock climbing always in awe of people climb mountains any pics or videos from climb? love see view from top! Andrew : Rock climbing awesome! challenge, satisfying. view stunning proud of myself. Nature amazing! Shares photo of view from top of rock climbed during rock climbing class ] Audrey : view stunning! Congrats on reaching top huge accomplishment. Nature reminds how tiny in comparison? challenging? Andrew : Thanks! big achievement climb tricky especially still newbie made it with support cheer from friends. Audrey : Nice solid support group helps when things tough. lucky have great friends! adventure encourage try more outdoor activities? Andrew rock climbing awesome accomplished reaching top encouraged try more outdoor activities like kayaking bungee jumping? Nature pushes me out of comfort zone! Audrey Have fun with kayaking bungee jumping! Last week found great spot for dogs ' walk small park trail surrounded by trees nice dogs like it too. to come along? Andrew : Sounds great, Audrey! love to join you pups for walk. Being in nature with dogs great time! Audrey : Awesome Can ' t wait to have fun with everyone dogs love meeting new people.Andrew : Sames can ' t wait to meet them take stroll in park. Audrey : taken during walk in park. See how happy they? Andrew : look like enjoying themselves. How long usually walk them for? Audrey : Varies depending on day usually for about an hour let them explore at their own pace. Andrew : Cool good amount time for have nice stroll take look around. Audrey need exercise explore - always go home with smile tired. Andrew Nice! Letting them explore have fun important. they must be loving it! Audrey love it! favorite part of day! faces blightens up soon ready for walk. Andrew Nature makes us pets happy. Audrey Dogs and nature bring me joy peace. Andrew agree nice. Audrey check out how happy they in meadow! make me happy. Andrew cute dogs look content in picture meadow looks nice great nature brings pets joy! Audrey Being outdoors with them puts me in happy place peaceful inspiring. Andrew Glad found something puts you in happy place being outdoors inspiring calming us. Audrey incredible how nature can make us think differently. Andrew Agreed! great for refreshing mind giving different outlook. need of reset turn to nature. Audrey Nature way making us feel alive centered appreciate what it gives us.",
+    "Audrey : Woohoo! new place with bigger backyard for pooches! Take look! Andrew : awesome! Your new place looks great. fur babies must be thrilled with bigger backyard they having blast running around. How settling in? Audrey : Thanks! love it - much space to run explore sniffing new smells awesome to see them having fun. Andrew : Awesome! must love it. Makes happy seeing them have fun. plans on making more pup - friendly? Audrey : set up doggy play area in backyard with agility stuff toys loving it! Andrew : went in? great place to play explore awesome! look at this place Audrey : looks fun!? love take dogs there soon. Andrew doggy daycare near me big indoor space for dogs to play. Audrey : look at it Thanks for tip Andrew Not problem! need help finding more places for dogs. Audrey : Thanks! Appreciate offer nice to have friends understand love for pets! Andrew People understand love for dogs awesome. bring much joy! Audrey Animals are great! bring joy Can t imagine life without them! Andrew : glad appreciate them. Not everyone feel this way. Audrey : don ' t get people hating on pets or hurting them like family to people. Andrew what new with you? Anything going on lately? look at park in my neighborhood has flowers. Audrey flowers look beautiful. aside moving to new house unboxing packed boxes.What about you? Andrew : Last Friday hiked with friends. weather great felt good to be outdoors got awesome pictures. Audrey : good time! share awesome outdoor pics with me? tell me about your hike. Andrew : Haven ' t gone through photos yet. Maybe soon! lovely being out in open hearing bird songs smelling trees. Lately missing connection with nature peace brings. looking forward to exploring more! Audrey : Nature soothing us helping recharge special hope experience it again soon want to do something like this right now. Andrew : looks nice. chilled out! How it? Audrey : few years back friends went on hike stumbled across stunning lake in mountains sat by it chat admiring peacefulness of nature never forget moments. Andrew : looks peaceful. must have been great spot! Audrey : Nature lake calming what needed. Andrew : had peaceful calming experience! appreciate beauty of life. Audrey : shold appreciate small things in life not take anything for granted.",
+    "Audrey : Hey! been a while. taking dog training course challenging rewarding. dogs doing better already What ' new with you? Andrew : great to hear from you! Life s thrown me curveballs lately can ' t to find dog - friendly spots to rent. a bummer. exploring on new trails? Audrey : sorry about search for dog - friendly spots haven t had ton time for new trails dog - training course big time sink paid off they doing great. Andrew : great news! must feel rewarding to see them doing well. understand feels on missing peace of being out on trails now urban adventures. Audrey : Seeing them do well super rewarding! give me love happiness. frustrating not to find pet - friendly spots Nature calming restorative how happy they when they out. Andrew : t asked what breed they right? what enjoy doing most? having a blast! Audrey : all mutts Two Jack Russell mixes other two Chihuahua mixes love running playing fetch see them. Andrew : look comfy in bed they ' re well loved. How old are they? getting along now? Audrey : all 3 - year - old great pack doggy playdate last Friday crazy lots of fun! Andrew : look adorable! Doggy playdates sound fun Glad they all get along. Audrey : Thanks! They are my universe. anything new been into lately? Andrew : finding new hobbies since can ' t hike.been getting into cooking more trying out new recipes - enjoyable. enjoy cooking? favorite recipes? Audrey : love cooking! favorite recipe is Chicken Pot Pie. cozy delicious especially cold day. share recipe with you. Andrew : looks nice! sharing recipe give it a try? What inspired you to make it? Audrey : Sure! Let send you recipe in a bit. give it a try! my family ' s recipe been around for years. flavors remind me of grandma ' s kitchen makes think of conversations at table. hope you like it! how s cooking going? Andrew : Thanks! give it a try. Cooking helping me de - stress be creative still rookie having fun experimenting. what makes like cooking so much? Audrey : love trying out new recipes experimenting kitchen escape for me. great for de - stressing letting creativity flow. Andrew : feel you! gives me escape allows to try something new. bonus of enjoying food afterwards slowly becoming of favorite hobbies relaxing allows express creativity. Audrey : Agreed! Cooking eating food rewarding form of self - care. love throwing on music pouring glass of wine going with flow in kitchen therapeutic. how beautiful dish? Andrew : looks great! Cooking calming? go - to ingredient in kitchen? Audrey : Cooking calming. Garlic is my go - to ingredient. love smell taste adds to dishes.Andrew : Garlic delicious! favorite dish make with it? share recipe? Audrey : Roasted Chicken my favorites send recipe bit. Andrew : can ' t wait to make it! looks amazing. inspired you to make it? Audrey : glad interested! recipe based on love for Mediterranean flavors. tasty dish easy to make loaded with healthy stuff like chicken garlic lemon herbs. favorite comfort meal! Andrew : sounds delicious healthy! always looking for new meal ideas especially healthier. appreciate sharing with me thanks! Audrey : No problem! hope enjoy making eating it. know how it turns out! Andrew : will do! keep posted. Talk later! Audrey : Excited to hear about it Talk later",
+    "Andrew : Hey how ' s it going? Last Friday amazing - had picnic with my girlfriend much fun! Being in nature can refreshing brings me joy. Audrey : sounds like picnic awesome! being in nature nice. furry friends make me happy. had great walk other day - felt good! Andrew : That ' s awesome! Dogs make life more fun doesn ' t it. wish I could get one, but tough to find place find right dog. How did get yours? Audrey : Thanks! lucky finding breeder nearby has dogs wanted places that allows dogs hard to find. Andrew : tough. found few parks can take pup on leash not the same as open area where can run and play. If find something let you know. Audrey : Cool join you for hike bring dogs great to chance run freely. Andrew :! ' m down for a hike with you furry friends do it next month when weather more pleasant trail great for dogs. Audrey : awesome! can ' t wait to take them hiking. Fingers crossed find spot with great view room for to explore have blast. Andrew : Looking forward to seeing have fun hiking planning for next month! map for trail. Audrey : look into trail for furry friend to run around. Andrew : Sounds good! trail safe for dogs to run around have fun. Audrey : After all safety top priority when dogs outside running around. Andrew : Agreed! great with dogs! Audrey : cool stuff happening today.Andrew : Woah! They look cute! What going on here? look ready for adventure. Audrey : re all set for next outdoor adventure! Andrew : can ' t wait to meet them! They seem like a blast! Audrey : they do! are a lot of fun. Andrew : dogs add fun to daily life. Audrey : bring me much joy. Can ' t get bored. Andrew : look adorable playing in park! Seeing them have much fun must be rewarding. Audrey : does. Seeing them happy and bouncy makes me happy. Andrew : happy contagious. makes me happy by looking at photos. Audrey : great full of energy bringing smile to face! Andrew : make everyone smile. Can ' t wait to go hiking with them! Audrey : great to see them enjoy themselves on hike! Andrew can ' t wait to have fun on hike. excited! Audrey : s great day! happy my dogs are at local park. Andrew : look at them great day! love being outdoors seeing others enjoy it too. Audrey : Being outside seeing people happy is awesome pic from hike last year. pretty sunset! Andrew : stunning! where this is? Audrey : hiked this last year! 3 hour drive from me sunset amazing! Andrew sunset with view amazing especially with nature around. Audrey beautiful moment! colors vibrant felt peaceful. grateful for moments like remind me of beauty of nature appreciate small things.Andrew : Yeah! incredible nature have awesome surprises. Audrey : Nature has awesome surprises. vibrant colors gives feeling of peace breathtaking! Andrew : Yeah! stunning! Life awesome appreciate moments? Audrey : taking second appreciate moments makes better",
+    "Andrew : Hey! much changed since last time talked - meet Toby, my puppy. He ' s bundle of joy couldn ' t resist taking him home, city living. How ' you been? Audrey : OMG! Toby looks adorable! Congrats on your new addition. happy now! happy for you! Andrew : Toby ' s bringing joy. Since last talked work piling up stuck inside. miss peace feeling of freedom for hike. Audrey : stressed! work ' non - stop hard to get outdoors. Hiking great way to relax take in nature plans to go hiking soon? plan trip for both us and our pups! Andrew : work stressful lately need break plans for hike next month cool if pups could come along enjoy nature fun time! Audrey : Sounds great! in for hike dogs can come too. Thanks for inviting us! made personalized tags for. look! Andrew : look great! make them? cool! Audrey : Thanks! made them myself wanted each one to be special fit personalities. Andrew : cool put love into making them makes extra special. Audrey : Thanks! love into making tags want pets to feel seen and loved. Andrew small things like these show care a ton about out pets. Audrey : Small acts of love make big difference in relationships with furry pals. make sure they know how much we care! Andrew : They bring us much joy fair show them how special.Can ' t wait for hike Toby pups to meet! Audrey : Can ' t wait either! loads of fun great memory. Andrew : adventure alright. Audrey : Counting down days ' til hike! get ready soon! Andrew : Same here! be awesome. talk later",
+    "Andrew : Hey Audrey! How you? My GF and I had great experience volunteering at pet shelter on Monday rewarding! loved spending time with cute animals gave us joy. rewarding reminded me how much I love them! Audrey : Hi Andrew! good, thanks. awesome about pet shelter volunteering. Helping animals great when happy! happy for experience! should do that someday too! Andrew : Thanks! content makes me happy realize special full of love they! volunteered at animal shelter? rewarding. Audrey : Never been to animal shelter before must be great! four fur babies more important! pic of us from fun day at park. Andrew : cute photo! their personalities? more! Audrey : oldest one most relaxed wise old sage second one ready for game third one can be naughty loves good cuddle youngest one full of life up for adventure. own individual personalities adore them. Andrew : sound amazing! remind of your childhood pup photo with dog cute most playful! Pets bring joy life! Audrey : Thanks! Max, my childhood dog had lots energy loved game of fetch great memories him. Pets bring joy. Andrew : Their love and energy can brighten up a day. amazing close we get to them memories they create for us. any other special memories with Max remember fondly? Audrey : Max and I take long walks in neighborhood kid explored new paths him sniffing marking his territory.grew close shared worries hopes with him. He was great listener always there for me. Those days my favorite memories. Andrew : Pets are more than just pets - become friends confidantes. always know how to listen provide comfort when need can make us feel loved understood leaving lasting mark on lives. Audrey : Pets make lives better. listen without judging give best unconditional love leave mark in hearts remind us how it feels to be seen understood. thankful to have them around - bring joy comfort love. Andrew : You nailed it! went volunteering with animals most rewarding things lift spirits with love joy comfort. Audrey : glad you to experience that! Animals brightening our day giving us lots of love joy. pet shelter appreciated your help! Andrew : had blast volunteering. way of giving back making lives better! Audrey : your kindness care will make them happier no",
+    "Andrew : Hey, Audrey! can ' t wait for weekend. girlfriend, Toby and I going camping. been forever since been in nature. Audrey : awesome! must be fun! started agility classes with pups at dog park awesome to watch them learn build relationships with other dogs Seeing face and conquer challenges warms my heart. Andrew : amazing to watch them grow together. look cool overcoming obstacles. Impressive stuff! Audrey : Thanks! They come a long way much fun with it great physical and mental workout. take them to park twice a week for practice great bonding experience. Andrew : Awesome! having fun with them keeping them busy how? look at trail at. Cool? Audrey : tough at times going great. growing together. Check out pic on trail hike! Andrew : nice hike! How long trail? Audrey hike took us two hours stunning! saw amazing views great to explore nature. Andrew : sounds awesome! Being be in nature appreciate cool wish could do more often. Audrey : Nature refreshes you appreciate beauty. any outdoor activities lately? Andrew for hiking is best. Being out in nature with trees and fresh air refreshes me. Reaching top of challenging trail amazing feels like all worries vanish when top. Audrey : achieved something all worries fade away. Nature special? Andrew nature calms me down relaxes mind. break from craziness of city living.Audrey :! It ' s a refuge from busy city life better when share it with someone special. My pets been my good ol ' buddies during tough times! make me happy love them much. Andrew : Agreed! Sharing something enjoy with someone is great bonds bring joy love. Audrey : humans and animals have cool connection. bring us much joy love blessed to have my furry friends in life. They re my companions make my day better. Andrew : lucky to have you as owner. Hoping for deep bond with Toby experience special bond. Audrey : they mean the world to me what breed is Toby? Andrew : German Shepherd smart and loyal! Audrey German Shepherds are awesome super loyal and smart amazing connection with one! Andrew : hope take him hiking with me great hiking buddies smart loyal Audrey German Shepherds known for loyalty smarts love new journeys exploring outside. see you and pup conquering trails together! Andrew someone enjoys similar things great for hiking. advice for city - dwellers owns pup? Audrey advice enough time and energy for pup need attention and walks Especially for German Shepherd like Toby need to offset energy. Andrew : Thanks for advice! keep in mind not limiting Toby ' s growth not taking him out not enough. Audrey : No worries, Andrew important to be prepared give a pup love deserves. Good luck with Toby! Andrew : Thanks take Toby out for small hike at local trail.",
+    "Audrey : Hey Andrew last spoke got another tattoo of four dogs on arm! They mean a lot to me thought nice to have them with me wherever I go. What ' you been up to? Andrew : cool! recently went to farm with girlfriend get fresh veggies for dinner nice. thinking about getting more fur babies or four enough? Audrey : Sounds great! love to have more, four enough for now. They keep me busy want to give each attention deserve - four dogs is already a lot! took them all to vet got them checked up havoc next time bring them one by one. Andrew : vet trip must have been chaotic they keep you busy! photo shared was sweet - favorite spot to relax? Audrey : each favorite spot to chill. Pepper loves lounging on couch Pixie curls up in bed Precious has chair Panda loves relax on rug! have their own little cozy spots. Andrew sounds adorable! Pets find their own little spots brings joy comfort Toby at favorite spot. Audrey know how to get comfy! pic of them snuggling on favorite blanket. Andrew adorable look cozy always sleep like that? cuddle up together especially time to nap best friends. Andrew awesome great having furry friends to keep each other company. Audrey always there for each other. Seeing them together makes me happy. Andrew sounds wonderfulNo wonder brings happiness to have them around! Audrey : they mean world to me can ' t imagine life without them. Andrew : get it pets bring joy feel like family. can ' t imagine life without them. Audrey : pets are family. sweet to see connection between them photo of me lying on grass. Andrew : great pic! had good time outside. Audrey great day had tons of fun outside. Andrew Glad had blast with them. Cherish memories! Audrey : Thanks! cherish moments make life brighter",
+    "Andrew : Hey Audrey, hope you re doing good! decided to take break from work yesterday check out new cafe. nice change reminded me of great outdoors offer peace. photo from my last hike - serene! your month been far? Audrey : Hi Andrew! cafe sounds great hike pic ' s great! August eventful learned new skill! awesome they pampered happy. loved caring for pups now taking care of grooming myself makes me closer to them. look cute post - grooming! Andrew : awesome doing amazing job taking care of pups. show me pic them after grooming? they look adorable! Audrey : photo of them after their grooming look soft fluffy! Andrew : cute fluffy did great job do well? always wanted to learn dog grooming never got time. Audrey took dog grooming course learned techniques hear some tips? Andrew : love to hear tips always interested in. Audrey : Grooming slowly gently paying attention to sensitive areas like ears paws remember to stay patient positive throughout grooming process. Andrew : Cool tips! remember if to groom Toby. Thanks! Audrey : No problem glad tips helped If give a shot let me know provide more advice. Andrew : Thanks! decide give a try. Appreciate your help. plans for weekend? Audrey : taking them out for stroll in park love it good workout for.weekend plans? Andrew : This weekend heading to nature reserve reconnect with outdoors excited! Audrey : Cool! great time reconnecting nature Don t forget take nice pictures! Andrew : get awesome pics show when return. Audrey : thanks! pics of hikes nice. Andrew : wanted to save moment? Audrey : No wonder can ' t wait for pics Take care have fun! dogs waiting! Andrew : Thanks! Can ' t wait to show when back See ya",
+    "Andrew : Hey Audrey! What ' s up? Last weekend my girlfriend and I went fishing in nearby lakes nice. got few fish had a blast. ever gone fishing before? Audrey : Hey! never been fishing. always just chilling at lake. remember this moment few years back sat by gorgeous lake in mountains with friends peaceful calming. sound of birds stillness of water fresh air special. never gone on fishing trip before. photo of trip to lake with friend. Andrew : they look loving mountain life. keep them looking good? Audrey enjoy mountain life Regular grooming essential keep them looking good Daily brushing regular baths nail trims lots of love helps them stay healthy happy about keeping them in good shape. Andrew : Awesome! doing great job taking care of them Making they stay healthy happy key. Audrey : It means a lot. Taking care of them big deal makes me happy take responsibility seriously can be tough super rewarding. Andrew : rewarding positive impact on someone s life especially those close to you good feeling. Audrey : dogs make me happy love them much want to make them happy have strong bond. Andrew : amazing strong bond with them! hope strong bond with Toby Audrey : mean the world to me lucky to have them sure with your love you and Toby can have strong bond. Andrew : Lucky you! Pets bring lot of love and joy Can ' t wait till Toby and I bond better. Audrey : Thanks! nice need tips on taking care of Toby.Andrew : Sure thing! try figure it first Appreciate help! Audrey : Remember takes time form bond don ' t rush! Andrew : Got it. Thanks for reminder Audrey : No problem questions need advice. Andrew :, Audrey. Thanks for everything you rock! pic of Toby. Audrey cute! Toby looks happy! Andrew : love Toby! Audrey glad Toby happy lots of adventures to come! Andrew : Toby have blast exploring outdoors! Can ' t wait",
+    "Andrew : Hey Audrey, how ' s it going? Since last talked few new things come up in my life. Work tough stressful outdoor activities taken backseat. Finding balance challenging. Audrey : Hey Andrew good to hear from you. Sorry hear about work tough. Finding balance can be challenging? feel not enough time. remember to take care of yourself find manage stress. Hang Andrew : Thanks! tough, part of life? How enough time for yourself? Audrey : tough to find time for yourself. do least one self - care activity each day like treating myself to nice. Don ' t forget to take care of yourself have fun! Andrew : self - care important. adding simple things like grabbing coffee morning or for walk at lunch helps recharge chill out. Audrey : great! Glad found ways to relax. nice to have moments of joy. cool recently happened with furry friends organized doggy playdate with neighbors ' dogs. tails wagging sweet must have had much fun! Andrew : awesome had a blast! any pics from day? Audrey : pic from playdate great seeing them having fun together joy infectious made heart feel full. Andrew : heartwarming! Seeing them enjoy themselves like always a joy. Audrey : happy seeing them have great time. Last week got new beds for give extra comfort weather cooling down happy! incredible simple thing can bring them much happiness.Andrew : Animals find joy in simple things nice of you any pictures of new beds? Audrey : Sure! pic of them. Super cozy comfy. furry friends love them! Andrew enjoy snoozing? looks comfy! Audrey : love it! curl up snuggle like in cloud - adorable! Andrew cute! Animals know to be happy with simple stuff. Last weekend away for hike relief to get away from city. photo of beautiful sunset witnessed during hike. Audrey : Nice escape! out hiking planning to hike with Toby someday? Andrew : wanting to difficult since Toby still young. Audrey find dog - friendly place to live yet? remember mentioning Andrew : still working on that challenging. Audrey Keep going find great place to live for pet soon! Andrew : Thanks! appreciate help keep searching for perfect place for dogs! Audrey : No worries! got this Don ' t give up. Take care",
+    "Andrew : Hey Audrey! Long time no talk! How you been? Audrey I ' m alright. Had bumps - last Friday at park one pups saw something pulled hard leash busted. Scared she might run off get hurt had to chase after her. caught her before anything bad happened. Little moments remind me important she should be careful. Andrew : sorry to hear that! getting anxious thinking about my dog getting lost. Precious must have been scared. calm her down? Audrey petted hugged her spoke calmly slowly walked her to relax. bond feels stronger when moments show up. Andrew : She looks adorable! connection with Toby. advice on creating strong relationship with dogs? Audrey Building trust needs patience regular training Give time love praise successes. Andrew Thanks for tips! Patience practice important for establishing bond with pooches like meaningful relationship some dogs need more time! satisfying to see successes progress pup looks sharp in green hat! anything specific to work on training? Audrey work on obedience teach tricks like sit, stay, shake roll over fun rewarding for. Andrew teaching tricks super fun! often take for walks? Audrey multiple times day great exercise for great bonding time. Andrew great way to bond! What breeds they again? breeds might make difference how well bond. Audrey all mutts. Two Jack Russell mixes other two Chihuahua mixes. Some dog breeds do bond better others.Andrew : Aww they ' re all cute! much fluff joy! Audrey : love them for that. They bring joy into my life. Andrew They bring much into our lives amazing to watch them interact. Here ' s something I been taking care of lately. Look at flowers! Audrey : Nice! Taking care of something relaxes me brings me peace have small garden. Andrew : cool! going? Audrey great! flowers looking great veggie patch coming fun to see them grow! feels accomplishing. Andrew flowers look great! What kind they? Audrey called Peruvian Lilies awesome have bright colors delicate petals. Andrew beautiful! vibrant eye - catching difficult to care for? Audrey easy to take care of perfect for! water them get enough sun Andrew enjoy playing in garden? Audrey enjoy garden! Always running around exploring great time. adorable! Andrew : they ' re having a blast. any other furry pals they play with? Audrey my fur babies. great having them around bond between you and them awesome. Audrey they do They make everything better Can ' t imagine life without them mean everything to me. Andrew lovely picture, Audrey! cute to see them snuggled up having fun together bring joy to lives. Audrey They do bringing loads of love happiness They are everything to me.",
+    "Andrew : Hey wassup? great news - hitting beach next month with Toby! Audrey : Hey Andrew! Great to hear from you fun at beach trip! can ' t wait to get out to nature wait for hike with dogs next month smile on my face - life not same without them! Andrew : Thanks, will! can ' t wait for hike. long time since in nature together. Audrey : in nature environment great way to relax. taking doggos out for walk in park helps clear mind find peace. tough lately helps. Andrew : they look cute! spot ideal for to play. Where take them? Audrey : took them to dog park nearby last Saturday big grassy area for play shaded spots for relax great time! Andrew : Sounds great! Missing experience. Can ' t wait for coming up hike! Audrey :, Andrew! pups and I loving it Being out in nature checking out new trails with dogs different from city. Andrew everyone ditch hustle and bustle now refreshing to be in nature. Audrey relief like being bird flying free. birds seen any birds up close lately? Andrew seen them up close amazing how they fly with grace freedom. Audrey birds amazing! love how can fly around explore freedom wish! Andrew : Agreed! Watching them fly freeing awe - inspiring. great reminder to appreciate nature. Audrey : great way to appreciate nature. reminds me been wanting to do birdwatching.peaceful calming. Andrew : Yeah do that! peaceful calming. nice to get away from city enjoy nature. if need any birdwatching advice know or two about bird watching. Or perhaps can all go birdwatching soometimes. Audrey : Thanks! helpful love to take you up on your offer. now going with this book writes about bird watching guides. Andrew : Cool! ready to go birdwatching plan trip together. Audrey : Sounds great! check schedule get back to you can ' t wait for birdwatching. Andrew : fun exploring spotting birds. Audrey : learn common birds in area. Andrew : Nice! prepared. bring binos notebook to log them at trip. Audrey : Nice. have experience prepared. Andrew : enjoy watching birds in nature read books about ecological systems. Audrey : Cool! Books must be interesting. discovered from reading them? Andrew learned lot about animals plants ecosystems fascinating to see how it all works together. Audrey : learning about connections between them must cool. makes appreciate nature more. Andrew : nature connected. as human being need look after it. Audrey : Taking care of nature is like taking care of our house. Andrew : take care of it for future generations. Audrey on care of it future generations have natural resouorces. Andrew important to take care of for future generations. do our share! recycle at all? Audrey : important for us to do our part, recycling crucial step.any other suggestions? Andrew : reducing carbon footprint by biking or using public transport? Audrey : usually take public transport biking fun way to reduce carbon footprint. give it a try make change! Andrew : great way to help planet train our body. give try! Audrey : love to try it sometime. any good routes here? Andrew : awesome routes near river show best ones enjoy! Audrey : Sounds great! show best bike routes by river? Thanks! Andrew : many routes around area show best bike routes near there great to get outside soak up scenery. Audrey : Sounds great! Can ' t wait to check out bike routes soak up scenery. should be a blast",
+    "Andrew : Hi Audrey! Been a while since hear from you. How? Audrey : Hey Andrew! wild ride! did fun with pups over weekend took them to beach fun to see them playing in ocean. Andrew : Sounds great! Did love being at beach? enjoy water? pic of last trip to beach. Audrey : dogs had blast swimming at beach! been there lately? Andrew Haven ' t been to beach in while. Miss being outdoors. hard to find open spaces in city Used to hike a lot more challenging now with work life balance. Audrey : rough imagine miss being outdoors surrounded by nature. Andrew tough. Exploring nature was my escape to find peace. with job living here harder to get feeling back feel void in heart. Audrey : something missing without being in nature ways to appreciate it in city like getting plants for place or trip to park on weekends Andrew should get more plants for house Can ' t beat being outside can bring peace look into it. Thanks for tip! Audrey : need help or advice Plants can make home peaceful. Andrew : Thanks! reach out if need help or advice. Thanks for offering! Audrey No problem! Glad to be of assistance. Andrew : helped much. Audrey : Haha doing what can do to help. Andrew Thank you take care and say hi to dogs for. Audrey : will Take care. Talk later! Andrew : have a great week. Audrey : great week! Bye",
+    "Audrey : Hey Andrew thinking about missing nature reminded me of couldn ' t walk dogs because knee injury tough cause bring me joy. pic taken after I started walking again felt great to get back out there! Andrew : know how it feel right? Bummer not take them for stroll must ' ve been over moon when finally take them out again. Glad got adorable pic! Dogs awesome that? Remind us to stop smell roses. Audrey : they couldn ' t wait! reminds appreciate life ' s pleasures see world differently! Andrew : dogs know how to find simple joys of life! Appreciating little things important. speaking interesting hobbies rememver mentionoed about jewelry earlier? remember make them with recycled objects sounds cool! Audrey : love making jewelry out of recycled stuff great way show love of creativity sustainability. hunt down bottle caps buttons broken jewelry turn into one - of - a - kind pieces. photo of favorite necklaces hold special story own appeal. small step in reducing waste. Andrew : necklace looks awesome! colors stand out design cool. giving recycled objects new life. make jewelry to sell or hobby? donate profits to good cause? Audrey : Thanks started making jewelry as hobby then selling it. donate portion of profits to cause close to my heart. to combine two passions - making jewelry and making difference.great customers enjoy my work support a cause! Andrew : Wow amazing use your passion to make difference in world experience changed your perspective on other hobbies? donate to any specific organization? Audrey :! Any hobby can impact when used right - donate to animal shelter. do great work my way of helping out. Andrew : awesome! inspiring dedicated to making difference can ' t volunteer at shelter anymore. Audrey : still finding ways to do good if can ' t be there. Life about adapting helping out. Andrew : got it Life about rolling with punches making difference hard work amazing. Audrey : Thanks! appreciate your kind words stay strong keep making difference in challenging times",
+    "Andrew : Hey Audrey busy week for me Last Tuesday gf, Toby, I had awesome night playing board games nice. What s been up with you lately? Audrey : Hey Sounds been busy! made goodies recently to thank neighbors for pup - friendly homes nice way to bring joy here. plans for weekend? Andrew : Friday night ' s board game session nice break. This weekend planning to check out cozy cafe hang. Audrey : cafe looks cozy! Any other spots recommend? Andrew : new spot opened other day awesome with sick view and vibe. Audrey : looks great! bring pups with me? Andrew : suitable great dog park close by! Maybe bring coffee over Audrey : Sounds good! Exploring new places adventure for Andrew look sweet in sweater! enjoy going to dog park? Audrey dog park like paradise for them! love socializing with other pups lots of exercise cute to watch them running around smelling. funny stories about your pup at dog park? Andrew one time pup excited chased squirrel ran around tree squirrel watched from branches. hilarious! Audrey : hilarious! What breed is pup again? looks fun! dogs love running around park hate is snow took to snowy last winter confused! prefer nice, sunny days in grass. Andrew : My pup Toby German Shephard loves cute sweaters! active.games do dogs like to play at park? Audrey : dogs go crazy for Fetch and Frisbee love to run around meet other pups could keep running for hours! Andrew : sounds fun! great to see them happy active. Audrey : awesome! Seeing them happy fills heart with joy. bring me happiness. Andrew : they bring joy don ' t they. wonderful. Audrey : said this many times can ' t imagine my life without them - little family. They make me smile give love companionship. Remember had tattoo of four dogs? went to tattoo parlor got more drawings on tattoo. Andrew : cool! plans on getting more? Or finished? Audrey : Thanks! its enough. decide to get another dog. Maybe get another tattoo when. Andrew : they real source of love for you great to have inspiration. what else inspires me? Audrey : bring me joy. feels great to experience unconditional love! chance to visit forests like? amazing escape for. Andrew : living in city miss nature try to go to nearby parks or on hikes peaceful joyful experience for. Audrey : right about needing nature time Life crazy lately while since took furry friends out for walk. moments with them in nature chill and happy! They best companions for exploring great outdoors. Andrew : agree! Nature and animals can be peaceful joyfulhope you furry buddies go on fun adventures soon! Audrey : need to go hike with them great therapy! Andrew : Yeah! hiked with your dogs fun way to bond make memories. Audrey : still remember everytime go on hiking strip with my dog Good times",
+    "Audrey : Hey Andrew hope you ' re doing ok. recently had good week - went to pet store last Monday buy toys for dogs great seeing them excited when got them home made me realize much love them joy they bring me. Andrew : Hi Audrey! Pets can make lives better? awesome news - recently adopted another pup from shelter He ' s best. Audrey : awesome news! How he doing in his new home? Andrew : Thanks! s doing great in his new home getting used to Toby new environment Toby needs time to get along with him. never imagined having pets bring happiness. Pets bring joy companionship to lives. Audrey : awesome! his name? Andrew : named him Buddy my buddy hope him Toby become buddies! Audrey : perfect! Buddy your sidekick. any favorite activities together? Andrew : Buddy and I great time doing walks nice way to spend time together get fresh air. Audrey : Nice! Buddy great time! fresh air. Andrew : loves checking out new hiking trails awesome to see him stoked interested in everything nature. Audrey : awesome fun exploring trails! Andrew : taking both to trails together soon! Audrey can ' t wait for hike with furry friends next month awesome Andrew fun with new addition. Audrey : gorgeous spot? need to take pups for stroll. Andrew : Haha is nowhere near city. Wish could take them to place like this far from city.Audrey : sounds like great getaway from city tho! hoping we find something nice for our hike. Andrew : if s what you want let find something nice for hike. Audrey : do research see if find awesome place. Andrew : Awesome! appreciate your effort! see if somewhere like that. Audrey : wait. find best spot for hike. Haha. Andrew : Haha can ' t wait",
+    "Andrew : Hi Audrey! been lately? girlfriend and I went to wine tasting last weekend great! tried many unique wines learned a lot surprised enjoyed reminder to step out of comfort zone! Audrey : glad fun at wine tasting trying new things cool had unexpected adventure last week accident playing with pups at park Taking care one arm tricky managing. up with you? new interests? Andrew : feeling better? Sending healing vibes to pups recently tried out new spot serves sushi great. anything wanting to try lately? Audrey : Thanks! Appreciate feeling better each day Sushi looks phenomenal know what to get for dinner tonight Andrew : Taking it one day at a time way to go curious about trying sushi Never hear good understand hype. tried it? Audrey : Sushi is delicious! love them many types and flavors to try give a go try different things! Don t limit in comofort zone! Andrew : Thanks for encouragement! looking forward to trying more soon. tips for someone new to sushi? Audrey try California or salmon roll first when trying sushi easier Mix up with different sauces dips makes more tasty Enjoy let know how it goes! Andrew : Thanks for tips! go with California or salmon roll try out some sauces let know how it goes. Audrey : Glad to help! Can ' t wait to hear about sushi adventure.Take your time have fun! Andrew : excited to try different sushi great time! Audrey : Have fun! need time to get used to once start believe love it! Take pics show me enjoy. Andrew : Haha, take photos show sushi adventure. Audrey : Enjoy! order sushi tonight. Thanks! Andrew : Haha! You re welcomoe! Have good one! Audrey : Take care have good one",
+    "Audrey : Hey Andrew wanted to let know about something with my dogs noticed they weren ' t acting normally made appointment with animal behaviorist last Wed hectic hopeful help me understand. Andrew : no! Sorry hear your dogs haven ' t been themselves. they doing ok? How did appointment with animal behaviorist go? receive helpful advice or insights? Audrey : appointment went okay. hectic first behaviorist checked out asked questions. got tips to help with problems now. Andrew : what tips? help with problems? Audrey behaviorist gave tips handle suggested changes in routine using positive reinforcement techniques still work in progress hopeful it ' ll help. Andrew : glad your pups good with positive reinforcement! How doing with new approach? Audrey : they seem responding well! won ' t be fixed immediately seeing progress. hoping it keeps going. Andrew : good to hear! Keep up good work! Audrey : Thanks! words of encouragement mean a lot tough devoted to keeping them healthy happy mean everything. Andrew : doing great job! lucky to have you. Audrey Thanks special to me want best for them pic of them having a blast last summer happy! looking forward day back to normal. Andrew : having blast! What kind are they? wishing you and your pups the best. Audrey : Thanks all mutts Pepper and Panda are Lab mixes Precious and Pixie are Chihuahua mixes need that. can ' t wait day all back to normal. Andrew : Sending prayers and wishesHere ' s a pic took at national park went while ago. Audrey : looks gorgeous! hope to join you and furry friends soon! Andrew : hope your pups can get better join us soon! Audrey : trail looks nice! like dog friendly? Andrew : close by dog - friendly with killer views plan hike soon? Audrey : pick a date go hike. should be good! Andrew : Saturday sound good? grab snacks blast exploring on Sunday picnic date with girlfriend. Audrey : Saturday works for me! bring snack. excited! Andrew : Can ' t wait for nature day with fur babies! good time! Audrey : Going hiking seeing nature awesome. happy! Andrew : Where plan to explore? Audrey check out trail first peaceful spot to bring fur babies for day. Andrew : great! lake near trail too! awesome! Audrey Can ' t wait to explore hang out with furry friends peaceful day! photo of lake found online. Andrew looks awesome dogs will like it? Which trail have in mind? Audrey try trail by lake with great views perfect for us pups be fun! Andrew : Sounds great! love it by lake. Can ' t wait! Audrey : be great - nature, furry pals - what more could we want? lucky to have friend like you loves exploring being outside with dogs. Andrew : Same lucky to friend like you for outdoor trips. awesome to be out in nature with furry friends.Audrey : hard to find someone similar thoughts. Andrew : another photo of trail near location. What think? Audrey looks good! love to take them there sometime. Andrew going next trip? autumn colors beautiful! Audrey Sounds great! autumn colors look awesome for pictures Andrew photos turn out great with dogs! Audrey Can ' t wait to capture amazing moments with furry friends! Andrew memorable day! Audrey can ' t wait to make awesome memories with furry friends! Andrew t wait to see happy face! my dog and I hiking last time see how happy he? Audrey : look at his happy face! looking forward to it! Can ' t wait to see pups happy hiking. Andrew : Same here. make epic and fun hike! Audrey : much fun. Andrew : get ready head out soon. Ttyl! Audrey : ttyl",
+    "Andrew : Hey Audrey had great weekend! girlfriend and I went on bike ride stumbled upon cool park outside town awesome to get away from city surrounded by nature. Audrey : cool! love checking out new parks with four pups Last weekend fun - dogs run around get fresh air. recently joined dog owners group to learn to better take care them. Andrew : sounds great! four pups must have fun. How often hang out with dog owners group? Audrey : having lot fun meet up with other dog owners once a week for tips from other parents play together. How about? thought about joining one? Andrew : looks fun! adorable pups made think about getting another dog not sure. two dogs already a lot to take care of tips on multi - dog pet owner? Audrey : Maybe want take care of Toby and Buddy first them happy and healthy good first step before for more dogs. Andrew : Thanks need to hear take good care of dogs first. Audrey : great! if need help here for you! happy they? don ' t need more dogs to make happy! : Andrew : Thanks Audrey! nice managed to make work with dogs while still living in city. Audrey feel Taking care of pup in city tough but doable with right approach Keeping them active key pic entertain them in house with toys and games. Andrew : great to know ways to keep them active in city keep in mind. Thank you! Audrey : got it lots of ways to keep them happy in city to socialize exercise them daily.creative add mental stimulation pic them playing fetch in park love it! Andrew : cute! activities to stay mentally stimulated? Audrey : give lots activities keep busy - puzzles training hide - and - seek love it all! Andrew : Cool ideas! give activities try with pups. Thanks! Audrey : No problem glad help know how it goes. Andrew : advice support mean a lot to me! Thank you! Audrey friends for - supporting each other friendship means a lot to me.",
+    "Audrey : Hey Andrew! Long time no talk! Last Friday took fur kids to pet salon psyched tails wagging like crazy! took while for to calm down all cut up they looked cute! Andrew : Hey Audrey! Nice to hear from you. Sounds adorable! any pictures of groomed up? Audrey : pic of them, looking all groomed. Look at shiny coats! good at salon worry about in new places. Andrew : they look great! Love seeing them happy calm in new places. Audrey : Thanks! means a lot to see them happy settled in new places. doing good job as doggy mom taken furry friends to groomers yet? Andrew : No haven ' t got chance to take them to groomer yet will do soon! adpot another dog other day. photo of doggo! Audrey : great news! pups name? Andrew while decide ended up going with ' Scout ' for pup perfect for adventurous spirit. Audrey great name for pup! Fits adventurous spirit. Scout ' s first adventure? Andrew : Thanks! take Scout, Toby, Buddy to nearby park not big have fun get fresh air! Audrey : great start for Scout! Start small give more exposure great time to keep them leashed. Andrew : safety first! keeping new addition on leash while used to being outside. pic you of dog at park cute. essentials for comfort entertainment like bed, toys puppy pads in.like their own safe haven. Audrey : great you two creating safe fun space for Scout important they have place makes feel secure introduce Scout to Toby and Buddy takes time for pups to get used each other! Scout lucky to have you and your girlfriend! Andrew : Thanks! feel lucky to have Scout amazing having many furry friends! your dogs doing now? Audrey : doing great! Exploring meeting new people feel loved safe. glad they ' part of my life! Andrew : great to hear! Dogs bring joy friendship glad they happy with you. Audrey : Thanks! awesome bring joy friendship. grateful to have them in my life as part of family. Andrew : great! Dogs always there for us count lucky to have amazing furry friends as family member"
+  ]
+}

@@ -1,0 +1,543 @@
+{
+  "version": 1,
+  "use_ep": true,
+  "compress_rate": 0.65,
+  "context_map": {
+    "entities": {
+      "Nate": {
+        "type": "person",
+        "count": 30,
+        "last_session": 29
+      },
+      "Joanna": {
+        "type": "person",
+        "count": 30,
+        "last_session": 29
+      },
+      "last Friday": {
+        "type": "date",
+        "count": 2,
+        "last_session": 16
+      },
+      "Little Women": {
+        "type": "other",
+        "count": 2,
+        "last_session": 22
+      },
+      "turtles": {
+        "type": "other",
+        "count": 2,
+        "last_session": 28
+      },
+      "Max": {
+        "type": "other",
+        "count": 2,
+        "last_session": 13
+      },
+      "regional video game tournament": {
+        "type": "other",
+        "count": 1,
+        "last_session": 14
+      },
+      "waterfall": {
+        "type": "place",
+        "count": 1,
+        "last_session": 14
+      },
+      "Spider-Man": {
+        "type": "other",
+        "count": 1,
+        "last_session": 15
+      },
+      "Peter Parker": {
+        "type": "person",
+        "count": 1,
+        "last_session": 15
+      },
+      "Iron Man": {
+        "type": "other",
+        "count": 1,
+        "last_session": 15
+      },
+      "7": {
+        "type": "number",
+        "count": 1,
+        "last_session": 16
+      },
+      "6": {
+        "type": "number",
+        "count": 1,
+        "last_session": 16
+      },
+      "Friday": {
+        "type": "date",
+        "count": 3,
+        "last_session": 27
+      },
+      "Woodhaven": {
+        "type": "place",
+        "count": 1,
+        "last_session": 17
+      },
+      "Midwest": {
+        "type": "place",
+        "count": 1,
+        "last_session": 17
+      },
+      "international tournament": {
+        "type": "other",
+        "count": 1,
+        "last_session": 19
+      },
+      "yesterday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 19
+      },
+      "Catan": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "Cyberpunk 2077": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "Inception": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "Tilly": {
+        "type": "other",
+        "count": 1,
+        "last_session": 24
+      },
+      "Michigan": {
+        "type": "place",
+        "count": 1,
+        "last_session": 24
+      },
+      "last Sunday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 25
+      },
+      "10": {
+        "type": "other",
+        "count": 1,
+        "last_session": 26
+      },
+      "Valorant": {
+        "type": "other",
+        "count": 1,
+        "last_session": 27
+      },
+      "Saturday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 27
+      },
+      "Xeonoblade Chronicles": {
+        "type": "other",
+        "count": 1,
+        "last_session": 27
+      },
+      "Nintendo": {
+        "type": "other",
+        "count": 1,
+        "last_session": 27
+      },
+      "Fort Wayne": {
+        "type": "place",
+        "count": 1,
+        "last_session": 28
+      },
+      "coconut ice cream": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "YouTube": {
+        "type": "org",
+        "count": 1,
+        "last_session": 28
+      },
+      "new gaming team": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Midwestern town": {
+        "type": "place",
+        "count": 1,
+        "last_session": 28
+      },
+      "third turtle": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Nate's game tournament": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Joanna's script": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Joanna's new project": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Joanna's movie pitch": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Nate's gaming videos": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Joanna's sunset photo": {
+        "type": "other",
+        "count": 1,
+        "last_session": 28
+      },
+      "Tampa": {
+        "type": "place",
+        "count": 1,
+        "last_session": 29
+      }
+    },
+    "decisions": [
+      "Joanna is allergic to cockroaches and potentially other animals",
+      "Joanna is doing research and networking for her script",
+      "Nate supports Joanna in her efforts",
+      "Joanna auditioned for a writing gig",
+      "Nate is participating in a video game tournament",
+      "Nate wants to pursue writing",
+      "Nate dyed his hair a bright and bold color",
+      "Joanna decided to write and is currently consumed by it",
+      "Joanna has been reading a lot in the past week",
+      "Joanna found an awesome hiking trail in her hometown",
+      "Joanna is lactose intolerant and wants a dairy-free recipe",
+      "Nate provided Joanna a recipe for dairy-free ice cream",
+      "Joanna decided to try making the ice cream tonight",
+      "Joanna joined a writers group",
+      "Joanna is working on a script called 'Finding Home'",
+      "Nate has a gaming tournament next month",
+      "Joanna might return to acting some day",
+      "Joanna watched 'The Lord of the Rings' Trilogy",
+      "Nate has been gaming a lot recently",
+      "Nate won his second gaming tournament last week",
+      "Nate played Street Fighter at the local tournament",
+      "Joanna is working on a screenplay",
+      "Joanna is testing out dairy-free dessert recipes",
+      "Joanna made a dairy-free vanilla cake with strawberry filling and coconut cream frosting",
+      "Joanna went hiking and found amazing trails in her town",
+      "Joanna took photos of her hiking experience",
+      "Joanna felt inspired by nature and considered writing a movie",
+      "Nate expressed interest in going hiking with Joanna",
+      "Nate adopted Max",
+      "Joanna decided not to get a pet due to allergies",
+      "Joanna completed writing her third project about loss, identity, and connection",
+      "Nate decided to do doggy playdates with the couple who live close by",
+      "Nate gave Joanna a stuffed animal as a gift",
+      "Joanna received a rejection letter from a major company",
+      "Nate won another regional video game tournament last week",
+      "Joanna is hiking with buddies this weekend to check out a new trail with a waterfall",
+      "Nate is organizing a gaming party two weekends later and inviting tournament friends and old teammates",
+      "Joanna wrote bits for a screenplay that appeared on the big screen",
+      "Spider-Man is Joanna's favorite superhero",
+      "Nate's favorite superhero is Iron Man",
+      "Nate bought an Iron Man figure as a reminder for his goals",
+      "Joanna uses a cork board filled with inspiring quotes and pictures for motivation",
+      "Joanna submitted her screenplay to a film contest",
+      "Nate hosted a gaming party with 7 people attending",
+      "6 of the attendees want to participate again next month",
+      "Nate made vegan ice cream and shared it with his vegan diet group",
+      "Nate agreed to give Joanna the vegan ice cream recipe",
+      "Joanna plans to make vegan ice cream for her family this weekend",
+      "Nate won his fourth video game tournament online",
+      "Joanna took a road trip for research for her next movie",
+      "Joanna visited Woodhaven in the Midwest",
+      "Joanna discovered a cool old book from the 1900s at a library in Woodhaven",
+      "Joanna started working on a book exploring loss, redemption, and forgiveness",
+      "Joanna has been busy with writing projects",
+      "Joanna uses writing as an escape and a way to express her feelings",
+      "Joanna received a letter from someone who read her blog post",
+      "Nate started teaching people how to make dairy-free desserts",
+      "Nate has been making coconut milk ice cream",
+      "Nate won an international tournament",
+      "Joanna shared her book with her writers group and received great feedback",
+      "Nate and Joanna plan to take time off to relax over the weekend",
+      "Nate recommended a book series to Joanna",
+      "Joanna recommended finding a fantasy book series to Nate",
+      "Nate had a letdown in a video game tournament",
+      "Nate is staying positive despite the setback",
+      "Joanna revised one of her old recipes",
+      "Joanna is experimenting with dessert flavors like chocolate, raspberry, and coconut",
+      "Joanna is trying dairy-free options for desserts because she is lactose intolerant",
+      "Joanna made dairy-free chocolate coconut cupcakes with raspberry frosting",
+      "Nate advised using dairy-free margarine or coconut oil instead of butter",
+      "Joanna got an external drive for backups",
+      "Nate taught vegan ice cream recipes on his cooking show",
+      "Joanna decided to try making coconut milk ice cream",
+      "Joanna enjoys making a dairy-free chocolate cake with raspberries",
+      "Joanna shared a recipe for a dessert made with blueberries, coconut milk, and a gluten-free crust",
+      "Joanna tried a new dairy-free recipe with her family",
+      "Nate won a big video game tournament and saved some money",
+      "Joanna finished writing her book",
+      "Joanna finished a bookmark for a lady at her writing club",
+      "Nate made some friends at a game convention",
+      "Nate and new friends planned a gaming session together",
+      "Nate joined in playing a board game with new people at the convention",
+      "Nate watched the movie 'Inception'",
+      "Nate played the game 'Cyberpunk 2077'",
+      "Joanna suggested ideas for making a living room comfortable",
+      "Joanna perfected a recipe for her family",
+      "Joanna named her stuffed animal dog Tilly",
+      "Nate is practicing for his next video game tournament",
+      "Joanna is persevering despite a setback from a production company rejection",
+      "Joanna contributed to a movie script that was shown on the big screen",
+      "Joanna has seen her scripts on screen three times",
+      "Nate plans on watching Joanna's movie",
+      "Nate took his turtles out for a walk",
+      "Nate's turtles eat a combination of vegetables, fruits, and insects",
+      "Joanna had successful meetings with movie producers",
+      "Nate helped friends reset their high scores at an international tournament",
+      "Joanna will come over to Nate's place tomorrow",
+      "Nate made a lactose-free dessert with coconut milk",
+      "Joanna will bring her recipes and share desserts with Nate",
+      "Nate won a Valorant tournament",
+      "Nate is preparing for other tournaments",
+      "Joanna finished a presentation for producers",
+      "Joanna is writing another movie script",
+      "Joanna submitted a few more scripts last week",
+      "Nate upgraded his equipment at home",
+      "Nate is playing Xeonoblade Chronicles",
+      "Joanna is writing down her favorite memories",
+      "Nate decided to try cooking.",
+      "Nate is considering joining a new gaming team.",
+      "Joanna pitched her script to producers.",
+      "Nate started creating gaming content for YouTube.",
+      "Nate got a third turtle.",
+      "Joanna is filming her own movie from the road-trip script",
+      "Nate took his turtles to the beach in Tampa",
+      "Joanna decided to try Nate's coconut milk ice cream"
+    ],
+    "timeline": [
+      {
+        "time": "recent",
+        "event": "Joanna submitted her screenplay to a film contest"
+      },
+      {
+        "time": "recent",
+        "event": "Nate hosted a gaming party"
+      },
+      {
+        "time": "last Friday",
+        "event": "Nate made vegan ice cream"
+      },
+      {
+        "time": "Friday",
+        "event": "Nate won his fourth video game tournament"
+      },
+      {
+        "time": "",
+        "event": "Joanna took a road trip to Woodhaven"
+      },
+      {
+        "time": "",
+        "event": "Joanna started working on a book"
+      },
+      {
+        "time": "Last week",
+        "event": "Someone wrote Joanna a letter after reading her online blog post"
+      },
+      {
+        "time": "yesterday",
+        "event": "Nate won an international tournament"
+      },
+      {
+        "time": "",
+        "event": "Nate expresses that hanging out with cute turtles has been a big help"
+      },
+      {
+        "time": "",
+        "event": "Joanna shows Nate a revised recipe she made"
+      },
+      {
+        "time": "",
+        "event": "Joanna is tinkering with recipes to find comfort and get creative"
+      },
+      {
+        "time": "",
+        "event": "Joanna mentions experimenting with dessert flavors"
+      },
+      {
+        "time": "",
+        "event": "Nate asks about dairy-free options Joanna is trying"
+      },
+      {
+        "time": "",
+        "event": "Joanna shares plans to make desserts accommodating all diets"
+      },
+      {
+        "time": "",
+        "event": "Nate asks to join Joanna in baking"
+      },
+      {
+        "time": "",
+        "event": "Joanna agrees to bake with Nate"
+      },
+      {
+        "time": "",
+        "event": "Nate offers tips for dairy-free baking"
+      },
+      {
+        "time": "last week",
+        "event": "Joanna's laptop crashed and she lost all her work"
+      },
+      {
+        "time": "now",
+        "event": "Joanna has an external drive for backups"
+      },
+      {
+        "time": "last Monday",
+        "event": "Nate taught vegan ice cream recipes on his cooking show"
+      },
+      {
+        "time": "last Friday",
+        "event": "Joanna made a dessert with almond milk"
+      },
+      {
+        "time": "yesterday",
+        "event": "Joanna tried a new dairy-free recipe"
+      },
+      {
+        "time": "last week",
+        "event": "Nate won a big video game tournament"
+      },
+      {
+        "time": "recently",
+        "event": "Nate watched 'Little Women'"
+      },
+      {
+        "time": "last week",
+        "event": "Joanna finished writing her book"
+      },
+      {
+        "time": "Last Friday",
+        "event": "Nate went to a game convention and met new people"
+      },
+      {
+        "time": "Tonight",
+        "event": "Nate is mostly chilling at home"
+      },
+      {
+        "time": "last Sunday",
+        "event": "Joanna's movie script was shown on the big screen for the first time"
+      },
+      {
+        "time": "Last week",
+        "event": "Joanna found old notebooks with early writings"
+      },
+      {
+        "time": "Tomorrow",
+        "event": "Joanna will visit Nate's place"
+      },
+      {
+        "time": "last Saturday",
+        "event": "Nate participated and won a Valorant tournament"
+      },
+      {
+        "time": "last Friday",
+        "event": "Joanna finished the presentation for producers"
+      },
+      {
+        "time": "last week",
+        "event": "Joanna submitted a few more scripts"
+      },
+      {
+        "time": "last week",
+        "event": "Nate's game tournament got pushed back."
+      },
+      {
+        "time": "last week",
+        "event": "Nate tried cooking and made coconut ice cream."
+      },
+      {
+        "time": "recently",
+        "event": "Nate did not make it to the finals in his game tournament."
+      },
+      {
+        "time": "after the next tournament",
+        "event": "Nate is thinking of joining a new gaming team."
+      },
+      {
+        "time": "yesterday",
+        "event": "Joanna pitched her script to producers."
+      },
+      {
+        "time": "ongoing",
+        "event": "Joanna is working on a new suspenseful thriller project."
+      },
+      {
+        "time": "ongoing",
+        "event": "Nate is creating gaming content for YouTube."
+      },
+      {
+        "time": "last summer",
+        "event": "Joanna took a sunset photo on a hike near Fort Wayne."
+      },
+      {
+        "time": "recently",
+        "event": "Nate got a third turtle from a pet store."
+      },
+      {
+        "time": "tomorrow",
+        "event": "Joanna and Nate plan to meet and watch movies or go to the park."
+      }
+    ],
+    "session_counter": 29,
+    "token_budget": 300
+  },
+  "segments": [
+    "Nate : Hey Joanna! Long time no see! What ' s up? Anything fun going on? Joanna : Hey Nate! Long time no see! I ' ve been working on a project lately - s pretty cool. What about you - any fun projects or hobbies? Nate : Hey Joanna! s cool! won my first video game tournament last week - exciting! Joanna : Wow Nate! Congrats on winning! Tell me more - what game was it? Nate : Thanks! ' team shooter game. Joanna : Wow, great job! What was is called? Nate : game was called Counter-Strike: Global Offensive, me and my team had a blast to the end! Joanna : Cool, Nate! Sounds fun experience, even if not into games. Nate : It was! How about you? any hobbies you love? Joanna : Yeah! Besides writing, also enjoy reading, watching movies exploring nature. Anything else enjoy doing, Nate? Nate : Playing video games watching movies are my main hobbies. Joanna : Cool, Nate! both have similar interests. What type of movies do you like best? Nate : love action and sci - fi movies, effects cool! What about you your favorite genre? Joanna : all about dramas and romcoms. love getting immersed in feelings and plots. Nate : Wow, movies can be powerful! any recommendations for me? Joanna : Yeah, totally! seen this romantic drama all about memory and relationships? good one. Nate : cool! might check that one out time soon! love watching classics. Joanna : movie is awesome. first watched it around 3 years ago. went out got physical copy! Nate : Sounds cool! seen it a lot? sounds like know the movie well! Joanna : A few times. one of my favorites! like idea and acting. Nate : Cool! check it out. Thanks for recommendation! Joanna : No problem, Nate! Let me know if you like it",
+    "Joanna : Hey Nate! Haven ' t talked in few days. Crazy things happened to me! Nate : Hi Joanna! Long time no see! What ' s been going on? You sound excited! Joanna : Woo! finished first full screenplay printed it last Friday. been working on for a while relief to have it all done! Nate : Wow, sounds awesome! What ' s it about? Glad it ' s all down! Joanna : Thanks, Nate! mix of drama and romance! Nate : Wow, ' amazing! How feel now it ' s finished? any new plans for it? Joanna : Woohoo, Nate! feeling rollercoaster of emotions - relief, excitement anxiety - over finishing this project. Now submit it to film festivals get producers and directors to check it out. Here ' s hoping! Nate : Congrats, Joanna! sounds like wild experience. Rock on hope they love it! Joanna : Thanks Nate! mix of emotions for sure. leads to positive feedback new opportunities. Nate : Yeah, for sure. Hoping for best! like having some these little ones around to keep me calm when things super important nervous. Joanna : Awww! How long have you had them? Nate : had them for 3 years now bring me tons of joy! Joanna : They sure lookl like they do! Adorable! Nate : Thanks! turtles might be small, but both have big personalities. reccomend having something like these little guys for times of stress. Joanna : Good idea, Nate! ll think about it maybe get pets of my own soon if find any not allergic to. you been up to anything recently? Nate : Yeah! start to hang out with some people outside of my circle at tournament. They ' re pretty cool! Joanna :? sounds sweet! weird relationship with them being competitors and all? Nate : Oh, kind ofSome people more competitive then others, tend to stick around more chill people here. Joanna : That makes sense! gonna cheer them on even if you lose? Nate : Absolutely! don ' t expect to win big here, like playing for fun! mentioned you were allergic to pets earlier, how bad is it? Joanna : Oh its really bad. My face gets all puffy itchy when around certain animals always stayed away. Nate : Sorry to hear that. Allergies can be tough. What specifically you allergic to? Joanna : allergic to most reptiles and animals with fur. can be bit of a drag, but find other ways to be happy. Nate : Awesome! lots of things can bring you joy without pets. What else brings you joy? Joanna : Writing and hanging with friends! way can express myself through stories, or good time with people. Nate : great to hear! both great things. glad to hear you other things to help you get through times of axiousness despite not being able to have animals! Joanna : Thanks, Nate! Writing helps me create wild worlds with awesome characters. Plus great way to express my feelings. can ' t imagine life without it. Nate : Wow, Joanna, sounds amazing! Keep doing what you love! Joanna : Thanks, Nate! ll keep pursuing passion for writing. It means a lot.",
+    "Joanna : Hey Nate, long time no see! screenplay I sent in to film festival been on my mind all day everyday. keep bouncing between crazy emotions like relief, excitement worry! Fingers crossed a producer or director falls in love with it it ends up on big screen - awesome! Nate : Hey Joanna! It a big deal! sure its been a wild ride. Sending positive vibes hoping someone likes it enough to get it on big screen - awesome! Joanna : Thanks Nate, your support means a lot. put a lot of effort into it ' m crossing my fingers. What about you? Anything new and exciting happening in your life? Nate : Thanks, Joanna. Not much changed for me but discovered can make coconut milk icecream gave it a try. was pretty good, proud of myself. Joanna : Looks delish! Glad you tried something new it went well. What did think of it? Nate : Super good! was rich and creamy - might be new favorite snack! Joanna : Great! love when you try something new it works out. Will give it another go? Nate : could be fun! looking forward to trying out different flavors and toppings. Joanna : Yum! Sounds great. any favorite flavors for dairy - free desserts? Nate : love coconut milk enjoy chocolate and mixed berry flavors. Joanna : sound great! Who can say no to chocolate and berries? tempted to try dairy - free flavors now! Nate : also made dairy - free chocolate cake with berries on it the other day maybe like that! Joanna : Wow! sounds yummy! so talented. Thanks for sharing your amazing creations! should try making one or pay you a visit and try one for myself! Nate : couldn ' t agree more! s always fun experimenting in kitchen. Joanna :! Your cooking skills are awesome.Seen any good movies lately? Nate : Not recently. Any good ones recommend? Joanna : watched \" Little Women \" was amazing! great story about sisterhood, love, reaching for your dreams. Definitely a must - see! Nate : sounds like great one! add it to my list. Thanks for recommendation! Joanna : Anytime! always down to give movie reccomendations. Nate : Good to know! sure to give you a shout whenever I run out of things to watch! Joanna : Sounds great! Let me know what you think of it when your done! Nate : You bet! ll be first to know. Joanna : Awesome! Enjoy yourself! Nate : You too, take care! Joanna : Later, take care",
+    "Nate : Hey Joanna! Sorry haven ' t been around. made my friend some ice cream they loved it! Joanna : No worries, Nate! Glad to hear it. What flavor did you make? Nate : whipped up chocolate and vanilla swirl. Joanna : looks delicious! Unfortunately can ' t have dairy, no ice cream for me. happen to have dairy - free recipe I could try? Nate : Sure know one recipe using coconut milk. like me to send it to you? Joanna : Yeah, definitely! keen to try your recipe. Always up for something sweet. Nate : Cool, I ' ll do that. ' m all about these desserts, let me know what you think! Joanna : keeping you posted! Love your creations! Nate : Thanks, Joanna! means a lot enjoy desserts I bake. Joanna : Yeah Nate, your cooking is amazing! can ' t stop thinking about screenplay started writing another one while wait to hear back about how first one did. Nate : hear that taking mind of something challenging. What ' s new one about? Joanna : about thirty year old woman on journey of self - discovery after loss. Somewhat similar to last one, kind of thing inspired to write about! Nate : Interesting! deep topic. Love to hear more about it. Joanna : Thanks, Nate! my own story. main character dealing with tough stuff : loss trying to figure out who they are. take road trip to heal and grow. Nate : Wow, Joanna, sounds awesome. love stories tackle important issues. What inspired you to this one? Joanna : Thanks, Nate! inspired by personal experiences my own journey of self - discovery. Nate :, Joanna, takes guts! can ' t wait to see it all come together. ' also pumped to see how your first one will do! Joanna : Thanks, Nate! Appreciate your support.Hoping my screenplay noticed makes it to screen. Fingers crossed! Nate : Crossing my fingers for you! Hope screenplay finds fan given its due. Good luck",
+    "Joanna : Hey Nate, it ' s been a minute! wrapped up my second script, feels have been wild. Sometimes I ' m relieved, but other times feel anxious about what comes next. s mix of excitement and terror, thinking about my work getting noticed hitting big screen. Nate : Hey Joanna! Awesome to hear from you! Congrats on wrapping up a second one! hard work and dedication will shine through and get noticed, no doubt. Hope you ' ve been to take time to relax after everything! Joanna : Thanks Nate! s been wild ride. been decompressing, hard to switch off. s always this tug - of - war of hope and doubt. Nate : s normal to have doubts, ve worked hard put tons of passion into it. Believe in yourself and things will work out. Here look at this cute pic - walking them reminds me to enjoy small stuff! Joanna : pic ' s adorable! They always look relaxed outside. What made choose them as pets? Nate : drawn to turtles. They re unique slow pace is nice change from rush of life. also low - maintenance and calming. Check out this moment snapped! Joanna : They look so peaceful! s amazing how these creatures bring much calm and joy. taking care of them tough? Nate : No, not really. Just keep their area clean feed them properly, make get enough light. s kind of fun. Joanna : Sounds great! Having pets must be wonderful experience. Nate : Pets bring tons of joy. They always there for us they ' re so cute! Relaxing with them is great way to chill. Joanna : wish I wasn ' t allergic! would get two turtles today if could! found out recently m allergic to cockroaches who knows if I ' ll ever get a pet.Nate : Sorry! Maybe other animals could consider! In meantime ll sure to send you pics of my turtles still watch them grow without getting too close. Joanna : Great idea! already invested in those little guys! Nate : Pets seem to do that to everyone don ' t they!, what about your script now? Any ideas for next steps? Joanna : been doing fair share of research and networking non - stop for it. ' s tough, but determined to make it happen. Nate : Great idea! should hopefully get more eyes on it. Keep up hard work! Joanna : Thanks much, Nate! Your support means a lot. ll keep working at it hopefully next steps will become clearer soon. Nate : make sure you don ' t quit - path forward will show up soon. You got this! Joanna : Appreciated! having someone to support me throughout whole process is a blessing. gives motivation to keep pushing forward. Nate : Glad to hear my support makes difference, Joanna. I ' m here for you! Joanna : Always good to hear! See you later",
+    "Nate : Hey Joanna! Long time no talk, how ' s it going? Crazy stuff ' s happening since we last chatted. Joanna : Hey Nate! Been quite a ride - good way had audition yesterday for writing gig. Nate : Congrats! How did it go? Are you excited? Joanna : Thanks, Nate! It went alright. Mixed emotions - excited bit anxious. Keep fingers crossed! Nate : Yeah, I get it. Mixed emotions are rough, have faith in you! Keep me posted - you got this! Joanna : Thanks, Nate! Your support means a lot. to keep you updated. Anything new on your end? Nate : Yeah - currently participating in the video game tournament again ' INTENSE! much adrenaline flowing. Joanna : Best of luck in tournament! sounds difficult to go through many days of intense gaming! go - to place for writing inspiration. helps me stay sharp and motivated. Nate : Wow a lot of books. any advice for someone like me who wants to pursue writing? Joanna : Definitely! Read lots try out different genres. Build solid understanding of literature. Don ' t be afraid to write and share, even if just with friends. Practicing gathering feedback will make you better. Have faith in yourself continue following writing dreams - tough but worth it. Nate : Thanks, Joanna. appreciate your help and kind words. to keep working hard on see what happens. Good luck with your project it will turn out great! Joanna : Thanks Nate! Appreciate kind words and support. Let keep going for our dreams and work hard. Catch you later! Nate : Bye Joanna! Take care",
+    "Nate : Hey Jo, guess what I did? Dyed hair last week - come see! Joanna : Wow, Nate! Can ' t wait to see it. Must feel liberating! How ' re you feeling? Nate : stoked about it! Check it out! Joanna : Wow new hair color looks amazing! What made you choose that shade? Tell me all about it! Nate : Thanks Jo! picked this color ' bright and bold - like me! wanted to stand out from regular options. Joanna : amazing, Nate! Your boldness inspired me. reminded me of gorgeous sunset saw while hiking other day made realize importance of showing world who we are. Nate : Wow sunset looks awesome! Jealous! had great time. any more exciting trips for? Joanna : I did! sky was gorgeous! Wish had vacation lined up, now writing consuming me. Hoping for good news soon! Nate : understand, Joanna. Big projects can taxing. Keep me posted on how it goes, alright? Joanna : Cheers, Nate! Your support means a lot. keep you updated. Nate : Sounds great, See you soon? Joanna : Totally! Bye Nate! Nate : Take care!",
+    "Nate : Hey Joanna! Haven ' t talked with you in a while - how ' s it going? Joanna : Hey Nate! Great to hear from you. I ' ve been reading a lot in past week! lot of good books I forgot I owned. Nate : Sounds fun! I probably also have loads of books I haven ' t read in years. Sounds like a blast from past! Joanna : It really is! different note found awesome hiking trail in my hometown yesterday! was gorgeous. Nature inspiring, s great way to reset. know of any good hiking spots? Nate : I not really into hiking but curious to see what the trail looks like! heard ' nice trail north of where I live. Joanna : Maybe to convince you to go with me one these times! Nate : Maybe! like nature, might be fun going with someone else. Joanna : Yeah, nature ' s awesome! I m huge fan of it, s why I go! Nate : Agreed, nature has way of being inspiring! glad you found a way to reset find peace in. Joanna : Nature ' s always been my haven. Walking in it, feeling it, hearing sounds - calming. Worries and stress seem to vanish, it ' s just me and beauty around me. Nate : crucial to find peace remember life ' s beauty. For spending time with my pets engaging in my hobbies ; they let me take a break from reality. wild how small things can have powerful effect on our happiness, right? Joanna : Yeah, Nate! Even small things make life enjoyable worth it. Taking time for your little friends doing activities you love are like treasures that remind us how great and peaceful life is. gotta savor them! Nate : Speaking of which, here they go again! Joanna : cute! I love your turtles so much! Nate : Me too! love watching them play to enjoy peaceful moments of life.Sometimes bring them in kitchen can watch me make food like this! Joanna : love your icecream much! wish I could make it the way you do! Nate : Thanks! It ' s dairy - free easy. Wanna get the recipe? Joanna : Sure! I ' m lactose intolerant need dairy - free recipe! Nate : No prob. made it with coconut milk, vanilla extract, sugar, pinch of salt. After chilling it in fridge put it in ice cream maker froze it until scoopable. Joanna : Wow sounds delicious! going to try making it tonight! Thank you for sharing the recipe! Nate : Hey Joanna, glad I could help. Let me know how it turns out! Joanna : Got it, Nate. let you know how it turns out. Thanks for sharing the recipe",
+    "Joanna : Hey Nate! Long time no talk! wanted to tell ya joined a writers group. ' s unbelievable - - inspirational people get my writing. I m feeling so motivated and supported, s like I finally belong somewhere! Nate : Hey Joanna! That ' s awesome! Having supportive group around you can make a difference. What kind of projects you working on with them? Joanna : Thanks, Nate! We made great progress. working on one with my group called \" Finding Home. \" s a script about a girl on journey to find her true home. find it rewarding and emotional. What about you? Any upcoming gaming tournaments? Nate : Hi Joanna! \" Finding Home \" sounds special. Must be meaningful to work on. got a gaming tournament next month feeling good about it. ' s gonna be my 4th one! Joanna : bet nerves and excitement are a rush! remember when did first play, was nervous forgot my lines. embarrassing, but taught me how important is to prepare and stay in the moment. Nate : Sounds like had interesting time on stage! always learning experience. ever considered going back to acting? in the photo? Joanna : s me in photo! Acting was my first passion, but now shine in writing. helps me express myself in new way, but who knows, maybe ' ll go back to acting someday. Never say never! Nate : Go for it! Follow your passion for writing, but if acting makes you happy, give it a shot as well. Who knows what ' ll happen! Any particular movies that spark your writing? Joanna : Thanks Nate! gonna keep writing, but if acting calls out might give it a try. enjoy dramas and emotionally - driven films. What about you? What inspires your passion? Nate : love fantasy and sci - fi movies great escape get my imagination going. Playing video games is great way to express my creativity and passion.Joanna : That ' s awesome! love how video games can spark your imagination. favorite fantasy or sci - fi movie? Nate : Yeah, for sure! This trilogy is one of my faves. world building, battles storytelling always blow me away! Joanna : Wow, great to hear! What books you enjoy? always up for new book recommendations. Nate : love this series. has adventures, magic, great characters - must - read! Joanna : Heard of that series! s been on my list forever. Thanks for recommendation, Nate. going to check it out! Nate : No problem, glad to see an interest. Let me know what you think when you check it out. Joanna : Thanks Nate! let you know my thoughts. Take care and have a great day! Nate : See you! Good chatting with you! Have a great day",
+    "Joanna : Hey Nate, how ' s it going? I took your reccomendation watched \" The Lord of the Rings \" Trilogy last night! awesome! Nate : Glad to hear you enjoyed it! ' s probably greatest trilogy of all time! for me life ' s been ok, taking care of this. Joanna : Wow, Nate! proud of what you did. Your gaming room looks great - you been gaming a lot recently? Nate : Gaming my focus - practicing a lot winning few tournaments. Last week won second tournament! Joanna : Wow, congrats! What game were you playing? Nate : Thanks! usually play CS:GO, tried my hand at local Street Fighter tournament this time since play that game a lot with friends, turns out ' m really good! Joanna : Nice! must have surprise. How did feel to finally win one? Nate : super awesome! adrenaline went into last match other finalist shook my hand! Enough about me, how about you? What you been up to? Joanna : Not much new other than screenplay. working on projects testing out dairy - free dessert recipes for friends and fam. ' s pic of a cake made recently! Nate : looks good! love way frosting turned out! Joanna : Thanks! ' dairy - free vanilla with strawberry filling and coconut cream frosting. like your coconut reccomendation gave a while back! Nate : Wow, Joanna, looks amazing! it tastes great - talented at making dairy - free desserts! Joanna : Thanks Nate! appreciate it. love experimenting in kitchen, coming up with something tasty. Cooking and baking are my creative outlets.Especially when I ' m snackin ' dairy - free, trying to make desserts delicious - rewarding challenge! Seeing smiles on everyone ' s faces when try it - total win! Nate : s great, Joanna! must be rewarding to see everyone enjoying your creations. Keep up good work! Joanna : Thanks, Nate! Appreciate all help. Gonna keep trying new things. See ya later! Nate : Bye",
+    "Joanna : Hey Nate! Great to hear from you! Quite a week since we last talked - something awesome happened to me! Nate : Hey Jo! Great hearing from you! What happened? Joanna : I went hiking found more amazing trails in my town. awesome experience! I am expert hiker now. Nate : Sounds great, Jo! Happy you had awesome experience. happen to take any photos of it? Joanna : Yeah, I did! Loved this spot on hike. rush of water soothing. Nate : Wow, looks great! Where did you take this picture? love dark sky green scenery. Joanna : Thanks! took this photo at beautiful location called Whispering Falls. peaceful and serene. Nate : wish I could have been there! Your hikes sound like a blast. Joanna : awesome, Nate. sound of place beauty of nature made me calm peaceful. Everything else faded away all mattered was the present. Nate : That ' s great. Glad you found a spot that calms you down - nature can be a break from craziness. Joanna : Nature inspires me s calming to be surrounded by its beauty. Hiking opened up new world for me feel like different person now. Nate : Wow, Jo, ' cool! great to have something gets creative juices flowing. Joanna : always feel like could write a whole movie when m out there in cool places like that! Nate : Wow! cool it inspires you that much! For get deep in thought think about my life or new recipes. Joanna : think about my life too sometimes when ' m out and about, but something special about these trails that made me feel like writing a drama. Nate : we should go together sometime, don ' t think? Maybe ' ll start to think of a drama myself publish my own screenplay.Joanna : Haha, now be something! Sure come down join me on trails sometime! Nate : Sounds like plan! Thanks for invite Joanna! Joanna : Sure thing Nate! See you later! Nate : See ya",
+    "Nate : Hey Joanna! How ' ve you been? Been a busy week since we talked. Joanna : Hey Nate! finished something - pretty wild journey! Nate : Way to go! got new addition to family, this is Max! Joanna : Wow, he ' s adorable! How long have you had him? can see why you ' re thrilled! Nate : Thanks! It ' s awesome - he ' s adopted and full of energy, s filling my life with much joy. He s keeping my other pets active. Joanna : Pets sure make life better! Glad Max is bringing you lots of joy. Nate : Yep, totally! Pets make us much happier never let us down. thought any more of getting one of your own? Joanna : Unfortunately, allergies make it so don ' t want to get any, too lazy to research alternative pets for my allergies. Nate : Aww s unfortunate. nice seeing joy pets bring to others,. How find comfort when don ' t have any? Joanna : Writing and creative projects are what get me through tough times. grateful for my supportive friends. Nate : Wow awesome! Those both can be therapeutic. great to have positive relationships make great impact. Joanna : Yeah. s nice to have friends who understand and appreciate my work - s priceless being to talk about it together receive feedback. ' s look at what I ' ve been working on s been quite a journey, but I made it! Nate : Wow looks great Joanna! your third one? Joanna :! chose to write about this because it ' s really personal. s about loss, identity, and connection. ' s a story I ' ve had for ages but got guts to write it. was hard, but proud of it. Nate : That sounds impressive. like writing about sadness and loss don ' t you. Joanna : Thanks, Nate! Yeah I really do.had to be vulnerable dig deep into topics. think meaningful stories come from personal experiences feelings. was scary, but found I write best when ' m being true to myself - even if s hard. Nate : Well done, Joanna! takes guts to explore your experiences feelings. proud of you for staying strong being true to yourself. Keep it up! Joanna : Thanks, Nate! Your support means a lot. Knowing got people like you cheering me on makes this journey way easier. Nate : No worries, Joanna! Keep going reach for your dreams. You got tons of talent potential",
+    "Nate : Hey Jo! Been ages since we last talked. ' s something cool happened the other day - took Max for a walk ran into this super nice couple had a dog. turns out they live close by. decided to do doggy playdates, awesome considering we need friends for our pets. Joanna : Hey Nate! Great to hear from you. Sounds like nice encounter on your walk. Connecting with others who have pets can be uplifting rewarding. Nate : ' s like fate. Having walking buddy forMax will great. He likes other dog too! Joanna : Awesome! Did get to know the couple well? What were they like? Nate : They didn ' t share a lot in common with me besides love of animals, but think all we needed to share in common to be good friends! Joanna : cool can go meet people like that, keep it up Nate! Nate : Thanks! enjoy watching our pets play with one another. like a dream come true seeing my dog happy. Joanna : see why peaceful presence around could help relieve stress. Having someone something to come home to for sense of calm helpful for relaxation. Nate :, Joanna. It ' s great! Looky here got this new pup for you! Joanna : Awww! so cute! love the thought Nate! Nate : Thanks! stuffed animal to remind of good vibes. Joanna : sweet! ll cherish that little guy with all my heart! Nate : Yeah! like having joy in your pocket. always makes me grin when look at it. Joanna : That ' s great, Nate! Appreciate small joys like that cute stuffed animal.It ' s nice reminder! Nate : Agreed, little things sure make life better! Joanna : always remember moments bring us happiness remind us life is great! Nate : Sure, Joanna! s all about finding little things cherishing them, otherwise easy to get down! Joanna : Thinking back to tough times finishing my screenplay made me realize moments bring joy make journey worth it. Nate : Yeah, little moments make it all worth it, especially during tough times. Enjoying ride is key. Joanna : Appreciating journey being aware of happy moments can be game - changer! keeps us focused on our dreams. Can ' t wait to show it to you. value your opinion! Nate : Can ' t wait to see it, Joanna! here to support you. Joanna : Thanks, Nate! Your support greatly appreciated. sure to keep you updated. Nate : No worries! You ' ve got this. Keep it up",
+    "Joanna : Nate, after finishing screenplay got rejection letter from a major company. bummed me out. Nate : Sorry to hear that, Joanna. Rejection stinks, doesn ' t mean you ' re not talented. Don ' t give up on your dreams! Joanna : Thanks, Nate. can feel like a step back sometimes. appreciate your kind words and encouragement. Nate : Sure, make sure you keep going believing in yourself. Did something happen with company? Joanna : They sent me generic rejection letter without much feedback. ' s disheartening not knowing why it didn ' t work out. Nate : Ugh frustrating. don ' t get discouraged, keep going. Joanna : Yeah, you ' re right. won ' t let this bring me down. Thanks for your support. What have you been up to lately? Nate : ' ve been doing great - won another regional video game tournament last week! cool met new people. Connecting with fellow gamers always awesome. Joanna : Way to go, Nate! Congratulations on victory in tournament! must feel great to be recognized for gaming skills. Nate : Thanks, Joanna! Winning was huge confidence boost shows hard work paid off. happy with progress. Joanna : I am as well! great to hear from you about your tournaments throughout years! Nate : Thanks! been a while since first tournament hasn ' t it? appreciate your support! Joanna : Anytime Nate! m here for you every step of the way. Nate : talked to some guys at tournament afterwards they said they wanted to hang out later! Joanna : Sounds like fun! good to have friends share your interests! Nate : For sure! asked for tips in to improve game said could help. Joanna : Good on you for helping strangers out! Stepping outside comfort zone always great. Nate : Thanks, like helping people. any plans for the weekend? Joanna : ' m hiking with some buddies this weekendchecking out new trail with rad waterfall. Can ' t wait! any fun plans? Nate : Sounds great! Have fun with that. organizing gaming party two weekends later - ' ll be hectic but fun! Joanna :? to invite your tournament friends? Nate : Definitely! some old friends and teamates from other tournaments. Joanna : Sounds like fun, Nate! wish you best on your party. Have a blast! Nate : Thanks Joanna! ' sure it ' ll be a blast. getting everyone custom controller decorations just for coming! Joanna : Wow bet they ' ll love that! What sweet idea. Nate : know right? Have great hike. Take lots of pics! See ya later! Joanna : Thanks Nate! See you later",
+    "Joanna : Hey Nate! Yesterday was crazy cool - wrote few bits for screenplay appeared on big screen yesterday! nerve - wracking but inspiring to see my words come alive! Nate : Congrats, Joanna! Seeing your hard work pay off like must ' ve felt amazing. I bet it was scary too, but awesome! You ' re so inspiring. By last time saw eachother noticed a spiderman pin on your purse. Is Spider-Man your favorite superhero, or have another fave? Joanna : Thanks, Nate! real roller coaster, seeing hard work pay off amazing. Spider-Man always favorite of mine - doesn ' t love Peter Parker ' s struggles between being a hero and being a person? But sucker for any superhero - everyone has their own rad story and powers. favorite superhero? Nate : ' s great, Joanna! Iron Man is my top pick. love his tech sarcastic humor. these figures makes me feel invincible! Joanna : Wow, Nate! awesome. love tech and funny jokes of Iron Man too. What made you get that figure? Nate : Thanks Joanna! got it because reminded me of something I love. Its presence in my room good reminder to keep working on my goals. Any inspiring things in room? Joanna : My cork board full of inspiring quotes and pictures for motivation and creativity. my little corner of inspiration. Nate : Wow Joanna, sounds great! show me a picture of it? Joanna : Here ya go, a pic of my cork board. got quotes, photos, and little keepsakes. Nate : great pic of your family! What made you hang it on your cork board? Joanna : Thanks, Nate! picture on my cork board reminds me of love and encouragement from them every day. Nate : great, Joanna. Family support invaluable. good to have those reminders.Joanna : Absolutely, it means a lot keeps me going. Nate : should start a cork board of my own shouldn ' t I. seems like valuable thing! Joanna : recommend it! your willing to explain what it is to your friends. Nate : Of course! see you later Joanna! Joanna : Bye Nate",
+    "Joanna : Hey Nate, long time no see! How have you been? done submitting recent screenplay to film contest to see how others might like it! Nate : ' s really cool Joanna! hope it does well, been doing great! gaming party great success! played some Chess afterward for fun. Joanna : Nice! Did friends like controller accessories? Nate : Most of them did! can ' t say if all them will continue to use them or not, ' s beside the point. Joanna : Yeah Nate, you ' re right. doesn ' t matter if they use it, thought matters right? Nate : Absolutely! 7 people attended, 6 of said d want to do it again next month! Joanna : sounds huge success then! Congrats! Nate : Thanks! another note made vegan ice cream last Friday shared it with some people in vegan diet group. awesome! Joanna : Mm, yum! Can you give me the recipe for that? sounds good recipe! Nate : Sure thing! can give it to you tomorrow how does that sound? Joanna : Awesome! going to make it for my family this weekend - can ' t wait! Nate : Nice one, Joanna! Hope you and your family like it. Let me know how it went! Joanna : Sure thing! They love it when make them new things! Nate : no doubt they ' ll love the icecream! Joanna : Thanks Nate! Your support greatly appreciated. to keep you updated. Nate : Can ' t wait to hear about it. Have a great day! Take care.",
+    "Nate : Hey Joanna, check this out! won fourth video game tournament on Friday! awesome competing showing off my skills - victory was indescribable. proud I can make money doing what I love. This one was online! Joanna : Congrats, Nate! That ' s awesome! proud of you. Your hard work paid off - keep it up! BTW, took road trip for research for next movie while you winning. Much - needed break chance to explore new places get inspired. Nate : Thanks, Joanna! Your support means a lot to me. road trip sounds great! Where did you go? discover any interesting places? Joanna : Thanks Nate! Appreciate your kind words. went to Woodhaven, small town in Midwest. to see lovely scenery historic buildings. Checked out library there had cool old book collection! Nate : place looks interesting! find any cool books there? Joanna : stumbled upon this super cool book from the 1900s with stories and sketches - awesome to read about town and people living there! Nate : sounds interesting! Anyting specific stick out to you about it? Joanna : Woodhaven has had interesting past with lots of cool people. changed sparked ideas for next script. Nate : Real - life stories best for inspiration. Can ' t wait to hear about your next one. Keep it up! Joanna : Thanks, Nate! stoked about new script. different from previous work, but has potential to be something awesome! sure to keep you posted. Nate : sure it will do just as well as your last one! Keep on trying believe in yourself! Joanna : Thanks, Nate! Your encouragement means a lot to me. best for supporting me in my writing journey.Nate : always here for you! You ve got so much talent, keep going for it! Joanna : I will! started on a book recently since my movie did well! Nate : Nice! curious, what is it about? Joanna : That page has dialogues exploring loss redemption forgiveness. deep and emotional story I really excited about! Nate : Wow, Joanna! sounds awesome. excited to see how it all plays out! Joanna : Thanks, Nate! glad you ' re excited. never tried publishing a book, but this might be the first! Nate : Good luck on that! sure people will recognise you as same author of the movie you got published love the book even more. Joanna : Thanks, Nate! Your belief in me means a lot. I ' ll keep doing my best. Thanks for support! Nate : No problem, Joanna. I ' m here for you. Your hard work will pay off, promise. Believe in yourself and your talent - you ' re incredible",
+    "Joanna : Hey Nate, long time no talk! ' been busy with writing projects going all out with it. ' s been best thing ever - mix of highs and lows - my journal ' s my rock. Writing ' s huge part of me now. Nate : Hey Joanna! Great to hear it! amazing how much certain activity can become a part of our lives. Keep it up, you ' re inspiring! Is writing your way to solace and creativity? Joanna : Yeah, definitely. Writing become like an escape to express my feelings. gives me chance to put all my thoughts feelings down make something good out of it. Words have magical way of healing. Nate : cool, I like it! incredible how words can turn something sad into something special. glad it worked for you. Anything cool happening recently? Joanna : Last week someone wrote me a letter after reading online blog post made about hard moment in life. Their words touched me ; said my story had brought them comfort. awesome to realize my words had power. reminded me why I love writing. Nate : Nice work, Joanna! must feel sureal. Keep it up - changing lives! Joanna : Thanks, Nate! appreciate your kind words. knowing my writing can make difference keeps me going, even on tough days. glad to have this outlet to share my stories have impact. How about you? Anything new since we last talked? Nate : Thanks, Joanna! Your words mean a lot. Since last spoke started teaching people how to make this. Sharing my love for dairy - free desserts fun rewarding.Joanna : Yum, Nate! love it when make coconut milk icecream good! Nate : been into making this lately - creamy, rich, dairy - free new recipe! Wanna try it? can share recipe with you if like! Joanna : love to try it! Thanks for sharing love for dairy - free desserts. appreciate it! Nate : No problem, Joanna! Always happy to share them with you. Sending you recipe now! Joanna : Thanks, Nate! Can ' t wait to surprise my family with something delicious! Nate : No problem, Joanna! Wish them luck! Let know how it goes. Have a blast baking! Joanna : Thanks, Nate. keep you posted. Have a great day. Nate : You too",
+    "Nate : Woah Joanna, I won an international tournament yesterday! It was wild. Gaming brought me much success now I ' m able to make a living at something I ' m passionate about - I ' m loving it. Joanna : Congrats, Nate! proud of you for winning tournament, ' s awesome! Must feel great to turn your passion into a career. Nate : stoked to see my hard work paying off! super proud of what I accomplished. On another note, my little dudes got new tank! Check them out, they ' re so cute, right?! Joanna : Wow Nate, they ' re adorable! see why you enjoy spending time with them. looks they have much more room to swim now! Nate : They ' re my little buddies, always calm and peaceful. makes coming home after long day of gaming better. tank expansion made them happy! How have you been? Joanna : I ' m good! Was super nervous last week shared my book with writers group got great feedback. hard work paying off, awesome feeling! Nate : Wow Jo, you ' re killing it! Getting this feedback means people connecting with your writing. cool! Did celebrate? Joanna : Thanks, Nate! feels great knowing people like my writing. celebrated by making this delicious treat - yum! Any plans for the weekend? Nate : taking time off this weekend to chill with pets. Anything cool happening with you? Joanna : relaxing and recharging this weekend with long walk and reading. good break. Nate : both need a break. glad your able to find a way to recharge! incredibly important to take time off! Joanna : Thanks, Nate! learned taking breaks looking after myself important for my inspiration and mental health. s about finding balance. Nate :, balance is key! cool how taking care of ourselves helps us be more creative and happier. always looking for something new to read.Got any book recommendations? I a lot of books to choose from. Joanna : reccomend finding fantasy book series to read through. Most fiction series are great reads when your trying to relax. Nate : Good idea! How about this series? Joanna : That ' s great one! Let me know what you think when your finished! Nate : Sure thing! since your recommending me a book, thought I should do the same! d recommend this series. got awesome battles interesting characters. Joanna : Wow series looks awesome! to check it out sometime! Nate : should! action scenes awesome plot rocks. one of my favorites! Joanna : Wow, sounds great! add it to my list ; thanks for recommendation! Nate : Enjoy it! Have a good day. Joanna : Thanks, Nate! You too! Have a great day. Take care",
+    "Nate : Hey Joanna! Long time no talk. much has happened. Look how cute they are! Hanging with them a big help, especially recently. Speaking of had a letdown in a video game tourney - didn ' t do too great, even though tried. It was a setback, but trying to stay positive. Joanna : Hey Nate! Cute turtles! Bummer about setback. Any positive vibes comin ' your way? revised on old recipes made this! Nate : Hey Joanna, it ' s a bummer didn ' t do well. ' s all part of learning curve,? looks super good! how are you holding up? Joanna : m doing OK, thanks. been tinkering with that recipe and few others. helping me find comfort getting creative. Nate : What else are you making? s always satisfying to see of things you do when your in one moods! Joanna : Been tweaking a dessert recipe to make it yummier more accessible. Nate : Wow sounds great! What flavors you experimenting with? Joanna : Trying out different flavors like chocolate, raspberry, and coconut been a blast! Nate : Sounds delicious! only trying dairy - free options? Joanna : since ' m lactose intolerant trying out dairy - free options like coconut or almond milk instead. fun challenge seeing how to make yummy treats suit everyone ' s diets made these dairy - free chocolate coconut cupcakes with raspberry frosting. Nate : Woah those look great, Joanna! s cool you make desserts that work for everyone ' s diets. any more yummy recipes hiding in there? Joanna :! been making all sorts of desserts that work for everyone ' s diets - cookies, pies, cakes - everything! share more recipes with you soon. Nate : Can ' t wait to try them.Can join you sometime? think baking cooking brings us together! Joanna : Yeah, Nate! fellow Chef in kitchen always great help! Speaking of curious, any more tips for dairy - free baking? Nate : can use stuff like dairy - free margarine or coconut oil instead of butter check labels to ensure dairy - free. Good luck! Joanna : Thanks, Nate! Love your ideas, can ' t wait to try them out! Nate : No problem! love to help, shoot me a question anytime need! Joanna : Got it Nate, ' ll see you soon! Nate : Bye Joanna! Good luck",
+    "Joanna : Hey Nate, long time no see! My laptop crashed last week lost all my work - super frustrating! As a writer, my laptop is like half of my lifeline losing all progress was like a major blow. Nate : Hey Joanna, sorry to hear about that. Losing so much progress must be frustrating. manage to recover anything? Maybe consider backing up your work in future? Joanna : Thanks for sympathy, Nate. Nothing was recoverable, but now have external drive for backups. never want to go through this again. So, how have you been? Making anything cool? Nate : Hey Joanna, ' m no writer like you, but something pretty awesome happened. Last Monday to teach people vegan ice cream recipes on my own cooking show! bit nerve - wracking to put myself out, but was a blast. Plus picked up few new recipes! Joanna : Way to go, Nate! Congrats on cooking show, be tuning in! ' s your favorite dish from show? Nate : Coconut milk ice cream at top of my list s smooth and creamy with tropical coconut twist. Plus s dairy - free for people who can ' t have lactose or want vegan options. ' s snap of ice cream I made. Joanna : Wow looks amazing, Nate! love color and texture. great you re making these options. share the recipe? love to try making it sometime! Nate : sure! love to share it. s spread joy of dairy - free options! know when you make it! Joanna : Cool, Nate! Gonna give it a go. Dairy - free is a must for me, especially for desserts. Last Friday, made deeeelish dessert with almond milk - good! Got any favs when to dairy - free desserts? Nate : Coconut milk ice cream one of my favorites also love dairy - free chocolate mousse.It ' s super creamy tastes like real thing. s been your favorite dairy - free sweet treat far? Joanna : Hey Nate, my favorite dairy - free treat is amazing chocolate raspberry tart. almond flour crust, chocolate ganache, fresh raspberries - delicious! Nate : looks amazing, Joanna! need to try baking that. What other treats like making? Joanna : Hey Nate, love making dairy - free chocolate cake with raspberries. moist and delicious - perfect sweetness level. Nate : cake looks amazing, Joanna! How make it? Joanna : make it with almond flour, coconut oil, chocolate and raspberries. my favorite for birthdays special days. Nate : Yum, Joanna! Gotta try that one. Any others want to share? Joanna : Hey Nate! another recipe like. delicious dessert made with blueberries, coconut milk, gluten - free crust. creamy and delicious! Nate : Wow, Joanna! dessert looks amazing. have to give it a try. Thanks! Joanna : Glad to help, Nate. Let me know if you try it. sure ll enjoy it. great chatting. Nate : Thanks Joanna! I will. Bye",
+    "Joanna : Hey Nate, hi! Yesterday, tried my newest dairy - free recipe was a winner with my family! Mixing matching flavors is fun always trying new things. How about you? Nate : Hey Joanna! That tart looks yummy! Lately, I ' ve been doing great - won a big video game tournament last week it was awesome! still can ' t believe made so much money from it. Joanna : Way to go, Nate! Winning tournament earning cash is awesome - congrats! save it for something special? Nate : Thanks Joanna! Yeah saved some but ' not sure what to do with it - completely content already. don ' t have big plans anyway s nice to have extra cash on hand. Joanna : That ' s awesome, Nate! extra cash on hand brings sense of freedom and relaxation,? Nate : Yes! Finally, don ' t have to stress about it can just enjoy my movies and games. Joanna : Taking breaks reducing stress nice! watched any good movies recently? could use some recommendations! Nate : watched \" Little Women \" recently, great! acting was awesome story was captivating. good one! Joanna : ' glad you enjoyed it! recommended it to you a while back. watched it too spoke to me. Themes like sisterhood, love, chasing dreams explored well. finished up my writing for book last week. Put in ton of late nights and edits but finally got it done. proud of it! Can ' t wait to see what happens next. Nate : Way to go! both know it took some effort, but ' m sure it ' ll be great. Congrats on finishing it up! Joanna : Thanks Nate! Your words mean a lot. Dedication and late nights got me here, but it was worth it. Just like you with your recent tournament - hard work pays off.appreciate your support throughout! Nate : ' m always here for you, Joanna! ve worked so hard accomplished a lot I ' m proud. Keep on going! Joanna : Thanks, Nate! won ' t give up on my goals long as your here to support me. Nate : can always count on me! made this for you! Joanna : Wow, Nate, looks awesome! What inspired you? Nate : figured could always look back on this whenever need encouragement, all inspiration I needed. say your life path can be quite inspirational! Joanna : Wow, Nate! ' s sweet of you! to remember this when need encouragement most. Nate : Awesome! know encouragement is what got me so far in gameing career figured why not share the love. Joanna : Rest assured, it will be something I cherish! another note finished this cute bookmark for one of ladies at writing club! Nate : That bookmark is great. sure she ' ll love it! Joanna : Thanks Nate! absolutley love DIYs, know she does too. Nate : Let me know how it goes! Joanna : Sure thing! Bye for now",
+    "Nate : Hey Joanna, s a couple days since we last talked. Something exciting happened last Friday. went to a game convention met new people weren ' t from my normal circle. was bit overwhelming but reminded me of good times gaming can bring. Joanna : Hey Nate! Good to hear from you. Sounds like fun! Meeting new people can be overwhelming, but rewards can be great. Sometimes good to step outside comfort zones explore new things. Nate : Yeah, you ' re right! can have great experiences if take risks. made friends at convention who love games just like me. already planned gaming session together - cool to meet people have same interests! Joanna : looks awesome! glad you met people who share your interests - makes experiences more fun.. Nate : also met some people who also played this boardgame I love, joined in. had a lot in common hit it off. great when shared hobbies can bond people! Joanna : incredible how a game can bring people together form strong relationships. do anything else there? Nate : played this game Catan - great strategy game where you build settlements and trade resources. I love it! Joanna : Looks cool! more of competitive game or more chill one? Nate : can be both competitive and chill. were competing, but still had lots of fun. Joanna : Competitive games can be difficult to play sometimes when people get all upset about every move make, but cool they were all chill! Glad you had good time. Nate : great! Playing games is my escape from life struggles generally don ' t get crazy competitive over them. people at convention were same way! Joanna : Glad you found a way to have fun and escape! important to stay happy and de - stress. Keep doing what makes you happy! Nate : For sure! should go to a writing convention sometime! experience at this convention is unforgetable.Joanna : Do writing conventions exist? I ' ll have to look into that, could be fun! Thanks for idea. you been up to anything tonight? Nate : Mostly just chilling at home. Playing video games or watching movies helps me unwind. Joanna : That sounds great! ' s your favorite game or movie seen recently? Nate : recently saw a movie that blew my mind with twists and dream stuff called \" Inception \". also been playing a game nonstop with great futuristic setting and gameplay called \" Cyberpunk 2077 \". seen or played anything good lately? Joanna : watched classic movie other day was awesome - story was so gripping actors were great! stuck with me. Nate : Wow, must have been awesome! What you rate it? Joanna : Well was amazing, probably 9 or 10 out of 10! Movies can take us to different places make us feel lots of emotions. What love about watching them? Nate : they take me to new worlds fill me with emotions. Plus they ' re great for chilling out after a day. Joanna : agree! They have power to take us away make us feel things not normally experienced in life. great escape! Especially when have a room like this! Nate : Wow ' s so comfy in there! should get a set up like that. Joanna : should! one thing to watch a movie in a theater, on nice comfy couch with good blanket feel so at peace! Nate : Any pointers on what should get for my living room to make it comfy like that? Joanna : Sure! For one should get a couch that can sit multiple people can lay down if want, make sure its really fluffy! invest in a blanket has bit of weight to it, some lights can be dimmed.Nate : Sounds like you got into making living room! Thanks, I ' ll try that out for myself! Joanna : No problem! get super invested in random little things but think its all worth it when end up with random things make life nicer. Nate : Thanks for tip! See you later! Joanna : See ya Nate",
+    "Nate : Hey Joanna, what ' s been up? Haven ' t seen you since we last talked. Joanna : Hey Nate! revising perfecting recipe I made for my family it turned out tasty. What ' s been happening with you? Nate : Hey Joanna! That ' s cool. been getting stressed lately because of my tournament progress - tough competitors - but turtles always cheer me up. Joanna : Pets have brightening our days. still have that stuffed animal dog you gave me! I named her Tilly, she ' s always with me while I write. Nate : Glad to hear it! What made you name her Tilly? Joanna : used to have dog back in Michigan with that name, but then got allergic had to get rid of her. name helps me remember her back when used to to hold and squeeze animal without allergic reaction! Nate : That ' s so touching! Glad stuffed animal means so much! Joanna : Tilly helps me stay focused brings me much joy. s amazing how even stuffed animals can do that! Nate : It really not sure understand why watching my turtles slowly walk around makes me happy. But very glad it does. Joanna : Same here! have you been up to anything recenly? Nate : practicing for next video game tournemant. How about you? Joanna : had setback recently - another rejection from production company. Nate : Bummer, Joanna. this one sent to film contest? Rejections suck, but don ' t forget they don ' t define you. Keep at it find perfect opportunity. Joanna : Yeah.. Thanks, Nate. It ' s hard, but won ' t let it slow me down. ' keep grinding moving ahead. Nate : That ' s what like to hear! respect you for that to bounce back whenever something sad happens! Joanna : Thanks, Nate! Your encouragement means a lotI ' m gonna keep pushing forward believing in myself. Nate : You got this, don ' t forget have people cheering you on from sidelines go Joanna : Thanks! I ' ll see you around! Nate : No problem! Catch you later",
+    "Nate : Hey Joanna, what ' s been up since we last chatted? How ' s it going? Joanna : Hey Nate! Another movie script I contributed to shown on big screen last Sunday for first time! surreal experience to see everything come together. felt mix of emotions, but overall satisfying moment. been waiting for this for a long time! Nate : Congrats Joanna! How was it to finally see it on big screen? [ shares photo holding videogame controller ] Joanna : amazing experience! never forget seeing all characters and dialogue I wrote being acted out - cool feeling. hard work and determination put into writing pay off was rewarding. know third time it ' s happened, its so awesome! Nate : must have been amazing. What was your favorite part of? Joanna : Seeing my characters worked so hard on come alive was my favorite part. felt like they jumped off the page and became real - totally surreal. Nate : Wow Joanna, drawings are really incredible! What inspired you to create them? Joanna : Thanks, Nate! ' re visuals of characters to help bring them alive in head can write better. Nate : cool way to gain insight into your characters. Where did get your ideas for them? Joanna : got ideas from everywhere : people I know, stuff I saw, even what I imagined. cool to see how idea takes shape into a person with their own wants, worries, wishes. Nate : Wow Joanna, so cool! amazing how our imaginations can bring ideas to life. Can tell me more about character on the left in photo? Joanna : Nope! have to watch the movie and find out for yourself! Nate : You got it. already planning on watching it, but talking to you about it makes me want to watch it even more! Joanna : Awesome! Well enough about me, what have you been up to? Nate : was bored today, took my turtles out for a walk.Joanna : Sound fun! Did they have good time? Nate : Of course! They look tired from walking, ' re relaxing in tank now. Joanna : Aww, they ' re so cute! What do they eat? Nate : They eat combination of vegetables, fruits, and insects. have varied diet. Joanna : Wow, fascinating! interesting how they have varied diet, including insects. favorite among their food choices? Nate : love seeing them eat fruit - they get so hyped ' s so cute! Joanna : Wow, s so cute! They look like they really enjoy fruit. Nate : Yeah s adorable! Watching them enjoy their favorite snacks is fun. also like holding them. Joanna : they have different personalities, like way dogs and cats do? Nate : Yeah they each do. One more adventurous while other more reserved, find cute. Having them around brings me joy they make great companions. Joanna : s super cool! never knew turtles could be interesting until met your turtles. Wow! Nate : ve always liked turtles since I was a boy, know all about them! Joanna : ll have to keep me posted on them! s been fun chatting! Nate : See you later Joanna!",
+    "Joanna : Wow, Nate, I ' m on fire! set up meetings with movie producers my dreams are comin ' true! Nate : Wow Joanna, nice work! How did it go with producer meetings? Joanna : Thanks, Nate! meetings went well. felt confident discussing my script and vision seemed interested excited. loved elements of self - discovery in validating to be taken seriously. ' m feeling hopeful inspired about future! Nate : Way to go, Joanna! Putting yourself out brave winning recognition for your hard work feels great. s like when I win a video game tournament - it feels awesome! m proud of you glad you ' re feeling hopeful inspired. Joanna : Thanks Nate! Your support and encouragement mean a lot. Writing isn ' t always easy but moments like these make me appreciate it. thankful for all opportunities. Last week found old notebooks with early writings - cool to see how far I ' ve come. Nate : cool! must love seeing how you ' ve grown as an artist. favorite piece from early writings stands out to you? Joanna : still remember this story from when I was 10. about a brave little turtle who was scared but explored the world. Maybe back then inspired by stories about finding courage taking risks. ' s still a part of my writing today. Nate : passion for writing, s funny story was about a turtle! Their resilience is inspiring! Take courage keep pushing yourself with your writing. Great job! Joanna : Thanks, Nate! They make me think of strength and perseverance. help motivate me in tough times - glad you find that inspiring! Nate : What can I I love turtles. what ' s been happening with you? Joanna : Hey Nate! Apart from meetings ' m working on a project - challenging but fulfilling. How about you? ' s going on? Nate : helping friends reset their high scores at the international tournament.It ' s been fun! Joanna : Wow, sounds like so much fun! passionate about gaming. Have awesome time keep helping others with high scores! Nate : Thanks! feels good to use my skills to make difference. Joanna : couldn ' t agree more! why my meetings exciting! Nate : On another note want to come over and try some of this? It ' s super yummy, just made it yesterday! Joanna : looks delicious! Is lactose - free by any chance? Nate : made it with coconut milk lactose - free! Joanna : Thanks so much, Nate! Sure! ' ll come over tomorrow if s fine. Nate : don ' t see why not! not doing anything then, your completely welcome to! Joanna : Awesome! ll bring some of my recipes both share deserts! Nate : ' d love that! been wanting to try some of your chocolate and rasberry cake for a while now. Joanna : You got it! See you tomorrow! Nate : See you then! Take care",
+    "Nate : Hey Joanna! Hope you re doing alright. Crazy thing happened - I was in final of big Valorant tournament last Saturday, I won! best feeling to see my name as champion. Tournaments bring out strong emotions in me. Joanna : Hey Nate! Congrats on winning tournament - ' s awesome! know you must have been buzzing! ' ve been working on something exciting too. Last Friday, finished presentation for producers - it was tough but ' s looking good. What have you been up to? Nate : Thanks, Joanna! I ' ve been having a blast preparing for other tournaments, ' ve been real busy - ' m loving it! Joanna : Sounds like you ' re loving life right now! ' great when find something that suits you. Being busy can be tiring rewarding in end. Keep it up! Nate : Thanks, Joanna! grateful to have a job I enjoy every day. anything new going on in your life? Joanna : writing another movie script! love story with lots of challenges. put hard work into it hoping to get it on big screen. Nate : Woah Joanna, that ' s incredible! remember when you started working on these sorta things. crazy to see how far you ' ve gotten! got a thing for writing,? Where ' get the idea for it? Joanna : Thanks Nate! Writing has always passion of mine. got idea for this script from a dream. How have your turtles been? haven ' t seen pictures of them in a while! Nate : Great actually! These little guys sure bring joy to my life! Watching them is calming and fascinating. I ' ve grown fond of them. what about you, Joanna? What brings you happiness? Joanna : Creating stories watching them come alive gives me happiness and fulfillment. Writing has a blessing for meNate : with dedication like yours, its no wonder you do so well in it! planning on submitting anymore scripts anytime soon? Joanna :! submitted a few more last week! Hoping to hear back from them soon, assume a few will be rejected. Nate : Even if it happens to a few, ' sure at leasts one will make it to screens be your 3rd published movie! Joanna : Thanks, Nate! Appreciate encouragement. I won ' t give up, promise! Got it covered! Nate : Great to hear! On another note upgraded some my equipment at home. Check it out! Joanna :, ice set - up! use that computer for gaming? Nate : This where I practice and compete. Sometimes use it when playing games with friends. Joanna : Cool! dedicated space for practice and competition should help stay focused. Nate : Yeah love it. s like my own little haven to escape into virtual world. Joanna : sounds great to have your own gaming setup at home. must be really awesome! Nate : It really is! important to have something like this for my career, otherwise never able to beat my competition. Joanna : That makes sense! ' s all about practice isn ' t it? what ' s your favorite game? Nate : currently playing this awesome fantasy RPG called \" Xeonoblade Chronicles \" it ' s been a blast! highly reccomend it if ' ve never played it before. Joanna : What made you start playing it? s japanese game series right? Nate : Yes it is! big fan of Nintendo games, been wanting to play this one for a while because my friends have played it and reccomended it! Joanna : Nice! s cool when reccomendation from friend fits your taste so well isn ' t it? Nate : For sure! That ' s why love when you give me movie reccomendations usually like them a lot more then if were to just watch some random one.Joanna : Great to hear! finished with intro to next movie script, decided to include this at begining. Nate : That letter awesome! remind you of your childhood? Joanna : Yeah, it does! My brother wrote it - he used to make me cute notes when were kids. Brings back sweet memories. Nate :, childhood memories can be powerful! Joanna : They sure can! take us back to simpler times but s nice to create new memories as we grow up. Nate : Totally! had special day when took pets to park. amazed seeing their happy faces made it memorable day. Mixing new with old is priceless - treasure every memory! Joanna : sounds so sweet, Nate! started writing favorite memories down. Nate : Dang, your full of great ideas Joanna! should start doing that as well, or write down things my animals like a lot! Joanna : You should! encourage it, looking back on fond memories is a blessing. Nate : Ok I will! But ' ll also start writing down favorite memories with you from now on. Joanna : Definitely, let ' s keep making great memories supporting each other. keep reaching for our dreams and make them happen",
+    "Nate : Hey Joanna, what a wild week! My game tournament pushed back, tried out cooking. Look at this homemade coconut ice cream! sprinkles changed color this time around. Joanna : Hey Nate, looks yummy! Wish I could try it, but can ' t right now. How did last game tournament go? Nate : Hey Joanna, thanks! Tough tournament, didn ' t make it to finals. But ' s okay, ' ll get ' em next time! Joanna : Aww, bummer! important thing is to stay positive. what ' s your next move in gaming world? Nate : Thanks Joanna! Staying positive is key. thinking of joining a new gaming team after next tourney - had few offers, but haven ' t decided yet. s big step, ready for shake up. Joanna : Sounds great, Nate! Making switch could open up new opportunities. Wishing you luck with picking right team! Nate : Thanks, Joanna! appreciate it. big decision, excited for future holds. How about you? Anything exciting happening on your end? Joanna : Yup! worked hard on another script created plan for getting it made into a movie. ton of work but satisfying. pitched it to producers yesterday they liked it. gave me big confidence boost! Nate : Congrats on chance to pitch your script - super impressive. Proud of you! Joanna : Appreciate you, Nate! Your support and encouragement mean a lot to me. feel like can ' t stop writing write now! Nate : Anytime. What ' re you working on in that notebook? Anything cool? Joanna : Hey Nate, working on new project - suspenseful thriller set in small Midwestern town. ' s been great creative outlet for me. How about you? Do any projects you ' re working on? Nate : actually - creating gaming content for YouTubes cool way to entertain folks satisfy my video game cravings at same time when t any tourneys going on. Joanna : Wow cool idea! What inspired you to start making gaming videos? Nate : Hey Joanna, I ' m big fan of them thought fun idea to start making them myself. hoping to share my love of gaming connect with others who enjoy it. Joanna : Way to go, Nate! Making videos connecting with people about gaming - ' s awesome! You ' ll do great! Nate : Thanks Joanna! Appreciate support. new to me but excited to get started! Joanna : Make sure watch other peoples videos first get handle on what your audience likes! That way your videos don ' t flop when you post them. Nate : Already doing that, thanks for advice! Joanna : No worries, Nate! great to support each other in reaching our goals. On another note, check out this pic got a while back! Nate : Wow sunset pic looks incredible! What inspired you to take that photo? Joanna : Thanks, Nate! took that pic on a hike last summer near Fort Wayne. sunset and surrounding beauty were incredible. awesome reminder of nature ' s beauty. Nate : sounds incredible! Nature has way of reminding us to appreciate beauty around us, moments like those stay with you. These critters make me appreciate life ' s little joys. what? got them new friend! Joanna : Wow what made you get a third? Nate : Turtles bring me joy and peace. such effect on us - best buddies ever! saw another at a pet store hade to get him.tank is big enough now for three, figured why not! Joanna : Wow! s always shock where life will take us next! bet last week would have never thought you getting a third turtle this year! Nate : You got that right, happy with descision wouldn ' t have it any other way. Joanna : Can I come over sometime watch you play with them? From a distance I ' m allergic. Nate : Definitely! ' d love to have you over again. Maybe can watch one of your movies together or go to park! Joanna : For sure! ' d love to do either of those things with you! Nate : Sounds good. ll make sure give turtles a bath before you get here so they ready to play. Joanna : Alright, see you tomorrow! Nate : Bye Joanna",
+    "Joanna : Nate, can you believe it? I finally filming my own movie from road - trip script! Nate : Congrats, Joanna! Not surprised your hard work paid off. Must feel awesome to see your script come alive in a movie! Pretty cool when something you love brings success, right? Tell me more about your movie! Joanna : Woohoo, thanks Nate! ' pretty wild to see it come alive. Every day on set is awesome full of potential. to show my vision is awesome. Nate : I think so too! coolest moment on set? Joanna : One of actors came up to me told me how much she liked my script! was excited when happened - gave me chills! Nate : Wow Joanna, must have been exciting! incredible when get moments of joy. took my turtles to beach in Tampa yesterday! always bring me peace in craziness of life. Joanna : Woah awesome, Nate! must enjoy having them around - they ' re so cool! What love most about having them? Nate : Your completely right! love having them around. They ' re cool make me feel calm. don ' t require much looking after, great. love seeing them soaking in sun like this. Joanna : awesome, Nate! They look so serene and happy. great to have something like that. Nate : Yeah, turtles are like zen masters! They remind me to slow down appreciate small things in life. loving experimenting with flavors now colorful bowls of coconut milk ice cream made. Joanna : Hey Nate, looks really yummy! colors and mix - ins give it nice kick. Nate : Nice! glad you like it too. This recipe jazzes it up. Wanna give it a try? Joanna : Definitely, Nate! ice cream looks mouthwatering. Thanks so much for offering! Nate : No worries, JoannaHope enjoy it! Joanna : Yea no worries! great catching up. Take it easy"
+  ]
+}

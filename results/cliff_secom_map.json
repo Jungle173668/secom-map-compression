@@ -1,0 +1,71 @@
+{
+  "method": "secom_map",
+  "points": [
+    {
+      "param": 2000,
+      "token_reduction": 0.8931,
+      "accuracy": 0.2889,
+      "by_category": {
+        "multi_hop": 0.6,
+        "open_domain": 0.0,
+        "single_hop": 0.2,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 3500,
+      "token_reduction": 0.8062,
+      "accuracy": 0.4,
+      "by_category": {
+        "multi_hop": 0.8667,
+        "open_domain": 0.0,
+        "single_hop": 0.3,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 5000,
+      "token_reduction": 0.7172,
+      "accuracy": 0.3556,
+      "by_category": {
+        "multi_hop": 0.7333,
+        "open_domain": 0.2,
+        "single_hop": 0.2,
+        "temporal": 0.1333
+      }
+    },
+    {
+      "param": 7000,
+      "token_reduction": 0.604,
+      "accuracy": 0.2889,
+      "by_category": {
+        "multi_hop": 0.6,
+        "open_domain": 0.0,
+        "single_hop": 0.3,
+        "temporal": 0.0667
+      }
+    },
+    {
+      "param": 9000,
+      "token_reduction": 0.4877,
+      "accuracy": 0.3111,
+      "by_category": {
+        "multi_hop": 0.7333,
+        "open_domain": 0.0,
+        "single_hop": 0.2,
+        "temporal": 0.0667
+      }
+    },
+    {
+      "param": 11000,
+      "token_reduction": 0.3798,
+      "accuracy": 0.3111,
+      "by_category": {
+        "multi_hop": 0.6,
+        "open_domain": 0.0,
+        "single_hop": 0.4,
+        "temporal": 0.0667
+      }
+    }
+  ]
+}

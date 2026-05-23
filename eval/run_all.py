@@ -27,6 +27,7 @@ from utils.token_counter import count_tokens
 
 SAMPLES_PATH = ROOT / "data" / "samples.json"
 RESULTS_DIR = ROOT / "results"
+SECOM_CACHE_DIR = ROOT / "results" / "secom_cache"
 
 ANSWER_PROMPT = """\
 Answer the question based on the conversation history below. \
@@ -70,7 +71,7 @@ def run_summarization(sample: dict, max_summary_tokens: int = 5000, summarize_ev
     }
 
 
-_secom_cache: dict = {}  # (conv_id, use_ep) → SeComMAP pipeline
+_secom_cache: dict = {}  # (conv_id, use_ep) → SeComMAP pipeline (in-process)
 
 
 def run_secom_variant(
@@ -78,25 +79,35 @@ def run_secom_variant(
     use_ep: bool,
     use_qr: bool,
     compress_rate: float = 0.65,
+    top_k: int = 5,
 ) -> dict:
     from methods.secom_map import SeComMAP
     from utils.token_counter import count_turns_tokens
 
     conv_id = sample["id"].split("_")[0]
     cache_key = (conv_id, use_ep)
+    cache_path = SECOM_CACHE_DIR / f"{conv_id}_ep{int(use_ep)}.json"
 
     if cache_key not in _secom_cache:
-        pipeline = SeComMAP(
-            use_entity_protection=use_ep,
-            use_query_rewriting=use_qr,
-            compress_rate=compress_rate,
-        )
-        pipeline.build_memory(sample["full_history"])
+        if cache_path.exists():
+            pipeline = SeComMAP.load_memory(str(cache_path), use_query_rewriting=use_qr)
+            print(f"\n[cache] Loaded {cache_path.name}")
+        else:
+            pipeline = SeComMAP(
+                use_entity_protection=use_ep,
+                use_query_rewriting=use_qr,
+                compress_rate=compress_rate,
+            )
+            pipeline.build_memory(sample["full_history"])
+            SECOM_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+            pipeline.save_memory(str(cache_path))
+            print(f"\n[cache] Saved {cache_path.name}")
         _secom_cache[cache_key] = pipeline
     else:
         pipeline = _secom_cache[cache_key]
 
-    pipeline.use_qr = use_qr  # answer() reads this; build_memory() already done
+    pipeline.use_qr = use_qr
+    pipeline.top_k = top_k
     full_tokens = count_turns_tokens(sample["full_history"])
     answer, rewritten, tokens_used = pipeline.answer(sample["question"])
 
@@ -108,20 +119,23 @@ def run_secom_variant(
     }
 
 
-METHOD_REGISTRY = {
-    "sliding_window": lambda s: run_sliding_window(s),   # n_turns=150 (~75% reduction)
-    "summarization": lambda s: run_summarization(s),     # max_summary_tokens=5000 (~70% reduction)
-    "secom_only": lambda s: run_secom_variant(s, use_ep=False, use_qr=False),
-    "secom_ep": lambda s: run_secom_variant(s, use_ep=True, use_qr=False),
-    "secom_qr": lambda s: run_secom_variant(s, use_ep=False, use_qr=True),
-    "secom_map": lambda s: run_secom_variant(s, use_ep=True, use_qr=True),
-}
+def make_registry(top_k: int = 5) -> dict:
+    return {
+        "sliding_window": lambda s: run_sliding_window(s),
+        "summarization": lambda s: run_summarization(s),
+        "secom_only": lambda s: run_secom_variant(s, use_ep=False, use_qr=False, top_k=top_k),
+        "secom_ep": lambda s: run_secom_variant(s, use_ep=True, use_qr=False, top_k=top_k),
+        "secom_qr": lambda s: run_secom_variant(s, use_ep=False, use_qr=True, top_k=top_k),
+        "secom_map": lambda s: run_secom_variant(s, use_ep=True, use_qr=True, top_k=top_k),
+    }
+
+METHOD_REGISTRY = make_registry()  # default top_k=5
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-def evaluate_method(method_name: str, samples: list) -> list:
-    runner = METHOD_REGISTRY[method_name]
+def evaluate_method(method_name: str, samples: list, registry: dict = None) -> list:
+    runner = (registry or METHOD_REGISTRY)[method_name]
     results = []
     for sample in tqdm(samples, desc=method_name):
         try:
@@ -172,6 +186,18 @@ def main():
         default=None,
         help="Limit to first N samples (for quick testing)",
     )
+    parser.add_argument(
+        "--top_k",
+        type=int,
+        default=5,
+        help="Number of BM25 segments to retrieve for secom variants (default: 5)",
+    )
+    parser.add_argument(
+        "--suffix",
+        type=str,
+        default=None,
+        help="Suffix for output filenames, e.g. --suffix topk5 → secom_map_topk5.json",
+    )
     args = parser.parse_args()
 
     if not SAMPLES_PATH.exists():
@@ -188,13 +214,16 @@ def main():
     print(f"Loaded {len(samples)} samples")
     RESULTS_DIR.mkdir(exist_ok=True)
 
+    registry = make_registry(top_k=args.top_k)
+
     for method_name in args.methods:
         print(f"\n{'='*50}")
         print(f"Running: {method_name}")
         print(f"{'='*50}")
-        results = evaluate_method(method_name, samples)
+        results = evaluate_method(method_name, samples, registry)
 
-        out_path = RESULTS_DIR / f"{method_name}.json"
+        fname = f"{method_name}_{args.suffix}.json" if args.suffix else f"{method_name}.json"
+        out_path = RESULTS_DIR / fname
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 

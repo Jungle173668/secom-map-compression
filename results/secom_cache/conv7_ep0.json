@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "use_ep": false,
+  "compress_rate": 0.65,
+  "context_map": {
+    "entities": {
+      "Deborah": {
+        "type": "person",
+        "count": 30,
+        "last_session": 30
+      },
+      "Jolene": {
+        "type": "person",
+        "count": 30,
+        "last_session": 30
+      },
+      "last week": {
+        "type": "date",
+        "count": 3,
+        "last_session": 21
+      },
+      "yoga": {
+        "type": "other",
+        "count": 5,
+        "last_session": 19
+      },
+      "Seraphim": {
+        "type": "other",
+        "count": 3,
+        "last_session": 14
+      },
+      "Anna": {
+        "type": "person",
+        "count": 6,
+        "last_session": 19
+      },
+      "Friday": {
+        "type": "date",
+        "count": 5,
+        "last_session": 26
+      },
+      "park": {
+        "type": "place",
+        "count": 2,
+        "last_session": 19
+      },
+      "Zelda BOTW": {
+        "type": "other",
+        "count": 2,
+        "last_session": 19
+      },
+      "Animal Crossing: New Horizons": {
+        "type": "other",
+        "count": 2,
+        "last_session": 19
+      },
+      "Overcooked 2": {
+        "type": "other",
+        "count": 2,
+        "last_session": 19
+      },
+      "Last Friday": {
+        "type": "date",
+        "count": 3,
+        "last_session": 29
+      },
+      "last month": {
+        "type": "date",
+        "count": 2,
+        "last_session": 23
+      },
+      "mom": {
+        "type": "person",
+        "count": 2,
+        "last_session": 30
+      },
+      "yoga retreat": {
+        "type": "other",
+        "count": 2,
+        "last_session": 30
+      },
+      "my mom's place": {
+        "type": "place",
+        "count": 1,
+        "last_session": 21
+      },
+      "virtual conference": {
+        "type": "event",
+        "count": 1,
+        "last_session": 21
+      },
+      "engineering": {
+        "type": "other",
+        "count": 1,
+        "last_session": 22
+      },
+      "Jolene's mom": {
+        "type": "person",
+        "count": 1,
+        "last_session": 22
+      },
+      "Jolene's partner": {
+        "type": "person",
+        "count": 1,
+        "last_session": 22
+      },
+      "Max": {
+        "type": "person",
+        "count": 1,
+        "last_session": 22
+      },
+      "Luna": {
+        "type": "person",
+        "count": 1,
+        "last_session": 22
+      },
+      "8": {
+        "type": "number",
+        "count": 1,
+        "last_session": 22
+      },
+      "5": {
+        "type": "number",
+        "count": 1,
+        "last_session": 22
+      },
+      "Rio de Janeiro": {
+        "type": "place",
+        "count": 1,
+        "last_session": 23
+      },
+      "Deborah's mom's house": {
+        "type": "place",
+        "count": 1,
+        "last_session": 23
+      },
+      "an old temple": {
+        "type": "place",
+        "count": 1,
+        "last_session": 23
+      },
+      "three years ago": {
+        "type": "date",
+        "count": 1,
+        "last_session": 23
+      },
+      "Deborah's friend": {
+        "type": "person",
+        "count": 1,
+        "last_session": 23
+      },
+      "the paper with the quote": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "Jolene's notebook": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "a new plant": {
+        "type": "other",
+        "count": 1,
+        "last_session": 23
+      },
+      "Monster Hunter: World": {
+        "type": "other",
+        "count": 1,
+        "last_session": 24
+      },
+      "meditation course": {
+        "type": "other",
+        "count": 1,
+        "last_session": 25
+      },
+      "retreat near a lake": {
+        "type": "place",
+        "count": 1,
+        "last_session": 25
+      },
+      "Monday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 26
+      },
+      "Wednesday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 26
+      },
+      "Phuket": {
+        "type": "place",
+        "count": 1,
+        "last_session": 27
+      },
+      "Susie": {
+        "type": "person",
+        "count": 1,
+        "last_session": 28
+      },
+      "Thailand": {
+        "type": "place",
+        "count": 1,
+        "last_session": 28
+      },
+      "community": {
+        "type": "other",
+        "count": 1,
+        "last_session": 29
+      },
+      "Last Sunday": {
+        "type": "date",
+        "count": 1,
+        "last_session": 29
+      },
+      "chocolate": {
+        "type": "other",
+        "count": 1,
+        "last_session": 29
+      },
+      "Pineapple": {
+        "type": "other",
+        "count": 1,
+        "last_session": 29
+      },
+      "next month": {
+        "type": "date",
+        "count": 1,
+        "last_session": 29
+      },
+      "partner": {
+        "type": "person",
+        "count": 1,
+        "last_session": 30
+      },
+      "spring": {
+        "type": "other",
+        "count": 1,
+        "last_session": 30
+      },
+      "waterfall oasis": {
+        "type": "place",
+        "count": 1,
+        "last_session": 30
+      },
+      "blossom tree": {
+        "type": "other",
+        "count": 1,
+        "last_session": 30
+      }
+    },
+    "decisions": [
+      "Jolene is managing engineering, her relationship, and personal growth",
+      "Jolene started using a bullet journal for time management",
+      "Jolene is interested in trying mindfulness",
+      "Deborah has integrated mindfulness into her life",
+      "Deborah has been focusing on teaching yoga and spending time with the community",
+      "Jolene bought a console for her partner as a gift on the 17th",
+      "Deborah organized a yoga event last month",
+      "Deborah finds it helpful to prioritize and manage her time effectively",
+      "Jolene plans to manage studies and hobbies",
+      "Jolene is trying to do more yoga and meditation to help relax and stay focused",
+      "Deborah practices yoga, meditation, and goes for walks to find balance and inner peace",
+      "Jolene has been doing yoga for 3 years as a way to escape studying and work stress",
+      "Deborah attended a yoga retreat",
+      "Jolene's goal is to be successful in her field and make a positive impact",
+      "Jolene presented at a virtual conference and received positive feedback",
+      "Jolene is focusing on studying and gaining more experience",
+      "Jolene is considering more internships to enhance her skills",
+      "Jolene wants to use her engineering skills to solve important problems.",
+      "Jolene plans to work on sustainable initiatives and developing innovative solutions for environmental issues.",
+      "Jolene is interested in developing renewable energy projects and supplying clean water to those with limited access.",
+      "Jolene and her partner are planning to go on a meditation retreat.",
+      "Deborah took Max when her mother passed away.",
+      "Deborah took Luna from the shelter.",
+      "Jolene and her partner visited Rio de Janeiro and explored yoga classes",
+      "Jolene appreciated different kinds of yoga and visited cafes",
+      "Deborah visited her mom's house last month",
+      "Jolene meditates at a tranquil spot nearby to relieve stress",
+      "Deborah chooses spots with soothing vibes for reflection",
+      "Jolene and Deborah explored temples in Rio de Janeiro",
+      "A quote was shared by Deborah's friend to support her",
+      "Jolene has a new plant as a reminder of fresh starts",
+      "Deborah attended a community meetup last Friday",
+      "Deborah finds relationships with family and friends vital",
+      "Jolene is focusing on studying and spending time with her partner",
+      "Jolene is planning to take a trip to relax and recharge after finals",
+      "Jolene signed up for a meditation course at a retreat near a lake",
+      "Meditation helps Jolene stay balanced during her studies",
+      "Deborah and Jolene decided to have a coffee date",
+      "Jolene suggested meeting at a cafe next Monday",
+      "Jolene and Deborah rescheduled their coffee date to Friday at 5",
+      "Jolene and her partner traveled to a meditation retreat in Phuket",
+      "Jolene decided to incorporate relaxation, self-care, and balance into her life alongside her engineering studies",
+      "Deborah and Jolene plan to play a card game about cats together",
+      "Deborah reconnected with her mom's old friends",
+      "Deborah found comfort in hearing stories about her mom",
+      "Deborah reminisced and looked through her mom's photos with her mom's friends",
+      "Deborah appreciates her mom more after hearing stories from her friends",
+      "Deborah has special memories of a beach where she got married and discovered her love for surfing",
+      "Deborah practices yoga on the beach and finds it peaceful",
+      "Jolene creates a serene yoga space with candles and oils",
+      "Jolene and Deborah find calm in yoga and meditation",
+      "Jolene goes to her room to relax and recharge",
+      "Jolene has had her dog Susie for two years",
+      "Deborah and her neighbor ran a free gardening class for the community",
+      "Jolene tried a scuba diving lesson",
+      "Deborah plans to try surfing with Jolene",
+      "Jolene is planning to get out in nature again next month"
+    ],
+    "timeline": [
+      {
+        "time": "next month",
+        "event": "Deborah and Jolene plan to try surfing together"
+      }
+    ],
+    "session_counter": 30,
+    "token_budget": 300
+  },
+  "segments": [
+    "Deborah : Hey Jolene nice to meet you! s your week going? Anything fun happened? Jolene : Hi Deb! Good to meet you! my week ' s busy finished electrical engineering project last week took work done now. fun happening you? Deborah : Congrats! Last week visited place memories my mother s old house. Jolene : Why hold special memories? Deborah full of memories passed away few years ago last photo together. Jolene : about loss, Deb. mother passed away last year my room in her house many memories there. anything special it remember? Deborah : mom ' s house had special bench near window loved to sit there every morning view helps stay connected her. Jolene Staying connected important remember her? pendant reminds me of mother gave in 2010 in Paris Deborah : Yes pendant reminds mother. special for you about jewelry? Jolene special symbol represents freedom for nice reminder to go for goals not get held back. Deborah give strength energy! Jolene goals? keep teaching yoga supporting community. passionate about helping people find peace joy. Jolene inspired you to go down route? Deborah Yoga helped find peace during rough time now passionate about sharing with others. Jolene truly inspiring! Deborah : Gotta run, bye! Jolene Looking forward to next chat",
+    "Deborah : Hey Jolene sorry to dad passed away two days ago. tough on us - his sudden death left us shell - shocked. trying to channel grief by spending more time with family cherishing memories moments remind me to live life fully. Jolene : Sorry to hear about your dad, Deborah. Losing parent tough - how for you family? Deborah hard comforting to look back on great memories looked at family album. Photos give peace during difficult times. my parents ' wedding in 1993. Jolene : beautiful couple! Deborah husband and I trying to be good family as parents! Jolene value in your relationship? Deborah love, openness kept us close years Being there for each other made us both happy. letter received yesterday! Jolene touching words! Who letter from? Deborah group members sent this to me! thanked me for positive influence. moments remind passionate about yoga. Jolene Where often do yoga? Deborah one of places where I do it. Jolene? my old home. for mom, passed away Sitting in spot window gives peace. Jolene great place feel connected to her. Deborah : special. feel her presence comforts me. Jolene spot holds sentimental value. bring back special memories? Deborah : Jolene sit there every night with book smile reading one of her hobbies favorite places in house.Jolene : other hobbies mother? Deborah : Travel her great passion! Jolene show you one my snakes! calm me make me happy This Susie. Deborah pet brightens life great brings comfort. fun moments with pet share? Jolene playing video games pet slinked out cage coiled up next too funny! second snake Seraphim did it Look at sly eyes! Deborah : nice! Jolene bought a year ago in Paris. Deborah Cool, Jolene! Pets bring happiness! Jolene unusual pets! me partner gaming last week fun played game \" Detroit \" on console both crazy about activity! Deborah boyfriend teach to play? Jolene as child learned to play own. Deborah play old games or try new ones? Jolene planning to play \" Walking Dead \" next Saturday. Deborah Take care spreading good vibes! Jolene Thanks, Deb! take care. See ya",
+    "Jolene : Hi Deb! How ' re you? been busy. engineering professor gave huge robotics project tough fun making me get creative problem - solve. Deborah : Hey Jolene! great to hear from you sounds challenging interesting! putting creative problem - solving skills to test. How feel when first received project? enjoying working on it? Jolene : felt mix of emotions - excited nervous. now enjoying it! like trying to solve puzzle figuring out best design programming. robot come together awesome! Deborah : Jolene! enjoying process satisfying to see it come together. Keep up good work! met new neighbor Anna yesterday! Jolene : meet? Deborah : happened at yoga in park. Jolene great connecting with people similar interests. talk about? Deborah improved lives sense of community. Jolene : Sounds great! Deborah thought about resuming yoga? Jolene planned to play console with partner. Deborah good have something to do together. Jolene Thanks for kind words! Deborah : Gotta run bye! Jolene : See you soon",
+    "Jolene : Hey Deborah! Good to hear from you. How ' been? on emotional rollercoaster lately coping. Deborah : Hey Jolene! Good to hear from you. good here - how you? Anything new happening lately? Jolene major milestone last week went well - relieved proud huge accomplishment for me as engineer. Deborah awesome must have worked hard proud of you. to share more? Jolene : Thanks! plan research to design build sustainable water purifier for rural community in need tough loved experience. Deborah engineering skills made difference for people rural area amazing! How feel saw working? Jolene surreal moment working providing clean water community satisfying reminded me of engineering can make difference in people ' s lives made me feel like had purpose done something good. Deborah career aspirations now? Jolene want to keep working in engineering positive impact on communities in need creating sustainable solutions goal is to contribute towards making world better place with work. Deborah great things will keep coming way Keep up good work follow passions! Jolene support means a lot determined to keep going make difference encouragement motivates me to pursue passions. Deborah When things get tough deep breath remember why doing this spend time teaching yoga great way to find balance reconnect with ourselves bonded with Anna during ' s l yoga class. Jolene awesome new poses try? Deborah trying out different dance poses like Warrior II builds strength boosts focus.Jolene : difficult to do? Deborah : Yes brought us closer to Anna! supported each other means a lot. Jolene explain how to do it? Deborah : Sure! modified pose sit on edge of chair with feet planted. Twist torso one side use hand on knee for support feel stretch in back shoulders hold for few breaths switch sides great for relaxing tense muscles. Jolene : Sounds hard! my bookshelf! Deborah : collection! favorite book lately? love to hear your thoughts. Jolene : Thanks Deborah! into book \" Sapiens \" fascinating look at human history technology affected us. giving me a lot to think about! Deborah : Great interesting! come across recent ones struck you? Jolene : Two weeks ago read \" Avalanche \" by Neal Stephenson! Deborah sounds cool, Jolene Stories powerful teach us motivate us bring us together. Jolene read recent story about someone became successful despite facing numerous challenges showed anything possible if believe work hard. Deborah powerful message reminds me of someone special grace strength faced hardships. Check out creation! Jolene Wow, Deb! beautiful! backstory of bouquet? Deborah friend gave me bouquet struggling hope courage. filled with warmth appreciation. Jolene sweet. small thing can make real difference. Deborah amazing simple flowers can make real difference Nature beautiful. Jolene favorite nature spots? Deborah many great places! favorite park with forest trail calming getting lost in nature.beach nearby I love - sound of waves sand under my feet make me feel peaceful happy. any favorite spots, Jolene? Jolene : picture on vacation last summer in Bogota beautiful calming watching sunset over water made appreciate nature ' s calming power. Deborah : sounds great, Jolene. Nature ' s calming for helps forget daily craziness find inner peace. No you ' re a fan! like to come to spot by water near mom ' s old house reflect on her life find peace surrounded by nature helps. Jolene : touching! little traditions reflect on mom? Deborah : remember this amulet from her? bring it with me feel her love stay close to her Holding it brings me comfort. Jolene : amazing small big impact? Deborah : small things can make big difference reminder of love strength inside connecting us to people lost comforting us. Jolene keep them close in hearts. Deborah Anna has pendant wears in memory of mother brought us closer. Jolene nice have reminders as source of strength need Deborah Life ' s tough hang in there Look to your sources of strength do great. Stay in touch take care of yourself always here to cheer you on! Jolene : Thanks, Deb! encouragement means a lot to me stay in touch. Bye take care keep shining! Deborah : Stay safe! Bye",
+    "Jolene : Hey Deborah! few days since last talked wanted to fill you in on something cool Last Wednesday did mini retreat to assess where I ' m at in life dope experience gave new outlook. Deborah : Hey Jolene! Sounds great. time to reflect awesome gain new insights? Jolene : achieved more real confidence boost. Deborah deserve credit for stepping outside comfort zone believing in yourself. cool stuff accomplish at retreat? Jolene accomplished with engineering project neat solutions excited. Deborah more detail. Jolene Green tech could make difference in disadvantaged areas look into it contribute. helping idea volunteer program engineers teach STEM to underprivileged kids. think? Deborah sounds great Jolene great way to help inspire others benefit a lot from your knowledge. thought of plan yet? Jolene Haven ' t finished planning yet thinking teaming up with local schools / centers workshops invite engineers as guest speakers to show kids career options. Deborah guest speakers give kids real - world view. reached out to any schools or centers yet? Jolene No not yet solidify plan first. Can t wait to start reaching out! Deborah makes sense excited to hear how reach out help kids. know how it goes! Jolene keep you posted! Appreciate support! sketches in planner. Deborah doing great. if need more tips or information. Jolene : Thanks, Deb! If need anything else let you know.' awesome! Deborah awesome! Take care! Jolene Stay safe",
+    "Jolene : Hey Deborah buzzing! Had great night last night - dinner drinks with friends glad let hair down. You? Deborah : Sounds great, Jolene! visited this place calming. Nostalgic. Jolene flowers beautiful! What type? looks peaceful. Deborah : roses and dahlias bring me peace lost friend last week spending time in garden to find comfort. Jolene : Sorry to hear about friend, Deb. Losing someone tough. holding up? Deborah Thanks for kind words tough comforted by remembering time together reminds me of special life. Jolene Memories give comfort joy. Deborah Memories keep loved ones close last photo with Karlie taken last summer hiked last one great time! see smile. Jolene great trip! Where else traveled? Deborah blessed to travel to few places Bali last year one of favs gorgeous island gave me peace great for yoga. Jolene yoga on beach? wanting to try it. Deborah sound of waves fresh air wonderful! Jolene give it a go! sounds peaceful. Thanks! Deborah : Let me know how it goes. Enjoy it! Jolene keep you posted if decide to go there. Deborah : Take care",
+    "Jolene : Hi Deborah been a while! Since last talked much happened. Balancing engineering school with partner ' s video games a feat setting aside time doing yoga meditation helps give me calm amidst craziness. Deborah : Hey Jolene! Great to hear from you Taking break key. practices helping everything? Jolene seriously saved me. chill out gain perspective when do yoga Afterward more alert motivated. last photo. Deborah : cool yoga helping you out! also do yoga with you? partner do yoga with you? Jolene started joining me sometimes nice for bonding relaxing brought us closer random photo. Deborah : wonderful How long married? Jolene not married yet been together for three years taking it slow loving ride ring on hand decoration not wedding ring. Deborah : Sounds nice, Jolene Enjoying journey main thing. two meet? Jolene met in engineering class in college became friends blossomed into something more great! Deborah relationship started from strong friendship enjoy working on engineering projects together? Jolene teaming up for projects feels great! get s struggles love it. Deborah yoga or meditation helped with stress? Jolene overwhelmed take break do breathing or meditate helps me feel calmer clearer handle challenges easily. Deborah great to see progress since last chatted keep it up! Jolene Thanks, Deb! support means a lot keep pushing forward continue taking time. Deborah Always rooting for youRemember to listen to your heart take good care photo took reflecting outdoors reminder to find peace even in chaos. Jolene : curious what does daily routine look? Deborah morning meditate do yoga teach classes yesterday went morning jog first time in nearby park incorporate into daily routine evenings spend time with loved ones. Jolene : Why decide? Deborah Exercise key makes feel connected to body. Jolene great healthy habit! Deborah say Can ' t pour from empty cup. \" Looking out for ourselves gives energy to help others don ' t forget worth it too! Jolene : Thanks, Deb. Your words mean something to me remembering prioritize self - care",
+    "Deborah : Hey Jolene, Anna got me vegan stir - fry other day - tofu veg with ginger soy sauce tasty! Food wonderful source of pleasure nourishment. dishes comforting? Jolene favorite dishes is lasagna! Comfort food great pick - me - up lot going on with studies exams. Deborah find time for yourself lately? Jolene trying to squeeze in me - time Last Friday did yoga meditation to relax find time yourself? Deborah did same helped me reset my mind. How it make you feel? Jolene amazing quiet moments work wonders for soul. Deborah get outside lately? take Seraphim to park last Sunday loved it a pic. Deborah had fun! explored new places People surprised see tamed snake. being outdoors? Deborah birds chirping breeze gently blowing! reminds me of what matters. Jolene reminder to slow down appreciate little things. Deborah more mindful of now? need more mindful of stress levels care of mental health. caught up in studies forget prioritize self - care. Deborah Life can get hectic easy to forget about ourselves. Jolene Exams deadlines feeling overwhelmed look at to - do list! seems never - ending Trying best challenging. Deborah efforts will bear fruit don ' t give up! Jolene : Thanks, Debtips on studying time management? Deborah : tip to break into smaller pieces set goals time management planners schedulers help stay organized give time. need help with study plan! Jolene appreciate help Deborah : Take care good luck with exams give you mug like this! encourages. Jolene : Thanks, Deb! cheered me up best with classes Bye! Deborah : Thanks, Jolene! Glad bring smile to face Take care give time to relax Bye",
+    "Deborah : Hi Jolene! haven ' t corresponded long time! Jolene : Hey Deb, life can get chaotic. How been going lately? Deborah : much going on lately started yoga class in neighborhood good feeling! Now share exercise with neighbors watch transform them. Jolene : Congrats. How do this? Deborah : Thanks! neighbors interested in trying yoga hosted class for Friday great to see everyone embrace enjoy. our photo together. Jolene : cool! start teaching it? Deborah find calming share with others Giving people peace awareness brings happiness. Jolene :, Deb! awesome share something love make things better for others. Deborah : Teaching awesome help others made great friends nice for building community connections. Jolene motivating support in tough times. Deborah one of life ' s best parts? Jolene someone to rely on key in tough times makes difference in how handle life. something wanted to tell you. Deborah : What ' up? listening. figure it out. Jolene hard time dealing with Engineering assignments a lot to manage struggling to keep up. talk about time management? Deborah :, Jolene. find time works for both us. Jolene time to chat - check schedule get back to you. Deborah : Take your time, Jolene work it out. Take care of yourself,? Jolene take it. See you soon! Deborah : here for you if need me. catch up soon. Jolene : Have great day",
+    "Deborah : Hey Jolene been a while. Hope doing okay with exams deadlines difficult for you now. Jolene : Hey Deb! can be tough. find time for everything like playing catch - up - stressful! Deborah : manage time stay organized with projects deadlines? Jolene using Pomodoro Technique - 25 minutes work, 5 - minute break - to avoid burnout still struggling to prioritize. any other tips on time management? Deborah : create daily schedule to - do list my example for today. Jolene tried making one overwhelming big stack of tasks example from last Friday. Deborah tried breaking it down or prioritizing tasks? Jolene can often feel overwhelming difficult to figure out where to start. Deborah : get Jolene overloaded use certain method helps figure out what important urgent more organized. know? Jolene : not familiar with that one. What ' about? Deborah? helps organize things based on important urgent. Jolene more sounds useful. Deborah Eisenhower Matrix sorts tasks into four boxes categorizing based on urgency importance useful for organizing prioritizing breakdown. Jolene visualization helpful Thanks for sharing! Deborah glad helpful give a try see if helps stay focused less stressed. Jolene give a go. Fingers crossed help me. Thanks for help! Deborah : Don ' t forget to take it easy look after yourself.Wishing you best! Recently Anna and I sitting by sea watching sunset talking each other realized inspire each other. thoughts does sea in photo think? Jolene : gets me thinking learn to surf find spare time! Deborah : Surfing Jolene? Chase dreams daunted thought about steps? Jolene gathering information watching videos got beginners ' guide to surfing. need find right time lesson. Deborah : Way to go! Taking first steps key Believe in yourself keep going! Jolene : Thanks for support! got pumped to try surfing keep pushing myself make happen. Deborah : Keep it up, Jolene! Remember experience matters end result Step by step have fun can do it! Jolene : Thanks for boost",
+    "Jolene : Hey Deb long time no talk lot ' s happened! Friday breakthrough with engineering project found solution to prob bugging me great see hard work paying off. Deborah : proven your skills great? Keep it up! bought new props for yoga class! in action. Jolene : new details for this case! Rate it! Deborah : cool! bought candle for atmosphere improve yoga practice. How about you? feelings? Jolene feel relaxed during activity love creating serene space with soothing scents like lavender rosemary. favorite scents or rituals? Deborah big fan of scents! Candles essential oils add warmth calm to yoga session certain smells transport to place of peace. other ways to enhance yoga practice? Jolene find music helps me favorite tracks? Deborah instrumental tracks with mellow melodies rhythms create peaceful vibe favorites track \" Savana. songs / artists listening to during practice? Jolene love listening to Nils Frahm Olafur Arnalds practice music calming puts in different headspace. recommendations for other similar artists or tracks check out? Deborah listening to album ' Sleep, ' great for meditation deep relaxation find calming! Jolene : Thanks for tips, Deborah! check them out. good new tunes for yoga! Deborah : know thoughts on albums! Jolene : you Deborah Take care keep up good work",
+    "Deborah : Hey Jolene! Great to see you! Had blast biking nearby with neighbor last week freeing beautiful. Checked out art show with friend today cool inspiring stuff Reminded me of my mom. Jolene : Hey Deborah! had blast biking at art show. Your photo into it! profound thoughts? Deborah mom interested in art believed art could give strong emotions connect us. art show still experiencing it together she gone. hard comforting. Jolene Losing someone hard finding something helps cope great. Deborah ways keep her memory alive gives peace amazing simple artwork bring back powerful emotions remind us of those lost. about finding solace in things we love art done for. Jolene snakes can ' t chat understand time together valuable teaches me to take time be in tune with myself. playing video games with partner after long day great way for to relax. Deborah Simple things can bring most happiness. activities helped during tough times? brings us closer together! comfort helpful when times get tough. Jolene working on big project lately tough cool to watch take shape. Can t wait to see final result! Deborah waiting to hear how everything turns out Keep up good work! Jolene : Thanks Deb! support means a lot keep updated on progress of project. Deborah support means a lot! always be here for you. Jolene Take care! Deborah Enjoy your day make time for things bring you joy.See ya! Jolene : ll sure find time Have a good one",
+    "Jolene : Hey Deborah! Long time no talk - had lots of stuff going on. Remember tough engineering project? finally wrapped up last month Look at result! Deborah : Jolene! Congrats on wrapping up with it! put in work paid off. Jolene proud of myself for sticking it out despite problems finishing big milestone. Deborah : Now reached big milestone what planned next? Jolene interning at well - known engineering firm great opportunity to test skills gain real - world experience. new colleagues! Deborah : best part of so far? apply what learned in school to real projects fulfilling to see ideas come to life. Deborah internship impacted you? positive impact on life stoked love of engineering encouraged me to keep striving for dreams Deborah inspired to striving for dreams? Jolene Hanging out with people love what they inspired me to stay focused keep working towards goals. shown with dedication and effort anything possible. Deborah find good work - life balance during internship? finding balance tough slogging away hard to make time for hobbies chilling out. Deborah considered taking breaks finding activities like yoga to help relax and unwind? might make difference. Jolene trying to do it. example of spent yesterday morning, yoga on top of mount Talkeetna. Deborah : Nice job, Jolene! How long doing yoga and meditation? helping regroup recharge.Jolene : doing them sporadically for 3 years positive effect on me Deborah : benefited you? found helpful in difficult moments? Jolene helped me with stress kept me centered. Deborah Glad they helpful you! Jolene No idea survived without them! Deborah favorite studio calming. Jolene wondering advice on calming mind breathing during yoga? recommend practicing mindful breathing for yoga Set aside few minutes to sit with eyes closed take deep breaths focus on air entering leaving body. Jolene Thanks, Deborah! give it a try. Appreciate advice! Deborah need more tips or help let me know Take care! Jolene See you",
+    "Deborah : Hey Jolene! How ' s it going? haven ' t talked while busy ready for yoga retreat with buddies chance to hang out with people think like me find peace understanding. Sounds awesome! Jolene : Hey Deb! super hectic with internship retreat sounds awesome use a break! Deborah : tried new pose - Dancer Pose ( Natarajasana ). Rate succeed? Jolene : amazing always! new photos of Seraphim in new aquarium bought yesterday. Deborah : Where ' get it? always drawn to animals bring joy. story? Jolene got her last year great pet cheers me up brings sense of peace Spending time comforting. Deborah : Pets make life more enjoyable bright. Jolene thankful s here nice to have calm creature around Deborah things besides that? Jolene intense lately pushing myself to succeed sometimes feels overwhelming determined to overcome obstacles achieve goals. Deborah Keep up hard work remember to relax. Jolene Thanks, Deborah! big breakthrough with project exciting rewarding! Deborah Awesome, Jolene! glad your project worked out. Jolene Stop talking about me tell more about retreat. Deborah show photo new yoga pose tried tree pose. Jolene statue in picture? Deborah symbol of peace enlightenment. Jolene looks gorgeous! love to visit retreat ideal spot to find peace refreshment. Deborah perfect for reflecting getting centered.Jolene : use chill time Sounds peaceful Deborah need peaceful time relax. Jolene : Gotta run nice day! Deborah : See you",
+    "Deborah : Hey Jolene! started running group with Anna - awesome connecting with people care about fitness! Jolene : Cool, Deb! Glad found people to get fit with trying to add workouts into studying schedule tough but fun. How about you? challenges with running group? Deborah : having a blast with it! help push each other during runs easier to stay motivated. photos from this activity. Jolene : Deborah awesome! part of supportive group must super motivating. Finding team passionate about something makes huge difference thinking about my own journey. Deborah : people cheer you on give advice makes difference. for finding supportive folks? Jolene : Gaming tough lately grateful have someone who s also into it. partner helps me stay focused on goals cute photos share with. Deborah : like best about gaming together? Jolene tackle challenges shared experience always a blast when into same game achieve tough great way to bond get closer. Deborah cool Gaming good for strengthening relationships. two favorite game to play together? Jolene love playing \" It takes two \" together! fun team - strategy game competitive great way for to bond. any activities doing with people? Deborah : do running and yoga / meditation with others Connecting with people creating community great love organizing workshops events to practice mindfulness self - care awesome way to have fun build relationships support each other ' s growth. Jolene : great way to relaxworkshops events involve? Deborah : involves activities yoga meditation self - reflection aim to cultivate self - awareness promote mental emotional well - being help individuals find inner peace. space where people can connect explore grow. Jolene : events awesome for helping people connect learn important. How everything been going for you? Deborah : Thanks, Jolene! great seeing everyone together support each other amazing to witness growth transformation through workshops. honored to be part of it. Jolene : Deb! imagine rewarding to create space for growth change great to hear everything ' going well. count on me for support! want share photo with you. Deborah : Thanks, Jolene! support means a lot to me here for you too noticed your pet in picture made decide to get a snake? Jolene fascinated by reptiles felt like perfect pet for calming great way to connect with nature. Deborah found something gives peace calm favorite memory with \" to share? Jolene : great memories like ' snake adventure ' spent hours searching relieved when found her snuggling under bed showed much love her. Deborah : like found her? imagine relief! Jolene Seeing her snuggled under bed made me feel love gratitude made realize important she is to me. Deborah bring much joy remind us of what important. Jolene Animals teach us about love gratitude bring much joy. Deborah : haven ' t introduced you to pets yet! don ' t like dogs why have cats.Jolene : Looks like they ' re having a blast! often take them out? Deborah : Exercise nature important to me take them out for run in park every morning evening. Jolene : Deb great! love to experience every day. Deborah : Nature helps find peace refreshing! Jolene pity snakes don ' t run! love to do more often motivate me together more fun. Deborah like hitting reset button helps put things into perspective gives time to reflect. Jolene get it. love going for walks to take it all in. take photos like this Deborah amazing nature power to bring us peace clarity. Jolene photo captures peacefulness of lake surrounded by trees. Deborah Why choose spot? looks calm. Jolene hidden gem! makes feel peaceful tranquil. Deborah Lucky you for to relax tune out! Jolene go there together sometime! Deborah need timeout",
+    "Deborah : Hey Jolene! Great news - started project for cleanup community trying to raise funds amazing to see everyone come together make difference. How ' you been? Anything new going? Jolene : Hey Debs! Congrats on your project for community! life ' s been a rollercoaster lately. Last week had huge setback with project put in much work crashed lost everything frustrating depressing. Deborah : Jolene sorry to hear that must be tough. here for you do anything let me know. anything helping cope? Jolene : support means a lot. Susie helps when times get tough Pets great company Video games nice distraction. Deborah : provide love comfort especially during tough times Susie? Jolene adopted her two years ago feeling lonely wanted company. Deborah : great, Jolene! Animals have way bringing us happiness understand us provide us with comfort pet teaches responsibility came perfect time - cherish moments find strength presence. Jolene : Thanks Deborah shows me can stay strong find joy small stuff. Deborah Enjoying little things key moments give boost push us forward. taking care of yourself lately? Jolene prioritize self - care like yoga meditation helps stay balanced grounded. Deborah interested suggest routines for try. Jolene on lookout for new routines to mix up. Deborah check out great place for yoga. Jolene room looks perfectfavorite routines? Deborah : favorite yoga routines gentle flow about breathing grounding helps me find chill send tutorial video with poses. me in process : Jolene : help find chill or improve concentration? Deborah great way to find balance in tough times Try out let me know what you think! Jolene : Can ' t wait to try out chat soon! Deborah Let know how it goes Talk to you later! Jolene : practice update you. Bye",
+    "Deborah : Since last spoke made meditation guide for yoga retreat about you? Jolene : stressed since lost work files overwhelmed meditation kept me chill got clarity back thank goodness. appreciate practice! Deborah : amazing give peace calm need support let me know - we ' re in this together! Jolene : Appreciate support! BTW share. Deborah creativity amazing! Jolene Thanks, Deb! inspired by love for space engines designed notebooks with elements like galaxies circuitry. turned out cool! Deborah knack for turning into art make feel excited looking at them. creativity amazing! inspire engineering projects? Jolene art design gives unique perspective on problems Deborah neat projects ideas pumped? Jolene Working on cool project now prototype revolutionize aerial surveillance wait see results! Deborah admire ambition to make difference. specific plans goals for project? Jolene aim to devise more productive affordable aerial surveillance system. help with responding to emergencies monitoring environment make world better safer place. Deborah love your commitment. Keep going! Jolene Thanks, Deb! support means a lot keep pushing doing best to make difference. Deborah You got this",
+    "Jolene : thinking about plans lately especially after checking in with my bf. up and down! days feels like trying to juggle my engineering, relationship growing as person don ' t know how to handle it all. manage when it too much? Deborah : to restore balance important. Taking time for recognizing needs can make difference. Jolene : Thanks, Deb! trying out time management strategies recently started using bullet journal helpful for tracking tasks staying organized. Deborah : great to hear helping you out! Jolene : help me stay on top everything satisfying when cross tasks off list pic of newest spread with favorite quotes Deborah love this quote. uplifting motivate you when see it? Jolene reminder to stick to goals never give up Deborah Visual reminders like photo motivating. focusing on goals Jolene don ' t give up! led meditation yoga sessionto elderly at local care home last week during sunset Nature helpful for finding peace. tried mindfulness? Jolene Haven ' t tried yet keen to give a shot sounds peaceful use calm in life interested in destressing trying mindfulness. Deborah started with workshops books now mindfulness huge part of life. Jolene : ll look into some it. Can ' t wait to get started! Deborah : great, Jolene glad willing to try mindfulness. can be helpful. if need any help getting started - happy to assist you with your journey! Jolene : appreciate it.Deborah : We in this together Give shout if need anything Bye now Jolene : Thanks hit you up if need anything Bye now",
+    "Deborah : Hey Jolene! Hope you re having good one. Last Friday told Anna story of my life super kind nice to have meaningful connection. mindfulness workshops reading going? Need help? Jolene : Life hella busy since last talked bought console for partner gift on 17th much fun managed to play it. Engineering studies still going strong Balance key for lately How about you? been up? Deborah : Well done! focusing on teaching yoga spending time with community. Organizing yoga event last month cool. Jolene rewarding seeing everyone come together? tell more about how put it together? tips for maintaining balance between hobbies studies? Deborah reached out to different nearby businesses places to make it happen had yoga food stalls live music amazing! for balancing hobbies studies helpful to prioritize manage time effectively. Making schedule setting aside specific time for studying pursuing hobbies maintaining balance. Jolene : awesome! plan to manage studies hobbies. play video games? Deborah used to play video games a while good way to relax after busy day. game suggestions? favorite game? Jolene few game recommendations Zelda BOTW for Switch open - world game Animal Crossing : New Horizons calming cute favorite game hard to choose just one! Deborah : Cool recs! check those out. favorite memories of playing video games? Jolene forgot mention Overcooked 2 - good co - op game hilarious chaotic cooking.partner and I often play for bets! once won three large pizzas! Deborah : Reminds me of used to play games with my husband We d take turns great way to bond make memories. Gaming can bring people closer right? Jolene : you re right! your favorite game to play with person? Deborah : prefer to play detective games together. Jolene other activities enjoy doing together? Deborah enjoyed spending time outdoors exploring nature always refreshing to be outside soak fresh air. Jolene big fan of being outside! calming refreshing. any special spots to? Deborah love going to park near my house nice forest trail beach peaceful spot do yoga reflect. special bench holds special meaning. Jolene Sounds lovely! Nature can be calming makes bench special to? Deborah holds special memories for me and mom chat about dreams life full of good moments. Jolene awesome Deborah favorite memories with mom spot? looks peaceful pretty. Deborah always cherish my memories with her at spot remember beautiful sunset watched together in silence colors in sky special. back feel peace gratitude for time spent with her. Jolene : Places and moments like can mean so much gift to find peace gratitude. Deborah thankful for all time had. Jolene important to cherish it.",
+    "Jolene : Long time no talk! given new game for console last week Battlefield 1 What been up with you? Deborah : Hey Jolene! Good to hear from you s cool! thinking about big moments lately went to place held memories for me Sat on bench used to chat brought back emotions. Jolene : happy or everything? Deborah : mix, Jolene felt nostalgia longing grateful for memories. amazing how place can mean much. brought flowers there. Jolene : she like it? Deborah mom loved flowers made her happy appreciated simple things in life. Jolene : great photo! show appreciate? Deborah taking slow seeing beauty finding joy. Jolene : Deb awesome! take time to enjoy not let business of life cause miss out good stuff. Deborah : Jolene Life can busy overlook small things matter effort to appreciate more. Jolene Deb slowing down enjoying simple moments bring balance happiness. trying to do more yoga meditation help relax stay focused. calming habits to feel balanced? Deborah Jolene! Yoga meditation help find balance inner peace Going out for walks staying mindful keep grounded take similar photos on walks. Jolene : Gorgeous! Going for walk feeling peaceful amazing. Deborah : Moments like always cherish. Jolene calm peaceful feeling nice great for recharging thinking. Deborah : like reboot for me.Jolene : Got it! like hitting refresh button coming back better Deborah favorite yoga pose rest? Jolene fan of savasana corpse pose calming helps surrender. Deborah : Funny photo! long doing yoga? Jolene doing for 3 years great way to escape studying work stress. Deborah Wow Jolene time to unwind key seems right for you! Jolene finding my zen again! Deborah Keep it up! Jolene Thanks for support, Deb! Deborah Good luck everything Stay in touch",
+    "Deborah : Hey Jolene! Good to hear from you! lot ' happened since we talked last week to yoga retreat near mom ' s place cool - hang with nature know myself. life - changing! beautiful there! Jolene : Deb, sounds great! connect with yourself nature my own way to relax. your thoughts on life now? Deborah : Life super meaningful lately. Nature self - reflection helped me see beautiful every moment can grow learn when listen to ourselves. What been up with you lately? insights or experiences? Jolene : Life hectic making strides toward goals tough, satisfying. Deborah : tell me more about it what achieved? Jolene goal is to be successful in field make positive impact studying attending workshops networking. Recently present at virtual conference received positive feedback great experience confirmed on right track. Deborah : put your heart and soul into it amazing having it go well. feel when people gave positive feedback? ideas for next? Jolene thrilled to receive positive feedback! rewarding to efforts appreciated. focusing on studying gaining more experience thinking about more internships to enhance skills. Exciting times! more updates to share soon. Deborah : Jolene! Way to go! proud of all you ve achieved need any help. Jolene : Thanks, Deb! Your support means a lot to me. Deborah : No problem. You got this! Jolene not giving up keep pushing forward.Deborah : Reach for goals don t forget enjoy journey Jolene : Thanks, Deb support means a lot keep pushing forward remember enjoy every step. Deborah Come on! journey important destination Take time find joy believe in you! Jolene : Yeah you ' re right! take advice find joy Cheers for support! Deborah : Always by your side",
+    "Deborah : Hey Jolene talked thinking about mom ' s influence Remembering we love important. Jolene : understand, Deb. Remembering cherishing memories of loved ones important comforting to know their influence guides us. Last Friday partner and I talked about loved ones influenced us values emotional chat made us feel closer showed what matters. Deborah : conversations help build relationships tell me more about values given you? Jolene : loved ones taught us to persevere stay resilient mom partner ' s dad showed them stay determined. Their values influenced us pursue goals, me with engineering partner creative endeavors. not here feel values encouraging us along paths. Deborah : wonderful to hear, Jolene! amazing their values guide you, even in absence you partner honoring their memory by pursuing passions. considered incorporating values into work? Jolene : Deborah! figuring out to add values into projects. As engineering student want to use talents to do good solve important problems. keen on new ideas making things more efficient make world better place. mom stressed value of helping others want to keep in mind for engineering projects. Deborah : work ties into values becomes more meaningful. goals or ideas for incorporating values into future projects? Jolene : future aiming to work on projects make real difference to communities interested in sustainable initiatives developing innovative solutions for environmental issues. want get involved with organizations focus on social causes using skills. connecting passion for engineering with commitment to positive impact.Deborah : amazing plans for future. projects interested in involved in? Jolene : keen on two projects One focused on developing renewable energy like solar, help communities reduce dependence on non - renewables. Deborah : Jolene inspiring! Jolene other finding ways supply clean water to those limited access align with beliefs about sustainability assisting those in need. much to figure out before beginning up for challenge. Deborah : Sounds great, Jolene! Research key to success Little steps up for challenges make stronger here for you Connecting to yourself helps tackle issue photo reminds of beauty of nature during yoga session. Jolene helps with challenges giving balance strength tips for staying relaxed while studying? Deborah Taking breaks stretching / yoga or for walk helpful forget enough sleep time for self - care balance between work care of yourself important. self - care activities lately? Jolene into yoga and meditation lately helps recharge different poses relieves tension calms mind. shared newfound love for yoga with partner planning to meditation retreat together enhance practice. Deborah yoga helping rest recharge great for reflection self - care. snakes enjoy it? Jolene snakes watching me chill great company brings sense of calm. Deborah pet around calming feeling bring great sense of comfort. still have cats, Luna sitting on left.Jolene : adorable! second one ' s name? Deborah : Max! bring joy peace to home. Jolene : How get them? Deborah Max is mother ' s cat took him when mother passed away. Jolene great for taming him. get Luna? Deborah took Luna from shelter. wonderful become loving owner! Deborah love cats need home, love, care! Max old 8 years old. Jolene How old is Luna? Deborah younger 5 years old. Jolene proud of your action to tame these pets",
+    "Jolene : Hey Deborah, how ' s it going?? Yesterday my partner and I got back from trip to Rio de Janeiro - checked out cool yoga classes. Deborah : yoga pose looks great cool experience for two you. What did trip teach you? Jolene : country was awesome! showed me different kinds yoga backgrounds made me appreciate it more visited delicious cafes! important to you? Deborah : last month visited mom s house special place in my heart mom had good bad times still symbol of her strength love shared with me. my husband in front of house. Jolene like? Deborah brought back fond memories relaxed outside. Jolene Sounds great! glad you place to relax find peace. Deborah Thanks, Jolene special for me How? place helps relax? Jolene go to nearby place to meditate by tranquil spot. Deborah : Looks chill. effect? helps make sense of relieves stress like restart. Deborah Cool glad found place to chill need occasionally favorite spots to ponder let things go. Jolene Looks great pick spot? soothing vibes nice views made ideal for reflecting letting go. Jolene one more photo from Rio de Janeiro many excursions Deborah stairs look cool! taken? great time visiting old temple stairs amazing! Deborah exploring temples must incredible! Three years ago also in Rio de Janeiro took beautiful photo on excursions. Jolene architecture and history of interestingsure you liked places visited! Deborah : Exploring historical places learning stories fun great experience share photo. Jolene : what did paper written on in photo? Deborah written to by friend never support me miss him here quote says \" Let go what no longer serves you. \" Jolene : sorry! good reminder to stay focused let go what no longer serves us. Remember quote in notebook? inspires me! Deborah other quotes give strength? Jolene came across browsing hit home with me great reminder to ditch negative stuff focus on growing being positive. Deborah Surrounding ourselves with good stuff striving to improve key. Jolene Deborah about creating good atmosphere help grow improve new plant. Deborah What made pick it? Jolene reminder to nurture myself embrace fresh starts. Deborah Nice job, Jolene Take care of embrace new beginnings. Jolene Thanks Deb! Good talking to you. Take care! Deborah Have great day",
+    "Deborah : Hey Jolene catching up. went to cool event last week aim to support each other - inspiring. connecting with anyone lately? Jolene : Hey Deb great to hear from you! focusing on studying relationship with partner taking little trips to beach great way to relax. How about you anything new going on? Deborah : busy too - went to community meetup last Friday shared stories nice to feel how connected. made think about important relationships. things going in that area? Jolene : thankful for significant other now. great someone encouraging my goals! things with friends and family? updates? Deborah Relationships with family friends vital. yoga pals second family held each other up through a lot day found old photo first started doing yoga mum my biggest fan source of motivation often come to classes with me. Jolene : loved ones supportive! 10 parents got me that start of passion for video games. Deborah Cool shared with you learn on your own or teach? Jolene taught myself dad supportive mom would play games with me. Deborah awesome support from parents. favorite game to play with mom? Jolene favorites \" Monster Hunter : World \" immersive story open - world gaming amazing! Deborah freeing when immersed in game Jolene way to de - stress take break from life. Deborah What ' s up this month? Anything fun happening for you? Jolene lot of finals coming up this month studying real hard.been stressful ll worth it in end Thinking about taking trip to relax recharge afterward. Deborah : Good luck with it! know if anything I can do to assist you",
+    "Jolene : Woohoo! signed up meditation course retreat near lake Can ' t wait share experience partner learn new techniques Sooo excited! Deborah : s awesome! looks calm pic hope enjoy experience learn new techniques! Jolene amazing easy make big difference to health! Deborah become part of routine now Can ' t imagine life without it. Jolene same helps stay balanced during studies. Deborah Glad hear it, Jolene project going? Jolene tough chugging along. Thanks! Deborah strong for handling challenges got this! Jolene Thanks, Deb! support means a lot keep pushing forward. Deborah No worries Jolene here if need me Take care of yourself don ' t forget rest up Jolene doing lately? Deborah recently saw sunrise Jolene Glimpsing calms me beach walks relaxes me Deborah photo remind? Jolene shot reminder last beach getaway chill nice. Deborah brought back good memories Jolene Maybe one day watch sunrise together! Deborah offer can ' t refuse! Jolene Bye, Deb! See you later! Deborah Stay safe catch you later. Bye",
+    "Deborah : Hey Jolene tough week. Storm forced cancel yoga getaway. Jolene Sorry to hear about it. How feeling now? Deborah : bummed about it doing better now setback found comfort in work spending time at home Reminds me be grateful for little things. you? How ' going? Jolene : partner I plan camping trip connect with nature practice yoga. Deborah good and tough to plan activities with busy schedule - strategies use? Jolene routine helps stay on top everything schedule for classes studying personal time Self - care activities like yoga meditation help stay balanced relax. Deborah love to learn more about. Jolene interested took experimenting helped me. Deborah : Sounds great! set up coffee date talk! Jolene meet up at cafe next Monday? try fresh pastries. Deborah Sounds good, Jolene When have in mind? cafe rocks. Jolene Wednesday at 4? t wait to catch up over coffee! Deborah pic looks peaceful Reminded cool hidden coffee shop near me Rate it! Jolene Tell more about when meet maybe next time be there. Deborah remembered have plans for this day. Jolene Now more convenient for. Deborah Thank you understanding waiting. Jolene about Friday at 5? need to sort out books from bookcase be free. Deborah do that! Can ' t wait for coffee date next week. See. Stay safe! Jolene See soon, Deb! Be safe excited for coffee date! Deborah grab me interesting books",
+    "Jolene : Hey Deb! sorry for late reply super busy. Last weekend partner and I traveled to meditation retreat weeks in Phuket. Amazing experience! Nature reflection break from engineering studies awesome helped find inner peace. Deborah : love to hear more about your reflections changed you Jolene At retreat time to reflect on what makes me happy realize importance of incorporating relaxation self - care balance in life alongside engineering studies. beauty of nature inspiring refreshing! Deborah : anything from retreat stood out? Jolene one session out about releasing expectations judgments savoring present strong reminder to not dwell on finish line appreciate journey. consumed with hitting goals forget to appreciate ride. Deborah thinking about this a lot Life full of small moments grateful for can boost happiness. Jolene agree! Sometimes focused on big stuff don t appreciate tiny wins. feeling of sun cup coffee small make life better be more mindful grateful now. Deborah great Jolene Practicing mindfulness gratitude can change day - to - day. different outlook can make things in life joyful. Glad getting into it! Jolene experiencing new level joy happiness! Deborah wonderful to see progress excited to be on journey! Jolene : Thanks, Deb! Appreciate support. great can do this together. Deborah supportive community helps motivate encourage each other! recently played a game.don ' t remember what it ' s called card game about cats take cards one by one from deck attack opponent with. play it with you! Jolene : look forward to meeting you playing this game",
+    "Deborah : Since speaking last reconnected with mom ' s old friends stories made me tear up reminded me lucky I to have had her. Jolene : great reconnect with them. Hearing stories about loved ones tough comforting. Deborah : Hearing stories mom was emotional happy and sad to hear things t heard before mix of emotions comforting to reconnect with friends. Jolene : can bring up range of emotions okay to feel mix of happiness sadness. moments with friends ve meaningful. Deborah : special. glimpse into her life beyond knew eyes appreciate her more. Here I am and my mom. Jolene : looks like a blast! What mom ' s friends do? Deborah : reminisced looked through her photos sweet. Jolene Looking at old photos nostalgic! great share experience with friends amazing photos memories give deeper appreciation for people love. Deborah Pictures bringing back memories appreciate special bond with loved ones remind of strong love amazing human relationships. Jolene gorgeous pic! special memories of beach or love surfing? Deborah beach super special to me got married discovered love for surfing filled with joy and peace. Jolene pleasant memories. Deborah another photo from my classes. Jolene yoga pose looks amazing! help relax? Deborah on beach peaceful - ocean, sand, fresh air create super relaxing atmosphere perfect way to take care of myself.Jolene : like create serene yoga space with candles oils for extra chill vibes tried new style of meditation in Thailand - with flowers. Deborah : same for me! Jolene find calm when do yoga or meditate use essential oils put on soft soothing music background to create peaceful atmosphere helps me chill out center myself. Deborah amazing environment can enhance practice. Jolene surroundings affect mood zen from routine Creating place feels safe chill is key. Deborah looks comfy inviting! Where usually relax in house? Jolene In my room relax feel at ease After busy day haven for peace rest - perfect spot to relax recharge. Deborah your room does job Jolene pals keeping me company. Deborah Susie or Seraphim? long he hanging out with you? Jolene s Susie! had her for two years. Deborah pets can bring us comfort peace need. Jolene Susie great companion. Deborah love pets give priceless. Jolene make life brighter",
+    "Deborah : Hey Jolene excited to tell you! Yesterday, me and my neighbor ran free gardening class for community awesome! People of any age joined in great thing to see. Jolene : Deborah awesome! Keep up great work hoping for more events in future! Deborah : Gardening amazing brings us together cool way awesome to share love of plants help people take care of world. what you? Anything new happened lately? Jolene : tried scuba diving lesson last Friday awesome time found cool dive spot explore together Trying new things opens world of adventure certified diver. Anything fun? Deborah : sounds amazing Jolene interested in underwater life haven t chance to try scuba diving yet. Recently spending remembering my mom Last Sunday visited her old house sat on bench comforting experience her presence guide remind of her love. Jolene Visiting mom ' s old home special. special remember her? Deborah : Thanks Jolene special mom big passion for cooking make amazing meals full of love and warmth remember smell of her special dish fill house bring us all together. Jolene : looks delicious, Deb! sweet how cooking with mom brought everyone together. best memory of cooking her? Deborah loved it when bake pineapple birthday cakes for kid made me feel special. Jolene No made feel special. Deborah had something with someone close? Jolene used to bake cookies with someone close to me.Deborah : favorite cookie make? Jolene : warm gooey chocolate soft buttery cookie match made in heaven. Deborah want to eat this now. Jolene : look what I here! Deborah anything special or photo? Jolene takes me to another world when read! Deborah show big bookshelf? Jolene think not like it! Deborah space like this important for escaping reality relaxing with book. any books moved you? Jolene bathroom has aesthetic vibe read self - discovery book resonated with me. Deborah special book speaks helps with self - discovery? awesome cozy nook to chill? best one! Jolene Sounds nice, Deb cozy nook is must! beach great place for finding peace relaxation. tried surfing? Deborah confirmation. Jolene cool! never decided to try it. Deborah okay maybe try together sometime! Jolene know what fate awaits me if! Deborah interested in this or know nothing it? Jolene started learning haven ' t gone yet. Want to come with me sometime? Deborah adventure! make it happen soon! Jolene glad remains agree choose right time for both. Deborah Can ' t wait. What day works for you? excited! Jolene plan for next month check schedule. Can ' t wait",
+    "Deborah : had great time at music festival with my pals! vibes unreal music magical freeing to dance bop around Music brings us together helps show feelings reminds me of mom her soothing voice sing lullabies. Lucky to have memories! Jolene : festivals sound fun! ' s me and my partner one last year - awesome time! way expressing myself getting away from stress everyday life. got back from trip with partner cool! Deborah gorgeous shot! looks tranquil serene look happy together. Trips create awesome memories share. Where go on your trip what something never forget? Jolene Thanks awesome yoga retreat place peaceful view during yoga amazing sunrise lit sky bright colors beautiful made us feel alive grateful. Deborah what view! How make feel? Jolene Doing yoga with backdrop made me feel connected to nature myself felt peaceful thankful. no wonder looking at beauty can help refocus connect with who we are. experienced that? Jolene remember taking hike with partner across waterfall oasis Everything felt peaceful worries disappeared refreshing experience. Deborah planning to experience again soon? Jolene planning to get out in nature again next month great reconnecting with it! Deborah Enjoy it! photo made think of gorgeous blossom tree from near my home. Every spring magical to watch it bloom.Jolene : sounds magical! watching tree bloom each spring? Deborah admiring nature ' s artwork filled me with awe appreciate beauty of life. tough times hope for growth. Jolene photo took great visual representation of idea reminds keep growing through obstacles. Deborah captures resilience strength love find inspiration in small things. Jolene Thanks, Deborah! Appreciating small things important helps remember times tough something positive to hang onto. Deborah great habit. Thanks for reminding me! Jolene Sure Deb great catching up finding beauties"
+  ]
+}

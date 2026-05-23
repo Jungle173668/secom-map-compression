@@ -20,18 +20,19 @@ def llm_call(
     system: str = "You are a helpful assistant.",
     model: str = None,
     json_mode: bool = False,
+    max_tokens: int = None,
 ) -> str:
     if LLM_PROVIDER == "openai":
-        return _openai_call(prompt, system, model or OPENAI_MODEL, json_mode)
+        return _openai_call(prompt, system, model or OPENAI_MODEL, json_mode, max_tokens)
     elif LLM_PROVIDER == "anthropic":
-        return _anthropic_call(prompt, system, model or ANTHROPIC_MODEL, json_mode)
+        return _anthropic_call(prompt, system, model or ANTHROPIC_MODEL, json_mode, max_tokens)
     else:
         raise ValueError(
             f"Unknown LLM_PROVIDER: '{LLM_PROVIDER}'. Set it to 'openai' or 'anthropic' in .env"
         )
 
 
-def _openai_call(prompt: str, system: str, model: str, json_mode: bool) -> str:
+def _openai_call(prompt: str, system: str, model: str, json_mode: bool, max_tokens: int = None) -> str:
     from openai import OpenAI, RateLimitError
 
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -44,6 +45,8 @@ def _openai_call(prompt: str, system: str, model: str, json_mode: bool) -> str:
     }
     if json_mode:
         kwargs["response_format"] = {"type": "json_object"}
+    if max_tokens is not None:
+        kwargs["max_tokens"] = max_tokens
 
     wait = BASE_WAIT
     for attempt in range(MAX_RETRIES):
@@ -57,7 +60,7 @@ def _openai_call(prompt: str, system: str, model: str, json_mode: bool) -> str:
             wait *= 2
 
 
-def _anthropic_call(prompt: str, system: str, model: str, json_mode: bool) -> str:
+def _anthropic_call(prompt: str, system: str, model: str, json_mode: bool, max_tokens: int = None) -> str:
     import anthropic
 
     client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
@@ -70,7 +73,7 @@ def _anthropic_call(prompt: str, system: str, model: str, json_mode: bool) -> st
         try:
             message = client.messages.create(
                 model=model,
-                max_tokens=2048,
+                max_tokens=max_tokens or 2048,
                 system=system,
                 messages=[{"role": "user", "content": full_prompt}],
             )
